@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Radar de Eventos BR</title>
+  <meta name="description" content="Mapa diário de eventos, feiras e congressos de IA, startups, fintech, health tech, cripto, bitcoin e food tech em todo o Brasil.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#">
+        <span class="brand-mark">📡</span>
+        <span><strong>Radar</strong> de Eventos BR</span>
+      </a>
+      <div class="topbar-actions">
+        <span class="updated" id="updated">carregando…</span>
+        <a class="btn ghost sm" id="suggestBtn" target="_blank" rel="noopener">＋ Sugerir evento</a>
+        <button class="btn ghost sm icon" id="themeToggle" title="Alternar tema" aria-label="Alternar tema">☾</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>Todos os eventos de <span class="grad">inovação</span> do Brasil, num só lugar.</h1>
+      <p class="sub">IA, startups, aceleradoras, escolas de negócio, demo days, fintech, health tech, cripto, bitcoin e food tech — atualizado automaticamente todos os dias às 9h.</p>
+      <div class="stats" id="stats"></div>
+    </section>
+
+    <section class="controls" aria-label="Filtros">
+      <div class="search">
+        <span class="search-icon">⌕</span>
+        <input id="q" type="search" placeholder="Buscar por nome, cidade, organizador…" autocomplete="off">
+        <kbd>/</kbd>
+      </div>
+      <div class="chips" id="themeChips" role="group" aria-label="Temas"></div>
+      <div class="filters">
+        <label class="field"><span>Região / Estado</span>
+          <select id="fState"><option value="">Todo o Brasil</option></select></label>
+        <label class="field"><span>Período</span>
+          <select id="fPeriod">
+            <option value="upcoming">Próximos (a partir de hoje)</option>
+            <option value="30">Próximos 30 dias</option>
+            <option value="90">Próximos 3 meses</option>
+            <option value="180">Próximos 6 meses</option>
+            <option value="tbd">Data a confirmar</option>
+            <option value="all">Tudo (inclui recentes)</option>
+          </select></label>
+        <label class="field"><span>Formato</span>
+          <select id="fFormat">
+            <option value="">Todos</option><option value="presencial">Presencial</option>
+            <option value="hibrido">Híbrido</option><option value="online">Online</option>
+          </select></label>
+        <label class="field"><span>Recorrência</span>
+          <select id="fRec">
+            <option value="">Todas</option><option value="rec">Recorrentes</option><option value="ocasional">Ocasionais</option>
+          </select></label>
+        <label class="field"><span>Ordenar</span>
+          <select id="fSort">
+            <option value="date">Data</option><option value="new">Mais recentes no radar</option><option value="name">Nome (A–Z)</option>
+          </select></label>
+        <div class="toggles">
+          <label class="toggle"><input type="checkbox" id="fFav"><span>★ Favoritos</span></label>
+          <label class="toggle"><input type="checkbox" id="fNew"><span>Novos</span></label>
+        </div>
+      </div>
+    </section>
+
+    <section class="toolbar">
+      <div class="tabs" role="tablist">
+        <button class="tab active" data-view="cards" role="tab">▦ Cards</button>
+        <button class="tab" data-view="list" role="tab">☰ Lista</button>
+        <button class="tab" data-view="calendar" role="tab">▣ Calendário</button>
+        <button class="tab" data-view="map" role="tab">◎ Mapa</button>
+      </div>
+      <div class="toolbar-right">
+        <span class="count" id="count"></span>
+        <button class="btn ghost sm" id="clearBtn">Limpar filtros</button>
+        <button class="btn ghost sm" id="csvBtn" title="Exportar resultado em CSV">⤓ CSV</button>
+        <button class="btn ghost sm" id="icsBtn" title="Exportar resultado para o calendário">⤓ Agenda (.ics)</button>
+      </div>
+    </section>
+
+    <section id="view" class="view" aria-live="polite"></section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>Fontes: Sympla, Eventbrite, Meetup, Even3, Doity, sites oficiais e busca na web com IA, além de uma curadoria editável.
+      Confirme sempre datas e local no site oficial do evento.</p>
+  </footer>
+
+  <dialog id="modal" class="modal"><div class="modal-body" id="modalBody"></div></dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

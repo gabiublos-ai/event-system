@@ -1,0 +1,14 @@
+{
+  "_comment": "Liga/desliga fontes e ajusta parâmetros. 'extra_pages' aceita qualquer página de agenda que publique eventos em JSON-LD (schema.org).",
+  "sympla": {"enabled": true, "pages": 3},
+  "eventbrite": {"enabled": true, "pages": 2},
+  "meetup": {
+    "enabled": true,
+    "cities": ["Sao Paulo", "Rio de Janeiro", "Belo Horizonte", "Curitiba", "Porto Alegre", "Florianopolis", "Brasilia", "Recife", "Fortaleza", "Salvador", "Goiania", "Manaus", "Belem", "Campinas"]
+  },
+  "even3": {"enabled": true, "url": "https://www.even3.com.br/eventos?q={q}"},
+  "doity": {"enabled": true, "url": "https://doity.com.br/eventos?q={q}"},
+  "extra_pages": [],
+  "ai_discovery": {"enabled": true, "_comment": "Requer o secret ANTHROPIC_API_KEY. Quantidade de buscas/dia: variável AI_MAX_CALLS (padrão 10)."},
+  "keep_past_days": 30
+}

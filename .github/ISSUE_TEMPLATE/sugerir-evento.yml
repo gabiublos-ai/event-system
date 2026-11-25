@@ -1,0 +1,25 @@
+name: Sugerir evento
+description: Indique um evento que ainda não está no radar
+title: "[Evento] "
+labels: ["sugestao-evento"]
+body:
+  - type: input
+    id: nome
+    attributes: {label: Nome do evento}
+    validations: {required: true}
+  - type: input
+    id: url
+    attributes: {label: Site oficial ou página de inscrição}
+    validations: {required: true}
+  - type: input
+    id: data
+    attributes: {label: Data (ou mês em que costuma ocorrer)}
+  - type: input
+    id: local
+    attributes: {label: Cidade / UF}
+  - type: dropdown
+    id: temas
+    attributes:
+      label: Temas
+      multiple: true
+      options: [IA, Startups, Aceleradoras, Escolas de Negócio, Demo Day, Fintech, Health Tech, Cripto, Bitcoin, Food Tech]

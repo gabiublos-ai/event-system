@@ -1,0 +1,288 @@
+{
+  "_comment": "Edite este arquivo para ajustar temas e palavras-chave. 'search_terms' sao usados para buscar nas plataformas; 'keywords' sao usados para classificar cada evento encontrado (sem acento, minusculas).",
+  "themes": {
+    "ia": {
+      "label": "IA",
+      "emoji": "🤖",
+      "color": "#7c5cff",
+      "search_terms": [
+        "inteligência artificial",
+        "IA generativa",
+        "machine learning",
+        "AI summit",
+        "data science"
+      ],
+      "keywords": [
+        "inteligencia artificial",
+        " ia ",
+        "ia generativa",
+        "genai",
+        "gen ai",
+        "machine learning",
+        "aprendizado de maquina",
+        "deep learning",
+        "llm",
+        "chatgpt",
+        "openai",
+        "artificial intelligence",
+        "ai summit",
+        "data science",
+        "ciencia de dados",
+        "agentes de ia",
+        "ai agents",
+        "ai week",
+        "ai conference",
+        "ai day",
+        "ai festival",
+        "ia summit"
+      ]
+    },
+    "startups": {
+      "label": "Startups",
+      "emoji": "🚀",
+      "color": "#ff6b3d",
+      "search_terms": [
+        "startup",
+        "startups",
+        "empreendedorismo inovação",
+        "venture capital",
+        "pitch"
+      ],
+      "keywords": [
+        "startup",
+        "start-up",
+        "empreendedorismo",
+        "empreendedor",
+        "venture capital",
+        "investidor anjo",
+        "pitch",
+        "unicornio",
+        "scale-up",
+        "scaleup",
+        "inovacao aberta",
+        "open innovation",
+        "ecossistema de inovacao",
+        "founder",
+        "vc "
+      ]
+    },
+    "aceleradoras": {
+      "label": "Aceleradoras",
+      "emoji": "⚡",
+      "color": "#f5b301",
+      "search_terms": [
+        "aceleradora",
+        "aceleração de startups",
+        "incubadora",
+        "programa de aceleração"
+      ],
+      "keywords": [
+        "aceleradora",
+        "aceleracao",
+        "acelerar startups",
+        "incubadora",
+        "incubacao",
+        "hub de inovacao",
+        "parque tecnologico",
+        "cubo itau",
+        "inovativa",
+        "wayra",
+        "ace startups",
+        "startup farm",
+        "darwin startups",
+        "liga ventures",
+        "distrito",
+        "baita",
+        "endeavor"
+      ]
+    },
+    "escolas_negocio": {
+      "label": "Escolas de Negócio",
+      "emoji": "🎓",
+      "color": "#00a6a6",
+      "search_terms": [
+        "G4 Educação",
+        "Link School of Business",
+        "StartSe",
+        "escola de negócios",
+        "imersão gestão"
+      ],
+      "keywords": [
+        "g4 educacao",
+        "link school",
+        "link school of business",
+        "startse",
+        "escola de negocios",
+        "business school",
+        "insper",
+        "fdc",
+        "fundacao dom cabral",
+        "fgv",
+        "hsm",
+        "conquer",
+        "gestao 4.0",
+        "saint paul",
+        "ibmec",
+        "exame academy",
+        "g4 club",
+        "g4 day",
+        "g4 scale",
+        "g4 skills"
+      ]
+    },
+    "demo_day": {
+      "label": "Demo Day",
+      "emoji": "🎤",
+      "color": "#e83e8c",
+      "search_terms": [
+        "demo day",
+        "demoday",
+        "pitch day",
+        "batalha de pitches"
+      ],
+      "keywords": [
+        "demo day",
+        "demoday",
+        "demo-day",
+        "pitch day",
+        "pitch night",
+        "batalha de pitch",
+        "rodada de pitch",
+        "investor day",
+        "showcase de startups"
+      ]
+    },
+    "fintech": {
+      "label": "Fintech",
+      "emoji": "💳",
+      "color": "#18a957",
+      "search_terms": [
+        "fintech",
+        "open finance",
+        "pagamentos digitais",
+        "banco digital",
+        "Pix"
+      ],
+      "keywords": [
+        "fintech",
+        "open finance",
+        "open banking",
+        "payments",
+        "banco digital",
+        "pix",
+        "drex",
+        "credito digital",
+        "insurtech",
+        "febraban",
+        "meios de pagamento",
+        "embedded finance",
+        "pagamentos digitais",
+        "meios de pagamentos",
+        "servicos financeiros",
+        "tecnologia financeira",
+        "fintouch"
+      ]
+    },
+    "healthtech": {
+      "label": "Health Tech",
+      "emoji": "🩺",
+      "color": "#ef4444",
+      "search_terms": [
+        "healthtech",
+        "saúde digital",
+        "inovação em saúde",
+        "telemedicina"
+      ],
+      "keywords": [
+        "healthtech",
+        "health tech",
+        "saude digital",
+        "inovacao em saude",
+        "telemedicina",
+        "telessaude",
+        "digital health",
+        "medtech",
+        "hospitalar",
+        "healthcare",
+        "biotech",
+        "saude 4.0"
+      ]
+    },
+    "cripto": {
+      "label": "Cripto",
+      "emoji": "🪙",
+      "color": "#8b5cf6",
+      "search_terms": [
+        "criptomoedas",
+        "blockchain",
+        "web3",
+        "crypto",
+        "tokenização"
+      ],
+      "keywords": [
+        "cripto",
+        "crypto",
+        "criptomoeda",
+        "criptoativo",
+        "blockchain",
+        "web3",
+        "ethereum",
+        "defi",
+        "nft",
+        "tokenizacao",
+        "stablecoin",
+        "solana",
+        "tokenizacao de ativos",
+        "ativos digitais"
+      ]
+    },
+    "bitcoin": {
+      "label": "Bitcoin",
+      "emoji": "₿",
+      "color": "#f7931a",
+      "search_terms": [
+        "bitcoin",
+        "bitcoin meetup",
+        "lightning network"
+      ],
+      "keywords": [
+        "bitcoin",
+        "btc",
+        "lightning network",
+        "satoshi",
+        "satsconf",
+        "nostr"
+      ]
+    },
+    "foodtech": {
+      "label": "Food Tech",
+      "emoji": "🥗",
+      "color": "#84cc16",
+      "search_terms": [
+        "foodtech",
+        "food tech",
+        "inovação alimentos",
+        "food service tecnologia",
+        "agrifood"
+      ],
+      "keywords": [
+        "foodtech",
+        "food tech",
+        "food service",
+        "foodservice",
+        "inovacao em alimentos",
+        "industria de alimentos",
+        "alimentos e bebidas",
+        "agrifood",
+        "agtech",
+        "agrotech",
+        "proteina alternativa",
+        "plant-based",
+        "plant based",
+        "fispal",
+        "future food",
+        "gastronomia e tecnologia"
+      ]
+    }
+  }
+}

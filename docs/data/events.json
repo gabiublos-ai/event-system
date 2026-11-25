@@ -1,0 +1,2528 @@
+{
+ "meta": {
+  "updated_at": "2026-11-25T15:45-03:00",
+  "total": 79,
+  "sources_raw": {
+   "curadoria": 79
+  },
+  "themes": {
+   "ia": {
+    "label": "IA",
+    "emoji": "🤖",
+    "color": "#7c5cff"
+   },
+   "startups": {
+    "label": "Startups",
+    "emoji": "🚀",
+    "color": "#ff6b3d"
+   },
+   "aceleradoras": {
+    "label": "Aceleradoras",
+    "emoji": "⚡",
+    "color": "#f5b301"
+   },
+   "escolas_negocio": {
+    "label": "Escolas de Negócio",
+    "emoji": "🎓",
+    "color": "#00a6a6"
+   },
+   "demo_day": {
+    "label": "Demo Day",
+    "emoji": "🎤",
+    "color": "#e83e8c"
+   },
+   "fintech": {
+    "label": "Fintech",
+    "emoji": "💳",
+    "color": "#18a957"
+   },
+   "healthtech": {
+    "label": "Health Tech",
+    "emoji": "🩺",
+    "color": "#ef4444"
+   },
+   "cripto": {
+    "label": "Cripto",
+    "emoji": "🪙",
+    "color": "#8b5cf6"
+   },
+   "bitcoin": {
+    "label": "Bitcoin",
+    "emoji": "₿",
+    "color": "#f7931a"
+   },
+   "foodtech": {
+    "label": "Food Tech",
+    "emoji": "🥗",
+    "color": "#84cc16"
+   }
+  },
+  "states": {
+   "AC": "Acre",
+   "AL": "Alagoas",
+   "AP": "Amapá",
+   "AM": "Amazonas",
+   "BA": "Bahia",
+   "CE": "Ceará",
+   "DF": "Distrito Federal",
+   "ES": "Espírito Santo",
+   "GO": "Goiás",
+   "MA": "Maranhão",
+   "MT": "Mato Grosso",
+   "MS": "Mato Grosso do Sul",
+   "MG": "Minas Gerais",
+   "PA": "Pará",
+   "PB": "Paraíba",
+   "PR": "Paraná",
+   "PE": "Pernambuco",
+   "PI": "Piauí",
+   "RJ": "Rio de Janeiro",
+   "RN": "Rio Grande do Norte",
+   "RS": "Rio Grande do Sul",
+   "RO": "Rondônia",
+   "RR": "Roraima",
+   "SC": "Santa Catarina",
+   "SP": "São Paulo",
+   "SE": "Sergipe",
+   "TO": "Tocantins"
+  }
+ },
+ "events": [
+  {
+   "name": "CASE 2026 - Conferência Anual de Startups e Empreendedorismo",
+   "url": "https://case.abstartups.com.br/",
+   "source": "curadoria",
+   "start_date": "2026-11-26",
+   "end_date": "2026-11-27",
+   "description": "Principal evento da Associação Brasileira de Startups (ABStartups), com palco de IA, tokenização e ativos digitais.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "FEA-USP",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "ABStartups",
+   "image": null,
+   "price": null,
+   "themes": [
+    "cripto",
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 11,
+   "date_confirmed": false,
+   "id": "39dc54ff3e42",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Amazon IA Summit 2026",
+   "url": "https://www.sympla.com.br/evento/amazon-ia-summit-2026/3591322",
+   "source": "curadoria",
+   "start_date": "2026-11-30",
+   "end_date": "2026-11-30",
+   "description": "Evento sobre inteligência artificial aplicada a vendas e negócios para empresários e gestores da região Norte.",
+   "city": "Manaus",
+   "state": "AM",
+   "venue": "Centro de Convenções Vasco Vasques",
+   "format": "presencial",
+   "type": "summit",
+   "organizer": null,
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 11,
+   "date_confirmed": true,
+   "id": "aa778b63d01c",
+   "region": "Norte",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "BRDE Labs Summit 2026",
+   "url": "https://www.sympla.com.br/evento/brde-labs-summit-2026/3646099",
+   "source": "curadoria",
+   "start_date": "2026-12-03",
+   "end_date": "2026-12-03",
+   "description": "Encontro do ecossistema de inovação do Sul com anúncio dos vencedores do programa BRDE Labs Growth 2026.",
+   "city": "Florianópolis",
+   "state": "SC",
+   "venue": null,
+   "format": "hibrido",
+   "type": "summit",
+   "organizer": "BRDE",
+   "image": null,
+   "price": null,
+   "themes": [
+    "aceleradoras",
+    "demo_day",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "d2764d245a28",
+   "region": "Sul",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Bahia Tech Experience (BTX) 2026",
+   "url": "https://muitainformacao.com.br/negocios/bahia-tech-experience-2026-lanca-calendario-com-acoes-em-34-municipios-e-investimento-de-r-56-milhoes/",
+   "source": "curadoria",
+   "start_date": "2026-12-05",
+   "end_date": "2026-12-07",
+   "description": "Maior evento de startups da Bahia, com startups, investidores e especialistas nacionais e internacionais.",
+   "city": "Salvador",
+   "state": "BA",
+   "venue": "Centro de Convenções de Salvador",
+   "format": "presencial",
+   "type": "feira",
+   "organizer": "Secti-BA / Sebrae Bahia",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "a27adee1aeaf",
+   "region": "Nordeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Smart City Expo Curitiba 2027",
+   "url": "https://smartcityexpocuritiba.com",
+   "source": "curadoria",
+   "start_date": "2027-03-17",
+   "end_date": "2027-03-19",
+   "description": "Versão brasileira do Smart City Expo de Barcelona, com feira de negócios entre empresas, startups e governos.",
+   "city": "Curitiba",
+   "state": "PR",
+   "venue": "Arena da Baixada",
+   "format": "presencial",
+   "type": "feira",
+   "organizer": "iCities",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 3,
+   "date_confirmed": true,
+   "id": "3e39274d8a6d",
+   "region": "Sul",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "South Summit Brazil 2027",
+   "url": "https://www.southsummit.io/e/brazil-2027/content/ticket-details",
+   "source": "curadoria",
+   "start_date": "2027-04-14",
+   "end_date": "2027-04-16",
+   "description": "Edição brasileira do South Summit, com Startup Competition e foco em conectar startups, corporações e investidores.",
+   "city": "Porto Alegre",
+   "state": "RS",
+   "venue": "Cais Mauá",
+   "format": "presencial",
+   "type": "summit",
+   "organizer": "South Summit / Governo do RS",
+   "image": null,
+   "price": null,
+   "themes": [
+    "demo_day",
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 4,
+   "date_confirmed": true,
+   "id": "e8bdcb702973",
+   "region": "Sul",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "São Paulo Innovation Week 2027",
+   "url": "https://startupi.com.br/?p=259769",
+   "source": "curadoria",
+   "start_date": "2027-05-04",
+   "end_date": "2027-05-07",
+   "description": "Versão paulistana do Rio Innovation Week, focada em inovação, tecnologia e economia criativa.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": null,
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "Rio Innovation Week",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 5,
+   "date_confirmed": false,
+   "id": "b91168ceb321",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Gramado Summit 2027",
+   "url": "https://gramadosummit.com/",
+   "source": "curadoria",
+   "start_date": "2027-05-05",
+   "end_date": "2027-05-07",
+   "description": "Festival de inovação e empreendedorismo na Serra Gaúcha; a edição 2027 será a 10ª.",
+   "city": "Gramado",
+   "state": "RS",
+   "venue": "Serra Park",
+   "format": "presencial",
+   "type": "summit",
+   "organizer": "Gramado Summit",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 5,
+   "date_confirmed": true,
+   "id": "d3c4e1ad101b",
+   "region": "Sul",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Fispal Food Service 2027",
+   "url": "https://www.fispalfoodservice.com.br/",
+   "source": "curadoria",
+   "start_date": "2027-05-18",
+   "end_date": "2027-05-21",
+   "description": "Principal feira de food service da América Latina, realizada junto com a Fispal Sorvetes.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Distrito Anhembi",
+   "format": "presencial",
+   "type": "feira",
+   "organizer": "Informa Markets",
+   "image": null,
+   "price": null,
+   "themes": [
+    "foodtech"
+   ],
+   "recurrence": "anual",
+   "typical_month": 5,
+   "date_confirmed": true,
+   "id": "f79c3f3d0c84",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Hospitalar 2027",
+   "url": "https://hospitalar.com/",
+   "source": "curadoria",
+   "start_date": "2027-05-18",
+   "end_date": "2027-05-21",
+   "description": "Maior feira de saúde da América Latina, com produtos, equipamentos, serviços e tecnologia para hospitais e clínicas.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "São Paulo Expo",
+   "format": "presencial",
+   "type": "feira",
+   "organizer": "Informa Markets",
+   "image": null,
+   "price": null,
+   "themes": [
+    "healthtech"
+   ],
+   "recurrence": "anual",
+   "typical_month": 5,
+   "date_confirmed": true,
+   "id": "9f5d14384679",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "VTEX Day 2027",
+   "url": "https://www.vtex.com/en-us/vtexday",
+   "source": "curadoria",
+   "start_date": "2027-05-31",
+   "end_date": "2027-06-01",
+   "description": "Maior evento de comércio digital da América Latina, com foco em IA e comércio agêntico.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "São Paulo Expo",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "VTEX",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 6,
+   "date_confirmed": true,
+   "id": "43f0cc0debb2",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Web Summit Rio 2027",
+   "url": "https://rio.websummit.com/",
+   "source": "curadoria",
+   "start_date": "2027-06-14",
+   "end_date": "2027-06-17",
+   "description": "Edição brasileira do Web Summit, reunindo startups, investidores e big techs com forte foco em IA.",
+   "city": "Rio de Janeiro",
+   "state": "RJ",
+   "venue": "Riocentro",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "Web Summit",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 6,
+   "date_confirmed": true,
+   "id": "d3e25fbeb4e0",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Fispal Tecnologia 2027",
+   "url": "https://www.fispaltecnologia.com.br/",
+   "source": "curadoria",
+   "start_date": "2027-06-22",
+   "end_date": "2027-06-25",
+   "description": "Feira de tecnologia para a indústria de alimentos e bebidas: processamento, embalagem e automação.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "São Paulo Expo",
+   "format": "presencial",
+   "type": "feira",
+   "organizer": "Informa Markets",
+   "image": null,
+   "price": null,
+   "themes": [
+    "foodtech"
+   ],
+   "recurrence": "anual",
+   "typical_month": 6,
+   "date_confirmed": true,
+   "id": "f421eee799fb",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "BNDES Garagem - Demo Day (ciclo 2026)",
+   "url": "https://garagem.bndes.gov.br",
+   "source": "curadoria",
+   "start_date": "2027-08-02",
+   "end_date": "2027-08-02",
+   "description": "Demo Day do programa de aceleração do BNDES para startups de impacto socioambiental.",
+   "city": "Rio de Janeiro",
+   "state": "RJ",
+   "venue": null,
+   "format": "presencial",
+   "type": "demo_day",
+   "organizer": "BNDES",
+   "image": null,
+   "price": null,
+   "themes": [
+    "aceleradoras",
+    "demo_day",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 8,
+   "date_confirmed": false,
+   "id": "359181f67060",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Febraban Tech 2027",
+   "url": "https://febrabantech.febraban.org.br/",
+   "source": "curadoria",
+   "start_date": "2027-08-24",
+   "end_date": "2027-08-26",
+   "description": "Maior evento de tecnologia e inovação do setor financeiro da América Latina, promovido pela Febraban.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Distrito Anhembi",
+   "format": "presencial",
+   "type": "congresso",
+   "organizer": "Febraban",
+   "image": null,
+   "price": null,
+   "themes": [
+    "fintech",
+    "ia"
+   ],
+   "recurrence": "anual",
+   "typical_month": 8,
+   "date_confirmed": true,
+   "id": "80b15a7b756a",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Rio Innovation Week 2027",
+   "url": "https://rioinnovationweek.com.br/",
+   "source": "curadoria",
+   "start_date": "2027-08-24",
+   "end_date": "2027-08-27",
+   "description": "Um dos maiores eventos de tecnologia e inovação do país, realizado no Píer Mauá.",
+   "city": "Rio de Janeiro",
+   "state": "RJ",
+   "venue": "Píer Mauá",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "Rio Innovation Week",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 8,
+   "date_confirmed": false,
+   "id": "20b4ac508718",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "AI Brasil Experience",
+   "url": "https://distritoanhembi.com.br/?p=16767",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Evento de inteligência artificial com múltiplos palcos sobre gestão, vendas e integração entre IA e inteligência humana.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Distrito Anhembi",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": null,
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "anual",
+   "typical_month": 10,
+   "date_confirmed": false,
+   "id": "127bcd9e6aa8",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "AI Summit Money",
+   "url": "https://www.sympla.com.br/ai-summit-money__3565725",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Evento do Instituto Valor sobre a convergência entre IA, finanças, seguros e capital.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "ioasys (Vila Cordeiro)",
+   "format": "presencial",
+   "type": "summit",
+   "organizer": "Instituto Valor",
+   "image": null,
+   "price": null,
+   "themes": [
+    "fintech",
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 10,
+   "date_confirmed": false,
+   "id": "6259601533c8",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "AWS Summit São Paulo",
+   "url": "https://aws.amazon.com/events/summits/sao-paulo/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Evento gratuito da AWS sobre nuvem e IA generativa, com Executive Forum para líderes.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "São Paulo Expo",
+   "format": "hibrido",
+   "type": "summit",
+   "organizer": "Amazon Web Services",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 9,
+   "date_confirmed": false,
+   "id": "81e4b1e9db51",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Bioeconomy Amazon Summit",
+   "url": "https://portalamazonia.com/economia/bioeconomy-amazon-summit-belem/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Encontro sobre investimento, inovação e negócios da bioeconomia amazônica, criado por KPTL e Kyvo.",
+   "city": "Belém",
+   "state": "PA",
+   "venue": "Complexo Porto Futuro II",
+   "format": "presencial",
+   "type": "summit",
+   "organizer": "KPTL / Kyvo",
+   "image": null,
+   "price": null,
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 5,
+   "date_confirmed": false,
+   "id": "918de5c1c57c",
+   "region": "Norte",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "BitDevs Belo Horizonte",
+   "url": "https://vinteum.exe.xyz/bitdevs",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Meetup mensal de desenvolvedores Bitcoin no formato socrático (BitDevs), apoiado pela Vinteum.",
+   "city": "Belo Horizonte",
+   "state": "MG",
+   "venue": null,
+   "format": "presencial",
+   "type": "meetup",
+   "organizer": "Vinteum / comunidade BitDevs",
+   "image": null,
+   "price": null,
+   "themes": [
+    "bitcoin"
+   ],
+   "recurrence": "mensal",
+   "typical_month": null,
+   "date_confirmed": false,
+   "id": "f15f45b0f1a4",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "BitDevs Brasília",
+   "url": "https://vinteum.exe.xyz/bitdevs",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Meetup mensal de desenvolvedores Bitcoin no formato socrático (BitDevs), apoiado pela Vinteum.",
+   "city": "Brasília",
+   "state": "DF",
+   "venue": null,
+   "format": "presencial",
+   "type": "meetup",
+   "organizer": "Vinteum / comunidade BitDevs",
+   "image": null,
+   "price": null,
+   "themes": [
+    "bitcoin"
+   ],
+   "recurrence": "mensal",
+   "typical_month": null,
+   "date_confirmed": false,
+   "id": "cdea682c6c78",
+   "region": "Centro-Oeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "BitDevs Curitiba",
+   "url": "https://vinteum.exe.xyz/bitdevs",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Meetup mensal de desenvolvedores Bitcoin no formato socrático (BitDevs), apoiado pela Vinteum.",
+   "city": "Curitiba",
+   "state": "PR",
+   "venue": null,
+   "format": "presencial",
+   "type": "meetup",
+   "organizer": "Vinteum / comunidade BitDevs",
+   "image": null,
+   "price": null,
+   "themes": [
+    "bitcoin"
+   ],
+   "recurrence": "mensal",
+   "typical_month": null,
+   "date_confirmed": false,
+   "id": "8a6614891a88",
+   "region": "Sul",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "BitDevs Florianópolis",
+   "url": "https://vinteum.exe.xyz/bitdevs",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Meetup mensal de desenvolvedores Bitcoin no formato socrático (BitDevs), apoiado pela Vinteum.",
+   "city": "Florianópolis",
+   "state": "SC",
+   "venue": null,
+   "format": "presencial",
+   "type": "meetup",
+   "organizer": "Vinteum / comunidade BitDevs",
+   "image": null,
+   "price": null,
+   "themes": [
+    "bitcoin"
+   ],
+   "recurrence": "mensal",
+   "typical_month": null,
+   "date_confirmed": false,
+   "id": "4e41c7fdc2b4",
+   "region": "Sul",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "BitDevs Porto Alegre",
+   "url": "https://www.sympla.com.br/porto-alegre-bitdevs__3539465",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Meetup mensal de desenvolvedores Bitcoin no formato socrático (BitDevs), apoiado pela Vinteum.",
+   "city": "Porto Alegre",
+   "state": "RS",
+   "venue": null,
+   "format": "presencial",
+   "type": "meetup",
+   "organizer": "Vinteum / comunidade BitDevs",
+   "image": null,
+   "price": null,
+   "themes": [
+    "bitcoin"
+   ],
+   "recurrence": "mensal",
+   "typical_month": null,
+   "date_confirmed": false,
+   "id": "997e3a77d2c9",
+   "region": "Sul",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "BitDevs São Paulo",
+   "url": "https://vinteum.exe.xyz/bitdevs",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Meetup mensal de desenvolvedores Bitcoin no formato socrático (BitDevs), apoiado pela Vinteum.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": null,
+   "format": "presencial",
+   "type": "meetup",
+   "organizer": "Vinteum / comunidade BitDevs",
+   "image": null,
+   "price": null,
+   "themes": [
+    "bitcoin"
+   ],
+   "recurrence": "mensal",
+   "typical_month": null,
+   "date_confirmed": false,
+   "id": "9e01641154a5",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Blockchain Conference Brasil",
+   "url": "https://www.expocenternorte.com.br/en/events/blockchain-conference-brasil-by-truther",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Conferência de blockchain e criptoativos; a edição 2026 teve o tema 'O Efeito Bitcoin'.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "São Paulo Expo",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "Truther",
+   "image": null,
+   "price": null,
+   "themes": [
+    "bitcoin",
+    "cripto",
+    "fintech"
+   ],
+   "recurrence": "anual",
+   "typical_month": 11,
+   "date_confirmed": false,
+   "id": "ad3d7151ebfc",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Blockchain.RIO",
+   "url": "https://blockchainrio.com.br",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Grande evento de blockchain, tokenização, ativos digitais e inovação financeira, com Launchpad para startups.",
+   "city": "Rio de Janeiro",
+   "state": "RJ",
+   "venue": "ExpoRio",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "Blockchain.RIO",
+   "image": null,
+   "price": null,
+   "themes": [
+    "cripto",
+    "fintech",
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 8,
+   "date_confirmed": false,
+   "id": "93b822395560",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "CIMATEC Business Arena",
+   "url": "https://www.sympla.com.br/evento/cimatec-business-arena/3596558",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Encontro do SENAI CIMATEC voltado a estudantes, pesquisadores, empreendedores, startups e investidores.",
+   "city": "Salvador",
+   "state": "BA",
+   "venue": "SENAI CIMATEC",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "SENAI CIMATEC",
+   "image": null,
+   "price": null,
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 10,
+   "date_confirmed": false,
+   "id": "96c319db0e3f",
+   "region": "Nordeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Campus Party Brasil",
+   "url": "https://brasil.campus-party.org/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Festival de tecnologia, ciência e empreendedorismo com acampamento, palestras e programa Campus Startups; edição 2026 (CPBR18) em Brasília.",
+   "city": "Brasília",
+   "state": "DF",
+   "venue": "Arena BRB Mané Garrincha",
+   "format": "presencial",
+   "type": "festival",
+   "organizer": "Instituto Campus Party",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 6,
+   "date_confirmed": false,
+   "id": "bea20472466c",
+   "region": "Centro-Oeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Campus Party Goiás",
+   "url": "https://goias.gov.br/inovacao/?p=102627",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Edição goiana da Campus Party, com foco em IA aplicada; a edição 2025 reuniu mais de 100 mil pessoas.",
+   "city": "Goiânia",
+   "state": "GO",
+   "venue": "Passeio das Águas Shopping",
+   "format": "presencial",
+   "type": "festival",
+   "organizer": "Governo de Goiás / Instituto Campus Party",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 11,
+   "date_confirmed": false,
+   "id": "c900b32d424b",
+   "region": "Centro-Oeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Casa Adyen",
+   "url": "https://www.adyen.com/pt_BR/centro-de-conhecimento/casa-adyen-2026-era-dos-pagamentos",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Evento da Adyen sobre o futuro dos pagamentos no Brasil.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Conjunto Nacional",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "Adyen",
+   "image": null,
+   "price": null,
+   "themes": [
+    "fintech"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 8,
+   "date_confirmed": false,
+   "id": "1b44c79cf36d",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Conahp - Congresso Nacional de Hospitais Privados",
+   "url": "https://conahp.org.br",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Congresso anual da Anahp sobre o futuro da saúde, com temas como transformação digital e IA.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Transamérica Expo Center",
+   "format": "presencial",
+   "type": "congresso",
+   "organizer": "Anahp",
+   "image": null,
+   "price": null,
+   "themes": [
+    "healthtech",
+    "ia"
+   ],
+   "recurrence": "anual",
+   "typical_month": 10,
+   "date_confirmed": false,
+   "id": "c86b22e3a5d3",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Conexão & Capital",
+   "url": "https://mais.opovo.com.br/jornal/economia/2026/11/06/conexao-capital-estimula-aportes-de-ate-rs-3-mi-para-30-startups-cearenses.html",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Encontro que conecta startups cearenses a fundos de investimento nacionais, com pitches e rodadas de negócio.",
+   "city": "Fortaleza",
+   "state": "CE",
+   "venue": "Centro de Eventos do Ceará",
+   "format": "presencial",
+   "type": "demo_day",
+   "organizer": null,
+   "image": null,
+   "price": null,
+   "themes": [
+    "demo_day",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 11,
+   "date_confirmed": false,
+   "id": "a65e06a97758",
+   "region": "Nordeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "ETH Latam São Paulo",
+   "url": "https://ethlatam.github.io/website",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Conferência e hackathon da comunidade Ethereum latino-americana; quarta edição realizada em São Paulo em 2025.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": null,
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "ETH Latam",
+   "image": null,
+   "price": null,
+   "themes": [
+    "cripto"
+   ],
+   "recurrence": "anual",
+   "typical_month": 11,
+   "date_confirmed": false,
+   "id": "bfd65412d2fc",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Epicentro da Inteligência Artificial - Demoday",
+   "url": "https://goias.gov.br/inovacao/epicentro-da-inteligencia-artificial-encerra-etapa-de-aceleracao-com-startups-de-todo-o-pais-no-hub-goias/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Encerramento nacional do programa de aceleração de startups de IA do Governo de Goiás, com pitches de finalistas.",
+   "city": "Goiânia",
+   "state": "GO",
+   "venue": "Hub Goiás",
+   "format": "presencial",
+   "type": "demo_day",
+   "organizer": "Governo de Goiás / Hub Goiás",
+   "image": null,
+   "price": null,
+   "themes": [
+    "aceleradoras",
+    "demo_day",
+    "ia",
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 5,
+   "date_confirmed": false,
+   "id": "1b538bcbc787",
+   "region": "Centro-Oeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Ethereum Brasil",
+   "url": "https://events.coinpedia.org/ethereum-brasil-2026-8988/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Evento de Web3 e Ethereum que conecta builders, empresas, protocolos e instituições no estádio MorumBIS.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Estádio MorumBIS",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": null,
+   "image": null,
+   "price": null,
+   "themes": [
+    "cripto"
+   ],
+   "recurrence": "anual",
+   "typical_month": null,
+   "date_confirmed": false,
+   "id": "6c9d49086968",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Expert XP",
+   "url": "https://expertxp.com.br",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Maior evento de investimentos do Brasil, promovido pela XP; a edição 2026 reuniu 64 mil participantes.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "São Paulo Expo",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "XP Inc.",
+   "image": null,
+   "price": null,
+   "themes": [
+    "fintech"
+   ],
+   "recurrence": "anual",
+   "typical_month": 7,
+   "date_confirmed": false,
+   "id": "4996224b767b",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Expo Favela Innovation Brasil",
+   "url": "https://www.expocenternorte.com.br/en/events/expo-favela",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Feira nacional de empreendedorismo e inovação das favelas, promovida pela CUFA e Favela Holding.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Expo Center Norte",
+   "format": "presencial",
+   "type": "feira",
+   "organizer": "Favela Holding / CUFA",
+   "image": null,
+   "price": null,
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 11,
+   "date_confirmed": false,
+   "id": "4124384d8e9b",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Expo Favela Innovation Brasília",
+   "url": "https://jornaldebrasilia.com.br/viva/eventos/expo-favela-innovation-brasilia-2026-promove-empreendedorismo-nas-periferias/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Edição do DF da Expo Favela, promovendo empreendedorismo e inovação nas periferias.",
+   "city": "Brasília",
+   "state": "DF",
+   "venue": "Sesc Ceilândia",
+   "format": "presencial",
+   "type": "feira",
+   "organizer": "Favela Holding / CUFA",
+   "image": null,
+   "price": null,
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 4,
+   "date_confirmed": false,
+   "id": "e39d7f2cc771",
+   "region": "Centro-Oeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "FGV Ventures Demoday",
+   "url": "https://eaesp.fgv.br/fgv-ventures",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Demo Day semestral das startups aceleradas pela FGV Ventures, aceleradora da FGV EAESP.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "FGV EAESP",
+   "format": "presencial",
+   "type": "demo_day",
+   "organizer": "FGV EAESP",
+   "image": null,
+   "price": null,
+   "themes": [
+    "aceleradoras",
+    "demo_day",
+    "escolas_negocio",
+    "startups"
+   ],
+   "recurrence": "semestral",
+   "typical_month": null,
+   "date_confirmed": false,
+   "id": "c749c28539f6",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Fi South America",
+   "url": "https://www.figlobal.com/south-america/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Feira de ingredientes alimentícios da América do Sul, com inovação para a indústria de alimentos e bebidas.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "São Paulo Expo",
+   "format": "presencial",
+   "type": "feira",
+   "organizer": "Informa Markets",
+   "image": null,
+   "price": null,
+   "themes": [
+    "foodtech"
+   ],
+   "recurrence": "anual",
+   "typical_month": 8,
+   "date_confirmed": false,
+   "id": "85d1536f25df",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Fintouch Brasília",
+   "url": "https://borainvestir.b3.com.br/eventos/fintouch-26-edicao-brasilia/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Edição do Fintouch na capital federal, com foco na agenda regulatória e diálogo com reguladores.",
+   "city": "Brasília",
+   "state": "DF",
+   "venue": null,
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "ABFintechs",
+   "image": null,
+   "price": null,
+   "themes": [
+    "fintech"
+   ],
+   "recurrence": "anual",
+   "typical_month": 4,
+   "date_confirmed": false,
+   "id": "0b9dddef0abd",
+   "region": "Centro-Oeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Fintouch São Paulo",
+   "url": "https://borainvestir.b3.com.br/eventos/fintouch-26-edicao-sao-paulo/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Maior evento de fintechs do país, promovido pela ABFintechs, com debates sobre Open Finance, IA, Web3 e pagamentos.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Espaço Center 3 (Av. Paulista)",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "ABFintechs",
+   "image": null,
+   "price": null,
+   "themes": [
+    "cripto",
+    "fintech",
+    "ia"
+   ],
+   "recurrence": "anual",
+   "typical_month": 6,
+   "date_confirmed": false,
+   "id": "7985dfdd5f52",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "FoodBiz Summit",
+   "url": "https://gironews.com/food-service/foodbiz-summit-2026-reune-lideres-do-food-service-em-sao-paulo/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Encontro de líderes do food service com executivos, operadores, fornecedores e investidores.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Welucci Village",
+   "format": "presencial",
+   "type": "summit",
+   "organizer": null,
+   "image": null,
+   "price": null,
+   "themes": [
+    "foodtech"
+   ],
+   "recurrence": "anual",
+   "typical_month": 8,
+   "date_confirmed": false,
+   "id": "3119fdc0fd01",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Futurecom",
+   "url": "https://www.futurecom.com.br/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Feira e congresso de tecnologia, transformação digital e telecomunicações da América Latina.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "São Paulo Expo",
+   "format": "presencial",
+   "type": "feira",
+   "organizer": "Informa Markets",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "anual",
+   "typical_month": 10,
+   "date_confirmed": false,
+   "id": "6df5c60c7a51",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "G4 Valley",
+   "url": "https://g4valley.com",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Evento anual do G4 Educação para empresários, com palestras de gestão, inovação e IA.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "São Paulo Expo",
+   "format": "hibrido",
+   "type": "conferencia",
+   "organizer": "G4 Educação",
+   "image": null,
+   "price": null,
+   "themes": [
+    "escolas_negocio",
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 10,
+   "date_confirmed": false,
+   "id": "f90fec156584",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Gartner Data & Analytics Summit São Paulo 2027",
+   "url": "https://www.gartner.com/pt-br/conferences/la/data-analytics-brazil",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Conferência do Gartner sobre dados, analytics e IA para líderes de tecnologia.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Distrito Anhembi",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "Gartner",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "anual",
+   "typical_month": 4,
+   "date_confirmed": false,
+   "id": "6c70289acdda",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Google for Startups Accelerator Brasil - Demo Day",
+   "url": "https://startup.google.com/intl/pt-BR/programs/accelerator/brazil/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Demo Day do programa de aceleração do Google para startups brasileiras de Seed a Série A.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": null,
+   "format": "presencial",
+   "type": "demo_day",
+   "organizer": "Google for Startups",
+   "image": null,
+   "price": null,
+   "themes": [
+    "aceleradoras",
+    "demo_day",
+    "ia",
+    "startups"
+   ],
+   "recurrence": "semestral",
+   "typical_month": 7,
+   "date_confirmed": false,
+   "id": "fefb711f0959",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "HIMSS Executive Summit Brasil",
+   "url": "https://www.himss.org/events-overview/himss-executive-summit-brazil/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Encontro executivo da HIMSS sobre saúde digital e inovação no Brasil.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Centro de Convenções Rebouças",
+   "format": "presencial",
+   "type": "summit",
+   "organizer": "HIMSS",
+   "image": null,
+   "price": null,
+   "themes": [
+    "healthtech",
+    "ia"
+   ],
+   "recurrence": "anual",
+   "typical_month": 11,
+   "date_confirmed": false,
+   "id": "30e99c087058",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "HackTown",
+   "url": "https://hacktown.com.br/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Festival de inovação, tecnologia e criatividade que ocupa a cidade de Santa Rita do Sapucaí, o Vale da Eletrônica.",
+   "city": "Santa Rita do Sapucaí",
+   "state": "MG",
+   "venue": null,
+   "format": "presencial",
+   "type": "festival",
+   "organizer": "HackTown",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 9,
+   "date_confirmed": false,
+   "id": "d25230420016",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Hackstars Cuiabá",
+   "url": "https://jornaldobras.com.br/noticia/131514/trael-leva-desafio-de-rastreabilidade-para-o-hackstars-e-mobiliza-colaboradores-em-cuiaba/amp",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Maratona de inovação de 48 horas com desafios de empresas, organizada pela comunidade local de startups.",
+   "city": "Cuiabá",
+   "state": "MT",
+   "venue": null,
+   "format": "presencial",
+   "type": "hackathon",
+   "organizer": "Digoreste Startups / Vale do Pacu / CDL Cuiabá",
+   "image": null,
+   "price": null,
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 7,
+   "date_confirmed": false,
+   "id": "c29219edf5c2",
+   "region": "Centro-Oeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Healthcare Innovation Show (HIS)",
+   "url": "https://www.saudebusiness.com/eventos-3/healthcare-innovation-show/his-2026-comeca-com-nova-area-de-negocios-e-amplia-agenda-de-inovacao/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Feira de inovação e transformação digital em saúde.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "São Paulo Expo",
+   "format": "presencial",
+   "type": "feira",
+   "organizer": "Informa Markets",
+   "image": null,
+   "price": null,
+   "themes": [
+    "healthtech",
+    "ia"
+   ],
+   "recurrence": "anual",
+   "typical_month": 9,
+   "date_confirmed": false,
+   "id": "7214de4c4aa9",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "IA Conference Brasil",
+   "url": "https://www.alura.com.br/artigos/ia-conference-brasil-2026",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Conferência de inteligência artificial da Alura com palcos simultâneos e mais de 1.300 profissionais.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Centro de Convenções Frei Caneca",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "Alura",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "anual",
+   "typical_month": 9,
+   "date_confirmed": false,
+   "id": "e2c8ac6c0ac2",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Innova Summit",
+   "url": "https://innovasummit.com.br",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Maior evento gratuito de inovação do país, com centenas de palestras em vários palcos no DF.",
+   "city": "Brasília",
+   "state": "DF",
+   "venue": "Centro de Convenções Ulysses Guimarães",
+   "format": "presencial",
+   "type": "summit",
+   "organizer": "Instituto Conecta Brasil / Secti-DF",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 5,
+   "date_confirmed": false,
+   "id": "445cfcb9456a",
+   "region": "Centro-Oeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Inova Amazônia Summit 2027",
+   "url": "https://portalamazonia.com/economia/rondonia-inova-amazonia-summit-27/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Principal encontro de bioeconomia, inovação e empreendedorismo da Amazônia Legal, itinerante; 2027 em Rondônia.",
+   "city": "Porto Velho",
+   "state": "RO",
+   "venue": null,
+   "format": "presencial",
+   "type": "summit",
+   "organizer": "Sebrae",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 9,
+   "date_confirmed": false,
+   "id": "3943cf9e54c9",
+   "region": "Norte",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Insper Startup Week",
+   "url": "https://www.insper.edu.br/pt/eventos/2026/03/startup-week-8-edicao",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Semana de empreendedorismo do Insper com programação que inclui Pitch Day.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Insper",
+   "format": "presencial",
+   "type": "workshop",
+   "organizer": "Insper - Hub de Inovação e Empreendedorismo Paulo Cunha",
+   "image": null,
+   "price": null,
+   "themes": [
+    "aceleradoras",
+    "demo_day",
+    "escolas_negocio",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 3,
+   "date_confirmed": false,
+   "id": "4d7040da79c6",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "International FoodTech Fórum & FoodTech Expo",
+   "url": "https://2026.internationalfoodtech.com.br",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Fórum internacional sobre inovação, biotecnologia e IA na indústria de alimentos.",
+   "city": "Campinas",
+   "state": "SP",
+   "venue": "PUC-Campinas",
+   "format": "presencial",
+   "type": "congresso",
+   "organizer": "FoodTech Hub Latam",
+   "image": null,
+   "price": null,
+   "themes": [
+    "foodtech",
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 5,
+   "date_confirmed": false,
+   "id": "ed9bc740f0d3",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "MERGE São Paulo",
+   "url": "https://www.mmerge.io/merge-sao-paulo-2026",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Conferência institucional de cripto com reguladores e instituições financeiras; primeira edição em São Paulo em 2026.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "World Trade Center São Paulo",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "MERGE",
+   "image": null,
+   "price": null,
+   "themes": [
+    "cripto",
+    "fintech"
+   ],
+   "recurrence": "anual",
+   "typical_month": 3,
+   "date_confirmed": false,
+   "id": "79f0ed0a0f1c",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "MV Experience Forum (MEF)",
+   "url": "https://visitesaopaulo.com/evento/mv-experience-forum-2026/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Fórum de inovação e tecnologia em saúde da healthtech MV, com temas como IA, interoperabilidade e analytics.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Transamérica Expo Center",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "MV",
+   "image": null,
+   "price": null,
+   "themes": [
+    "healthtech",
+    "ia"
+   ],
+   "recurrence": "anual",
+   "typical_month": 9,
+   "date_confirmed": false,
+   "id": "0ad5e4c6f260",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Mercopar",
+   "url": "https://mercopar.com.br",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Maior feira de inovação industrial da América Latina, com expositores e área de startups.",
+   "city": "Caxias do Sul",
+   "state": "RS",
+   "venue": "Centro de Feiras e Eventos Festa da Uva",
+   "format": "presencial",
+   "type": "feira",
+   "organizer": "Sebrae RS / Sistema Fiergs",
+   "image": null,
+   "price": null,
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 10,
+   "date_confirmed": false,
+   "id": "f817c69774bf",
+   "region": "Sul",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Minas Summit",
+   "url": "https://www.itatiaia.com.br/economia/negocios/minas-summit-2026-reune-11-mil-pessoas-para-debater-inovacao-e-negocios-em-bh/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Maior evento de inovação corporativa de Minas Gerais, com a competição de startups Innovation Race.",
+   "city": "Belo Horizonte",
+   "state": "MG",
+   "venue": "BeFly Minascentro",
+   "format": "presencial",
+   "type": "summit",
+   "organizer": "FCJ Venture Builder",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 6,
+   "date_confirmed": false,
+   "id": "ecde2d1d8ebf",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "NEON - Nordeste ON",
+   "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/neon-2026-abre-oficialmente-em-maceio-e-coloca-alagoas-no-centro-da-inovacao-nordestina/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Maior evento de inovação e empreendedorismo do Nordeste, itinerante entre capitais; edição 2026 em Maceió.",
+   "city": "Maceió",
+   "state": "AL",
+   "venue": "Centro de Convenções de Maceió",
+   "format": "presencial",
+   "type": "summit",
+   "organizer": "Sebrae",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 6,
+   "date_confirmed": false,
+   "id": "50b18ff6cfd4",
+   "region": "Nordeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "NVIDIA AI Day São Paulo",
+   "url": "https://www.nvidia.com/pt-br/ai-days/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Evento gratuito da NVIDIA sobre IA soberana, computação acelerada e ecossistema de desenvolvedores.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "WTC Sheraton",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "NVIDIA",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 1,
+   "date_confirmed": false,
+   "id": "e1c2398f4903",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "RD Summit",
+   "url": "https://mundodomarketing.com.br/rd-summit-volta-em-outubro-de-2027-o-novo-olhar-da-totvs-para-a-rd-station-e-para-o-marketing",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Grande evento de marketing e vendas da RD Station (TOTVS); pausado em 2026, retorna em outubro de 2027 em São Paulo.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": null,
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "RD Station (TOTVS)",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 10,
+   "date_confirmed": false,
+   "id": "a7f9e3444301",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "REC'n'Play",
+   "url": "https://recnplay.pe",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Festival gratuito de tecnologia, criatividade e cultura que ocupa o Bairro do Recife, realizado pelo Porto Digital e Sebrae-PE.",
+   "city": "Recife",
+   "state": "PE",
+   "venue": "Bairro do Recife",
+   "format": "presencial",
+   "type": "festival",
+   "organizer": "Porto Digital / Sebrae Pernambuco",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 11,
+   "date_confirmed": false,
+   "id": "388c91043f6a",
+   "region": "Nordeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Satsconf",
+   "url": "https://satsconf.com.br",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Uma das maiores conferências 100% dedicadas ao Bitcoin na América Latina; última edição conhecida em nov/2025 no Audio Club.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Audio Club",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": null,
+   "image": null,
+   "price": null,
+   "themes": [
+    "bitcoin",
+    "cripto"
+   ],
+   "recurrence": "anual",
+   "typical_month": 11,
+   "date_confirmed": false,
+   "id": "c97c086aea55",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Saúde Business Fórum",
+   "url": "https://www.saudebusiness.com/eventos-3/saude-business-forum/saude-business-forum-volta-a-bahia-focado-na-melhor-comunicacao-entre-elos-do-setor/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Fórum executivo do setor de saúde com mesas de discussão, rodadas de negócio e arenas de conteúdo; edição 2026 na Costa do Sauípe.",
+   "city": "Mata de São João",
+   "state": "BA",
+   "venue": "Sol Grand Premium Costa do Sauípe",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "Informa Markets",
+   "image": null,
+   "price": null,
+   "themes": [
+    "healthtech"
+   ],
+   "recurrence": "anual",
+   "typical_month": 8,
+   "date_confirmed": false,
+   "id": "a04ac460ac35",
+   "region": "Nordeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Siará Tech Summit",
+   "url": "https://diariodonordeste.verdesmares.com.br/negocios/siara-tech-summit-2026-reune-inovacao-tecnologia-e-negocios-em-fortaleza-1.3796596",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Principal evento de inovação do Ceará, gratuito, com startups, rodadas de negócios, hackathon e trilhas de deep tech e IA.",
+   "city": "Fortaleza",
+   "state": "CE",
+   "venue": "Centro de Eventos do Ceará",
+   "format": "presencial",
+   "type": "summit",
+   "organizer": "Sebrae-CE",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 10,
+   "date_confirmed": false,
+   "id": "a01117a671d6",
+   "region": "Nordeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Silicon Valley Healthtech",
+   "url": "https://futurodasaude.com.br/?p=52156",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Evento do Futuro da Saúde sobre como inovações do Vale do Silício (IA, longevidade, biotech) podem transformar a saúde no Brasil.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": null,
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "Futuro da Saúde",
+   "image": null,
+   "price": null,
+   "themes": [
+    "healthtech",
+    "ia"
+   ],
+   "recurrence": "anual",
+   "typical_month": 11,
+   "date_confirmed": false,
+   "id": "0dae93b6a890",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "StartSe AI Festival",
+   "url": "https://visitesaopaulo.com/evento/startse-ai-festival-2026/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Festival de inteligência artificial da StartSe com executivos de big techs e empresas de IA.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Pro Magno Centro de Eventos",
+   "format": "presencial",
+   "type": "festival",
+   "organizer": "StartSe",
+   "image": null,
+   "price": null,
+   "themes": [
+    "escolas_negocio",
+    "ia"
+   ],
+   "recurrence": "anual",
+   "typical_month": 5,
+   "date_confirmed": false,
+   "id": "bc157509ced0",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Startup Day Cuiabá",
+   "url": "https://www.sympla.com.br/evento/startup-day-2026-cuiaba/3281584",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Edição cuiabana do Startup Day, dia nacional de atividades do Sebrae Startups para o ecossistema de inovação.",
+   "city": "Cuiabá",
+   "state": "MT",
+   "venue": "Goiabeiras Shopping",
+   "format": "presencial",
+   "type": "meetup",
+   "organizer": "Sebrae Startups",
+   "image": null,
+   "price": null,
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 3,
+   "date_confirmed": false,
+   "id": "515ca25dee60",
+   "region": "Centro-Oeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Startup Day São Luís",
+   "url": "https://www.sympla.com.br/evento/startup-day-2026-sao-luis-ma-complexo-trapiche-santo-angelo/3290931",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Edição maranhense do Startup Day do Sebrae, com palestras e conexões para startups.",
+   "city": "São Luís",
+   "state": "MA",
+   "venue": "Complexo Trapiche Santo Ângelo",
+   "format": "presencial",
+   "type": "meetup",
+   "organizer": "Sebrae Startups",
+   "image": null,
+   "price": null,
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 3,
+   "date_confirmed": false,
+   "id": "fb3db41e1e16",
+   "region": "Nordeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Startup Summit",
+   "url": "https://startupsummit.com.br/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Evento do Sebrae Startups com a ACATE que reúne founders, investidores e delegações internacionais em Florianópolis.",
+   "city": "Florianópolis",
+   "state": "SC",
+   "venue": "CentroSul",
+   "format": "presencial",
+   "type": "summit",
+   "organizer": "Sebrae / ACATE",
+   "image": null,
+   "price": null,
+   "themes": [
+    "aceleradoras",
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 8,
+   "date_confirmed": false,
+   "id": "dbe495f5e0d5",
+   "region": "Sul",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Vetor Norte Summit",
+   "url": "https://diariodocomercio.com.br/eventos/vetor-norte-summit-2026/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Evento de inovação e negócios da Região Metropolitana de BH, com espaço para startups.",
+   "city": "Lagoa Santa",
+   "state": "MG",
+   "venue": "Mercadão de Lagoa Santa",
+   "format": "presencial",
+   "type": "summit",
+   "organizer": null,
+   "image": null,
+   "price": null,
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 11,
+   "date_confirmed": false,
+   "id": "11d4eef38a0f",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "WISE - Workshop de Inovação: Startup e Empreendedorismo Digital",
+   "url": "https://www.sympla.com.br/evento/wise-2026/3477099",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Workshop gratuito do IComp/UFAM com palestras, networking e Demo Day para startups iniciantes.",
+   "city": "Manaus",
+   "state": "AM",
+   "venue": null,
+   "format": "presencial",
+   "type": "workshop",
+   "organizer": "IComp/UFAM",
+   "image": null,
+   "price": null,
+   "themes": [
+    "demo_day",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 6,
+   "date_confirmed": false,
+   "id": "d3e146e73ffd",
+   "region": "Norte",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Web Summit Spotlight Paraíba 2027",
+   "url": "https://sites.google.com/websummit.com/spotlightparaibaeng/faq",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Evento do Web Summit em João Pessoa, primeiro Spotlight da América Latina; edição 2027 ampliada para dois dias.",
+   "city": "João Pessoa",
+   "state": "PB",
+   "venue": "Centro de Convenções de João Pessoa",
+   "format": "presencial",
+   "type": "summit",
+   "organizer": "Web Summit / Governo da Paraíba",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 3,
+   "date_confirmed": false,
+   "id": "9cbe847e46ef",
+   "region": "Nordeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "Web3Experts Brazil",
+   "url": "https://bpmoney.com.br/?p=404896",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Encontro técnico gratuito de Web3 voltado a desenvolvedores, com três dias de conteúdo prático.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Oracle (escritório São Paulo)",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "Instituto Web3EduBrasil",
+   "image": null,
+   "price": null,
+   "themes": [
+    "cripto"
+   ],
+   "recurrence": "anual",
+   "typical_month": 6,
+   "date_confirmed": false,
+   "id": "5b6e4dcf15af",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  },
+  {
+   "name": "XZone",
+   "url": "https://curtamais.com.br/goiania/festival-reune-ia-games-startups/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "Festival de tecnologia, inovação e economia criativa que reúne IA, games, startups e cultura geek.",
+   "city": "Goiânia",
+   "state": "GO",
+   "venue": "Parque de Exposições de Goiânia",
+   "format": "presencial",
+   "type": "festival",
+   "organizer": null,
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 9,
+   "date_confirmed": false,
+   "id": "517474ae93e8",
+   "region": "Centro-Oeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": false
+  }
+ ]
+}
