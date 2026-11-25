@@ -1,9 +1,15 @@
 {
  "meta": {
-  "updated_at": "2026-11-25T18:23-03:00",
-  "total": 335,
+  "updated_at": "2026-11-25T18:35-03:00",
+  "total": 336,
   "sources_raw": {
-   "curadoria": 79
+   "curadoria": 79,
+   "sympla": 3425,
+   "eventbrite": 0,
+   "meetup": 2660,
+   "even3": 0,
+   "doity": 0,
+   "busca_web": 0
   },
   "themes": {
    "ia": {
@@ -196,9 +202,9 @@
    ],
    "is_new": true,
    "summary": "Techstars Startup Weekend Black Innovation – Florianópolis 202609 , 10 e 11 de Abil de 2027 Florianópolis/SC54 horas de imersão presencialImpact Hub PrimaveraVagas limitadas54 horas para transformar ideias em soluçõesPela primeira vez…",
-   "geo_precision": "estado",
-   "lat": -27.595,
-   "lon": -48.548
+   "geo_precision": "cidade",
+   "lat": -27.5973,
+   "lon": -48.5496
   },
   {
    "name": "Curso de Inteligência Artificial na Prática - IA para Negócios em NIterói",
@@ -216,8 +222,7 @@
    "image": "https://images.sympla.com.br/69389d3975541.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -265,9 +270,9 @@
    ],
    "is_new": true,
    "summary": "A SEE - Sociedade Espirito Santense De Engenheiros com patrocínio da Mútua e apoio do CREA E CONFEA, convida os profissionais dos sistema para o Curso de Tecnologias da Construção Civil e Inteligência Artificial Aplicada à Engenharia, uma…",
-   "geo_precision": "estado",
-   "lat": -20.315,
-   "lon": -40.312
+   "geo_precision": "cidade",
+   "lat": -20.2796,
+   "lon": -40.315
   },
   {
    "name": "Workshop Presencial em São Paulo | Prospecção com IA + Planejamento 2027",
@@ -283,7 +288,7 @@
    "type": "workshop",
    "organizer": "A B R A V A SOLUÇÃO COMERCIAL",
    "image": "https://images.sympla.com.br/6af8b6470e257.png",
-   "price": "Pago (valor no site)",
+   "price": "R$ 207",
    "themes": [
     "ia"
    ],
@@ -299,9 +304,9 @@
    ],
    "is_new": true,
    "summary": "Quem você quer conquistar em 2027 — e como vai se organizar para chegar até essas pessoas?Entre atender, entregar e administrar, encontrar tempo para conquistar novos clientes pode acabar ficando para depois.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "SEMANA GLOBAL DE EMPREENDEDORISMO 2026",
@@ -333,9 +338,9 @@
    ],
    "is_new": true,
    "summary": "PROGRAMAÇÃO: DATA / HORÁRIO ATIVIDADE LOCAL 17.11 TER. 8h Palestra Empreendedorismo na Escola Estadual Iracema Rodrigues Machado-MG 18.11 QUA. 19h Palestra Empreendedorismo na Escola Estadual Iracema Rodrigues Machado-MG 19.11 QUI.",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -21.6763,
+   "lon": -45.9212
   },
   {
    "name": "AI For Leaders - O Futuro da Automação é Humano - nov/26 - Presencial + Online",
@@ -367,9 +372,9 @@
    ],
    "is_new": true,
    "summary": "Este curso é para quemCompreende que a Inteligência Artificial está moldando o amanhãQuer entender os fundamentos da IAQuer Impulsionar resultados reais com tecnologias emergentesO que você vai aprenderConceitos e tipos de IA com aplicação…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Encontro de Presidentes e Dirigentes PAN & PAEX - FDC",
@@ -401,9 +406,9 @@
    ],
    "is_new": true,
    "summary": "O INAED convida você para o Encontro de Presidentes & Dirigentes FDC, que acontece em 11 de dezembro de 2026, sexta-feira, das 13h às 16h, no Vignoli, em São Luís.O encontro contará com a palestra “Aprendabilidade: Como criar novos…",
-   "geo_precision": "estado",
-   "lat": -2.53,
-   "lon": -44.303
+   "geo_precision": "cidade",
+   "lat": -2.5295,
+   "lon": -44.2964
   },
   {
    "name": "Pré-inscrição curso Inteligência Artificial na Prática",
@@ -435,9 +440,9 @@
    ],
    "is_new": true,
    "summary": "*VAGAS LIMITADAS. A PRÉ INSCRIÇÃO NÃO É GARANTIA DE VAGA*APÓS A PRÉ INSCRIÇÃO, O ALUNO DEVERÁ AGUARDAR A PUBLICAÇÃO DA LISTA COM OS CANDIDATOS APROVADOS E OS QUE FICARAM NA LISTA DE ESPERA, QUE SERÁ DISPONIBILIZADA NO LINK…",
-   "geo_precision": "estado",
-   "lat": -25.429,
-   "lon": -49.271
+   "geo_precision": "cidade",
+   "lat": -25.4443,
+   "lon": -49.19
   },
   {
    "name": "DOCE FUTURO UNIÃO | Empreendedorismo em Gastronomia",
@@ -469,9 +474,9 @@
    ],
    "is_new": true,
    "summary": "DOCE FUTURO UNIÃO | MONITORIA DE EXTENSÃO Em parceria com o Instituto Capim Santo e Açúcar União Estão abertas as inscrições para alunos de Gastronomia da Anhembi Morumbi atuarem como monitores no projeto Doce Futuro União, no campus Vila…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Jornada Empreendedora IPPE Capacitação & Extraclasse",
@@ -503,9 +508,9 @@
    ],
    "is_new": true,
    "summary": "Jornada Empreendedora IPPE CapacitaçãoProjeto YES JUVENTUDE PROLONGADADesperte o melhor empreendedor que existe dentro de você!",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
   },
   {
    "name": "Jornada Empreendedora IPPE Capacitação & Extraclasse",
@@ -537,9 +542,9 @@
    ],
    "is_new": true,
    "summary": "Jornada Empreendedora IPPE CapacitaçãoProjeto YES JUVENTUDE PROLONGADADesperte o melhor empreendedor que existe dentro de você!",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
   },
   {
    "name": "Letramento em Inteligência Artificial para Jovens",
@@ -557,7 +562,6 @@
    "image": "https://images.sympla.com.br/6afc410c60c10.jpg",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -590,7 +594,7 @@
    "type": "imersao",
    "organizer": "Profa. MSc Viviane Menezes Penhalbel",
    "image": "https://images.sympla.com.br/6aec9fefb2842.png",
-   "price": "Pago (valor no site)",
+   "price": "A partir de R$ 100",
    "themes": [
     "ia"
    ],
@@ -606,9 +610,9 @@
    ],
    "is_new": true,
    "summary": "Imersão IA: da sua rotina à soluçãoConstrua a sua IA em 8h de Imersão, na prática. Sua rotina hoje, executada em 5, 6 ou 8 horas, pode ser executada em 10 minutos!Um método para criar soluções de IA.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "3º Seminário Amazônia Tech: tecnologias sociais, inteligência ancestral e o bem viver na Amazônia",
@@ -640,9 +644,9 @@
    ],
    "is_new": true,
    "summary": "Como os conhecimentos ancestrais podem dialogar com a ciência, a inovação e as novas tecnologias para construir futuros mais sustentáveis na Amazônia?O Amazônia Tech chega à sua terceira edição com o tema \"Tecnologias Sociais, Inteligência…",
-   "geo_precision": "estado",
-   "lat": -1.456,
-   "lon": -48.49
+   "geo_precision": "cidade",
+   "lat": -1.4506,
+   "lon": -48.4682
   },
   {
    "name": "Capacitação em Excel com IA",
@@ -674,9 +678,9 @@
    ],
    "is_new": true,
    "summary": "Excel Intermediário em IA (20 horas)09/11/2026 – 13h30 às 17h3013/11/2026 – 13h30 às 17h3016/11/2026 – 13h30 às 17h3018/11/2026 – 13h30 às 17h3023/11/2026 – 13h30 às 17h30Excel Avançado (20 horas)25/11/2026 – 13h30 às 17h3027/11/2026 –…",
-   "geo_precision": "estado",
-   "lat": -27.595,
-   "lon": -48.548
+   "geo_precision": "cidade",
+   "lat": -28.4715,
+   "lon": -49.0141
   },
   {
    "name": "Festival de Inovação, Desenvolvimento e Empreendedorismo de Resende (FIND)",
@@ -708,9 +712,9 @@
    ],
    "is_new": true,
    "summary": "O FIND é mais do que um festival de inovação: é um guia prático para transformar ideias em oportunidades e oportunidades em resultados.",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.4419,
+   "lon": -44.4205
   },
   {
    "name": "IMERSÃO IA NA PRÁTICA",
@@ -742,9 +746,9 @@
    ],
    "is_new": true,
    "summary": "",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Semana do Empreendedor ACIAS 2026",
@@ -760,7 +764,7 @@
    "type": "conferencia",
    "organizer": "ACIAS Lafaiete",
    "image": "https://images.sympla.com.br/6af21ec3536ac.jpg",
-   "price": "Pago (valor no site)",
+   "price": "A partir de R$ 20",
    "themes": [
     "startups"
    ],
@@ -776,9 +780,9 @@
    ],
    "is_new": true,
    "summary": "HIC Investimentos e Solver Flow apresentam a Semana do Empreendedor ACIAS 2026Três noites de conteúdo, networking e reconhecimento para quem empreende em Conselheiro Lafaiete.",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -20.6596,
+   "lon": -43.7857
   },
   {
    "name": "When Artificial Intelligence Surpasses Human Intelligence",
@@ -810,9 +814,9 @@
    ],
    "is_new": true,
    "summary": "",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "22º SCGP 2027 - PRÉ VENDA - Seminário Capixaba de Gestão de Projetos",
@@ -844,9 +848,9 @@
    ],
    "is_new": true,
    "summary": "22º SCGP – Seminário Capixaba de Gestão de Projetos | PRÉ-VENDAO maior encontro de Gestão de Projetos do Espírito Santo está chegando à sua próxima edição!O PMI Espírito Santo (PMI-ES) abre a pré-venda de ingressos para o 22º Seminário…",
-   "geo_precision": "estado",
-   "lat": -20.315,
-   "lon": -40.312
+   "geo_precision": "cidade",
+   "lat": -20.2796,
+   "lon": -40.315
   },
   {
    "name": "31º BitDevs BH",
@@ -878,9 +882,9 @@
    ],
    "is_new": true,
    "summary": "BitDevs é uma comunidade para aqueles interessados em discutir e participar na pesquisa e desenvolvimento do Bitcoin e de protocolos relacionados. Apesar de as discussões serem técnicas, são abertas a interessados de todos os níveis.",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
   },
   {
    "name": "4° Fórum Food Service",
@@ -912,9 +916,9 @@
    ],
    "is_new": true,
    "summary": "4º Fórum Food Service: O Futuro da Gastronomia e da GestãoO mercado de alimentação fora do lar está se transformando em ritmo acelerado.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Acelera Startup",
@@ -932,7 +936,6 @@
    "image": "https://images.sympla.com.br/6ae9f2884f048.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -1015,9 +1018,9 @@
    ],
    "is_new": true,
    "summary": "English version below.Junte-se à comunidade de IA de São Paulo para uma noite de aprendizado prático e novas conexões.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "ENCONTRO DE COMUNIDADES DE STARTUPS | ESQUENTA CASE 2026",
@@ -1049,9 +1052,9 @@
    ],
    "is_new": true,
    "summary": "Pensando nas comunidades de startups de todo Brasil, vamos tratar a importância dos ecossistemas de inovação que fomentam a conexão entre startups, comunidades, empresas, investidores e oportunidades; também iremos olhar um pouco do…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Empreendedorismo Feminino - 10 anos - Núcleo de Mulheres Empreendedoras da Aciscs",
@@ -1083,9 +1086,9 @@
    ],
    "is_new": true,
    "summary": "Comemoração aos 10 anos do Núcleo de Mulheres Empreendedoras da Aciscs.Um mês dedicado a Comemoração do empreendedorismo femino, conquistas e desafios.Homenagem ha 10 empreendedoras que fizeram e fazem historia em nossa cidade.Esperamos…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.6196,
+   "lon": -46.5688
   },
   {
    "name": "Encontro de Empreendedores Utilità",
@@ -1117,9 +1120,9 @@
    ],
    "is_new": true,
    "summary": "Reserve a agenda para dia 25/11/26, quarta-feira a partir das 14h.Venha participar do último “Encontro para Empreendedores Utilità” comemorativo dos 30 anos da marca!",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.911,
+   "lon": -43.2094
   },
   {
    "name": "Engaja Startups: WebSummit Lisboa",
@@ -1151,9 +1154,9 @@
    ],
    "is_new": true,
    "summary": "HAPPY HOUR DE OPORTUNIDADES | WEB SUMMIT LISBOA Um encontro no formato happy hour para os empreendedores que participaram e para os que se inscreveram na missão paraibana ao Web Summit Lisboa. NÃO SERÁ MAIS UM EVENTO DE PALESTRA!",
-   "geo_precision": "estado",
-   "lat": -7.119,
-   "lon": -34.845
+   "geo_precision": "cidade",
+   "lat": -7.1216,
+   "lon": -34.882
   },
   {
    "name": "Founders Talk #03 - LTEI Unifan",
@@ -1185,9 +1188,9 @@
    ],
    "is_new": true,
    "summary": "Compre ingressos para Founders Talk #03 - LTEI Unifan em Feira de Santana dia 25/11. Confira os melhores eventos da Sympla!",
-   "geo_precision": "estado",
-   "lat": -12.971,
-   "lon": -38.511
+   "geo_precision": "cidade",
+   "lat": -12.2579,
+   "lon": -38.9598
   },
   {
    "name": "INNOVATION DAY - PORTO ALEGRE - RS",
@@ -1219,9 +1222,9 @@
    ],
    "is_new": true,
    "summary": "Organizado pela Innovation Business Media e promovido pelo Portal Cosmetic Innovation, o seminário é um evento gratuito e exclusivo para profissionais da indústria fabricante de produtos acabados de higiene pessoal, perfumaria e…",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
+   "geo_precision": "cidade",
+   "lat": -30.0325,
+   "lon": -51.2304
   },
   {
    "name": "Inteligência Artificial na Prática: Empreendedorismo",
@@ -1254,9 +1257,9 @@
    ],
    "is_new": true,
    "summary": "Inteligência Artificial na Prática: EmpreendedorismoO Sicoob Credimepi convida você para uma palestra sobre como a inteligência artificial pode transformar o dia a dia e contribuir para o desenvolvimento dos negócios.O encontro apresentará…",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.8094,
+   "lon": -43.1733
   },
   {
    "name": "Laboratório de Inteligencia Artificial Para Terceiro Setor",
@@ -1322,9 +1325,9 @@
    ],
    "is_new": true,
    "summary": "💰 Microsoft AI Challenge · Desafio 01: AI Finance 📅 Quarta, 25/11 · online e gratuito Seja desafiado. Construa com IA. Conquiste seu badge.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "PALESTRA INTELIGÊNCIA ARTIFICIAL PARA EDUCAÇÃO EM MONTALVÂNIA",
@@ -1356,9 +1359,9 @@
    ],
    "is_new": true,
    "summary": "OLA EDUCADOR(A)!!! A Inteligência Artificial está transformando a educação e ampliando as possibilidades de ensinar e aprender!Convidamos você para a palestra Inteligência Artificial na Educação, com Jony Lan, especialista em inovação e…",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -14.423,
+   "lon": -44.3702
   },
   {
    "name": "PALESTRA SOBRE IA | PROGRAMA COMÉRCIO INTELIGENTE VALE DO SAPUCAÍ",
@@ -1390,9 +1393,9 @@
    ],
    "is_new": true,
    "summary": "A nova parceria da Fecomércio MG e do SINDVALE com Alexandre Calmon traz uma por meio de uma PALESTRA, acesso a estratégias que vão mudar o jeito como você utiliza a IA no seu negócio!Os empresários que participarem das palestras também…",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -22.2344,
+   "lon": -45.9327
   },
   {
    "name": "PARE DE PERGUNTAR, COMECE A DELEGAR: IA no trabalho de verdade",
@@ -1408,7 +1411,7 @@
    "type": "evento",
    "organizer": "UNIVEL",
    "image": "https://images.sympla.com.br/6adf5834e41de.jpg",
-   "price": "Pago (valor no site)",
+   "price": "A partir de R$ 49,90",
    "themes": [
     "ia"
    ],
@@ -1424,9 +1427,9 @@
    ],
    "is_new": true,
    "summary": "ATENÇÃO - ESTE CURSO SERÁ REALIZADO ONLINEAprenda a usar ferramentas de IA, criar prompts eficientes, automatizar tarefas e aumentar sua produtividade de forma estratégica e profissional.Informações do cursoInício: 18/11Duração: 2…",
-   "geo_precision": "estado",
-   "lat": -25.429,
-   "lon": -49.271
+   "geo_precision": "cidade",
+   "lat": -24.9555,
+   "lon": -53.4561
   },
   {
    "name": "Pitch Night SC|Angels Florianópolis",
@@ -1459,9 +1462,9 @@
    ],
    "is_new": true,
    "summary": "Pitch Night + Connect Day SC|AngelsInovação aplicada. Negócios reais. Conexões que geram oportunidades.",
-   "geo_precision": "estado",
-   "lat": -27.595,
-   "lon": -48.548
+   "geo_precision": "cidade",
+   "lat": -27.5973,
+   "lon": -48.5496
   },
   {
    "name": "Porto Alegre Bitdevs - Seminário Socrático de Bitcoin #19",
@@ -1493,9 +1496,9 @@
    ],
    "is_new": true,
    "summary": "Décima sétima edição do Porto Alegre BitDev, no Senge (Av. Érico Veríssimo, 960 - Menino Deus). Agradecemos à [Vinteum](https://vinteum.org/) e à [GoBTC](https://gobtc.com.br/) pelo apoio na organização do meetup.",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
+   "geo_precision": "cidade",
+   "lat": -30.0325,
+   "lon": -51.2304
   },
   {
    "name": "UNINASSAU On Tech 2026",
@@ -1527,9 +1530,9 @@
    ],
    "is_new": true,
    "summary": "UNINASSAU On Tech 2026Palestras, Feira de Sistemas e mesas-redondas25, 26 e 27 de novembro de 2026 · UNINASSAU Parnaíba – PIGARANTA SUA VAGAO evento é gratuito.",
-   "geo_precision": "estado",
-   "lat": -5.089,
-   "lon": -42.802
+   "geo_precision": "cidade",
+   "lat": -2.9148,
+   "lon": -41.7662
   },
   {
    "name": "VISE, Visão Empreendedora: Edição Medicina | Unesc",
@@ -1561,9 +1564,9 @@
    ],
    "is_new": true,
    "summary": "A faculdade te ensina a ser médico. Ninguém te ensina a ter um consultório.Você vai passar anos estudando para cuidar de pessoas.",
-   "geo_precision": "estado",
-   "lat": -27.595,
-   "lon": -48.548
+   "geo_precision": "cidade",
+   "lat": -28.679,
+   "lon": -49.3696
   },
   {
    "name": "10ª REUNIÃO DO ECOSSISTEMA DE IA E CIBERSEGURANÇA DO RN",
@@ -1595,9 +1598,9 @@
    ],
    "is_new": true,
    "summary": "10ª REUNIÃO DO ECOSSISTEMA DE IA E CIBERSEGURANÇA DO RNAnfitrião: ASSEMBLEIA LEGISLATIVA DO RN - ALRNData: 26 de novembro - Quinta-feira*Local: Sede da ALRN - Auditório Cortez Pereira (Plenarinho) - Cidade Alta - Natal/RNHorário: Manhã…",
-   "geo_precision": "estado",
-   "lat": -5.795,
-   "lon": -35.209
+   "geo_precision": "cidade",
+   "lat": -5.8054,
+   "lon": -35.2081
   },
   {
    "name": "2º Encontro da Rede Dr. Empreendedor",
@@ -1629,9 +1632,9 @@
    ],
    "is_new": true,
    "summary": "2º Encontro da Rede Dr. EmpreendedorCiência, conexão e oportunidades para transformar o futuro.O 2º Encontro da Rede Dr.",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.911,
+   "lon": -43.2094
   },
   {
    "name": "AI Executive Summit Curitiba",
@@ -1649,8 +1652,7 @@
    "image": "https://images.sympla.com.br/6b05c283b61e5.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -1664,9 +1666,9 @@
    ],
    "is_new": true,
    "summary": "AI Executive Summit Curitiba 2026 - SITE OFICIAL: https://aiexecutivesummit.com/curitiba(apenas 100 participantes)O AI Executive Summit Curitiba será realizado em formato exclusivo para um grupo seleto de 100 executivos, líderes de…",
-   "geo_precision": "estado",
-   "lat": -25.429,
-   "lon": -49.271
+   "geo_precision": "cidade",
+   "lat": -25.4296,
+   "lon": -49.2713
   },
   {
    "name": "AI Experience Day",
@@ -1698,9 +1700,9 @@
    ],
    "is_new": true,
    "summary": "AI EXPERIENCE DAY 2026Uma experiência prática sobre Inteligência Artificial, Segurança, Governança e InovaçãoA Inteligência Artificial já está transformando os negócios.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "AI ao Cubo",
@@ -1718,7 +1720,6 @@
    "image": "https://images.sympla.com.br/6af222e19488c.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "aceleradoras",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -1733,9 +1734,9 @@
    ],
    "is_new": true,
    "summary": "Escalar IA envolve estratégia, infraestrutura, governança e decisões sobre investimento. E essas conversas se encontram no AI ao Cubo!",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "AIDataTech Connect: Global Virtual Networking Event for AI, Data & Tech Pros",
@@ -1768,9 +1769,9 @@
    ],
    "is_new": true,
    "summary": "Are you working in artificial intelligence, data science, or machine learning? Whether you're a developer, researcher, startup founder, or aspiring tech enthusiast — **AIDataTech Connect** is your go-to **AI networking event online**…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Ativação CASE Santa Inês | Conferência Anual de Startups e Empreendedorismo",
@@ -1802,9 +1803,9 @@
    ],
    "is_new": true,
    "summary": "Ativação CASE 26 Santa Inês | Conectando o ecossistema de inovação do Vale do PindaréSobre a ConferênciaA Conferência Anual de Startups e Empreendedorismo é um evento realizado pela ABStartups (Associação Brasileira de Startups), que…",
-   "geo_precision": "estado",
-   "lat": -2.53,
-   "lon": -44.303
+   "geo_precision": "cidade",
+   "lat": -3.6648,
+   "lon": -45.3827
   },
   {
    "name": "BARRA DO GARÇAS - SOLUÇÕES DE IA PARA A ÁREA RURAL.",
@@ -1836,9 +1837,9 @@
    ],
    "is_new": true,
    "summary": "TREINAMENTO SOLUÇÕES DE IA PARA A ÁREA RURAL A Plugmais, em parceria com a Intelbras, convida você para um treinamento especial voltado às soluções de Inteligência Artificial aplicadas a ÁREA RURAL.",
-   "geo_precision": "estado",
-   "lat": -15.601,
-   "lon": -56.097
+   "geo_precision": "cidade",
+   "lat": -15.8916,
+   "lon": -52.2618
   },
   {
    "name": "BIOHACKING - Empreendedorismo, Saúde, Biohacking e Networking.",
@@ -1870,9 +1871,9 @@
    ],
    "is_new": true,
    "summary": "WORKSHOP BIOHACKINGSÃO PAULO, ZONA NORTEVAGAS LIMITADAS.Uma noite para ampliar conhecimentos, descobrir novas possibilidades e criar conexões que transformam!Em comemoração ao aniversário de 1 ano da Clínica Kavanah, convidamos você para…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "BOM DIA ASSOCIADO | BRANDING E EMPREENDEDORISMO",
@@ -1888,7 +1889,7 @@
    "type": "networking",
    "organizer": "Associação Comercial de Porto Alegre",
    "image": "https://images.sympla.com.br/6afc556cb8e6f.png",
-   "price": "Pago (valor no site)",
+   "price": "R$ 40",
    "themes": [
     "startups"
    ],
@@ -1904,9 +1905,9 @@
    ],
    "is_new": true,
    "summary": "BOM DIA ASSOCIADO | BRANDING E EMPREENDEDORISMOO que faz uma empresa ser lembrada, reconhecida e escolhida?Em um mercado cada vez mais competitivo, ter um bom produto ou serviço já não é suficiente.",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
+   "geo_precision": "cidade",
+   "lat": -30.0325,
+   "lon": -51.2304
   },
   {
    "name": "CASE 2026 - Conferência Anual de Startups e Empreendedorismo",
@@ -1940,9 +1941,9 @@
    ],
    "is_new": true,
    "summary": "CASE26 é o epicentro das startups do Brasil: plataforma multi-eventos reunindo o ecossistema de inovação, empreendedorismo e investimento em 26 e 27 de novembro de 2026.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "CASE 26 - Conferência Anual de Startups e Empreendedorismo",
@@ -1960,7 +1961,6 @@
    "image": "https://images.sympla.com.br/6a29899e23e8c.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -1975,9 +1975,9 @@
    ],
    "is_new": true,
    "summary": "CASE 2026 | Conferência Anual de Startups e Empreendedorismo O CASE é um dos principais eventos de startups e inovação do Brasil.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Café com Administradores - Como profissionais de mais de 30 países estão utilizando a IA",
@@ -1993,7 +1993,7 @@
    "type": "networking",
    "organizer": "Conselho Regional de Administração do Paraná - CRA-PR",
    "image": "https://images.sympla.com.br/6af1e231263fc.png",
-   "price": "Pago (valor no site)",
+   "price": "R$ 60",
    "themes": [
     "ia"
    ],
@@ -2009,9 +2009,9 @@
    ],
    "is_new": true,
    "summary": "A Inteligência Artificial veio para ficar. Mas como integrá-la ao ambiente de trabalho? Como aplicar essa nova tecnologia ao dia a dia dos profissionais da Administração?",
-   "geo_precision": "estado",
-   "lat": -25.429,
-   "lon": -49.271
+   "geo_precision": "cidade",
+   "lat": -25.4296,
+   "lon": -49.2713
   },
   {
    "name": "Critt Hour - O futuro da Inteligência Artificial: tendências globais e oportunidades",
@@ -2029,9 +2029,7 @@
    "image": "https://images.sympla.com.br/6afaf5ad6d4da.png",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -2079,9 +2077,9 @@
    ],
    "is_new": true,
    "summary": "Delas para Elas: um encontro para celebrar, conectar e inspirar mulheres!Em comemoração ao Dia do Empreendedorismo Feminino, a Casa do Empreendedor, em parceria com o Sebrae, convida você para uma noite especial de troca de experiências…",
-   "geo_precision": "estado",
-   "lat": -27.595,
-   "lon": -48.548
+   "geo_precision": "cidade",
+   "lat": -26.2484,
+   "lon": -49.3821
   },
   {
    "name": "Devvo Future Talks | A advocacia do futuro: quem não será substituído pela IA?",
@@ -2113,9 +2111,9 @@
    ],
    "is_new": true,
    "summary": "Devvo Future TalksA advocacia do futuro: quem não será substituído pela IA?A Inteligência Artificial já é capaz de pesquisar, analisar documentos, revisar contratos e executar em minutos atividades que antes consumiam horas de…",
-   "geo_precision": "estado",
+   "geo_precision": "cidade",
    "lat": -15.794,
-   "lon": -47.882
+   "lon": -47.8828
   },
   {
    "name": "DiretorIA - Formação em IA para Diretores e Gestores | Presencial | Porto Alegre-RS",
@@ -2147,9 +2145,9 @@
    ],
    "is_new": true,
    "summary": "A Formação DiretorIA é um programa imersivo voltado para líderes que querem integrar a Inteligência Artificial como parte estratégica dos seus negócios.",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
+   "geo_precision": "cidade",
+   "lat": -30.0325,
+   "lon": -51.2304
   },
   {
    "name": "EXPRESSO COM CIÊNCIA | Telemedicina, inteligência artificial, proteção de dados e direito à saúde",
@@ -2182,9 +2180,9 @@
    ],
    "is_new": true,
    "summary": "EXPRESSO COM CIÊNCIA | UPF PARQUETelemedicina, inteligência artificial, proteção de dados e direito à saúdeCom Profa. Dra.",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
+   "geo_precision": "cidade",
+   "lat": -28.2551,
+   "lon": -52.3967
   },
   {
    "name": "Encontro presencial Zonas Críticas: música humana, inteligência artificial, memórias e repetições",
@@ -2192,7 +2190,7 @@
    "source": "sympla",
    "start_date": "2026-11-26",
    "end_date": "2026-11-26",
-   "description": "Encontre os melhores eventos da sua cidade na Sympla e garanta seus ingressos agora mesmo.",
+   "description": "",
    "city": "São Paulo",
    "state": "SP",
    "venue": "Casa Museu Ema Klabin",
@@ -2215,10 +2213,10 @@
     "sympla"
    ],
    "is_new": true,
-   "summary": "Encontre os melhores eventos da sua cidade na Sympla e garanta seus ingressos agora mesmo.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "summary": "",
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Entre o Algoritmo e a Emoção: Como a IA está Transformando o Consumo, o Marketing e os Negócios",
@@ -2250,9 +2248,9 @@
    ],
    "is_new": true,
    "summary": "Entre o Algoritmo e a EmoçãoComo a IA está Transformando o Consumo, o Marketing e os NegóciosUma provocação sobre o futuro: estamos delegando demais à IA ou aprendendo a pensar melhor com ela?Na era da hiperautomação e da inteligência…",
-   "geo_precision": "estado",
-   "lat": -3.119,
-   "lon": -60.022
+   "geo_precision": "cidade",
+   "lat": -3.1316,
+   "lon": -59.9825
   },
   {
    "name": "Esquenta TDC - Governança é a chave para o futuro da IA corporativa?",
@@ -2284,9 +2282,9 @@
    ],
    "is_new": true,
    "summary": "Em um ambiente corporativo a Inteligência Artificial se tornou fonte de oportunidades e de desafios estratégicos e ainda há muita discussão sobre os melhores métodos e aplicações.",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
+   "geo_precision": "cidade",
+   "lat": -30.0325,
+   "lon": -51.2304
   },
   {
    "name": "IA NA ADVOCACIA: Entre a eficiência, a ética, a responsabilidade e a transparência",
@@ -2318,9 +2316,9 @@
    ],
    "is_new": true,
    "summary": "Compre ingressos para IA NA ADVOCACIA: Entre a eficiência, a ética, a responsabilidade e a transparência em Cabo Frio dia 26/11. Confira os melhores eventos da Sympla!",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.7378,
+   "lon": -42.0241
   },
   {
    "name": "IA aplicada a vendas: da prospecção à automação com ChatGPT | Aula Comunidade Casa Baanko",
@@ -2338,8 +2336,7 @@
    "image": "https://images.sympla.com.br/6aff02dbca82d.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -2353,9 +2350,9 @@
    ],
    "is_new": true,
    "summary": "O calendário de aulas da Comunidade Casa Baanko funciona como uma programação contínua de capacitação e troca prática para empreendedores, profissionais autônomos e membros do ecossistema de impacto que são membros do coworking da Casa…",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
   },
   {
    "name": "Ideathon Agr-IA: Inteligência Articial para transformar territórios - Novembro",
@@ -2387,9 +2384,9 @@
    ],
    "is_new": true,
    "summary": "Compre ingressos para Ideathon Agr-IA: Inteligência Articial para transformar territórios - Novembro em Parnaíba dia 26/11. Confira os melhores eventos da Sympla!",
-   "geo_precision": "estado",
-   "lat": -5.089,
-   "lon": -42.802
+   "geo_precision": "cidade",
+   "lat": -2.9148,
+   "lon": -41.7662
   },
   {
    "name": "Infraestrutura de TI, Identidade Digital e Inteligência Artificial na transformação dos negócios",
@@ -2421,9 +2418,9 @@
    ],
    "is_new": true,
    "summary": "Conectando o Presente ao FuturoAutomação de TI, Identidade Digital e Inteligência Artificial na transformação dos negóciosA tecnologia está transformando a forma como as empresas trabalham, se protegem e otimizam seus processos…",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
+   "geo_precision": "cidade",
+   "lat": -30.0325,
+   "lon": -51.2304
   },
   {
    "name": "Inova Primavera - Summit de Inovação e Desenvolvimento Territorial",
@@ -2455,9 +2452,9 @@
    ],
    "is_new": true,
    "summary": "INOVA PRIMAVERASummit de Inovação e Desenvolvimento Data: 26 de novembro de 2026 (quinta-feira)Horário: 18hLocal: Tezla Hotel — Primavera do Leste/MTInscrição gratuita pelo SymplaSobre o eventoO Inova Primavera é um encontro voltado ao…",
-   "geo_precision": "estado",
-   "lat": -15.601,
-   "lon": -56.097
+   "geo_precision": "cidade",
+   "lat": -15.5614,
+   "lon": -54.2994
   },
   {
    "name": "LANÇAMENTO DA INTELIGÊNCIA ARTIFICIAL DA PGE",
@@ -2489,9 +2486,9 @@
    ],
    "is_new": true,
    "summary": "Lançamento da Inteligência Artificial da PGE e Treinamento geralData: 26 de novembro de 2026Horário: 9h:30 às 12hPúblico-alvo: procuradoras e procuradores do Estado, integrantes da PCAF, analistas de direito e estagiárias e estagiários de…",
-   "geo_precision": "estado",
-   "lat": -1.456,
-   "lon": -48.49
+   "geo_precision": "cidade",
+   "lat": -1.4506,
+   "lon": -48.4682
   },
   {
    "name": "Microsoft AI Challenge - Desafio AI Operations - Online e Gratuito",
@@ -2523,9 +2520,9 @@
    ],
    "is_new": true,
    "summary": "⚙️ Microsoft AI Challenge · Desafio 02: AI Operations 📅 Quinta, 26/11 · online e gratuito Seja desafiado. Construa com IA. Conquiste seu badge.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Palestra IA - Walter Longo",
@@ -2557,9 +2554,9 @@
    ],
    "is_new": true,
    "summary": "Convidamos você para uma palestra especial comWalter Longo sobre o impacto da inteligência artificialnos negócios e seu potencial para gerar novasoportunidades profissionais.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Pitch & Wine em Criciúma",
@@ -2591,9 +2588,9 @@
    ],
    "is_new": true,
    "summary": "Pitch & WineO Grupo Temático Mulheres ACATE convida você a fazer parte do próximo Pitch & Wine, um encontro exclusivo para empreendedoras, empresárias e lideranças que estão moldando o futuro da tecnologia.",
-   "geo_precision": "estado",
-   "lat": -27.595,
-   "lon": -48.548
+   "geo_precision": "cidade",
+   "lat": -28.679,
+   "lon": -49.3696
   },
   {
    "name": "Shadow AI com Fortinet e You IT - Como proteger nossas empresas",
@@ -2625,9 +2622,9 @@
    ],
    "is_new": true,
    "summary": "Neste evento exclusivo e presencial, a Fortinet e a YOU IT vão mostrar como sua organização pode obter visibilidade total sobre o uso de IA no ambiente corporativo: identificar riscos, estabelecer controles e aproveitar os benefícios da…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Stand para Startup - CASE 26",
@@ -2643,7 +2640,7 @@
    "type": "evento",
    "organizer": "ABStartups",
    "image": "https://images.sympla.com.br/6a9833a26e8f5.png",
-   "price": "Pago (valor no site)",
+   "price": "R$ 1.890",
    "themes": [
     "startups"
    ],
@@ -2659,9 +2656,9 @@
    ],
    "is_new": true,
    "summary": "Feira de Negócios CASE 26 · Stand para startups early stage - COTA EARLYO CASE é um dos principais encontros de startups, inovação e empreendedorismo do Brasil, realizado pela Associação Brasileira de Startups (ABStartups).",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "TXP Tech Meetup - Fortaleza",
@@ -2694,9 +2691,9 @@
    ],
    "is_new": true,
    "summary": "TXP Tech Meetup – FortalezaJoin us for an evening of technology, networking and great conversations!Discover what we do, meet our team and learn more about working on international projects with colleagues around the world.What’s onThe…",
-   "geo_precision": "estado",
-   "lat": -3.732,
-   "lon": -38.527
+   "geo_precision": "cidade",
+   "lat": -3.7932,
+   "lon": -38.528
   },
   {
    "name": "Visita Guiada: O Mundo através da IA (Sesc 24 de Maio) {EXCLUSIVO PARA MULHERES}",
@@ -2728,9 +2725,9 @@
    ],
    "is_new": true,
    "summary": "Toda vez que você pede algo para uma IA, existe um mundo inteiro por trás da resposta: data centers que consomem energia em escala global, milhares de pessoas treinando e corrigindo sistemas, e decisões de poder que quase nunca aparecem na…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "tecnoPARQ Investor Day - 10ª edição",
@@ -2748,10 +2745,7 @@
    "image": "https://images.sympla.com.br/6b0598810e0de.jpg",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
-    "demo_day",
-    "escolas_negocio",
-    "startups"
+    "demo_day"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -2765,9 +2759,9 @@
    ],
    "is_new": true,
    "summary": "Investor Day tecnoPARQ Conectando startups e investidores para impulsionar inovação!O Investor Day tecnoPARQ é uma oportunidade única para empreendedores apresentarem suas soluções inovadoras a grandes fundos de investimento e potenciais…",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -20.7539,
+   "lon": -42.8816
   },
   {
    "name": "💬 Brasília Bitdevs - Seminário Socrático #035",
@@ -2799,9 +2793,9 @@
    ],
    "is_new": true,
    "summary": "Veja a pauta em: https://bitdevs.bsb.br/ \\-\\-\\- Bem vindos ao Bitdevs em Brasília. Agradecemos a Vinteum pelo apoio na organização do meetup e fornecimento de pizzas.",
-   "geo_precision": "estado",
+   "geo_precision": "cidade",
    "lat": -15.794,
-   "lon": -47.882
+   "lon": -47.8828
   },
   {
    "name": "10° Encontro de Tendências na Panificações e Food Service.",
@@ -2867,9 +2861,9 @@
    ],
    "is_new": true,
    "summary": "A Universidade Federal de Viçosa (UFV), em parceria com a PerfilGlobal, NVIDIA e Intel, apresenta:1º WORKSHOP RESEARCH HPC & IA – UFVComputação de Alto Desempenho e Inteligência Artificial para PesquisaUm encontro científico e acadêmico…",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -20.7539,
+   "lon": -42.8816
   },
   {
    "name": "2º Networking de Empreendedorismo Feminino de Arroio dos Ratos",
@@ -2901,9 +2895,9 @@
    ],
    "is_new": true,
    "summary": "Mulheres, conexões, conhecimento e oportunidades! No dia 27 de novembro de 2026, o Museu do Carvão será palco de uma noite especial dedicada ao fortalecimento do empreendedorismo feminino, à troca de experiências e à valorização das…",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
+   "geo_precision": "cidade",
+   "lat": -30.0892,
+   "lon": -51.7293
   },
   {
    "name": "3º Workshop de Empreendedorismo",
@@ -2935,9 +2929,9 @@
    ],
    "is_new": true,
    "summary": "O 3º Workshop de Empreendedorismo, promovido pelo Núcleo Jurídico da AMPE Metropolitana, é uma oportunidade para empresários, advogados e profissionais que desejam ampliar conhecimentos, fortalecer conexões e desenvolver negócios mais…",
-   "geo_precision": "estado",
-   "lat": -27.595,
-   "lon": -48.548
+   "geo_precision": "cidade",
+   "lat": -27.5973,
+   "lon": -48.5496
   },
   {
    "name": "Agro Tech Talks 16ª Edição",
@@ -2969,9 +2963,9 @@
    ],
    "is_new": true,
    "summary": "AGRO TECH TALKS – 16ª EDIÇÃOVem aí mais uma edição do Agro Tech Talks! Desta vez, receberemos Álvaro Medina de Aguiar Rangel, RTV da Syngenta Biológico, para a palestra “O Que Agrega: atitudes, perspectivas e o que aprendi errando.",
-   "geo_precision": "estado",
-   "lat": -15.601,
-   "lon": -56.097
+   "geo_precision": "cidade",
+   "lat": -11.8577,
+   "lon": -55.4968
   },
   {
    "name": "Batalha de Pitches Hackacity Guará 2026",
@@ -2990,7 +2984,6 @@
    "price": "Gratuito",
    "themes": [
     "demo_day",
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -3005,9 +2998,9 @@
    ],
    "is_new": true,
    "summary": "Apresentar à comunidade os resultados do programa Hackacity Guará 2026 por meio de uma competição de pitches entre as startups incubadas, com avaliação por banca e premiação.",
-   "geo_precision": "estado",
+   "geo_precision": "cidade",
    "lat": -15.794,
-   "lon": -47.882
+   "lon": -47.8828
   },
   {
    "name": "Engenharia de Software e IA: Conheçendo o KIRO",
@@ -3039,9 +3032,9 @@
    ],
    "is_new": true,
    "summary": "**Aprenda a ir muito além do \"vibe coding\" e leve suas aplicações direto para a produção!** Já aconteceu de você gerar um aplicativo inteiro usando IA com vários prompts, mas na hora de colocar em produção perceber que falta documentação…",
-   "geo_precision": "estado",
-   "lat": -1.456,
-   "lon": -48.49
+   "geo_precision": "cidade",
+   "lat": -1.4363,
+   "lon": -48.459
   },
   {
    "name": "Ideathon - TerritórIA",
@@ -3059,7 +3052,6 @@
    "image": "https://images.sympla.com.br/6af377e5d2a77.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -3074,9 +3066,9 @@
    ],
    "is_new": true,
    "summary": "O Porto Digital, em parceria com a Secretaria de Estado de Ciência, Tecnologia e Inovação de Goiás (SECTI/GO) e com o apoio estratégico do Hub Goiás, torna público o edital do Ideathon TerritórIA, uma maratona de cocriação para desenvolver…",
-   "geo_precision": "estado",
-   "lat": -16.686,
-   "lon": -49.264
+   "geo_precision": "cidade",
+   "lat": -16.6809,
+   "lon": -49.2533
   },
   {
    "name": "Startup Experience Health - Itabira",
@@ -3108,9 +3100,9 @@
    ],
    "is_new": true,
    "summary": "Tem uma ideia inovadora ou já identificou um desafio na área da saúde e bem-estar que poderia ser resolvido de um jeito diferente?O Startup Experience Health é a oportunidade de transformar ideias e problemas reais em soluções.",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.6035,
+   "lon": -43.3008
   },
   {
    "name": "Curso de vídeo arte com inteligência artificial",
@@ -3126,7 +3118,7 @@
    "type": "curso",
    "organizer": "Hugo de Souza Martins",
    "image": "https://images.sympla.com.br/6aecb7ce27636.png",
-   "price": "Pago (valor no site)",
+   "price": "R$ 100",
    "themes": [
     "ia"
    ],
@@ -3142,9 +3134,9 @@
    ],
    "is_new": true,
    "summary": "CURSO DE VÍDEO ARTE COM INTELIGÊNCIA ARTIFICIALExplore novas possibilidades de criação audiovisual!A inteligência artificial está transformando a maneira como criamos, produzimos e experimentamos imagens.",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.9089,
+   "lon": -42.8172
   },
   {
    "name": "Data & AI in Practice",
@@ -3176,9 +3168,9 @@
    ],
    "is_new": true,
    "summary": "# **REGISTER OVER IN LUMA: link to follow soon** # **Follow our new Calendar in Luma: [luma.com/mug-brasilia](https://luma.com/mug-brasilia)** \\*\\*\\*\\*\\* Depois de explorar os fundamentos do MongoDB em nossos últimos encontros, chegou a…",
-   "geo_precision": "estado",
+   "geo_precision": "cidade",
    "lat": -15.794,
-   "lon": -47.882
+   "lon": -47.8828
   },
   {
    "name": "ESPIRAL DE NEGÓCIOS 3ª EDIÇÃO - NETWORKING - EMPREENDEDORISMO E AUTOCONHECIMENTO",
@@ -3210,9 +3202,9 @@
    ],
    "is_new": true,
    "summary": "Descrição do eventoESPIRAL DE NEGÓCIOS – NETWORKINGEvento de Networking com treinamento de Autoconhecimento para empreendedoresData: 28 de novembro de 2026Horário: 8:30 às 19:00Local: UNIALFA - Av. T-1, 363 - St.",
-   "geo_precision": "estado",
-   "lat": -16.686,
-   "lon": -49.264
+   "geo_precision": "cidade",
+   "lat": -16.6809,
+   "lon": -49.2533
   },
   {
    "name": "Excel do Básico ao Avançado com Inteligência Artificial",
@@ -3244,9 +3236,9 @@
    ],
    "is_new": true,
    "summary": "Transforme dados em informações, ganhe produtividade e amplie suas oportunidades profissionais!Você quer aprender Excel, aprimorar suas habilidades ou descobrir como a Inteligência Artificial pode facilitar seu trabalho no dia a dia?Neste…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -22.7368,
+   "lon": -45.1071
   },
   {
    "name": "Gamelab - Atendimento Inteligente & IA",
@@ -3264,8 +3256,7 @@
    "image": "https://images.sympla.com.br/6aecc9feb86aa.jpg",
    "price": "Gratuito",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -3279,9 +3270,9 @@
    ],
    "is_new": true,
    "summary": "A tecnologia está transformando a forma como as empresas se relacionam com seus clientes.",
-   "geo_precision": "estado",
-   "lat": -12.971,
-   "lon": -38.511
+   "geo_precision": "cidade",
+   "lat": -12.9822,
+   "lon": -38.4813
   },
   {
    "name": "IA no seu Trabalho",
@@ -3313,9 +3304,9 @@
    ],
    "is_new": true,
    "summary": "IA NO TRABALHO Palestra presencial e prática · Só 20 vagas Aprenda a usar inteligência artificial no seu negócio e no seu trabalho, a partir do dia seguinte. Sem termos técnicos e sem precisar entender de tecnologia.",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
   },
   {
    "name": "IV Seminário Desafios Emergentes da Inteligência Artificial",
@@ -3347,9 +3338,9 @@
    ],
    "is_new": true,
    "summary": "O Seminário Desafios Emergentes da Inteligência Artificial, promovido pelo Instituto de Pesquisa em Direito e Tecnologia do Recife, o IP.rec, chega em sua 4ª edição com uma programação completa que discute temas pertinentes a respeito do…",
-   "geo_precision": "estado",
-   "lat": -8.054,
-   "lon": -34.881
+   "geo_precision": "cidade",
+   "lat": -8.0585,
+   "lon": -34.8848
   },
   {
    "name": "Imersão Fluência em IA",
@@ -3381,9 +3372,9 @@
    ],
    "is_new": true,
    "summary": "IMERSÃO FLUÊNCIA EM IA Um dia para deixar de apenas usar Inteligência Artificial. E começar a trabalhar com ela.Você já utiliza o ChatGPT ou outras ferramentas de Inteligência Artificial, mas sente que está explorando apenas uma pequena…",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
   },
   {
    "name": "Imersão de IA para Negócios",
@@ -3415,9 +3406,9 @@
    ],
    "is_new": true,
    "summary": "Imersão de I.A. Para Negócios Data: 28 de Novembro de 2026Horário: 09h às 16hLocal: Edfício Essenciale Premier - Alto da Glória / Goiânia - GODescubra como aplicar Inteligência Artificial no dia a dia da sua empresa, aumentar sua…",
-   "geo_precision": "estado",
-   "lat": -16.686,
-   "lon": -49.264
+   "geo_precision": "cidade",
+   "lat": -16.6809,
+   "lon": -49.2533
   },
   {
    "name": "Inovação e Empreendedorismo: Fatec de Portas Abertas",
@@ -3449,9 +3440,9 @@
    ],
    "is_new": true,
    "summary": "​Seja muito bem-vindo(a) à nossa Feira Tecnológica da Fatec Ferraz de Vasconcelos! Preparamos um espaço super dinâmico e interativo para você conhecer de perto tudo o que a nossa faculdade pública e gratuita tem a oferecer.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5411,
+   "lon": -46.371
   },
   {
    "name": "Líder Builder - Líderes que não programam, mas querem construir com IA · Workshop Líder Builder",
@@ -3467,7 +3458,7 @@
    "type": "workshop",
    "organizer": "AgenticPeople",
    "image": "https://images.sympla.com.br/6aedfbaebc21a.jpg",
-   "price": "Pago (valor no site)",
+   "price": "R$ 4.800",
    "themes": [
     "ia"
    ],
@@ -3483,9 +3474,9 @@
    ],
    "is_new": true,
    "summary": "Você e a IA fazem a tarefa inteira a quatro mãos. Você acompanha o trabalho acontecendo, corrige no meio do caminho, e a autoria continua sua. Nessa imersão, você tem tempo de qualidade para aprender com a mão na massa.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Mulheres, propósito e empreendedorismo",
@@ -3517,9 +3508,9 @@
    ],
    "is_new": true,
    "summary": "Raízes Fortes: Mulheres, Propósito e Empreendedorismo 2ª Edição da Roda de Conversa ERA – Empreendedores Raízes da Amazônia Mulheres que inspiram, conectam e transformam!",
-   "geo_precision": "estado",
-   "lat": -1.456,
-   "lon": -48.49
+   "geo_precision": "cidade",
+   "lat": -1.4506,
+   "lon": -48.4682
   },
   {
    "name": "PO com Superpoderes de IA",
@@ -3551,9 +3542,9 @@
    ],
    "is_new": true,
    "summary": "Um dia inteiro, presencial, no Centro de Curitiba, para Product Owners e Product Managers usarem IA na prática no trabalho de produto.",
-   "geo_precision": "estado",
-   "lat": -25.429,
-   "lon": -49.271
+   "geo_precision": "cidade",
+   "lat": -25.4296,
+   "lon": -49.2713
   },
   {
    "name": "Projeto Empreendedorismo 2026",
@@ -3585,9 +3576,9 @@
    ],
    "is_new": true,
    "summary": "Entrada: 1kg de alimento não perecível",
-   "geo_precision": "estado",
-   "lat": -12.971,
-   "lon": -38.511
+   "geo_precision": "cidade",
+   "lat": -12.9822,
+   "lon": -38.4813
   },
   {
    "name": "Raízes & Conexões 1ª Edição | Cultura, Educação e Empreendedorismo",
@@ -3619,9 +3610,9 @@
    ],
    "is_new": true,
    "summary": "Cultura, Educação e EmpreendedorismoRAÍZES & CONEXÕES – 1ª EDIÇÃOCultura, arte, ancestralidade e empreendedorismo!O Raízes & Conexões é um encontro dedicado à valorização da cultura afro-brasileira, da identidade nordestina, da arte e do…",
-   "geo_precision": "estado",
-   "lat": -12.971,
-   "lon": -38.511
+   "geo_precision": "cidade",
+   "lat": -12.2579,
+   "lon": -38.9598
   },
   {
    "name": "SOS RECUPERAÇÃO COM IA",
@@ -3637,7 +3628,7 @@
    "type": "evento",
    "organizer": "AutonomIA - Escola de IA",
    "image": "https://images.sympla.com.br/6af32d65623a1.png",
-   "price": "Pago (valor no site)",
+   "price": "R$ 24,99",
    "themes": [
     "ia"
    ],
@@ -3653,9 +3644,9 @@
    ],
    "is_new": true,
    "summary": "Seu filho ficou de recuperação ou tem prova final pela frente? Ainda dá tempo. Em uma aula de 3 horas, ele sai com o plano de estudo pronto e todo o material de revisão das matérias que vão cair, feito com IA a partir do conteúdo da…",
-   "geo_precision": "estado",
+   "geo_precision": "cidade",
    "lat": -15.794,
-   "lon": -47.882
+   "lon": -47.8828
   },
   {
    "name": "Scrum Master product Owner Webinar! Unique interview questions",
@@ -3687,9 +3678,9 @@
    ],
    "is_new": true,
    "summary": "Agenda of Webinar: Free Session: SCRUM MASTER INTERVIEW TIPS & Scrum Master Resume 👉🏼 How can i become an exceptional SM ❓ 👉🏼 How can i crack Scrum master interview ❓ 👉🏼 What is the career path of a scrum master ❓ 👉🏼 How much I can earn as…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Workshop - Inteligência Artificial Descomplicada",
@@ -3721,9 +3712,9 @@
    ],
    "is_new": true,
    "summary": "INTELIGÊNCIA ARTIFICIAL DESCOMPLICADAFaça seu WhatsApp trabalhar por você!Aprenda a profissionalizar seu atendimento, automatizar tarefas e utilizar o novo Agente de IA nativo da Meta para ganhar tempo, organizar seus clientes e vender…",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.911,
+   "lon": -43.2094
   },
   {
    "name": "Workshop - WebTech: IA em Produção com o JEV: decisões por 1/10 do custo",
@@ -3755,9 +3746,9 @@
    ],
    "is_new": true,
    "summary": "IA em Produção com o JEV: decisões por 1/10 do custo Todo mundo já usou IA para conversar. Pouca gente sabe colocar IA para decidir. Triar um ticket, qualificar um lead, aprovar uma resposta de chatbot ou revisar uma cláusula.",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
   },
   {
    "name": "Workshop Meu.Primeiro.Site · Crie o site do seu negócio com IA",
@@ -3773,7 +3764,7 @@
    "type": "workshop",
    "organizer": "Net2Working",
    "image": "https://images.sympla.com.br/6afcc25dcab4c.png",
-   "price": "Pago (valor no site)",
+   "price": "R$ 497",
    "themes": [
     "ia"
    ],
@@ -3789,9 +3780,9 @@
    ],
    "is_new": true,
    "summary": "Seu negócio ainda não tem site? Em uma tarde, ele sai do papel e vai para o ar.No Workshop Meu.Primeiro.Site, você aprende a criar o site da sua empresa usando inteligência artificial, de forma prática e guiada, sem precisar saber…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.1888,
+   "lon": -46.8845
   },
   {
    "name": "[Presencial | SP] Grafana Weekend 2ed: novidades em Observabilidade, DevOps, IA",
@@ -3823,9 +3814,9 @@
    ],
    "is_new": true,
    "summary": "Evento PRESENCIAL e GRATUITO na FIAP Campus Avenida Paulista! *Grafana Weekend 2a edição: novidades em Observabilidade, DevOps, IA...* Você quer saber mais sobre **implementação de práticas de Observabilidade e Monitoramento** em…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Como ganhar dinheiro e não ser substituído pela IA?",
@@ -3857,9 +3848,9 @@
    ],
    "is_new": true,
    "summary": "COMO GANHAR DINHEIRO E NÃO SER SUBSTITUÍDO PELA IA?A inteligência artificial está transformando o mercado de trabalho e criando novas oportunidades.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.708,
+   "lon": -46.5507
   },
   {
    "name": "AI FUTURE MOBILITY",
@@ -3891,9 +3882,9 @@
    ],
    "is_new": true,
    "summary": "A próxima revolução da mobilidade não está apenas nos veículos. Está na inteligência que movimenta toda uma nova economia.Estamos diante de uma mudança estrutural na forma como pessoas, empresas, produtos e serviços se conectam.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Amazon IA Summit 2026",
@@ -3925,9 +3916,9 @@
    ],
    "is_new": true,
    "summary": "AMAZON IA SUMMIT 2026INTELIGÊNCIA ARTIFICIAL APLICADA PARA VENDER MAIS E MELHORAR A OPERAÇÃO DA SUA EMPRESAÚLTIMO LOTE DISPONÍVEL.",
-   "geo_precision": "estado",
-   "lat": -3.119,
-   "lon": -60.022
+   "geo_precision": "cidade",
+   "lat": -3.1316,
+   "lon": -59.9825
   },
   {
    "name": "Curso de Inteligência Artificial do zero, para quem tem mais de 40 anos e ainda não sabe nada sobre",
@@ -3959,9 +3950,9 @@
    ],
    "is_new": true,
    "summary": "Curso de Inteligência Artificial do Zero — Turma da ManhãSobre o cursoQuer aprender a usar inteligência artificial, mas ainda não sabe por onde começar?",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
+   "geo_precision": "cidade",
+   "lat": -30.0325,
+   "lon": -51.2304
   },
   {
    "name": "Curso de Inteligência Artificial do zero, para quem tem mais de 40 anos e ainda não sabe sobre",
@@ -3993,9 +3984,9 @@
    ],
    "is_new": true,
    "summary": "Curso de Inteligência Artificial do Zero — Turma da ManhãSobre o cursoQuer aprender a usar inteligência artificial, mas ainda não sabe por onde começar?",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
+   "geo_precision": "cidade",
+   "lat": -30.0325,
+   "lon": -51.2304
   },
   {
    "name": "Estratégia para 2027: O Novo Cenário de Projetos, Reforma Tributária, Captação e IA",
@@ -4027,9 +4018,9 @@
    ],
    "is_new": true,
    "summary": "Estratégia para 2027: O Novo Cenário de Projetos, Reforma Tributária, Captação e IAPrepare sua operação cultural, social e criativa antes da virada do ano.No dia 30 de novembro, às 8h, realizaremos um encontro estratégico fechado —…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Marketing, Inovação e Inteligência Artificial: oportunidades e tendências",
@@ -4061,9 +4052,9 @@
    ],
    "is_new": true,
    "summary": "O Instituto Cruzeiro do Sul, em parceria com a Universidade Positivo e apoio da Fundação Araucária, convida estudantes, egressos, professores, pesquisadores, profissionais e comunidade externa para uma noite de palestras e discussões com…",
-   "geo_precision": "estado",
-   "lat": -25.429,
-   "lon": -49.271
+   "geo_precision": "cidade",
+   "lat": -25.4296,
+   "lon": -49.2713
   },
   {
    "name": "Seminário: Inteligência Artificial Generativa Aplicada ao Controle e à Administração Pública",
@@ -4081,7 +4072,6 @@
    "image": "https://images.sympla.com.br/6a99679527ef4.jpg",
    "price": "Gratuito",
    "themes": [
-    "escolas_negocio",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -4096,9 +4086,9 @@
    ],
    "is_new": true,
    "summary": "SEMINÁRIO DE INTELIGÊNCIA ARTIFICIAL GENERATIVA APLICADA AO CONTROLE E À ADMINISTRAÇÃO PÚBLICA Local: Auditório Vivaldi, Tribunal de Contas do Estado de Minas GeraisData: 30/118h | Credenciamento – Café de boas vindas!9h00 – 9h30 |…",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
   },
   {
    "name": "Workshop - A sutil arte do pitch que converte",
@@ -4114,7 +4104,7 @@
    "type": "workshop",
    "organizer": "Caroline Rohr",
    "image": "https://images.sympla.com.br/6adbb45d7fef8.jpg",
-   "price": "Pago (valor no site)",
+   "price": "R$ 49,90",
    "themes": [
     "startups"
    ],
@@ -4130,9 +4120,9 @@
    ],
    "is_new": true,
    "summary": "Olá! Quero te fazer um convite especial para participar do próximo encontro do Movimento Elo Empreendedor – Workshop.Nesta edição, vamos conversar sobre “A Sutil Arte do Pitch que Converte”, um bate-papo prático sobre como comunicar valor…",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
+   "geo_precision": "cidade",
+   "lat": -29.4686,
+   "lon": -52.0869
   },
   {
    "name": "Bob TV Episode 4: Why generic AI fails at mainframe scale - and what works",
@@ -4164,9 +4154,9 @@
    ],
    "is_new": true,
    "summary": "Join us for the fourth episode of Bob TV, the monthly digital event series hosted by Max Jesch, IBM Bob’s outbound product manager.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "CONFRARIA WHY BITCOIN? - DIÁLOGO E APRENDIZADO - 1° DEZ 2026",
@@ -4198,9 +4188,9 @@
    ],
    "is_new": true,
    "summary": "Diálogo Socrático | Bitcoin: O Primeiro Contato e Assuntos AtuaisNosso último encontro de 2026!Você já ouviu falar de Bitcoin, mas ainda tem dúvidas sobre como ele funciona, por que foi criado ou como começar a utilizá-lo?Ou já conhece o…",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
   },
   {
    "name": "De dados brutos a dados prontos para IA: Spark no Fabric",
@@ -4252,8 +4242,7 @@
    "image": "https://images.sympla.com.br/6af518a1df36f.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4267,9 +4256,9 @@
    ],
    "is_new": true,
    "summary": "Estratégias digitais com a IA para aumentar seus resultadosWorkshop presencial | Safro DigitalA inteligência artificial já mudou a forma como as empresas se comunicam, vendem e se posicionam.",
-   "geo_precision": "estado",
-   "lat": -12.971,
-   "lon": -38.511
+   "geo_precision": "cidade",
+   "lat": -12.1988,
+   "lon": -46.0475
   },
   {
    "name": "FIAP Meetup | Engenharia de software na era da IA: o que vem depois do código?",
@@ -4301,9 +4290,9 @@
    ],
    "is_new": true,
    "summary": "Se a IA consegue gerar código, onde está o valor do engenheiro de software? Neste meetup, vamos responder essa pergunta com exemplos práticos e troca de experiências entre professores e profissionais, explorando o caminho entre gerar…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "From First Idea to First Funding: Global Alumni Stories",
@@ -4336,9 +4325,9 @@
    ],
    "is_new": true,
    "summary": "**Founder Institute alumni have raised $2B+ and built some of the world's fastest-growing tech companies.** Join our **live Q&A** to get real insights on launching and scaling a startup, hear what the FI accelerator is really like, and…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "IMERSÃO EM INTELIGÊNCIA ARTIFICIAL COM JUNITHI UEDA",
@@ -4354,7 +4343,7 @@
    "type": "imersao",
    "organizer": "Abrasel - Associação de Bares e Restaurantes - Seccional MT",
    "image": "https://images.sympla.com.br/6aec9acc9df1e.png",
-   "price": "Pago (valor no site)",
+   "price": "A partir de R$ 50",
    "themes": [
     "ia"
    ],
@@ -4370,9 +4359,9 @@
    ],
    "is_new": true,
    "summary": "Imersão em IA | Um workshop para facilitar seu dia a dia 1º de dezembro de 2026 (terça-feira), das 8h às 12hWorkshop presencial da Abrasel-MTJá pensou em fazer uma pergunta à sua planilha e descobrir onde você mais gastou no mês?",
-   "geo_precision": "estado",
-   "lat": -15.601,
-   "lon": -56.097
+   "geo_precision": "cidade",
+   "lat": -15.5987,
+   "lon": -56.0991
   },
   {
    "name": "INTELIGÊNCIA ARTIFICIAL EM GESTÃO E MARKETING",
@@ -4388,10 +4377,9 @@
    "type": "evento",
    "organizer": "Caique Orletti",
    "image": "https://images.sympla.com.br/6ae4f200ee60f.png",
-   "price": "Pago (valor no site)",
+   "price": "R$ 79,99",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4423,11 +4411,9 @@
    "type": "demo_day",
    "organizer": "Link Ventures",
    "image": "https://images.sympla.com.br/6a982881dd5be.png",
-   "price": "Pago (valor no site)",
+   "price": "R$ 10",
    "themes": [
-    "demo_day",
-    "escolas_negocio",
-    "startups"
+    "demo_day"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4441,9 +4427,9 @@
    ],
    "is_new": true,
    "summary": "Onde o futuro das startups ganha palco O Demo Day Link é o principal evento do semestre da Link School of Business.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Live Code | Engenharia de Agentes Conversacionais: como criar esses agentes",
@@ -4475,9 +4461,9 @@
    ],
    "is_new": true,
    "summary": "**Live Code \\| Engenharia de Agentes Conversacionais: como criar esses agentes** Como transformar modelos de inteligência artificial em agentes capazes de compreender contextos, tomar decisões e interagir com usuários e sistemas?",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Matriz Delta Módulo 3 - Assistentes - Da execução constante à delegação real com IA",
@@ -4543,9 +4529,9 @@
    ],
    "is_new": true,
    "summary": "MULHERES QUE INSPIRAM! | EMPREENDEDORISMO, GERAÇÃO DE RENDA E AUTONOMIA EM TODAS AS IDADES!Toda mulher tem potencial para transformar sua história, conquistar sua independência e realizar seus sonhos!O Sebrae convida você para um encontro…",
-   "geo_precision": "estado",
-   "lat": -12.971,
-   "lon": -38.511
+   "geo_precision": "cidade",
+   "lat": -13.8604,
+   "lon": -40.072
   },
   {
    "name": "Potência PcD Camaçari: Empreendedorismo e Geração de Renda",
@@ -4577,9 +4563,9 @@
    ],
    "is_new": true,
    "summary": "Conhecimento, conexões e novas possibilidades para transformar ideias em negócios!Você tem uma ideia, já empreende ou quer descobrir novos caminhos para gerar renda?O Potência PcD: Empreendedorismo e Geração de Renda é um encontro para…",
-   "geo_precision": "estado",
-   "lat": -12.971,
-   "lon": -38.511
+   "geo_precision": "cidade",
+   "lat": -12.6998,
+   "lon": -38.3261
   },
   {
    "name": "Talk & Inovabra - Lançamento da 3ª onda do estudo - IA na vida Real 2026.",
@@ -4611,9 +4597,9 @@
    ],
    "is_new": true,
    "summary": "IA na Vida Real 2026: descubra quem somos na era da inteligência artificialA inteligência artificial já faz parte da rotina de milhões de brasileiros.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "UNIC INNOVATION DAY",
@@ -4629,7 +4615,7 @@
    "type": "conferencia",
    "organizer": "RICARDO ALEXANDRE VARGAS PEREIRA",
    "image": "https://images.sympla.com.br/6b0057600aacc.png",
-   "price": "Pago (valor no site)",
+   "price": "R$ 20",
    "themes": [
     "startups"
    ],
@@ -4645,9 +4631,9 @@
    ],
    "is_new": true,
    "summary": "UNIC INNOVATION DAY 2026Tecnologia, criatividade e inovação para transformar a gestão pública!O UNIC INNOVATION DAY é um evento acadêmico de inovação e tecnologia que reúne estudantes dos cursos de Engenharia, Ciência da Computação e…",
-   "geo_precision": "estado",
-   "lat": -15.601,
-   "lon": -56.097
+   "geo_precision": "cidade",
+   "lat": -15.5987,
+   "lon": -56.0991
   },
   {
    "name": "Amazon IA Summit 2026",
@@ -4679,9 +4665,9 @@
    ],
    "is_new": true,
    "summary": "AMAZON IA SUMMIT 2026INTELIGÊNCIA ARTIFICIAL APLICADA PARA VENDER MAIS E MELHORAR A OPERAÇÃO DA SUA EMPRESAÚLTIMO LOTE DISPONÍVEL.",
-   "geo_precision": "estado",
-   "lat": -3.119,
-   "lon": -60.022
+   "geo_precision": "cidade",
+   "lat": -3.1316,
+   "lon": -59.9825
   },
   {
    "name": "Aprenda a Usar IA para Atrair Clientes e Vender Todos os Dias (Recife)",
@@ -4713,9 +4699,9 @@
    ],
    "is_new": true,
    "summary": "Descubra como usar a IA para criar conteúdo, campanhas e estratégias que vendem todos os dias, mesmo sem se você não domina tecnologia.Você sente que o Instagram não traz os resultados que deveria?Talvez você:A verdade é: você não precisa…",
-   "geo_precision": "estado",
-   "lat": -8.054,
-   "lon": -34.881
+   "geo_precision": "cidade",
+   "lat": -8.0585,
+   "lon": -34.8848
   },
   {
    "name": "Curso de site com IA - Ed.03",
@@ -4747,9 +4733,9 @@
    ],
    "is_new": true,
    "summary": "CRIE SEU SITE COM IAAprenda, na prática, como transformar uma ideia em um site profissional usando Inteligência Artificial.A Inteligência Artificial mudou a forma de criar sites.Mas saber usar uma ferramenta de IA não significa…",
-   "geo_precision": "estado",
-   "lat": -16.686,
-   "lon": -49.264
+   "geo_precision": "cidade",
+   "lat": -17.7921,
+   "lon": -50.9191
   },
   {
    "name": "Desenho de Novos Negócios: primeiros passos para a sua startup",
@@ -4767,7 +4753,6 @@
    "image": "https://images.sympla.com.br/5f282a0c6a2d9.png",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -4782,9 +4767,9 @@
    ],
    "is_new": true,
    "summary": "Não valem horas complementares. As vagas são muito limitadas, então se inscreva se tiver certeza de que comparecerá!Esta oficina tem como objetivo preparar pessoas empreendedoras para o processo seletivo da pré-incubadora e da incubadora…",
-   "geo_precision": "estado",
-   "lat": -25.429,
-   "lon": -49.271
+   "geo_precision": "cidade",
+   "lat": -25.4296,
+   "lon": -49.2713
   },
   {
    "name": "IBMR MOVIMENTA 2026.2 - Projeto de Extensão EnGen AI",
@@ -4816,9 +4801,9 @@
    ],
    "is_new": true,
    "summary": "Semana Científica IBMR Movimenta 2026. O Projeto de Extensão EnGen AI democratiza o acesso ao conhecimento em Inteligência Artificial, formando jovens capacitados para atuar em um mercado cada vez mais tecnológico.",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.911,
+   "lon": -43.2094
   },
   {
    "name": "PALESTRA SOBRE IA | PROGRAMA COMÉRCIO INTELIGENTE SINDIMACO | SINDLAV",
@@ -4850,9 +4835,9 @@
    ],
    "is_new": true,
    "summary": "O Sindimaco e o Sindlav, em parceria com a Fecomércio MG e a Acomac, promovem duas palestras voltadas aos empresários do setor.Uma delas vai apresentar estratégias práticas para transformar a forma como a Inteligência Artificial pode ser…",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
   },
   {
    "name": "PIC DAY - FORMATURA FGV",
@@ -4870,8 +4855,7 @@
    "image": "https://images.sympla.com.br/6af62c9e221c0.png",
    "price": "Gratuito",
    "themes": [
-    "escolas_negocio",
-    "startups"
+    "escolas_negocio"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4885,9 +4869,9 @@
    ],
    "is_new": true,
    "summary": "O PIC Day é o evento de encerramento do PIC, o programa de formação de trainees da Liga de Empreendedorismo da FGV.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Potência PcD Lauro de Freitas: Empreendedorismo e Geração de Renda",
@@ -4919,9 +4903,9 @@
    ],
    "is_new": true,
    "summary": "Conhecimento, conexões e novas possibilidades para transformar ideias em negócios!Você tem uma ideia, já empreende ou quer descobrir novos caminhos para gerar renda?O Potência PcD: Empreendedorismo e Geração de Renda é um encontro para…",
-   "geo_precision": "estado",
-   "lat": -12.971,
-   "lon": -38.511
+   "geo_precision": "cidade",
+   "lat": -12.8924,
+   "lon": -38.3128
   },
   {
    "name": "Tech Valley - Rio do Sul/SC 02/12",
@@ -4953,9 +4937,9 @@
    ],
    "is_new": true,
    "summary": "Inovação. Conexão. Impacto.O Tech Valley 2026 chega para mais uma edição conectando pessoas, ideias e experiências que estão transformando negócios e territórios.No dia 02 de dezembro de 2026, o Centro de Inovação Norberto Frahm (CINF), em…",
-   "geo_precision": "estado",
-   "lat": -27.595,
-   "lon": -48.548
+   "geo_precision": "cidade",
+   "lat": -27.2163,
+   "lon": -49.6437
   },
   {
    "name": "TechConnect: Global Virtual Job & Networking Event for Data, AI, and Tech Pros",
@@ -4988,9 +4972,9 @@
    ],
    "is_new": true,
    "summary": "Calling all developers, AI engineers, software architects, data scientists, DevOps professionals, and tech enthusiasts — **TechConnect** is your ultimate destination for career growth, project showcasing, and global peer networking in the…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Tokenization was the Beginning. Agentic Capital Markets is the endgame",
@@ -5023,9 +5007,9 @@
    ],
    "is_new": true,
    "summary": "Join us for a webinar with Brickken, an LFDT general member, on building Agentic Capital Markets. Tokenization has made financial assets programmable.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "4° POWER MEETING JF - Reforma Tributária & IA",
@@ -5041,7 +5025,7 @@
    "type": "evento",
    "organizer": "Federação dos Contabilistas do Estado de Minas Gerais",
    "image": "https://images.sympla.com.br/6afdf3b36799f.jpg",
-   "price": "Pago (valor no site)",
+   "price": "A partir de R$ 50",
    "themes": [
     "ia"
    ],
@@ -5077,8 +5061,7 @@
    "image": "https://images.sympla.com.br/6b045fe0b6341.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5092,9 +5075,9 @@
    ],
    "is_new": true,
    "summary": "DO CHAT AO AGENTE: A REVOLUÇÃO DA IA NÃO É DOS MAIS JOVENS. É DE QUEM TEM REPERTÓRIO.A Inteligência Artificial está transformando a maneira de fazer negócios.",
-   "geo_precision": "estado",
-   "lat": -7.119,
-   "lon": -34.845
+   "geo_precision": "cidade",
+   "lat": -7.1216,
+   "lon": -34.882
   },
   {
    "name": "BRDE Labs Summit 2026",
@@ -5128,9 +5111,9 @@
    ],
    "is_new": true,
    "summary": "BRDE Labs Summit 2026: O Encontro do Ecossistema de Inovação da Região SulO BRDE Labs Summit é uma iniciativa estratégica do Banco Regional de Desenvolvimento do Extremo Sul (BRDE) em correalização com a ACATE, criada para ser o ponto…",
-   "geo_precision": "estado",
-   "lat": -27.595,
-   "lon": -48.548
+   "geo_precision": "cidade",
+   "lat": -27.5973,
+   "lon": -48.5496
   },
   {
    "name": "Como emular ameaças APTs e preparar seu blue team para identificá-las | ASG TECH",
@@ -5162,9 +5145,9 @@
    ],
    "is_new": true,
    "summary": "Como emular ameaças APT e preparar seu Blue Team para identificá-lasNeste encontro exclusivo promovido pela ASG Tech, com apoio da Adistec, vamos apresentar, na prática, como grupos APT (Advanced Persistent Threats) operam, quais técnicas…",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
+   "geo_precision": "cidade",
+   "lat": -30.0325,
+   "lon": -51.2304
   },
   {
    "name": "D2C: como escalar marcas no digital na era da inteligência artificial",
@@ -5196,24 +5179,24 @@
    ],
    "is_new": true,
    "summary": "D2C: como escalar marcas no digital na era da inteligência artificial Como usar dados, automação e IA para conquistar, converter e fidelizar clientes em escala, sem depender de intermediários.Sobre o eventoVender direto ao consumidor…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "De freelancer a fundador: como virar empresa sem perder o que você faz",
-   "url": "https://www.meetup.com/sao-paulo-startup-founder-101/events/317503701/",
+   "url": "https://www.meetup.com/florianopolis-startup-founder-101/events/317504205/",
    "source": "meetup",
    "start_date": "2026-12-03",
    "end_date": "2026-12-03",
    "description": "Você faz bem o que faz. Tem cliente, tem produto. Mas quando alguém pergunta, você ainda diz que é um projeto. O Felipe dizia também. Ele vinha da fotografia de moda, um mundo que não tem nada a ver com startup, e em 2019 fundou a MERUS. Em 2022 entrou no Founder Institute. O que mudou, nas palavras dele, foi passar a enxergar a MERUS não apenas como uma marca criativa, mas também como um negócio. Hoje a marca tem ponto na Cidade Matarazzo, dentro da curadoria da MATA LAB. Em uma hora ele conta como foi essa virada, inclusive o que doeu. Quem puxa a conversa é o Marco De Biasi, diretor do FI B",
-   "city": "Sao Paulo",
-   "state": "SP",
+   "city": "Curitiba",
+   "state": "PR",
    "venue": "Online event",
    "format": "online",
    "type": "meetup",
-   "organizer": "São Paulo Startup Founder 101",
-   "image": "/images/fallbacks/redesign/group-cover-4-square.webp",
+   "organizer": "Florianópolis Startup Founder 101",
+   "image": "/images/fallbacks/redesign/group-cover-3-square.webp",
    "price": "Gratuito",
    "themes": [
     "startups"
@@ -5222,7 +5205,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "1ed4b7462774",
-   "region": "Sudeste",
+   "region": "Sul",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
    "sources": [
@@ -5230,9 +5213,9 @@
    ],
    "is_new": true,
    "summary": "Você faz bem o que faz. Tem cliente, tem produto. Mas quando alguém pergunta, você ainda diz que é um projeto. O Felipe dizia também. Ele vinha da fotografia de moda, um mundo que não tem nada a ver com startup, e em 2019 fundou a MERUS.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -25.4296,
+   "lon": -49.2713
   },
   {
    "name": "Demo Day | PUCTEC Startups 2026",
@@ -5250,7 +5233,6 @@
    "image": "https://images.sympla.com.br/6afd046032760.jpg",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "demo_day",
     "startups"
    ],
@@ -5266,9 +5248,9 @@
    ],
    "is_new": true,
    "summary": "O Demo Day PUCTEC Startups 2026 marca o encerramento de mais uma edição do programa de aceleração de startups da PUC Minas.O evento reunirá empreendedores, representantes da comunidade acadêmica, parceiros e profissionais do ecossistema de…",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
   },
   {
    "name": "Do Storytelling ao Palco: Pitch Day & Negócios de Impacto",
@@ -5301,9 +5283,9 @@
    ],
    "is_new": true,
    "summary": "Uma oportunidade para conhecer soluções inovadoras, descobrir novos negócios e acompanhar de perto ideias que estão transformando realidades!O evento Do Storytelling ao Palco: Pitch Day & Negócios de Impacto será um encontro dedicado à…",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
+   "geo_precision": "cidade",
+   "lat": -30.0325,
+   "lon": -51.2304
   },
   {
    "name": "EMEP - Encontro Municipalista do Empreendedorismo Paraibano",
@@ -5335,9 +5317,9 @@
    ],
    "is_new": true,
    "summary": "EMEP – Encontro Municipalista do Empreendedorismo ParaibanoO Ministério do Empreendedorismo escuta quem governa e quem empreende.",
-   "geo_precision": "estado",
-   "lat": -7.119,
-   "lon": -34.845
+   "geo_precision": "cidade",
+   "lat": -7.1216,
+   "lon": -34.882
   },
   {
    "name": "Entendendo a Inteligência Artificial no Videomonitoramento",
@@ -5369,9 +5351,9 @@
    ],
    "is_new": true,
    "summary": "Este curso tem como objetivo capacitar profissionais da área de segurança eletrônica a utilizar estrategicamente as inteligências de vídeo embarcadas nas câmeras IP Intelbras.Durante o treinamento, serão apresentadas as principais…",
-   "geo_precision": "estado",
+   "geo_precision": "cidade",
    "lat": -15.794,
-   "lon": -47.882
+   "lon": -47.8828
   },
   {
    "name": "FIAP Meetup | Cybersecurity + AI: a nova engenharia da defesa",
@@ -5403,9 +5385,9 @@
    ],
    "is_new": true,
    "summary": "A inteligência artificial já mudou a dinâmica da cibersegurança. Enquanto atacantes usam IA generativa para escalar phishing, malware e novas formas de exploração, os times de defesa precisam automatizar detecção, threat hunting e resposta…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Fórum de Startups",
@@ -5437,9 +5419,9 @@
    ],
    "is_new": true,
    "summary": "# Fórum de Startups ABRH-RJ | Inovação, Conexão e FuturoA inovação está transformando a gestão, e acompanhar esse movimento é essencial para quem lidera!",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.911,
+   "lon": -43.2094
   },
   {
    "name": "GRANIOTER MEETING 2026 - DEMODAY GRANIOTER ACELERA",
@@ -5457,8 +5439,7 @@
    "image": "https://images.sympla.com.br/6ae37fb4d36dd.png",
    "price": "Gratuito",
    "themes": [
-    "demo_day",
-    "startups"
+    "demo_day"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5472,9 +5453,9 @@
    ],
    "is_new": true,
    "summary": "Granioter Meeting 2026 O Granioter Meeting é o encontro anual do Projeto Granioter, Hub Tecnológico de Materiais Avançados e Minerais Estratégicos, realizado no CDTN/CNEN.",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
   },
   {
    "name": "IMERSÃO DE INTELIGÊNCIA ARTIFICIAL PARA CORRETORES E IMOBILIÁRIAS, EM BLUMENAU",
@@ -5540,9 +5521,9 @@
    ],
    "is_new": true,
    "summary": "O que é o INSTED Lab IAUma noite para aprender fazendo: criar, testar e melhorar soluções com Inteligência Artificial.",
-   "geo_precision": "estado",
-   "lat": -20.469,
-   "lon": -54.62
+   "geo_precision": "cidade",
+   "lat": -20.464,
+   "lon": -54.6163
   },
   {
    "name": "ISA Rio de Janeiro Section Tech Meeting 2026",
@@ -5560,7 +5541,6 @@
    "image": "https://images.sympla.com.br/6af5dad3c40e8.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -5575,9 +5555,9 @@
    ],
    "is_new": true,
    "summary": "A ISA Rio de Janeiro Section tem o prazer de anunciar a edição 2026 do ISA Tech Meeting, evento presencial que se consolidou como um dos mais emblemáticos da comunidade de automação no estado.",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.911,
+   "lon": -43.2094
   },
   {
    "name": "Lei do Bem e Lei de Informática: oportunidades para empresas, incubadoras e parques tecnológicos",
@@ -5595,8 +5575,7 @@
    "image": "https://images.sympla.com.br/6afc908b621a5.png",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
-    "startups"
+    "aceleradoras"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5644,9 +5623,9 @@
    ],
    "is_new": true,
    "summary": "PALESTRA GRATUITA | A NOVA ERA DA GESTÃO JURÍDICA COM IAA OABRJ – 1ª Subseção de Nova Iguaçu, por meio da Comissão Especial de Gestão Jurídica de Pequenos e Médios Escritórios, promove a palestra “A Nova Era da Gestão Jurídica com IA: do…",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.6956,
+   "lon": -43.4654
   },
   {
    "name": "Pitch de Soluções e Oportunidades",
@@ -5678,9 +5657,9 @@
    ],
    "is_new": true,
    "summary": "Eixo 8 · Financiamento da Transição | Como viabilizamos financeiramente essa transição?Apresentação das cinco soluções selecionadas pelo Edital de Chamamento do Pitch do I Fórum Norte de Economia Circular, com propostas que conectam…",
-   "geo_precision": "estado",
-   "lat": -1.456,
-   "lon": -48.49
+   "geo_precision": "cidade",
+   "lat": -1.4506,
+   "lon": -48.4682
   },
   {
    "name": "Potência PCD - Empreendedorismo e geração de renda | Santo Estêvão",
@@ -5712,9 +5691,9 @@
    ],
    "is_new": true,
    "summary": "Compre ingressos para Potência PCD - Empreendedorismo e geração de renda | Santo Estêvão em Santo Estêvão dia 03/12. Confira os melhores eventos da Sympla!",
-   "geo_precision": "estado",
-   "lat": -12.971,
-   "lon": -38.511
+   "geo_precision": "cidade",
+   "lat": -12.4329,
+   "lon": -39.2564
   },
   {
    "name": "Potência PcD Salvador: Empreendedorismo e Geração de Renda",
@@ -5746,9 +5725,9 @@
    ],
    "is_new": true,
    "summary": "Conhecimento, conexões e novas possibilidades para transformar ideias em negócios!Você tem uma ideia, já empreende ou quer descobrir novos caminhos para gerar renda?O Potência PcD: Empreendedorismo e Geração de Renda é um encontro para…",
-   "geo_precision": "estado",
-   "lat": -12.971,
-   "lon": -38.511
+   "geo_precision": "cidade",
+   "lat": -12.9822,
+   "lon": -38.4813
   },
   {
    "name": "Programa de Mentoria para Negócios de Impacto: pitch dos negócios finalistas",
@@ -5780,9 +5759,9 @@
    ],
    "is_new": true,
    "summary": "Eixo 8 · Financiamento da Transição | Como viabilizamos financeiramente essa transição?Venha assistir às apresentações dos negócios finalistas do Programa de Mentoria para Negócios de Impacto do Fórum Norte de Economia Circular.",
-   "geo_precision": "estado",
-   "lat": -1.456,
-   "lon": -48.49
+   "geo_precision": "cidade",
+   "lat": -1.4506,
+   "lon": -48.4682
   },
   {
    "name": "SJC - IA NA PRÁTICA PARA NEGÓCIOS",
@@ -5834,7 +5813,6 @@
    "image": "https://images.sympla.com.br/6af470e1a818f.png",
    "price": "Gratuito",
    "themes": [
-    "cripto",
     "fintech"
    ],
    "recurrence": "ocasional",
@@ -5867,7 +5845,7 @@
    "type": "workshop",
    "organizer": "Alberes Costa e Silva",
    "image": "https://images.sympla.com.br/6b04cef2dfe05.jpg",
-   "price": "Pago (valor no site)",
+   "price": "R$ 47",
    "themes": [
     "ia"
    ],
@@ -5883,9 +5861,9 @@
    ],
    "is_new": true,
    "summary": "Onde? Sebrae Recife – Rua Tabaiares, 360 – Ilha do Retiro Quando? 03 de Dezembro, das 19h às 21h Com quem?",
-   "geo_precision": "estado",
-   "lat": -8.054,
-   "lon": -34.881
+   "geo_precision": "cidade",
+   "lat": -8.0585,
+   "lon": -34.8848
   },
   {
    "name": "Conect.AI Startup |Natal - RN",
@@ -5918,9 +5896,9 @@
    ],
    "is_new": true,
    "summary": "Meetup de capacitação e conexão no contexto de Plataformas de Hardware e Software Inteligente realizado pelo Centro de Competência EMBRAPII VIRTUS (VIRTUS-CC)O Conect.AI Startup é um ciclo de capacitações realizadas em todo o Brasil.",
-   "geo_precision": "estado",
-   "lat": -5.795,
-   "lon": -35.209
+   "geo_precision": "cidade",
+   "lat": -5.8054,
+   "lon": -35.2081
   },
   {
    "name": "FERRAMENTAS DE IA PARA O CIRURGIÃO VASCULAR",
@@ -5936,7 +5914,7 @@
    "type": "evento",
    "organizer": "SBACV",
    "image": "https://images.sympla.com.br/6adf9a00a6173.jpg",
-   "price": "Pago (valor no site)",
+   "price": "A partir de R$ 200",
    "themes": [
     "ia"
    ],
@@ -5952,9 +5930,9 @@
    ],
    "is_new": true,
    "summary": "Ferramentas de IA para o Cirurgião VascularCurso on-line e ao vivo | Promoção: SBACV – Sociedade Brasileira de Angiologia e de Cirurgia VascularA inteligência artificial já faz parte da rotina médica, e quem sabe usá-la bem ganha tempo…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Ferramentas práticas de IA para o cirurgião vascular",
@@ -5986,9 +5964,9 @@
    ],
    "is_new": true,
    "summary": "Ferramentas Práticas de IA para o Cirurgião Vascular Workshop promovido pela SBACV A inteligência artificial já faz parte da rotina médica, e quem souber usá-la bem ganha tempo, precisão e qualidade no trabalho.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Google AI Deep Dive (Ep 6) - Platform Engineering on GKE using Gemini",
@@ -6020,9 +5998,9 @@
    ],
    "is_new": true,
    "summary": "**Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026120409) to receive the joining link. (rsvp on meetup will NOT receive anything).",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "PALESTRA - A IA RASCUNHA, VOCÊ ASSINA",
@@ -6054,9 +6032,9 @@
    ],
    "is_new": true,
    "summary": "PALESTRA - A IA RASCUNHA, VOCÊ ASSINA O Instituto de Engenharia do Paraná (IEP) e a Associação Brasileira dos Escritórios de Arquitetura (AsBEA) convidam para a palestra \"A IA rascunha, você assina: guia prático de agentes de IA para…",
-   "geo_precision": "estado",
-   "lat": -25.429,
-   "lon": -49.271
+   "geo_precision": "cidade",
+   "lat": -25.4296,
+   "lon": -49.2713
   },
   {
    "name": "Pitch Night",
@@ -6089,9 +6067,9 @@
    ],
    "is_new": true,
    "summary": "Prepare seu pitch, desafie-se e venha fazer parte de uma noite onde grandes ideias encontram grandes oportunidades. Serão até 3 minutos para cada startup mostrar seu potencial. E se passar do tempo?",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Pitch de Negócios | CDL Passo Fundo",
@@ -6123,9 +6101,9 @@
    ],
    "is_new": true,
    "summary": "3 minutos que podem mudar o rumo da sua empresa!Imagine ter apenas 180 segundos para mostrar ao mercado por que o seu negócio é único.",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
+   "geo_precision": "cidade",
+   "lat": -28.2551,
+   "lon": -52.3967
   },
   {
    "name": "Startup Weekend Summit Brasil",
@@ -6157,9 +6135,9 @@
    ],
    "is_new": true,
    "summary": "O **AWS Women User Group Goiânia** é uma das **comunidades apoiadores** desse evento. ***\"O maior encontro de líderes de comunidades de startups do Brasil.\"*** **O que é o Summit?** O Summit não é um Startup Weekend.",
-   "geo_precision": "estado",
-   "lat": -16.686,
-   "lon": -49.264
+   "geo_precision": "cidade",
+   "lat": -16.6809,
+   "lon": -49.2533
   },
   {
    "name": "1° Congresso de Saúde Integrada e Empreendedorismo",
@@ -6191,9 +6169,9 @@
    ],
    "is_new": true,
    "summary": "Evento criado para estudantes e profissionais que buscam atualização, inovação, conexões estratégicas e crescimento profissional.Ao longo de um dia de imersão, reuniremos especialistas de diversas áreas da saúde e do campo digital para…",
-   "geo_precision": "estado",
-   "lat": -12.971,
-   "lon": -38.511
+   "geo_precision": "cidade",
+   "lat": -12.6998,
+   "lon": -38.3261
   },
   {
    "name": "Bahia Tech Experience (BTX) 2026",
@@ -6226,9 +6204,9 @@
    ],
    "is_new": true,
    "summary": "Programa estadual de inovação amplia interiorização de tecnologia e prevê encontros, startups e eventos até dezembro em Salvador",
-   "geo_precision": "estado",
-   "lat": -12.971,
-   "lon": -38.511
+   "geo_precision": "cidade",
+   "lat": -12.9822,
+   "lon": -38.4813
   },
   {
    "name": "Bahia Tech Experience - BTX26",
@@ -6246,7 +6224,6 @@
    "image": "https://images.sympla.com.br/6ac4f7083aaae.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -6261,9 +6238,9 @@
    ],
    "is_new": true,
    "summary": "Bahia Tech Experience 2026 Data: 05 a 07 de dezembro Local: Centro de Convenções de Salvador Prepare-se para viver a revolução da tecnologia e inovação no coração do Nordeste!",
-   "geo_precision": "estado",
-   "lat": -12.971,
-   "lon": -38.511
+   "geo_precision": "cidade",
+   "lat": -12.9822,
+   "lon": -38.4813
   },
   {
    "name": "Conquer Open - IA",
@@ -6296,9 +6273,9 @@
    ],
    "is_new": true,
    "summary": "O convite chegou? Então se prepara para decolar.A Conquer abriu as portas, e você é o nosso convidado especial.No dia 05 de Dezembro, abrimos as portas da nossa sede para o Conquer Open, um evento com workshops de Inteligência Artificial…",
-   "geo_precision": "estado",
-   "lat": -25.429,
-   "lon": -49.271
+   "geo_precision": "cidade",
+   "lat": -25.4296,
+   "lon": -49.2713
   },
   {
    "name": "ENGEFEST 2026 - Seminário Norte Capixaba de Engenharia, Integração, Inovação e Desenvolvimento",
@@ -6314,7 +6291,7 @@
    "type": "festival",
    "organizer": "AENES - Associação dos Engenheiros do Norte do ES",
    "image": "https://images.sympla.com.br/6ae6534cc6956.png",
-   "price": "Pago (valor no site)",
+   "price": "A partir de R$ 100",
    "themes": [
     "fintech"
    ],
@@ -6330,9 +6307,9 @@
    ],
    "is_new": true,
    "summary": "ENGEFEST 2026 – Integração, Engenharia e Celebração!A AENES – Associação dos Engenheiros do Norte do Espírito Santo convida você para o ENGEFEST 2026!No dia 05 de dezembro de 2026, a partir das 11h, o Clube Mata do Lago, em Linhares/ES…",
-   "geo_precision": "estado",
-   "lat": -20.315,
-   "lon": -40.312
+   "geo_precision": "cidade",
+   "lat": -19.3411,
+   "lon": -39.9483
   },
   {
    "name": "Encontro Summit Internacional | Florianópolis 5 e 6 Dez | Saúde Mental e Empreendedorismo",
@@ -6364,9 +6341,9 @@
    ],
    "is_new": true,
    "summary": "Vivemos uma época em que empreender deixou de ser apenas sobre crescer financeiramente. Tornou-se também uma questão de equilíbrio, propósito e saúde emocional.Por trás de cada empresa existe uma história.",
-   "geo_precision": "estado",
-   "lat": -27.595,
-   "lon": -48.548
+   "geo_precision": "cidade",
+   "lat": -27.5973,
+   "lon": -48.5496
   },
   {
    "name": "IA 4Business : Pontos de Atenção x Desafios & Oportunidades.",
@@ -6398,9 +6375,9 @@
    ],
    "is_new": true,
    "summary": "IA 4Business _Pontos de Atenção.Desafios. Oportunidades.Uma experiência EZIG × EZIG.EVOLURE®IA não é só tecnologia.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "II COLLOQUIUM MORE UP \"EDUCAÇÃO BILÍNGUE NA ERA DA INTELIGÊNCIA ARTIFICIAL\".",
@@ -6432,9 +6409,9 @@
    ],
    "is_new": true,
    "summary": "II COLOQUIUM MORE UP \"EDUCAÇÃO BILÍNGUE NA ERA DA INTELIGÊNCIA ARTIFICIAL: Inovação, Criatividade e Protagonismo Docente.\"“Quando a inteligência humana encontra a inteligência artificial, nasce uma nova forma de ensinar.” O II Colloquium…",
-   "geo_precision": "estado",
-   "lat": -2.53,
-   "lon": -44.303
+   "geo_precision": "cidade",
+   "lat": -2.5295,
+   "lon": -44.2964
   },
   {
    "name": "Ideathon - IMATech Campinas",
@@ -6484,7 +6461,7 @@
    "type": "imersao",
    "organizer": "Fernando Maziero",
    "image": "https://images.sympla.com.br/6ae3e72bf26b1.jpg",
-   "price": "Pago (valor no site)",
+   "price": "A partir de R$ 225",
    "themes": [
     "ia"
    ],
@@ -6568,9 +6545,9 @@
    ],
    "is_new": true,
    "summary": "Compre ingressos para Potência PCD - Empreendedorismo e geração de renda | Cromossomos 21 - Feira de Santana em Feira de Santana dia 07/12. Confira os melhores eventos da Sympla!",
-   "geo_precision": "estado",
-   "lat": -12.971,
-   "lon": -38.511
+   "geo_precision": "cidade",
+   "lat": -12.2579,
+   "lon": -38.9598
   },
   {
    "name": "STARTUP LINK | 2ª edição | Oportunidades de Fomento para Startups e Empresas",
@@ -6602,9 +6579,9 @@
    ],
    "is_new": true,
    "summary": "Oportunidades de Fomento para Startups e EmpresasComo transformar ideias e projetos inovadores em oportunidades de captação de recursos?Neste encontro da 2ª edição do Startup Link, Marcos Alfred Brehm compartilhará conhecimentos…",
-   "geo_precision": "estado",
-   "lat": -25.429,
-   "lon": -49.271
+   "geo_precision": "cidade",
+   "lat": -25.4296,
+   "lon": -49.2713
   },
   {
    "name": "VI Mostra de startups & Spin-Offs apoiadas pela UFC",
@@ -6622,7 +6599,6 @@
    "image": "https://images.sympla.com.br/6b070fdd5b075.jpg",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -6637,9 +6613,9 @@
    ],
    "is_new": true,
    "summary": "O Parque Tecnológico da Universidade Federal do Ceará realiza a VI Mostra de Startups & Spin-Offs Apoiadas pela UFC, um momento de celebração do empreendedorismo que se desenvolve no ambiente acadêmico.O evento reúne empreendedores(as)…",
-   "geo_precision": "estado",
-   "lat": -3.732,
-   "lon": -38.527
+   "geo_precision": "cidade",
+   "lat": -3.7932,
+   "lon": -38.528
   },
   {
    "name": "Everything you need to know about AI SRE: Cost down, and value up",
@@ -6671,9 +6647,9 @@
    ],
    "is_new": true,
    "summary": "AI coding has made an AI SRE something any team can build in a hackathon, while making incidents harder to understand. The hard part comes later, when the agent has to run in production, give repeatable answers and justify what it costs.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "FÁBRICA DE PROGRAMADORES 2026 - APRENDENDO À PROGRAMAR COM GAMES E IA",
@@ -6705,9 +6681,44 @@
    ],
    "is_new": true,
    "summary": "O projeto Fábrica de Programadores 2026 chega ao seu momento final com uma programação especial dedicada à criatividade, à tecnologia e ao potencial de transformação da educação.",
-   "geo_precision": "estado",
-   "lat": -3.732,
-   "lon": -38.527
+   "geo_precision": "cidade",
+   "lat": -3.7932,
+   "lon": -38.528
+  },
+  {
+   "name": "How to Fund Your AI Startup: Ask an Investor Anything",
+   "url": "https://www.meetup.com/sao-paulo-startup-founder-101/events/317584980/",
+   "source": "meetup",
+   "start_date": "2026-12-08",
+   "end_date": "2026-12-08",
+   "description": "Raising money for an AI startup looks different in 2026. When anyone can build a product in weeks, investors want to know what makes yours worth backing. In this live AMA, Mercedes Bankston answers your questions directly: what investors look for in AI founders, what gets you a first meeting, what traction they expect before a first check, and what quietly kills a deal. No pitch decks, no filters. **[Bring your questions and hear it from someone who writes the checks](https://fi.co/e/408945/meetup)**. **❯ Featured Speaker:** * **[Mercedes Bankston](https://www.linkedin.com/in/unicornmb/) -** V",
+   "city": "Sao Paulo",
+   "state": "SP",
+   "venue": "Online event",
+   "format": "online",
+   "type": "meetup",
+   "organizer": "São Paulo Startup Founder 101",
+   "image": "/images/fallbacks/redesign/group-cover-4-square.webp",
+   "price": "Gratuito",
+   "themes": [
+    "ia",
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "e625c2a46c8a",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "meetup"
+   ],
+   "is_new": true,
+   "summary": "Raising money for an AI startup looks different in 2026. When anyone can build a product in weeks, investors want to know what makes yours worth backing.",
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "IA que vende!",
@@ -6739,9 +6750,9 @@
    ],
    "is_new": true,
    "summary": "IA que vendeIA no mundo dos negócios, especialmente no comercial.Venha ver, na prática, como uma empresa colocou a inteligência artificial para captar clientes, atender, qualificar e vender.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.2638,
+   "lon": -47.2998
   },
   {
    "name": "O Natal do Food Service de Macaé",
@@ -6773,9 +6784,9 @@
    ],
    "is_new": true,
    "summary": "O Natal do Food Service de Macaé, na Universidade Fast Food Milionário: um encontro para donos e gestores de restaurantes, lanchonetes, pizzarias e deliveries.Data: 08 de dezembro de 2026, das 10h às 16hLocal: Universidade Fastfood…",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.2828,
+   "lon": -41.9649
   },
   {
    "name": "AI FESTIVAL Uberlândia - Inteligência Artificial Para Todos",
@@ -6842,9 +6853,9 @@
    ],
    "is_new": true,
    "summary": "**Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026120910) to receive the joining link. (rsvp on meetup will NOT receive anything).",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Dealer Innovation Summit",
@@ -6862,7 +6873,6 @@
    "image": "https://images.sympla.com.br/6adb7a13c0d61.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -6877,9 +6887,9 @@
    ],
    "is_new": true,
    "summary": "Dealer Innovation Summit 2026Inovação, tecnologia e conexões para o futuro da distribuição automotiva.09 de dezembro de 2026 | São Paulo – SPA distribuição automotiva está mudando.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "From API Platform to AI Gateway, Deep Dive",
@@ -6945,9 +6955,9 @@
    ],
    "is_new": true,
    "summary": "Fórum de Empreendedorismo – Energia #DelasEmpreender no ramo da alimentação exige muito mais do que uma boa ideia.",
-   "geo_precision": "estado",
-   "lat": -1.456,
-   "lon": -48.49
+   "geo_precision": "cidade",
+   "lat": -1.4506,
+   "lon": -48.4682
   },
   {
    "name": "IA Agêntica · Ep. 4 — Ecossistemas Multiagentes",
@@ -6979,9 +6989,9 @@
    ],
    "is_new": true,
    "summary": "Grand finale da série \"IA Agêntica — com segurança e governança\", realizada no inovabra habitat.Você entendeu os fundamentos (Ep. 1), mapeou a arquitetura (Ep. 2) e definiu os guardrails (Ep. 3).",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "INOVA IA 2026 - Caminhos para a IA no Brasil",
@@ -7013,9 +7023,9 @@
    ],
    "is_new": true,
    "summary": "Seminário INOVA IA 2026 - Fomento ao desenvolvimento e ao uso de Inteligência ArtificialNos dias 9 e 10 de dezembro, o INOVA IA reúne, no Rio de Janeiro, empresas, governo e especialistas para debater investimentos, soluções e aplicações…",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.911,
+   "lon": -43.2094
   },
   {
    "name": "Microsoft AI Agents Hack - Desafie-se e Participe. Online e Gratuito",
@@ -7048,9 +7058,9 @@
    ],
    "is_new": true,
    "summary": "Microsoft AI Agents Hack: 3 novas datas em dezembro! aihack.com.br Em cada Hack, sua equipe constrói agentes de IA no Azure de ponta a ponta, do dado bruto à solução funcionando, em um único dia.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Potência PCD - Empreendedorismo e Geração de Renda",
@@ -7082,9 +7092,9 @@
    ],
    "is_new": true,
    "summary": "Compre ingressos para Potência PCD - Empreendedorismo e Geração de Renda em Feira de Santana dia 09/12. Confira os melhores eventos da Sympla!",
-   "geo_precision": "estado",
-   "lat": -12.971,
-   "lon": -38.511
+   "geo_precision": "cidade",
+   "lat": -12.2579,
+   "lon": -38.9598
   },
   {
    "name": "Tech & Friends por Henrique Portugal",
@@ -7092,7 +7102,7 @@
    "source": "sympla",
    "start_date": "2026-12-09",
    "end_date": "2026-12-09",
-   "description": "Encontre os melhores eventos da sua cidade na Sympla e garanta seus ingressos agora mesmo.",
+   "description": "",
    "city": "Belo Horizonte",
    "state": "MG",
    "venue": "Clube de Jazz do Café com Letras",
@@ -7115,10 +7125,10 @@
     "sympla"
    ],
    "is_new": true,
-   "summary": "Encontre os melhores eventos da sua cidade na Sympla e garanta seus ingressos agora mesmo.",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "summary": "",
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
   },
   {
    "name": "Automação na era da Inteligência Artificial Industrial",
@@ -7150,9 +7160,9 @@
    ],
    "is_new": true,
    "summary": "Automação na era da Inteligência Artificial IndustrialO Capítulo Estudantil IEEE SMC UFPB, em parceria com o Laboratório de Automação e Instrumentação Inteligente (LAII) e o Programa de Pós-Graduação em Engenharia Elétrica (PPGEE) da UFPB…",
-   "geo_precision": "estado",
-   "lat": -7.119,
-   "lon": -34.845
+   "geo_precision": "cidade",
+   "lat": -7.1216,
+   "lon": -34.882
   },
   {
    "name": "Cenário, Estratégia e Patrimônio Global: um encontro presencial Belfy AI",
@@ -7184,9 +7194,9 @@
    ],
    "is_new": true,
    "summary": "O real oscila, o cenário externo muda rápido, e quem tem todo o patrimônio em uma só moeda fica mais exposto.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Como planejar seu 2.027 com IA e lideres do mercado imobiliário",
@@ -7253,9 +7263,9 @@
    ],
    "is_new": true,
    "summary": "Meetup de capacitação e conexão no contexto de Plataformas de Hardware e Software Inteligente realizado pelo Centro de Competência EMBRAPII VIRTUS (VIRTUS-CC)O Conect.AI Startup é um ciclo de capacitações realizadas em todo o Brasil.",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.911,
+   "lon": -43.2094
   },
   {
    "name": "Consultório Inteligente: IA na gestão e reforma tributária para profissionais da saúde",
@@ -7287,9 +7297,9 @@
    ],
    "is_new": true,
    "summary": "CONSULTÓRIO INTELIGENTEMais eficiência na gestão. Mais capacidade de atrair pacientes.",
-   "geo_precision": "estado",
-   "lat": -20.315,
-   "lon": -40.312
+   "geo_precision": "cidade",
+   "lat": -20.2796,
+   "lon": -40.315
   },
   {
    "name": "Digital Plus | Prompts para Co-pys Copywriting e Inteligência Artificial - ALDEOTA",
@@ -7321,9 +7331,9 @@
    ],
    "is_new": true,
    "summary": "Prompts para Copys: Copywriting e Inteligência ArtificialVocê já parou para pensar em como utilizar a Inteligência Artificial para criar textos mais persuasivos e focados em conversão?Neste workshop, Sofia Constance, jornalista e…",
-   "geo_precision": "estado",
-   "lat": -3.732,
-   "lon": -38.527
+   "geo_precision": "cidade",
+   "lat": -3.7932,
+   "lon": -38.528
   },
   {
    "name": "How to Build an eBay Reselling Side Hustle with AI in One Weekend",
@@ -7355,9 +7365,9 @@
    ],
    "is_new": true,
    "summary": "This event is being promoted by many groups. Our meetup group is participating by promoting this event. This event is organized by Albert's List. Our meetup group is collaborating by promoting this event. This is an online event.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Introducing ThunderID: Open Source Identity for Humans, AI Agents, and Machines",
@@ -7389,9 +7399,9 @@
    ],
    "is_new": true,
    "summary": "ThunderID ([https://github.com/thunder-id](https://github.com/thunder-id)) is an open source identity and access management project, hosted by LF Decentralized Trust as an incubation project.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "LABORATÓRIO DE ADVOCACIA COM IA",
@@ -7407,7 +7417,7 @@
    "type": "workshop",
    "organizer": "ABA MARICÁ",
    "image": "https://images.sympla.com.br/6b062f1bb3bdb.jpg",
-   "price": "Pago (valor no site)",
+   "price": "R$ 30",
    "themes": [
     "ia"
    ],
@@ -7423,9 +7433,9 @@
    ],
    "is_new": true,
    "summary": "LABORATÓRIO DE ADVOCACIA COM IA Da gestão à prática jurídica: conteúdo prático, demonstrações e ferramentas A Inteligência Artificial já está transformando a advocacia.",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.9089,
+   "lon": -42.8172
   },
   {
    "name": "PALESTRA SOBRE IA | PROGRAMA COMÉRCIO INTELIGENTE GOVERNADOR VALADARES",
@@ -7457,9 +7467,9 @@
    ],
    "is_new": true,
    "summary": "A nova parceria da Fecomércio MG e do SindIcomércio Governador Valadares com Alexandre Calmon traz uma por meio de uma PALESTRA, acesso a estratégias que vão mudar o jeito como você utiliza a IA no seu negócio!Os empresários que…",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -18.8574,
+   "lon": -41.9439
   },
   {
    "name": "Prêmio É do Empreendedorismo com Propósito 2026",
@@ -7491,9 +7501,9 @@
    ],
    "is_new": true,
    "summary": "BRASÍLIA 2026 | UMA NOITE. GRANDES NOMES. CONEXÕES QUE TRANSFORMAM O FUTURO. PRÊMIO É DO EMPREENDEDORISMO COM PROPÓSITO 2026 Mais do que uma premiação, uma experiência de reconhecimento, representatividade e conexão entre pessoas que fazem…",
-   "geo_precision": "estado",
+   "geo_precision": "cidade",
    "lat": -15.794,
-   "lon": -47.882
+   "lon": -47.8828
   },
   {
    "name": "Transitioning from Founder-Led Sales to a Repeatable Revenue Engine",
@@ -7526,9 +7536,9 @@
    ],
    "is_new": true,
    "summary": "If your leads live in spreadsheets, your deals live in your inbox and every sale depends on you, your startup has a bottleneck: the founder.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Venture Trailblazers featuring Harry Stebbings",
@@ -7560,9 +7570,9 @@
    ],
    "is_new": true,
    "summary": "Venture Trailblazers is an exclusive event series that connects leading investors, founders, and ecosystem leaders from across the globe to discuss the latest trends in startups and venture capital.",
-   "geo_precision": "estado",
-   "lat": -25.429,
-   "lon": -49.271
+   "geo_precision": "cidade",
+   "lat": -25.4296,
+   "lon": -49.2713
   },
   {
    "name": "Workshop Gestão Inteligente: IA na prática para Gestores - João Pessoa",
@@ -7578,7 +7588,7 @@
    "type": "workshop",
    "organizer": "Alberes Costa e Silva",
    "image": "https://images.sympla.com.br/6b04d1b40b5da.jpg",
-   "price": "Pago (valor no site)",
+   "price": "R$ 47",
    "themes": [
     "ia"
    ],
@@ -7594,9 +7604,9 @@
    ],
    "is_new": true,
    "summary": "Onde? Rua Severino Linhares Pordeus, 93, HOUSECOWORK, OCEANIA Quando? 03 de Dezembro, das 19h às 22h Com quem?",
-   "geo_precision": "estado",
-   "lat": -7.119,
-   "lon": -34.845
+   "geo_precision": "cidade",
+   "lat": -7.1216,
+   "lon": -34.882
   },
   {
    "name": "DEMODAY Hackathon +Devs2Blu",
@@ -7614,8 +7624,7 @@
    "image": "https://images.sympla.com.br/6afb433b55adb.png",
    "price": "Gratuito",
    "themes": [
-    "demo_day",
-    "startups"
+    "demo_day"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -7639,7 +7648,7 @@
    "source": "sympla",
    "start_date": "2026-12-11",
    "end_date": "2026-12-11",
-   "description": "Encontre os melhores eventos da sua cidade na Sympla e garanta seus ingressos agora mesmo.",
+   "description": "",
    "city": "Belo Horizonte",
    "state": "MG",
    "venue": "Sesc Palladium",
@@ -7662,10 +7671,10 @@
     "sympla"
    ],
    "is_new": true,
-   "summary": "Encontre os melhores eventos da sua cidade na Sympla e garanta seus ingressos agora mesmo.",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "summary": "",
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
   },
   {
    "name": "Imersão de Inteligência Artificial - Operação IA Curitiba",
@@ -7681,7 +7690,7 @@
    "type": "imersao",
    "organizer": "Fernando Maziero",
    "image": "https://images.sympla.com.br/6ae3f15381367.jpg",
-   "price": "Pago (valor no site)",
+   "price": "A partir de R$ 225",
    "themes": [
     "ia"
    ],
@@ -7697,9 +7706,9 @@
    ],
    "is_new": true,
    "summary": "Operação IA | Imersão em Curitiba Execução, clareza e aplicação real de IA para empresários. Um dia inteiro, presencial, para empresários e líderes aplicarem Inteligência Artificial com critério, direção e foco no próprio negócio.",
-   "geo_precision": "estado",
-   "lat": -25.429,
-   "lon": -49.271
+   "geo_precision": "cidade",
+   "lat": -25.4296,
+   "lon": -49.2713
   },
   {
    "name": "TECH LAW EXPERIENCE 2026 Encontro Imersivo de Tecnologia e Inovação Jurídica",
@@ -7717,7 +7726,6 @@
    "image": "https://images.sympla.com.br/6af38079a8c6c.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -7732,9 +7740,9 @@
    ],
    "is_new": true,
    "summary": "TECH LAW EXPERIENCE 2026Encontro Imersivo de Tecnologia e Inovação JurídicaINSCRIÇÕES GRATUITAS · VAGAS LIMITADASPrezado(a) advogado(a),É com grande satisfação que convidamos você para o Tech Law Experience 2026, um dia inteiro dedicado à…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -20.5382,
+   "lon": -47.401
   },
   {
    "name": "Techstars Startup Weekend Santa Maria Varejo",
@@ -7766,9 +7774,9 @@
    ],
    "is_new": true,
    "summary": "CATEGORIAS DE INSCRIÇÃOVocê pode escolher entre três áreas conforme seu perfil:Sou da área Criativa: Sei criar artes, peças gráficas, apresentações, protótipos e interfaces.",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
+   "geo_precision": "cidade",
+   "lat": -29.6861,
+   "lon": -53.8069
   },
   {
    "name": "Café com IA | Talk Tech Como líderes aplicam IA em suas operações",
@@ -7801,9 +7809,9 @@
    ],
    "is_new": true,
    "summary": "Como líderes de diferentes áreas estão aplicando inteligência artificial em suas operações?O Café com IA | Talk Tech reúne profissionais de posicionamento, finanças, processos, comunicação, transporte, logística e arquitetura de…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.1888,
+   "lon": -46.8845
   },
   {
    "name": "DevFest Nova Lima 2026: Da ideia à aplicação com IA",
@@ -7835,9 +7843,9 @@
    ],
    "is_new": true,
    "summary": "Nova Lima em código: da ideia à aplicação com IAO DevFest Nova Lima 2026, organizado pelo GDG Nova Lima, é um encontro presencial para desenvolvedores com experiência que querem aprofundar a construção de aplicações com inteligência…",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.9854,
+   "lon": -43.8471
   },
   {
    "name": "Gamelab - Agentes de IA e Produtividade",
@@ -7855,8 +7863,7 @@
    "image": "https://images.sympla.com.br/6ad280008a7ab.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -7870,9 +7877,9 @@
    ],
    "is_new": true,
    "summary": "E se você pudesse usar a Inteligência Artificial para trabalhar melhor, automatizar tarefas e ganhar mais tempo para fazer seu negócio crescer?O Sebrae Bahia convida você para participar do GameLab – Agentes de IA e Produtividade, uma…",
-   "geo_precision": "estado",
-   "lat": -12.971,
-   "lon": -38.511
+   "geo_precision": "cidade",
+   "lat": -12.9822,
+   "lon": -38.4813
   },
   {
    "name": "Ideathon Osasco",
@@ -7938,9 +7945,9 @@
    ],
    "is_new": true,
    "summary": "Heliópolis recebe evento gratuito que une empreendedorismo, tecnologia e inovação para jovens e empreendedoresIniciativa da Federação Paulista de Esportes & Fitness - FPEFIT em parceria com a CUFA – Central Única das Favelas, promoverá…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Líder Builder - Líderes que não programam, mas querem construir com IA · Workshop Líder Builder",
@@ -7956,7 +7963,7 @@
    "type": "workshop",
    "organizer": "AgenticPeople",
    "image": "https://images.sympla.com.br/6aee003b689ce.png",
-   "price": "Pago (valor no site)",
+   "price": "R$ 4.800",
    "themes": [
     "ia"
    ],
@@ -7972,9 +7979,9 @@
    ],
    "is_new": true,
    "summary": "Você e a IA fazem a tarefa inteira a quatro mãos. Você acompanha o trabalho acontecendo, corrige no meio do caminho, e a autoria continua sua. Nessa imersão, você tem tempo de qualidade para aprender com a mão na massa.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Brasil Startups Summit 2026 · A nova arquitetura da economia",
@@ -7992,7 +7999,6 @@
    "image": "https://images.sympla.com.br/6aff96f55632a.jpg",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -8007,9 +8013,9 @@
    ],
    "is_new": true,
    "summary": "Brasil Startups Summit 2026 · A nova arquitetura da economia. Inteligência artificial, capital e novos modelos de negócio que estão redesenhando mercados, empresas e o próprio Estado.",
-   "geo_precision": "estado",
+   "geo_precision": "cidade",
    "lat": -15.794,
-   "lon": -47.882
+   "lon": -47.8828
   },
   {
    "name": "Conheça o Intelbras Defense IA Lite",
@@ -8041,9 +8047,9 @@
    ],
    "is_new": true,
    "summary": "Conheça o Intelbras Defense IA Lite, software profissional que permite centralizar o gerenciamento de diferentes soluções de segurança eletrônica Intelbras.",
-   "geo_precision": "estado",
-   "lat": -16.686,
-   "lon": -49.264
+   "geo_precision": "cidade",
+   "lat": -16.6809,
+   "lon": -49.2533
   },
   {
    "name": "1º MEETUP ILHA TECH",
@@ -8075,9 +8081,9 @@
    ],
    "is_new": true,
    "summary": "Parintins se prepara para uma virada de chave na inovação com o 1º Meetup Ilha Tech e oportunidades.Evento será realizado no dia 24 de novembro, reunindo empreendedores, lideranças e representantes da sociedade para discutir o futuro da…",
-   "geo_precision": "estado",
-   "lat": -3.119,
-   "lon": -60.022
+   "geo_precision": "cidade",
+   "lat": -2.6345,
+   "lon": -56.7319
   },
   {
    "name": "AI FESTIVAL Curitiba - Inteligência Artificial Para Todos",
@@ -8109,9 +8115,9 @@
    ],
    "is_new": true,
    "summary": "O AI Festival é uma experiência imersiva e prática, criada para mostrar como a IA pode ser usada no seu dia a dia, nos negócios e na vida real.A revolução já começou e você pode liderá-la.A inteligência artificial não é mais coisa do…",
-   "geo_precision": "estado",
-   "lat": -25.429,
-   "lon": -49.271
+   "geo_precision": "cidade",
+   "lat": -25.4296,
+   "lon": -49.2713
   },
   {
    "name": "Espaço UX | Qual Design vai sobreviver à IA?",
@@ -8143,9 +8149,9 @@
    ],
    "is_new": true,
    "summary": "Nosso palestrante de hoje é David Arty. Ele é Product Designer, formado em Design Gráfico e pós-graduado em UX Design.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Workshop: Preparando sua Startup para Crescer com Segurança: Societário, LGPD e Contratos",
@@ -8245,9 +8251,9 @@
    ],
    "is_new": true,
    "summary": "[The agent brings the intelligence. Oracle Integration brings the enterprise.](https://go.oracle.com/LP=155574?elqCampaignId=687101) Agentic AI requires more than powerful models.",
-   "geo_precision": "estado",
-   "lat": -25.429,
-   "lon": -49.271
+   "geo_precision": "cidade",
+   "lat": -25.4296,
+   "lon": -49.2713
   },
   {
    "name": "PRÊMIO EMPREENDEDOR E INOVADOR DA EDUCAÇÃO FÍSICA",
@@ -8279,9 +8285,9 @@
    ],
    "is_new": true,
    "summary": "PRÊMIO EMPREENDEDOR E INOVADOR DA EDUCAÇÃO FÍSICA 2026Dê visibilidade ao seu trabalho, conquiste o reconhecimento que sua trajetória merece e amplie suas oportunidades profissionais.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Curso IA Generativa com RAG, Fine Tuning e Agentes de IA., MCP, Guardrails, JEV, LaYa, Observabilida",
@@ -8313,9 +8319,9 @@
    ],
    "is_new": true,
    "summary": "Curso Extensão: Inteligência Artificial Generativa com RAG, Fine Tuning e Agentes de IA Generativa AVANÇADA.Este curso tem como objetivo..: Conteúdo Programático: O curso abrange temas como LLM, RAG, Fine Tuning, Sistemas Multiagentes…",
-   "geo_precision": "estado",
-   "lat": -7.119,
-   "lon": -34.845
+   "geo_precision": "cidade",
+   "lat": -7.1216,
+   "lon": -34.882
   },
   {
    "name": "DigitalCamp |Desenvolvedor de Produto com IA | Sede Bezerra",
@@ -8347,9 +8353,9 @@
    ],
    "is_new": true,
    "summary": "Digital Camp | Desenvolvedor de Produto com IATransforme um problema real em um produto digital publicado na web Toda ideia de produto começa com uma pergunta: que problema vale a pena resolver?",
-   "geo_precision": "estado",
-   "lat": -3.732,
-   "lon": -38.527
+   "geo_precision": "cidade",
+   "lat": -3.7932,
+   "lon": -38.528
   },
   {
    "name": "Treinamento Green Belt Modelo Híbrido + AI (On-Line/Ao Vivo)",
@@ -8381,9 +8387,9 @@
    ],
    "is_new": true,
    "summary": "Treinamento com sessões de 04 horas on-line/ao vivo com nossos consultores certificados internacionalmente com Black Belt pela EXIN/LSS Academy.A metodologia Modelo Híbrido – Lean Six Sigma + Agile + Design Thinking + AI é uma abordagem…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Gestão Estratégica de Objetivos e Resultados com OKR + Liderança + IA",
@@ -8415,9 +8421,9 @@
    ],
    "is_new": true,
    "summary": "“Esta sinergia vai melhorar a Comunicação, o Engajamento e os Resultados Chave de Sua Equipe.”-------------------------------Presencial em Brasilia!",
-   "geo_precision": "estado",
+   "geo_precision": "cidade",
    "lat": -15.794,
-   "lon": -47.882
+   "lon": -47.8828
   },
   {
    "name": "Workshop de Inteligência Artificial & Sucessão Rural",
@@ -8449,9 +8455,9 @@
    ],
    "is_new": true,
    "summary": "Workshop de Inteligência Artificial & Sucessão Rural O futuro do agro começa com você!Você já imaginou como a Inteligência Artificial pode transformar a rotina de uma propriedade rural?O AgriHub, em parceria com o Sindicato Rural de…",
-   "geo_precision": "estado",
-   "lat": -15.601,
-   "lon": -56.097
+   "geo_precision": "cidade",
+   "lat": -11.5057,
+   "lon": -54.8763
   },
   {
    "name": "Implantação de IA na Prática · Imersão Venci",
@@ -8483,9 +8489,9 @@
    ],
    "is_new": true,
    "summary": "Implantação de IA na PráticaImersão presencial para donos, CEOs e líderes. 1ª turma. Vamos juntos construir o plano de 90 dias para implantar IA na sua empresa.",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
   },
   {
    "name": "LUFARI Summit - Pulso do Empreendedor",
@@ -8517,9 +8523,9 @@
    ],
    "is_new": true,
    "summary": "O LUFARI Summit, Pulso do Empreendedor é uma experiência empresarial criada para reunir empresários, líderes e profissionais que estão construindo, transformando e fazendo negócios acontecerem todos os dias.Com o conceito “Do PROCESSO ao…",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.911,
+   "lon": -43.2094
   },
   {
    "name": "IA além do discurso: descubra onde ela pode gerar valor para o seu negócio.",
@@ -8551,9 +8557,9 @@
    ],
    "is_new": true,
    "summary": "Imersão IA para Negócios: da oportunidade à aplicaçãoIA além do discurso. Descubra onde ela pode gerar valor para o seu negócio.A inteligência artificial já faz parte das conversas sobre o futuro das empresas.",
-   "geo_precision": "estado",
-   "lat": -3.732,
-   "lon": -38.527
+   "geo_precision": "cidade",
+   "lat": -3.7932,
+   "lon": -38.528
   },
   {
    "name": "DPOday 2027: Governança de Dados na Era dos Agentes de IA",
@@ -8571,7 +8577,6 @@
    "image": "https://images.sympla.com.br/6a47cb9c5fcf1.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "aceleradoras",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -8586,9 +8591,9 @@
    ],
    "is_new": true,
    "summary": "Prepare-se para a edição mais ambiciosa do maior evento de proteção de dados do Brasil!O DPOday 2027 chega no dia 28 de janeiro de 2027, no Cubo Itaú, em São Paulo, reunindo em um único dia tudo o que há de mais relevante no universo da…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Gestão de Objetivos e Resultados Chave com OKR + Soft Skills + IA",
@@ -8620,9 +8625,9 @@
    ],
    "is_new": true,
    "summary": "“Esta sinergia vai melhorar a Comunicação, o Engajamento e os Resultados Chave de Sua Equipe.”---------------------------------------Presencial no Rio de Janeiro - 28/1 8h30 às 17h30Para melhorar qualidade e aproveitamento,trabalhamos com…",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.911,
+   "lon": -43.2094
   },
   {
    "name": "IA LASER CONGRESS",
@@ -8654,9 +8659,9 @@
    ],
    "is_new": true,
    "summary": "IA LASER CONGRESS INTERNATIONAL Site do Evento com todas informações: https://ialasercongress.com.br/O futuro do laser começa agora. A ciência, a tecnologia e a inteligência artificial estão transformando a maneira como cuidamos da saúde.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Tech Experience 2027",
@@ -8688,9 +8693,9 @@
    ],
    "is_new": true,
    "summary": "Bem-vindo ao Tech Experience, o ponto de encontro onde a estratégia encontra a experiência.Este não é apenas mais um evento corporativo.",
-   "geo_precision": "estado",
-   "lat": -25.429,
-   "lon": -49.271
+   "geo_precision": "cidade",
+   "lat": -24.9555,
+   "lon": -53.4561
   },
   {
    "name": "Health Summit Latin America 2027",
@@ -8708,9 +8713,7 @@
    "image": "https://images.sympla.com.br/69c512c306840.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "healthtech",
-    "ia",
-    "startups"
+    "healthtech"
    ],
    "recurrence": "ocasional",
    "typical_month": 2,
@@ -8724,9 +8727,9 @@
    ],
    "is_new": true,
    "summary": "Health Summit Latin America 2027O maior encontro de inovação em saúde da América Latina chega a Goiânia nos dias 25 e 26 de fevereiro de 2027, no Espaço Dois Ipês.",
-   "geo_precision": "estado",
-   "lat": -16.686,
-   "lon": -49.264
+   "geo_precision": "cidade",
+   "lat": -16.6809,
+   "lon": -49.2533
   },
   {
    "name": "Lidera Lab 17 | IA para revolucionar sua carreira | Erick Costa convida Gabriel Nogueira",
@@ -8758,9 +8761,9 @@
    ],
    "is_new": true,
    "summary": "Pare de perder tempo com o operacional: coloque a Inteligência Artificial para trabalhar por você e pelo seu time.Quanto do seu dia vai embora em tarefas que se repetem? Relatório, planilha, e-mail, conferência, retrabalho.",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -21.5566,
+   "lon": -45.4341
   },
   {
    "name": "Rust AI Forge: Arquitetando Agentes Autônomos de Alta Performance com segurança e desempenho superio",
@@ -8792,9 +8795,9 @@
    ],
    "is_new": true,
    "summary": "Curso Extensão: Rust AI Forge: Arquitetando Agentes Autônomos de Alta Performance com segurança e desempenho das grandes Big Techs.Este curso tem como objetivo..: Objetivo Central: Capacitar desenvolvedores a construírem Agentes de IA…",
-   "geo_precision": "estado",
-   "lat": -7.119,
-   "lon": -34.845
+   "geo_precision": "cidade",
+   "lat": -7.1216,
+   "lon": -34.882
   },
   {
    "name": "Smart City Expo Curitiba 2027",
@@ -8827,9 +8830,9 @@
    ],
    "is_new": true,
    "summary": "A Smart City Expo Curitiba 2027 (8Âª ediÃ§Ã£o) consolidar-se-Ã¡ como o maior evento de cidades inteligentes das AmÃ©ricas, reunindo gestores pÃºblicos, especialistas e empresas para debater soluÃ§Ãµes urbanas, inovaÃ§Ã£o, mobilidade e…",
-   "geo_precision": "estado",
-   "lat": -25.429,
-   "lon": -49.271
+   "geo_precision": "cidade",
+   "lat": -25.4296,
+   "lon": -49.2713
   },
   {
    "name": "3º Food & Innovation Dive",
@@ -8847,7 +8850,6 @@
    "image": "https://images.sympla.com.br/6ad94611bd830.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "foodtech",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -8862,9 +8864,9 @@
    ],
    "is_new": true,
    "summary": "O Food & Innovation Dive é um programa de imersão prática em inovação no foodservice, criado pela Tanjerin para profissionais que precisam tomar decisões mais estratégicas em um mercado cada vez mais competitivo.Curadoria com referência…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "AI Executive Summit 2027",
@@ -8896,9 +8898,9 @@
    ],
    "is_new": true,
    "summary": "Conteúdo exclusivo para a Liderança da áreaNetworking estratégico com outros líderes do mercadoFormato dinâmico, interativo e aplicávelOs assuntos mais atuais e relevantes para líderes da áreaAGENDAConfira a programação…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "South Summit Brazil 2027",
@@ -8932,9 +8934,9 @@
    ],
    "is_new": true,
    "summary": "Edição brasileira do South Summit, com Startup Competition e foco em conectar startups, corporações e investidores.",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
+   "geo_precision": "cidade",
+   "lat": -30.0325,
+   "lon": -51.2304
   },
   {
    "name": "Workshop de Inovação e Empreendedorismo do INCA - WINE 2027 (Evento Presencial)",
@@ -8966,9 +8968,9 @@
    ],
    "is_new": true,
    "summary": "Compre ingressos para Workshop de Inovação e Empreendedorismo do INCA - WINE 2027 (Evento Presencial) em Rio de Janeiro dia 15/04. Confira os melhores eventos da Sympla!",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.911,
+   "lon": -43.2094
   },
   {
    "name": "São Paulo Innovation Week 2027",
@@ -9001,9 +9003,9 @@
    ],
    "is_new": true,
    "summary": "O Rio Innovation Week 2026 reuniu cerca de 200 mil pessoas entre 4 e 7 de agosto, no Píer Mauá, no Rio de Janeiro.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Gramado Summit 2027",
@@ -9070,9 +9072,9 @@
    ],
    "is_new": true,
    "summary": "Fispal Food Service e Fispal Sorvetes: o maior evento de food service da América do Sul. 18 a 21 de maio de 2027, Distrito Anhembi, São Paulo.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Hospitalar 2027",
@@ -9104,9 +9106,9 @@
    ],
    "is_new": true,
    "summary": "Maior feira de saúde da América Latina, com produtos, equipamentos, serviços e tecnologia para hospitais e clínicas.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "VTEX Day 2027",
@@ -9139,9 +9141,9 @@
    ],
    "is_new": true,
    "summary": "Join VTEX DAY 2027: Protagonists of a New Era. 25,000+ attendees, 350+ speakers, and 8,000 brands in São Paulo. The future of digital commerce starts here.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Florianópolis 2027 Venture Capital World Summit",
@@ -9173,9 +9175,9 @@
    ],
    "is_new": true,
    "summary": "Florianópolis Santa Catarina Brazil Venture Capital World Summit, World Series Season of Investment Conferences",
-   "geo_precision": "estado",
-   "lat": -27.595,
-   "lon": -48.548
+   "geo_precision": "cidade",
+   "lat": -27.5973,
+   "lon": -48.5496
   },
   {
    "name": "VIII International FoodTech Forum + VII FoodTech Expo",
@@ -9193,8 +9195,7 @@
    "image": "https://images.sympla.com.br/6a4e550ec3e71.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "foodtech",
-    "startups"
+    "foodtech"
    ],
    "recurrence": "ocasional",
    "typical_month": 6,
@@ -9242,9 +9243,9 @@
    ],
    "is_new": true,
    "summary": "Rio de Janeiro Brazil Venture Capital World Summit, World Series Season of Investment Conferences",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.28,
+   "lon": -42.5325
   },
   {
    "name": "Web Summit Rio 2027",
@@ -9277,9 +9278,9 @@
    ],
    "is_new": true,
    "summary": "In 2026, Web Summit Rio brought together 40,000-plus people and the companies redefining the tech industry. Next June, we’ll return to Rio de Janeiro for another incredible event. Meet you there?",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.911,
+   "lon": -43.2094
   },
   {
    "name": "Fispal Tecnologia 2027",
@@ -9311,9 +9312,9 @@
    ],
    "is_new": true,
    "summary": "Feira de tecnologia para a indústria de alimentos e bebidas: processamento, embalagem e automação.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Summit de Inteligência Artificial Brasil 2027",
@@ -9331,8 +9332,7 @@
    "image": "https://images.sympla.com.br/6a42abe031423.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 6,
@@ -9382,9 +9382,9 @@
    ],
    "is_new": true,
    "summary": "Demo Day do programa de aceleração do BNDES para startups de impacto socioambiental.",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.911,
+   "lon": -43.2094
   },
   {
    "name": "Febraban Tech 2027",
@@ -9418,9 +9418,9 @@
    ],
    "is_new": true,
    "summary": "Maior evento de tecnologia e inovação do setor financeiro da América Latina, promovido pela Febraban.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Rio Innovation Week 2027",
@@ -9453,9 +9453,9 @@
    ],
    "is_new": true,
    "summary": "Rio Innovation Week - A maior conferência global de tecnologia e inovação. Conectando o futuro através da tecnologia, inovação e networking.",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.911,
+   "lon": -43.2094
   },
   {
    "name": "23º Fórum Internacional de Ciências Bíblicas | Bíblia e Igreja em tempos de IA",
@@ -9487,9 +9487,9 @@
    ],
    "is_new": true,
    "summary": "Para mais informações, acesse sbb.org.br",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "AI Brasil Experience",
@@ -9521,9 +9521,9 @@
    ],
    "is_new": true,
    "summary": "The practical journey of digital transformation and applied artificial intelligence for the market The AI Brasil Experience 2026 returns to São Paulo on October 28–29.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "AI Summit Money",
@@ -9556,9 +9556,9 @@
    ],
    "is_new": true,
    "summary": "Se o dinheiro move o mundo, a Inteligência Artificial passa a decidir como ele é analisado, protegido, distribuído, investido e multiplicado.Ela redefine como o dinheiro circula, como o risco é calculado, como o crédito é concedido, como…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "AWS Summit São Paulo",
@@ -9591,9 +9591,9 @@
    ],
    "is_new": true,
    "summary": "Promova a inovação contínua, adquira novas habilidades e estabeleça conexões com colegas no AWS Summit São Paulo.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Bioeconomy Amazon Summit",
@@ -9625,9 +9625,9 @@
    ],
    "is_new": true,
    "summary": "Criado em 2023, o Bioeconomy Amazon Summit chega a sua 3ª edição com a proposta de promover um encontro voltado ao fortalecimento do ecossistema de bioeconomia.",
-   "geo_precision": "estado",
-   "lat": -1.456,
-   "lon": -48.49
+   "geo_precision": "cidade",
+   "lat": -1.4506,
+   "lon": -48.4682
   },
   {
    "name": "BitDevs Belo Horizonte",
@@ -9659,9 +9659,9 @@
    ],
    "is_new": true,
    "summary": "Meetup mensal de desenvolvedores Bitcoin no formato socrático (BitDevs), apoiado pela Vinteum.",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
   },
   {
    "name": "BitDevs Brasília",
@@ -9693,9 +9693,9 @@
    ],
    "is_new": true,
    "summary": "Meetup mensal de desenvolvedores Bitcoin no formato socrático (BitDevs), apoiado pela Vinteum.",
-   "geo_precision": "estado",
+   "geo_precision": "cidade",
    "lat": -15.794,
-   "lon": -47.882
+   "lon": -47.8828
   },
   {
    "name": "BitDevs Curitiba",
@@ -9727,9 +9727,9 @@
    ],
    "is_new": true,
    "summary": "Meetup mensal de desenvolvedores Bitcoin no formato socrático (BitDevs), apoiado pela Vinteum.",
-   "geo_precision": "estado",
-   "lat": -25.429,
-   "lon": -49.271
+   "geo_precision": "cidade",
+   "lat": -25.4296,
+   "lon": -49.2713
   },
   {
    "name": "BitDevs Florianópolis",
@@ -9761,9 +9761,9 @@
    ],
    "is_new": true,
    "summary": "Meetup mensal de desenvolvedores Bitcoin no formato socrático (BitDevs), apoiado pela Vinteum.",
-   "geo_precision": "estado",
-   "lat": -27.595,
-   "lon": -48.548
+   "geo_precision": "cidade",
+   "lat": -27.5973,
+   "lon": -48.5496
   },
   {
    "name": "BitDevs Porto Alegre",
@@ -9795,9 +9795,9 @@
    ],
    "is_new": true,
    "summary": "O BitDevs Porto Alegre é um evento focado em desenvolvedores, pesquisadores e entusiastas interessados no desenvolvimento e na tecnologia do Bitcoin e de seus protocolos correlatos.",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
+   "geo_precision": "cidade",
+   "lat": -30.0325,
+   "lon": -51.2304
   },
   {
    "name": "BitDevs São Paulo",
@@ -9829,9 +9829,9 @@
    ],
    "is_new": true,
    "summary": "Meetup mensal de desenvolvedores Bitcoin no formato socrático (BitDevs), apoiado pela Vinteum.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Blockchain Conference Brasil",
@@ -9865,9 +9865,9 @@
    ],
    "is_new": true,
    "summary": "Conferência de blockchain e criptoativos; a edição 2026 teve o tema 'O Efeito Bitcoin'.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Blockchain.RIO",
@@ -9901,9 +9901,9 @@
    ],
    "is_new": true,
    "summary": "Blockchain.RIO convenes regulators, financial institutions, infrastructure providers, policymakers and global market leaders driving the evolution of tokenization, stablecoins and digital finance across LATAM.",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
+   "geo_precision": "cidade",
+   "lat": -22.911,
+   "lon": -43.2094
   },
   {
    "name": "CIMATEC Business Arena",
@@ -9935,9 +9935,9 @@
    ],
    "is_new": true,
    "summary": "﻿CIMATEC Business Arena Onde tecnologia encontra negócio. O CIMATEC Business Arena é uma iniciativa do SENAI CIMATEC dedicada a aproximar ciência, tecnologia e mercado.",
-   "geo_precision": "estado",
-   "lat": -12.971,
-   "lon": -38.511
+   "geo_precision": "cidade",
+   "lat": -12.9822,
+   "lon": -38.4813
   },
   {
    "name": "Campus Party Brasil",
@@ -9970,9 +9970,9 @@
    ],
    "is_new": true,
    "summary": "http://youtube.com/watch?si=kUN7tztnXCfZdYXm&v=Klp5ZZrItVU&feature=youtu.be Próximas edições CPNordeste2 Maio, 2026 São Lourenço da Mata | PE CPBSB7 Junho, 2026 Brasília | DF CPGoiás5 Novembro, 2026 Goiânia / GO skip render…",
-   "geo_precision": "estado",
+   "geo_precision": "cidade",
    "lat": -15.794,
-   "lon": -47.882
+   "lon": -47.8828
   },
   {
    "name": "Campus Party Goiás",
@@ -10005,9 +10005,9 @@
    ],
    "is_new": true,
    "summary": "Edição goiana da Campus Party, com foco em IA aplicada; a edição 2025 reuniu mais de 100 mil pessoas.",
-   "geo_precision": "estado",
-   "lat": -16.686,
-   "lon": -49.264
+   "geo_precision": "cidade",
+   "lat": -16.6809,
+   "lon": -49.2533
   },
   {
    "name": "Casa Adyen",
@@ -10039,9 +10039,9 @@
    ],
    "is_new": true,
    "summary": "Confira os principais insights da Casa Adyen 2026: agentic commerce, evolução do Pix, omnicanalidade e como os líderes de mercado transformam a tecnologia de pagamentos em motor de receita. O futuro não espera: ele acontece aqui",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Conahp - Congresso Nacional de Hospitais Privados",
@@ -10074,9 +10074,9 @@
    ],
    "is_new": true,
    "summary": "Congresso anual da Anahp sobre o futuro da saúde, com temas como transformação digital e IA.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Conexão & Capital",
@@ -10109,9 +10109,9 @@
    ],
    "is_new": true,
    "summary": "Evento reunirá 8 fundos de investimento na 10ª Feira do Conhecimento, no Centro de Eventos do Ceará, impulsionando novos negócios inovadores no Estado",
-   "geo_precision": "estado",
-   "lat": -3.732,
-   "lon": -38.527
+   "geo_precision": "cidade",
+   "lat": -3.7932,
+   "lon": -38.528
   },
   {
    "name": "ETH Latam São Paulo",
@@ -10143,9 +10143,9 @@
    ],
    "is_new": true,
    "summary": "Conferência e hackathon da comunidade Ethereum latino-americana; quarta edição realizada em São Paulo em 2025.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Epicentro da Inteligência Artificial - Demoday",
@@ -10179,9 +10179,9 @@
    ],
    "is_new": true,
    "summary": "Encerramento nacional do programa de aceleração de startups de IA do Governo de Goiás, com pitches de finalistas.",
-   "geo_precision": "estado",
-   "lat": -16.686,
-   "lon": -49.264
+   "geo_precision": "cidade",
+   "lat": -16.6809,
+   "lon": -49.2533
   },
   {
    "name": "Ethereum Brasil",
@@ -10213,9 +10213,9 @@
    ],
    "is_new": true,
    "summary": "Get ready to connect at Ethereum Brasil 2026 from October 28–29, 2026, at MorumBIS Stadium in São Paulo, Brazil",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Expert XP",
@@ -10247,9 +10247,9 @@
    ],
    "is_new": true,
    "summary": "Confira a programação completa e fique por dentro das principais tendências para o mercado financeiro em 2026. Veja os destaques e inscreva-se!",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Expo Favela Innovation Brasil",
@@ -10281,9 +10281,9 @@
    ],
    "is_new": true,
    "summary": "Feira nacional de empreendedorismo e inovação das favelas, promovida pela CUFA e Favela Holding.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Expo Favela Innovation Brasília",
@@ -10315,9 +10315,9 @@
    ],
    "is_new": true,
    "summary": "O evento no Sesc Ceilândia reúne painéis temáticos, atrações culturais e oportunidades de negócios para fortalecer inovação e sustentabilidade no DF.",
-   "geo_precision": "estado",
+   "geo_precision": "cidade",
    "lat": -15.794,
-   "lon": -47.882
+   "lon": -47.8828
   },
   {
    "name": "FGV Ventures Demoday",
@@ -10351,9 +10351,9 @@
    ],
    "is_new": true,
    "summary": "O centros da FGV EAESP realiza pesquisas e produz conhecimento em fgv ventures. Explore projetos, equipe e publicações do centro.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Fi South America",
@@ -10385,9 +10385,9 @@
    ],
    "is_new": true,
    "summary": "Attend Fi South America 2027 (3–5 Aug) in São Paulo. Connect with leading suppliers and explore innovations in food and health ingredients.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Fintouch Brasília",
@@ -10419,9 +10419,9 @@
    ],
    "is_new": true,
    "summary": "O Fintouch Brasília é um encontro voltado para o ecossistema financeiro e regulatório e irá reunir especialistas, líderes empresariais, representantes do setor público e privado e profissionais do mercado para debater tendências, desafios…",
-   "geo_precision": "estado",
+   "geo_precision": "cidade",
    "lat": -15.794,
-   "lon": -47.882
+   "lon": -47.8828
   },
   {
    "name": "Fintouch São Paulo",
@@ -10455,9 +10455,9 @@
    ],
    "is_new": true,
    "summary": "O Fintouch é o principal evento da ABFintechs. Realizado anualmente, este encontro tem como objetivo central fomentar discussões sobre os desafios enfrentados pelas fintechs, abordando temas como inovação, negócios, regulação e tendências…",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "FoodBiz Summit",
@@ -10489,9 +10489,9 @@
    ],
    "is_new": true,
    "summary": "Encontro de líderes do food service com executivos, operadores, fornecedores e investidores.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Futurecom",
@@ -10523,9 +10523,9 @@
    ],
    "is_new": true,
    "summary": "Conectamos tecnologia e inovação, apresentando soluções de ponta para infraestrutura digital, IA e soberania tecnológica. De 05 a 07 de outubro de 2027, no São Paulo Expo.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "G4 Valley",
@@ -10559,9 +10559,9 @@
    ],
    "is_new": true,
    "summary": "Garanta já seu ingresso para a maior imersão empresarial do Brasil. Não perca essa grande oportunidade de aprender com grandes nomes do mercado!",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Gartner Data & Analytics Summit São Paulo 2027",
@@ -10593,9 +10593,9 @@
    ],
    "is_new": true,
    "summary": "Conferência do Gartner sobre dados, analytics e IA para líderes de tecnologia.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Google for Startups Accelerator Brasil - Demo Day",
@@ -10630,9 +10630,9 @@
    ],
    "is_new": true,
    "summary": "Um programa de dez semanas que conecta recursos para capacitar startups brasileiras (Seed a SÃ©rie A) a escalar tecnologia.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "HIMSS Executive Summit Brasil",
@@ -10665,9 +10665,9 @@
    ],
    "is_new": true,
    "summary": "Encontro executivo da HIMSS sobre saúde digital e inovação no Brasil.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "HackTown",
@@ -10734,9 +10734,9 @@
    ],
    "is_new": true,
    "summary": "Maratona de inovação de 48 horas com desafios de empresas, organizada pela comunidade local de startups.",
-   "geo_precision": "estado",
-   "lat": -15.601,
-   "lon": -56.097
+   "geo_precision": "cidade",
+   "lat": -15.5987,
+   "lon": -56.0991
   },
   {
    "name": "Healthcare Innovation Show (HIS)",
@@ -10770,9 +10770,9 @@
    ],
    "is_new": true,
    "summary": "Nova área conecta compradores, fornecedores e startups, enquanto programação debate eficiência, IA, saúde digital e gestão.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "IA Conference Brasil",
@@ -10804,9 +10804,9 @@
    ],
    "is_new": true,
    "summary": "IA Conference Brasil 2026: data, local, palestrantes confirmados, ingressos e tudo sobre a maior edição do evento de IA da Alura.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Innova Summit",
@@ -10839,9 +10839,9 @@
    ],
    "is_new": true,
    "summary": "O maior evento gratuito de inovação e negócios do Brasil. Três dias de imersão em tecnologia, empreendedorismo e networking.",
-   "geo_precision": "estado",
+   "geo_precision": "cidade",
    "lat": -15.794,
-   "lon": -47.882
+   "lon": -47.8828
   },
   {
    "name": "Inova Amazônia Summit 2027",
@@ -10874,9 +10874,9 @@
    ],
    "is_new": true,
    "summary": "A capital Porto Velho receberá o encontro de bioeconomia, inovação e empreendedorismo da Amazônia Legal promovido pelo Sebrae. Data ainda não foi divulgada.",
-   "geo_precision": "estado",
-   "lat": -8.761,
-   "lon": -63.904
+   "geo_precision": "cidade",
+   "lat": -8.7495,
+   "lon": -63.8735
   },
   {
    "name": "Insper Startup Week",
@@ -10910,9 +10910,9 @@
    ],
    "is_new": true,
    "summary": "Semana de empreendedorismo do Insper com programação que inclui Pitch Day.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "International FoodTech Fórum & FoodTech Expo",
@@ -10981,9 +10981,9 @@
    ],
    "is_new": true,
    "summary": "MERGE São Paulo 2026 (17-19 Mar) — A conferência institucional de cripto, blockchain e Web3 no Theatro Municipal & World Trade Center. Conectando a América Latina e a Europa.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "MV Experience Forum (MEF)",
@@ -11016,9 +11016,9 @@
    ],
    "is_new": true,
    "summary": "O MV Experience Forum é o maior evento de inovação e tecnologia para a saúde do Brasil.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Mercopar",
@@ -11085,9 +11085,9 @@
    ],
    "is_new": true,
    "summary": "Palestras abordarão temas ligados a cibersegurança, saúde, indústria, mineração, empreendedorismo, ciência, tecnologia e, principalmente, IA",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
   },
   {
    "name": "NEON - Nordeste ON",
@@ -11120,9 +11120,9 @@
    ],
    "is_new": true,
    "summary": "Maior evento de inovação e empreendedorismo do Nordeste, itinerante entre capitais; edição 2026 em Maceió.",
-   "geo_precision": "estado",
-   "lat": -9.665,
-   "lon": -35.735
+   "geo_precision": "cidade",
+   "lat": -9.6477,
+   "lon": -35.7339
   },
   {
    "name": "NVIDIA AI Day São Paulo",
@@ -11155,9 +11155,9 @@
    ],
    "is_new": true,
    "summary": "Join peers and experts for hands-on training sessions focused on real-world applications, frameworks, and tools that accelerate AI innovation.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "RD Summit",
@@ -11190,9 +11190,9 @@
    ],
    "is_new": true,
    "summary": "Depois de um ano de pausa, o evento tem data e cidade confirmadas. O anÃºncio foi feito durante o Mundo RD, encontro criado para abrir a estratÃ©gia da companhia a clientes e parceiros",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "REC'n'Play",
@@ -11225,9 +11225,9 @@
    ],
    "is_new": true,
    "summary": "REC'n'Play 2026: obrigado por fazer parte do maior festival gratuito de inovação, tecnologia, criatividade e cultura do Brasil. Veja como foi e até a próxima, de 17 a 20 de novembro de 2027!",
-   "geo_precision": "estado",
-   "lat": -8.054,
-   "lon": -34.881
+   "geo_precision": "cidade",
+   "lat": -8.0585,
+   "lon": -34.8848
   },
   {
    "name": "Satsconf",
@@ -11260,9 +11260,9 @@
    ],
    "is_new": true,
    "summary": "Faça parte da nossa comunidade X-twitter Instagram O Maior Evento de Bitcoin do Brasil Palestrantes Confira os nomes já confirmados para a edição 2025 Diego Kolling Méliuz Bio Diego Kolling […]",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Saúde Business Fórum",
@@ -11294,9 +11294,9 @@
    ],
    "is_new": true,
    "summary": "Fórum executivo do setor de saúde com mesas de discussão, rodadas de negócio e arenas de conteúdo; edição 2026 na Costa do Sauípe.",
-   "geo_precision": "estado",
-   "lat": -12.971,
-   "lon": -38.511
+   "geo_precision": "cidade",
+   "lat": -12.5307,
+   "lon": -38.3009
   },
   {
    "name": "Siará Tech Summit",
@@ -11329,9 +11329,9 @@
    ],
    "is_new": true,
    "summary": "Fortaleza recebe, entre os dias 7 e 9 de outubro, a edição 2026 do Siará Tech Summit, um dos principais encontros de inovação, empreendedorismo e tecnologia do Nordeste. Realizado no Centro de Eventos do Ceará, o",
-   "geo_precision": "estado",
-   "lat": -3.732,
-   "lon": -38.527
+   "geo_precision": "cidade",
+   "lat": -3.7932,
+   "lon": -38.528
   },
   {
    "name": "Silicon Valley Healthtech",
@@ -11364,9 +11364,9 @@
    ],
    "is_new": true,
    "summary": "Evento do Futuro da Saúde sobre como inovações do Vale do Silício (IA, longevidade, biotech) podem transformar a saúde no Brasil.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "StartSe AI Festival",
@@ -11399,9 +11399,9 @@
    ],
    "is_new": true,
    "summary": "Festival de inteligência artificial da StartSe com executivos de big techs e empresas de IA.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Startup Day Cuiabá",
@@ -11433,9 +11433,9 @@
    ],
    "is_new": true,
    "summary": "Pra você que tem uma startup, tem interesse de começar uma ou se envolver com startups, venha participar do Startup Day 2026.O Startup Day é um evento idealizado pelo Sebrae Startups e cocriado com o ecossistema de inovação que acontece…",
-   "geo_precision": "estado",
-   "lat": -15.601,
-   "lon": -56.097
+   "geo_precision": "cidade",
+   "lat": -15.5987,
+   "lon": -56.0991
   },
   {
    "name": "Startup Day São Luís",
@@ -11467,9 +11467,9 @@
    ],
    "is_new": true,
    "summary": "Pra você que tem uma startup, tem interesse de começar uma ou se envolver com startups, venha participar do Startup Day 2026 em São Luís - MA.O Startup Day é um evento idealizado pelo Sebrae Startups e cocriado com o ecossistema de…",
-   "geo_precision": "estado",
-   "lat": -2.53,
-   "lon": -44.303
+   "geo_precision": "cidade",
+   "lat": -2.5295,
+   "lon": -44.2964
   },
   {
    "name": "Startup Summit",
@@ -11503,9 +11503,9 @@
    ],
    "is_new": true,
    "summary": "A 10ª edição do maior encontro de startups do Brasil. 3 dias, 10 palcos, 20 trilhas e milhares de founders, investidores e empresas no CentroSul, em Florianópolis.",
-   "geo_precision": "estado",
-   "lat": -27.595,
-   "lon": -48.548
+   "geo_precision": "cidade",
+   "lat": -27.5973,
+   "lon": -48.5496
   },
   {
    "name": "Vetor Norte Summit",
@@ -11537,9 +11537,9 @@
    ],
    "is_new": true,
    "summary": "Participe do Vetor Norte Summit 2026 em Lagoa Santa. Conecte sua startup a investidores e empresas para impulsionar a inovação na região.",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
+   "geo_precision": "cidade",
+   "lat": -19.6357,
+   "lon": -43.8966
   },
   {
    "name": "WISE - Workshop de Inovação: Startup e Empreendedorismo Digital",
@@ -11572,9 +11572,9 @@
    ],
    "is_new": true,
    "summary": "O WISE 2026 – Workshop de Inovação: Startup e Empreendedorismo Digital é um evento anual dedicado à discussão sobre inovação, tecnologia, empreendedorismo e mercado.Em sua 12ª edição, o WISE acontece no dia 30 de junho de 2026, em Manaus…",
-   "geo_precision": "estado",
-   "lat": -3.119,
-   "lon": -60.022
+   "geo_precision": "cidade",
+   "lat": -3.1316,
+   "lon": -59.9825
   },
   {
    "name": "Web Summit Spotlight Paraíba 2027",
@@ -11607,9 +11607,9 @@
    ],
    "is_new": true,
    "summary": "Evento do Web Summit em João Pessoa, primeiro Spotlight da América Latina; edição 2027 ampliada para dois dias.",
-   "geo_precision": "estado",
-   "lat": -7.119,
-   "lon": -34.845
+   "geo_precision": "cidade",
+   "lat": -7.1216,
+   "lon": -34.882
   },
   {
    "name": "Web3Experts Brazil",
@@ -11641,9 +11641,9 @@
    ],
    "is_new": true,
    "summary": "ento gratuito acontece entre 26 e 28 de junho na Oracle e deve reunir mais de mil desenvolvedores, pesquisadores e especialistas do ecossistema blockchain",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "XZone",
@@ -11676,9 +11676,9 @@
    ],
    "is_new": true,
    "summary": "O Festival XZone 2026 acontece em setembro e promete reunir mais de 5 mil pessoas em uma programação com palestras, workshops, competições, networking e experiências imersivas voltadas à tecnologia, inovação e economia criativa.",
-   "geo_precision": "estado",
-   "lat": -16.686,
-   "lon": -49.264
+   "geo_precision": "cidade",
+   "lat": -16.6809,
+   "lon": -49.2533
   }
  ]
 }
