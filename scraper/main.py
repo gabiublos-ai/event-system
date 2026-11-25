@@ -9,10 +9,10 @@ import argparse
 import json
 import logging
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 
-from scraper.core import (CONFIG_DIR, DATA_DIR, SITE_DATA_DIR, UFS, Event, dedupe_key, is_brazil,
-                          load_themes, merge, today)
+from scraper.core import (CONFIG_DIR, DATA_DIR, SITE_DATA_DIR, UFS, Event, classify_type, dedupe_key,
+                          is_brazil, is_excluded, load_themes, load_types, merge, relevant_themes, today)
 from scraper.sources import ai_discovery, free_search, platforms
 
 log = logging.getLogger("scraper")
@@ -86,6 +86,8 @@ def build(raw: list[Event], themes: dict, keep_past_days: int) -> list[dict]:
             continue
         if dedupe_key(ev.name) in blocklist:
             continue
+        if ev.source != "curadoria" and is_excluded(ev.name):
+            continue
         if ev.end_date and ev.end_date < cutoff:
             continue
         d = ev.to_dict()
@@ -108,6 +110,24 @@ def build(raw: list[Event], themes: dict, keep_past_days: int) -> list[dict]:
             continue
         if dedupe_key(old["name"]) in blocklist:
             continue
+        if set(old.get("sources") or [old.get("source")]) == {"curadoria"}:
+            continue  # a curadoria é relida a cada execução; se saiu do arquivo, sai do site
+        if "curadoria" not in (old.get("sources") or []):
+            # reaplica as regras atuais (temas, exclusões, tipo) aos eventos antigos
+            if is_excluded(old["name"]):
+                continue
+            th = sorted(set(relevant_themes(old["name"], old.get("description") or "", themes))
+                        | ({t for t in old.get("themes", [])} if old.get("source") in ("ia_web",) else set()))
+            if not th:
+                continue
+            old["themes"] = th
+        if "curadoria" not in (old.get("sources") or []) and old.get("start_date") and old.get("end_date"):
+            if (date.fromisoformat(old["end_date"]) - date.fromisoformat(old["start_date"])).days > 31:
+                old["end_date"] = old["start_date"]
+                if old["end_date"] < cutoff:
+                    continue
+        if old.get("type") not in load_types():
+            old["type"] = classify_type(old["name"], old.get("description") or "", old.get("source", ""))
         if old.get("end_date") and old["end_date"] < cutoff:
             continue
         if not old.get("start_date") and old.get("source") != "curadoria" and old.get("last_seen", now) < cutoff:
@@ -142,6 +162,7 @@ def main():
         "total": len(events),
         "sources_raw": stats,
         "themes": {k: {"label": v["label"], "emoji": v["emoji"], "color": v["color"]} for k, v in themes.items()},
+        "types": {k: {"label": v["label"], "icon": v["icon"]} for k, v in load_types().items()},
         "states": UFS,
     }
     payload = {"meta": meta, "events": events}

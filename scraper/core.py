@@ -7,6 +7,7 @@ import re
 import unicodedata
 from dataclasses import asdict, dataclass, field
 from datetime import date, datetime, timezone
+from functools import lru_cache
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -63,25 +64,78 @@ def norm(text: str | None) -> str:
     return f" {t.strip()} "
 
 
+@lru_cache(maxsize=None)
+def _config(name: str) -> dict:
+    return json.loads((CONFIG_DIR / name).read_text(encoding="utf-8"))
+
+
 def load_themes() -> dict:
-    return json.loads((CONFIG_DIR / "themes.json").read_text(encoding="utf-8"))["themes"]
+    return _config("themes.json")["themes"]
+
+
+def load_types() -> dict:
+    return _config("event_types.json")["types"]
+
+
+def exclude_keywords() -> list[str]:
+    return _config("themes.json").get("exclude_keywords", [])
+
+
+def _match(kw: str, normalized_text: str) -> bool:
+    core = norm(kw).strip()
+    if not core:
+        return False
+    # espaço explícito no início/fim da palavra-chave = exige palavra inteira
+    k = (" " if kw.startswith(" ") else "") + core + (" " if kw.endswith(" ") else "")
+    return k in normalized_text
+
+
+def keyword_hits(text: str, themes: dict | None = None) -> dict[str, set[str]]:
+    """{tema: {palavras-chave encontradas}}"""
+    themes = themes or load_themes()
+    t = norm(text)
+    out: dict[str, set[str]] = {}
+    for key, cfg in themes.items():
+        found = {norm(kw).strip() for kw in cfg["keywords"] if _match(kw, t)}
+        if found:
+            out[key] = found
+    return out
 
 
 def classify(text: str, themes: dict | None = None) -> list[str]:
-    themes = themes or load_themes()
-    t = norm(text)
-    found = []
-    for key, cfg in themes.items():
-        for kw in cfg["keywords"]:
-            core = norm(kw).strip()
-            if not core:
-                continue
-            # espaço explícito no início/fim da palavra-chave = exige palavra inteira
-            k = (" " if kw.startswith(" ") else "") + core + (" " if kw.endswith(" ") else "")
-            if k in t:
-                found.append(key)
-                break
-    return found
+    return list(keyword_hits(text, themes))
+
+
+def relevant_themes(name: str, description: str = "", themes: dict | None = None) -> list[str]:
+    """Temas de um evento coletado automaticamente.
+
+    - Palavra-chave no NOME do evento: aceito (a descrição pode somar outros temas).
+    - Só na descrição: precisa de pelo menos 2 palavras-chave diferentes (evita
+      eventos que só citam "IA" de passagem).
+    O organizador NÃO entra, para não contaminar todos os eventos de uma mesma conta.
+    """
+    in_name = keyword_hits(name, themes)
+    in_desc = keyword_hits(description, themes)
+    if in_name:
+        return sorted(set(in_name) | set(in_desc))
+    distinct = set().union(*in_desc.values()) if in_desc else set()
+    return sorted(in_desc) if len(distinct) >= 2 else []
+
+
+def is_excluded(name: str) -> bool:
+    t = norm(name)
+    return any(_match(kw, t) for kw in exclude_keywords())
+
+
+def classify_type(name: str, description: str = "", source: str = "") -> str:
+    types = load_types()
+    t = norm(name)
+    for key, cfg in types.items():
+        if any(_match(kw, t) for kw in cfg["keywords"]):
+            return key
+    if source == "meetup":
+        return "meetup"
+    return "evento"
 
 
 def guess_uf(*parts: str | None) -> str | None:
@@ -155,14 +209,24 @@ class Event:
         self.description = re.sub(r"\s+", " ", (self.description or "").strip())[:600]
         self.start_date = parse_date(self.start_date)
         self.end_date = parse_date(self.end_date) or self.start_date
+        # plataformas às vezes mandam o fim das vendas como "fim do evento" (meses depois);
+        # evento coletado com mais de 31 dias de duração vira evento de um dia só
+        if self.source != "curadoria" and self.start_date and self.end_date and (
+                date.fromisoformat(self.end_date) - date.fromisoformat(self.start_date)).days > 31:
+            self.end_date = self.start_date
+        if self.end_date and self.start_date and self.end_date < self.start_date:
+            self.end_date = self.start_date
         if not self.state:
             self.state = guess_uf(self.city, self.venue)
         if self.state:
             self.state = self.state.upper()
             self.region = UF_TO_REGION.get(self.state)
-        blob = f"{self.name} {self.description} {self.organizer or ''}"
-        auto = classify(blob, themes_cfg)
-        self.themes = sorted(set(self.themes) | set(auto))
+        if self.source == "curadoria":  # temas definidos à mão + o que o nome indicar
+            self.themes = sorted(set(self.themes) | set(classify(self.name, themes_cfg)))
+        else:
+            self.themes = sorted(set(self.themes) | set(relevant_themes(self.name, self.description, themes_cfg)))
+        if self.type not in load_types():
+            self.type = classify_type(self.name, self.description, self.source)
         if self.format == "presencial" and any(w in norm(f"{self.name} {self.venue or ''}") for w in ONLINE_WORDS):
             self.format = "online"
         if not self.typical_month and self.start_date:

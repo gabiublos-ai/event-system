@@ -34,7 +34,12 @@
         "ai conference",
         "ai day",
         "ai festival",
-        "ia summit"
+        "ia summit",
+        " ai ",
+        "ia generativa",
+        "agentes inteligentes",
+        "ai hub",
+        "ia hub"
       ]
     },
     "startups": {
@@ -63,7 +68,17 @@
         "open innovation",
         "ecossistema de inovacao",
         "founder",
-        "vc "
+        "ideathon",
+        "hub de inovacao",
+        "summit de inovacao",
+        "semana de inovacao",
+        "innovation",
+        "tech week",
+        " tech ",
+        "tech experience",
+        "techstars",
+        "startup weekend",
+        "inovacao e empreendedorismo"
       ]
     },
     "aceleradoras": {
@@ -91,9 +106,9 @@
         "startup farm",
         "darwin startups",
         "liga ventures",
-        "distrito",
         "baita",
-        "endeavor"
+        "endeavor",
+        "distrito startups"
       ]
     },
     "escolas_negocio": {
@@ -202,10 +217,14 @@
         "telessaude",
         "digital health",
         "medtech",
-        "hospitalar",
         "healthcare",
         "biotech",
-        "saude 4.0"
+        "saude 4.0",
+        "feira hospitalar",
+        "health summit",
+        "health innovation",
+        "healthcare innovation",
+        "inovacao na saude"
       ]
     },
     "cripto": {
@@ -227,13 +246,13 @@
         "blockchain",
         "web3",
         "ethereum",
-        "defi",
         "nft",
         "tokenizacao",
         "stablecoin",
         "solana",
         "tokenizacao de ativos",
-        "ativos digitais"
+        "ativos digitais",
+        " defi "
       ]
     },
     "bitcoin": {
@@ -284,5 +303,71 @@
         "gastronomia e tecnologia"
       ]
     }
-  }
+  },
+  "_comment_exclude": "Eventos cujo NOME contenha qualquer uma destas palavras são descartados (sem acento, minúsculas). Adicione o que quiser.",
+  "exclude_keywords": [
+    "passeio",
+    "passeando",
+    "degustacao",
+    "cafe da tarde",
+    "happy hour",
+    "confraternizacao",
+    "almoco",
+    "jantar",
+    "churrasco",
+    "charcutaria",
+    "cocktail",
+    "jazz",
+    "show ",
+    "festa",
+    "balada",
+    "yoga",
+    "meditacao",
+    "missa",
+    "culto",
+    "retiro espiritual",
+    "autoestima",
+    "wellness",
+    "bem-estar",
+    "filosofia",
+    "casamento",
+    "aniversario",
+    "noivas",
+    "maquiagem",
+    "estetica",
+    "cabelo",
+    "manicure",
+    "fitness",
+    "crossfit",
+    "corrida",
+    "pedal",
+    "trilha",
+    "turismo",
+    "excursao",
+    "teatro",
+    "espetaculo",
+    "stand-up",
+    "standup",
+    "oratoria",
+    "inteligencia emocional",
+    "job search",
+    "job hunt",
+    "career",
+    "freedom",
+    "emprego",
+    "concurso publico",
+    "trafego pago",
+    "google ads",
+    "odontologia",
+    "psicologia",
+    "terapia",
+    "constelacao",
+    "massagem",
+    "massage",
+    "running club",
+    "rock",
+    "quick massage",
+    "cancelar",
+    "cancelado"
+  ]
 }

@@ -39,7 +39,7 @@ const store = {
 
 const state = {
   all: [], meta: {}, themes: {}, states: {},
-  q: "", themesOn: new Set(), uf: "", period: "upcoming", format: "", rec: "", sort: "date",
+  q: "", themesOn: new Set(), uf: "", period: "upcoming", format: "", rec: "", type: "", sort: "date",
   fav: false, onlyNew: false, view: "cards",
   favs: new Set(store.get("favs", [])),
   calMonth: null,
@@ -93,6 +93,12 @@ function buildControls() {
   $("#fPeriod").value = state.period;
   $("#fFormat").value = state.format;
   $("#fRec").value = state.rec;
+  const types = state.meta.types || {};
+  const tcount = {};
+  for (const e of state.all) tcount[e.type] = (tcount[e.type] || 0) + 1;
+  $("#fType").insertAdjacentHTML("beforeend", Object.entries(types).filter(([k]) => tcount[k])
+    .map(([k, t]) => `<option value="${k}">${t.icon} ${esc(t.label)}</option>`).join(""));
+  $("#fType").value = state.type;
   $("#fSort").value = state.sort;
   $("#q").value = state.q;
   $("#fFav").checked = state.fav;
@@ -111,7 +117,7 @@ function renderChips(baseList) {
 function bind() {
   let tmr;
   $("#q").addEventListener("input", (e) => { clearTimeout(tmr); tmr = setTimeout(() => { state.q = e.target.value; render(); }, 120); });
-  const map = { fState: "uf", fPeriod: "period", fFormat: "format", fRec: "rec", fSort: "sort" };
+  const map = { fState: "uf", fPeriod: "period", fFormat: "format", fRec: "rec", fType: "type", fSort: "sort" };
   for (const [id, key] of Object.entries(map)) $("#" + id).addEventListener("change", (e) => { state[key] = e.target.value; render(); });
   $("#fFav").addEventListener("change", (e) => { state.fav = e.target.checked; render(); });
   $("#fNew").addEventListener("change", (e) => { state.onlyNew = e.target.checked; render(); });
@@ -136,11 +142,11 @@ function bind() {
 
 function buildControlsLight() {
   $("#fState").value = state.uf; $("#fPeriod").value = state.period; $("#fFormat").value = state.format;
-  $("#fRec").value = state.rec; $("#fSort").value = state.sort; $("#q").value = state.q;
+  $("#fRec").value = state.rec; $("#fType").value = state.type; $("#fSort").value = state.sort; $("#q").value = state.q;
 }
 
 function clearFilters() {
-  Object.assign(state, { q: "", uf: "", period: "upcoming", format: "", rec: "", sort: "date", fav: false, onlyNew: false });
+  Object.assign(state, { q: "", uf: "", period: "upcoming", format: "", rec: "", type: "", sort: "date", fav: false, onlyNew: false });
   state.themesOn.clear();
   buildControlsLight(); $("#fFav").checked = false; $("#fNew").checked = false;
   render();
@@ -161,6 +167,7 @@ function writeHash() {
   if (state.period !== "upcoming") p.set("p", state.period);
   if (state.format) p.set("f", state.format);
   if (state.rec) p.set("r", state.rec);
+  if (state.type) p.set("ty", state.type);
   if (state.view !== "cards") p.set("v", state.view);
   const h = p.toString();
   history.replaceState(null, "", h ? "#" + h : location.pathname);
@@ -173,6 +180,7 @@ function readHash() {
   state.period = p.get("p") || "upcoming";
   state.format = p.get("f") || "";
   state.rec = p.get("r") || "";
+  state.type = p.get("ty") || "";
   state.view = p.get("v") || state.view;
 }
 
@@ -196,12 +204,13 @@ function baseFiltered() {
       else if (e.state !== state.uf) return false;
     }
     if (state.format && e.format !== state.format) return false;
+    if (state.type && (e.type || "evento") !== state.type) return false;
     if (state.rec === "rec" && (!e.recurrence || e.recurrence === "ocasional")) return false;
     if (state.rec === "ocasional" && e.recurrence && e.recurrence !== "ocasional") return false;
     if (state.fav && !state.favs.has(e.id)) return false;
     if (state.onlyNew && !e.is_new) return false;
     if (q) {
-      const hay = strip([e.name, e.description, e.city, e.state, e.organizer, e.venue, ...(e.themes || []).map((t) => state.themes[t]?.label)].join(" "));
+      const hay = strip([e.name, typeLabel(e), e.description, e.city, e.state, e.organizer, e.venue, ...(e.themes || []).map((t) => state.themes[t]?.label)].join(" "));
       if (!q.split(/\s+/).every((w) => hay.includes(w))) return false;
     }
     return true;
@@ -259,6 +268,9 @@ function fmtRange(e) {
 }
 const place = (e) => e.format === "online" && !e.city ? "Online" : [e.city, e.state].filter(Boolean).join(" – ") || "Local a confirmar";
 const pills = (e) => (e.themes || []).map((t) => state.themes[t] ? `<span class="pill" style="--c:${state.themes[t].color}">${state.themes[t].emoji} ${esc(state.themes[t].label)}</span>` : "").join("");
+const typeInfo = (e) => (state.meta.types || {})[e.type || "evento"] || { label: "Evento", icon: "📅" };
+const typeLabel = (e, icon = false) => (icon ? typeInfo(e).icon + " " : "") + typeInfo(e).label;
+const typeBadge = (e) => `<span class="badge type">${typeInfo(e).icon} ${esc(typeInfo(e).label)}</span>`;
 const starBtn = (e) => `<button class="star ${state.favs.has(e.id) ? "on" : ""}" data-star="${e.id}" title="Favoritar" aria-label="Favoritar">${state.favs.has(e.id) ? "★" : "☆"}</button>`;
 
 function renderCards(v, list) {
@@ -275,6 +287,7 @@ function renderCards(v, list) {
         </div>
       </div>
       <div class="badges">
+        ${typeBadge(e)}
         ${e.is_new ? `<span class="badge new">Novo</span>` : ""}
         ${rec ? `<span class="badge rec">↻ ${REC_LABEL[e.recurrence] || "Recorrente"}</span>` : ""}
         ${!e.start_date ? `<span class="badge">Data a confirmar</span>` : ""}
@@ -300,7 +313,7 @@ function renderList(v, list) {
       <div class="when">${when}</div>
       <div style="min-width:0"><div class="t">${esc(e.name)}</div><div class="sub2">${(e.themes || []).map((t) => state.themes[t]?.emoji || "").join(" ")} ${esc(e.organizer || e.description || "")}</div></div>
       <div class="where">📍 ${esc(place(e))}</div>
-      <div class="fmt">${FORMAT_LABEL[e.format] || ""}${e.recurrence && e.recurrence !== "ocasional" ? " · ↻" : ""}</div>
+      <div class="fmt">${typeLabel(e)} · ${FORMAT_LABEL[e.format] || ""}${e.recurrence && e.recurrence !== "ocasional" ? " · ↻" : ""}</div>
       ${starBtn(e)}
     </div>`;
   }).join("");
@@ -401,6 +414,7 @@ function openModal(e) {
     ["Quando", fmtRange(e) + (e.start_date && e.date_confirmed === false ? " (estimada — confirme no site)" : "")],
     ["Onde", [e.venue, place(e)].filter(Boolean).join(" · ")],
     ["Formato", FORMAT_LABEL[e.format]],
+    ["Tipo", typeLabel(e, true)],
     ["Recorrência", REC_LABEL[e.recurrence] || "Ocasional"],
     ["Organização", e.organizer],
     ["Preço", e.price],
@@ -448,7 +462,8 @@ function toICS(list) {
   return `BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Radar de Eventos BR//PT-BR\r\nCALSCALE:GREGORIAN\r\n${body}\r\nEND:VCALENDAR\r\n`;
 }
 function exportCSV(list) {
-  const cols = ["name", "start_date", "end_date", "city", "state", "region", "venue", "format", "recurrence", "themes", "organizer", "url", "description"];
+  const cols = ["name", "type", "start_date", "end_date", "city", "state", "region", "venue", "format", "recurrence", "themes", "organizer", "url", "description"];
+  list = list.map((e) => ({ ...e, type: typeLabel(e) }));
   const q = (v) => `"${String(Array.isArray(v) ? v.map((t) => state.themes[t]?.label || t).join(" | ") : v ?? "").replace(/"/g, '""')}"`;
   download("eventos.csv", "﻿" + [cols.join(";"), ...list.map((e) => cols.map((c) => q(e[c])).join(";"))].join("\n"), "text/csv");
 }

@@ -80,3 +80,26 @@ def test_free_search_parsers_and_heuristic():
     assert "fintech" in ev.themes
     news = html.replace("<head>", '<head><meta property="og:type" content="article">')
     assert extract_from_page(news, "https://n.com", load_themes()) == []
+
+
+def test_relevance_and_exclusions():
+    from scraper.core import is_excluded, relevant_themes
+    assert is_excluded("Passeando de Trem Café da Tarde + Degustação Especial")
+    assert is_excluded("Curso de Tráfego Pago + IA")
+    assert not is_excluded("Fintech Summit 2027")
+    assert relevant_themes("Ideathon Osasco") == ["startups"]
+    # só uma palavra solta na descrição não basta
+    assert relevant_themes("Encontro de Gestores", "Vamos falar de IA também") == []
+    assert "ia" in relevant_themes("Encontro", "Inteligência artificial generativa e machine learning")
+
+
+def test_event_type():
+    from scraper.core import classify_type
+    assert classify_type("Congresso Brasileiro de Fintechs") == "congresso"
+    assert classify_type("Feira Hospitalar 2027") == "feira"
+    assert classify_type("Curso de IA para Negócios") == "curso"
+    assert classify_type("Workshop de Pitch") == "workshop"
+    assert classify_type("Demo Day Aceleradora X") == "demo_day"
+    assert classify_type("Algo sem pista", source="meetup") == "meetup"
+    assert classify_type("Algo sem pista") == "evento"
+    assert Event(name="Web Summit Rio", url="u", source="t", city="Rio de Janeiro").finalize().type == "summit"

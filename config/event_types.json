@@ -1,0 +1,237 @@
+{
+  "_comment": "Tipos de evento. A ordem importa: o primeiro tipo cujas palavras aparecem no NOME do evento é o escolhido; se nenhum, vale 'evento'. Palavras sem acento, minúsculas.",
+  "types": {
+    "demo_day": {
+      "label": "Demo Day",
+      "icon": "🎤",
+      "keywords": [
+        "demo day",
+        "demoday",
+        "demo-day",
+        "pitch day",
+        "pitch night",
+        "investor day",
+        "batalha de pitch",
+        "rodada de pitch",
+        "rodada de negocios"
+      ]
+    },
+    "hackathon": {
+      "label": "Hackathon",
+      "icon": "💻",
+      "keywords": [
+        "hackathon",
+        "ideathon",
+        "startup weekend",
+        "maratona de inovacao",
+        "game jam",
+        "datathon",
+        "buildathon"
+      ]
+    },
+    "feira": {
+      "label": "Feira",
+      "icon": "🏪",
+      "keywords": [
+        "feira",
+        "expo ",
+        "exposicao",
+        "fispal",
+        "hospitalar",
+        "trade show",
+        "fair"
+      ]
+    },
+    "congresso": {
+      "label": "Congresso",
+      "icon": "🏛️",
+      "keywords": [
+        "congresso",
+        "congress",
+        "simposio",
+        "jornada"
+      ]
+    },
+    "summit": {
+      "label": "Summit",
+      "icon": "⛰️",
+      "keywords": [
+        "summit",
+        "cupula"
+      ]
+    },
+    "conferencia": {
+      "label": "Conferência",
+      "icon": "🎙️",
+      "keywords": [
+        "conferencia",
+        "conference",
+        "conf ",
+        "week",
+        "semana",
+        "day ",
+        "dia d",
+        "encontro nacional",
+        "encontro",
+        "web summit",
+        "case 20",
+        "experience",
+        "expo talks"
+      ]
+    },
+    "festival": {
+      "label": "Festival",
+      "icon": "🎪",
+      "keywords": [
+        "festival",
+        "fest ",
+        "innovation week",
+        "rec n play",
+        "recnplay",
+        "hacktown"
+      ]
+    },
+    "forum": {
+      "label": "Fórum / Seminário",
+      "icon": "🗣️",
+      "keywords": [
+        "forum",
+        "seminario",
+        "painel",
+        "debate",
+        "mesa redonda"
+      ]
+    },
+    "premiacao": {
+      "label": "Premiação",
+      "icon": "🏆",
+      "keywords": [
+        "premio",
+        "premiacao",
+        "awards",
+        "award"
+      ]
+    },
+    "meetup": {
+      "label": "Meetup",
+      "icon": "👥",
+      "keywords": [
+        "meetup",
+        "bitdevs",
+        "meet up",
+        "comunidade",
+        "community"
+      ]
+    },
+    "webinar": {
+      "label": "Webinar / Live",
+      "icon": "📺",
+      "keywords": [
+        "webinar",
+        "webinario",
+        "live ",
+        "online e gratuito",
+        "virtual event"
+      ]
+    },
+    "workshop": {
+      "label": "Workshop",
+      "icon": "🛠️",
+      "keywords": [
+        "workshop",
+        "oficina",
+        "hands-on",
+        "hands on",
+        "bootcamp",
+        "laboratorio",
+        "lab "
+      ]
+    },
+    "imersao": {
+      "label": "Imersão",
+      "icon": "🌊",
+      "keywords": [
+        "imersao",
+        "immersion",
+        "programa de aceleracao",
+        "aceleracao"
+      ]
+    },
+    "curso": {
+      "label": "Curso",
+      "icon": "📚",
+      "keywords": [
+        "curso",
+        "course",
+        "treinamento",
+        "formacao",
+        "capacitacao",
+        "aula",
+        "turma",
+        "masterclass",
+        "mba",
+        "pos-graduacao",
+        "certificacao",
+        "letramento",
+        "do basico ao avancado",
+        "aprenda",
+        "modulo"
+      ]
+    },
+    "palestra": {
+      "label": "Palestra",
+      "icon": "🎤",
+      "keywords": [
+        "palestra",
+        "talk",
+        "keynote",
+        "aula magna",
+        "bate-papo",
+        "bate papo",
+        "talks",
+        "papo",
+        "conversa"
+      ]
+    },
+    "networking": {
+      "label": "Networking",
+      "icon": "🤝",
+      "keywords": [
+        "networking",
+        "conexoes",
+        "coffee",
+        "after",
+        "mixer",
+        "reuniao",
+        "cafe com",
+        "bom dia",
+        "expresso com",
+        "pitch & wine",
+        "wine",
+        "hour"
+      ]
+    },
+    "visita": {
+      "label": "Visita técnica",
+      "icon": "🚌",
+      "keywords": [
+        "visita tecnica",
+        "missao",
+        "tour",
+        "visita guiada"
+      ]
+    },
+    "pitch": {
+      "label": "Pitch",
+      "icon": "🎯",
+      "keywords": [
+        " pitch "
+      ]
+    },
+    "evento": {
+      "label": "Evento",
+      "icon": "📅",
+      "keywords": []
+    }
+  }
+}
