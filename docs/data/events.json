@@ -1,15 +1,15 @@
 {
  "meta": {
-  "updated_at": "2026-11-25T16:03-03:00",
-  "total": 380,
+  "updated_at": "2026-11-25T16:15-03:00",
+  "total": 383,
   "sources_raw": {
    "curadoria": 79,
-   "sympla": 3437,
+   "sympla": 3439,
    "eventbrite": 0,
-   "meetup": 2668,
+   "meetup": 2662,
    "even3": 0,
    "doity": 0,
-   "busca_web": 2
+   "busca_web": 770
   },
   "themes": {
    "ia": {
@@ -1113,6 +1113,36 @@
    "last_seen": "2026-11-25",
    "sources": [
     "sympla"
+   ],
+   "is_new": true
+  },
+  {
+   "name": "Da ideia à especificação: prepare seu projeto para agentes no VS Code",
+   "url": "https://www.meetup.com/microsoft-reactor-sao-paulo/events/315398302/",
+   "source": "meetup",
+   "start_date": "2026-11-25",
+   "end_date": "2026-11-25",
+   "description": "Vamos transformar a ideia da Pokédex em uma especificação de desenvolvimento clara e preparar o GitHub Copilot para implementá-la de forma consistente. Vamos esclarecer requisitos, definir o escopo e os critérios de aceitação e configurar AGENTS.md, instruções personalizadas e arquivos de prompt com o contexto e as convenções do projeto.",
+   "city": "Campinas",
+   "state": "SP",
+   "venue": "Online event",
+   "format": "online",
+   "type": null,
+   "organizer": "Microsoft Reactor São Paulo",
+   "image": "/images/fallbacks/redesign/group-cover-2-square.webp",
+   "price": null,
+   "themes": [
+    "cripto"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 11,
+   "date_confirmed": true,
+   "id": "d43f3ae65309",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "meetup"
    ],
    "is_new": true
   },
@@ -7257,6 +7287,36 @@
    "is_new": true
   },
   {
+   "name": "How to Land a Job in 2027: Build Your Strategy for the New YearD",
+   "url": "https://www.meetup.com/sao-paulo-startup-idea-to-ipo/events/317436853/",
+   "source": "meetup",
+   "start_date": "2026-12-08",
+   "end_date": "2026-12-08",
+   "description": "There are many groups promoting this event. Our meetup group is participating by promoting this event. This event is organized by Albert's List. This is an online event. Attendees can be located anywhere in the world! Registration is FREE In order to attend, please register here: [https://www.eventbrite.com/e/how-to-land-a-job-in-2027-build-your-strategy-for-the-new-year-tickets-1995864419205?aff=oddtdtcreator&keep_tld=true](https://www.eventbrite.com/e/how-to-land-a-job-in-2027-build-your-strategy-for-the-new-year-tickets-1995864419205?aff=oddtdtcreator&keep_tld=true) 2026 went by fast. Befor",
+   "city": "Sao Paulo",
+   "state": "SP",
+   "venue": null,
+   "format": "online",
+   "type": null,
+   "organizer": "São Paulo Startup: Idea to IPO",
+   "image": "/images/fallbacks/redesign/group-cover-3-square.webp",
+   "price": null,
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "1c6d77a51f5f",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "meetup"
+   ],
+   "is_new": true
+  },
+  {
    "name": "IA que vende!",
    "url": "https://www.sympla.com.br/evento/ia-que-vende/3664845",
    "source": "sympla",
@@ -8511,6 +8571,36 @@
    "date_confirmed": true,
    "id": "89097511bba6",
    "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true
+  },
+  {
+   "name": "Conheça o Intelbras Defense IA Lite",
+   "url": "https://www.sympla.com.br/evento/conheca-o-intelbras-defense-ia-lite/3666793",
+   "source": "sympla",
+   "start_date": "2026-12-14",
+   "end_date": "2026-12-14",
+   "description": "",
+   "city": "Goiânia",
+   "state": "GO",
+   "venue": "Horus Distribudora Bueno T2",
+   "format": "presencial",
+   "type": null,
+   "organizer": "Horus S/A Distribuidora de Soluções Tecnológicas",
+   "image": "https://images.sympla.com.br/6b072dd217673.png",
+   "price": null,
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "36e9ba50fb33",
+   "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
    "sources": [
