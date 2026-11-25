@@ -4,6 +4,13 @@ from scraper.sources.common import extract_jsonld_events
 from scraper.sources.platforms import harvest_eventlike
 
 
+def test_ai_case_sensitive():
+    from scraper.core import relevant_themes, is_excluded
+    assert "ia" in relevant_themes("Data & AI in Practice")
+    assert relevant_themes("E AÍ, POPULAÇÃO! Sampler de danças") == [] or is_excluded("E AÍ, POPULAÇÃO! Sampler de danças")
+    assert is_excluded("AI DE MIM QUE SOU ROMANTICA")
+
+
 def test_classify_themes():
     assert "ia" in classify("Summit de Inteligência Artificial Generativa")
     assert "bitcoin" in classify("Meetup Bitcoin e Lightning Network")
@@ -129,6 +136,9 @@ def test_enrich_sympla_meetup():
     sym = nd({"props": {"pageProps": {"hydrationData": {"eventHydration": {"event": {
         "paymentEventType": "paid", "strippedDetail": "Curso prático de IA para negócios."}}}}}})
     assert parse_page(sym) == {"description": "Curso prático de IA para negócios.", "price": "Pago (valor no site)"}
+    sym2 = nd({"props": {"pageProps": {"hydrationData": {"eventHydration": {"event": {
+        "paymentEventType": "paid", "strippedDetail": "Startup com R$ 2 milhões captados. Lote 1: R$ 97,00. Lote 2: R$ 147"}}}}}})
+    assert parse_page(sym2)["price"] == "A partir de R$ 97"
     free = nd({"props": {"pageProps": {"hydrationData": {"eventHydration": {"event": {"paymentEventType": "unpaid"}}}}}})
     assert parse_page(free)["price"] == "Gratuito"
     meet = nd({"props": {"pageProps": {"event": {"feeSettings": None}}}})
@@ -137,3 +147,14 @@ def test_enrich_sympla_meetup():
     assert parse_page(meet2)["price"] == "R$ 30"
     from scraper.sources.common import price_from_offers
     assert price_from_offers([{"price": -1}]) is None
+
+
+def test_geocode_offline(tmp_path, monkeypatch):
+    import scraper.geo as g
+    monkeypatch.setattr(g, "CACHE_FILE", tmp_path / "geo.json")
+    evs = [{"city": "Campinas", "state": "SP"}, {"city": "Cidade Desconhecida", "state": "PE"},
+           {"city": None, "state": None, "format": "online"}]
+    g.geocode_events(evs, online=False)
+    assert evs[0]["lat"] == -22.906 and evs[0]["geo_precision"] == "cidade"
+    assert (evs[1]["lat"], evs[1]["lon"]) == g.CAPITALS["PE"] and evs[1]["geo_precision"] == "estado"
+    assert evs[2]["lat"] is None

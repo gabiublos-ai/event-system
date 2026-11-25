@@ -10,7 +10,8 @@ Atualiza sozinho **todos os dias às 9h (horário de Brasília)** e publica um s
 
 - Busca instantânea (atalho `/`), filtros por **tema**, **categoria** (Congresso, Feira, Curso, Workshop, Meetup…), região/estado, **período com data início e fim** e formato
 - Cada card mostra a categoria, um resumo do evento e o **valor** (ou “Gratuito”)
-- 4 visualizações: **Cards**, **Lista** (agrupada por mês), **Calendário** e **Mapa** do Brasil por estado
+- **Explore nossos temas**: cards com ícone para cada tema
+- 4 visualizações: **Cards**, **Lista** (agrupada por mês), **Calendário** e **Mapa** real do Brasil (OpenStreetMap), com bolhas por cidade e estados coloridos pela quantidade de eventos
 - Selo **Novo** para eventos que entraram no radar nos últimos 7 dias
 - ⭐ Favoritos (ficam salvos no navegador)
 - Adicionar ao Google Agenda, baixar `.ics` (um evento ou todos os filtrados) e exportar **CSV** (abre no Excel)

@@ -1,96 +1,109 @@
 <!doctype html>
-<html lang="pt-BR" data-theme="dark">
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Radar de Eventos BR</title>
-  <meta name="description" content="Mapa diário de eventos, feiras e congressos de IA, startups, fintech, health tech, cripto, bitcoin e food tech em todo o Brasil.">
+  <meta name="description" content="Eventos, feiras, congressos, cursos e meetups de IA, startups, fintech, health tech, cripto, bitcoin e food tech em todo o Brasil — atualizado todos os dias.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
   <link rel="stylesheet" href="styles.css">
+  <script>
+    try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = JSON.parse(t); } catch (e) {}
+  </script>
 </head>
 <body>
-  <div class="bg-glow" aria-hidden="true"></div>
-
   <header class="topbar">
     <div class="wrap topbar-inner">
-      <a class="brand" href="#">
-        <span class="brand-mark">📡</span>
-        <span><strong>Radar</strong> de Eventos BR</span>
+      <a class="brand" href="./">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.2"/><path d="M16.2 7.8a6 6 0 0 1 0 8.4M7.8 16.2a6 6 0 0 1 0-8.4M19 5a10 10 0 0 1 0 14M5 19A10 10 0 0 1 5 5"/></svg>
+        </span>
+        <span class="brand-name">Radar<span>de Eventos BR</span></span>
       </a>
+      <label class="search" for="q">
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="Buscar evento, cidade ou organizador" autocomplete="off">
+        <kbd>/</kbd>
+      </label>
       <div class="topbar-actions">
-        <span class="updated" id="updated">carregando…</span>
-        <a class="btn ghost sm" id="suggestBtn" target="_blank" rel="noopener">＋ Sugerir evento</a>
-        <button class="btn ghost sm icon" id="themeToggle" title="Alternar tema" aria-label="Alternar tema">☾</button>
+        <a class="btn ghost sm" id="suggestBtn" target="_blank" rel="noopener">Sugerir evento</a>
+        <button class="btn ghost sm icon" id="themeToggle" title="Alternar tema claro/escuro" aria-label="Alternar tema claro/escuro">☾</button>
       </div>
     </div>
   </header>
 
   <main class="wrap">
     <section class="hero">
-      <h1>Todos os eventos de <span class="grad">inovação</span> do Brasil, num só lugar.</h1>
-      <p class="sub">IA, startups, aceleradoras, escolas de negócio, demo days, fintech, health tech, cripto, bitcoin e food tech — atualizado automaticamente todos os dias às 9h.</p>
-      <div class="stats" id="stats"></div>
+      <div class="hero-text">
+        <p class="eyebrow" id="updated">Atualizado todos os dias às 9h</p>
+        <h1>Eventos de inovação em <span class="grad">todo o Brasil</span></h1>
+        <p class="sub">IA, startups, aceleradoras, escolas de negócio, demo days, fintech, health tech, cripto, bitcoin e food tech: congressos, feiras, cursos, meetups e mais.</p>
+      </div>
+      <dl class="stats" id="stats"></dl>
     </section>
 
-    <section class="controls" aria-label="Filtros">
-      <div class="search">
-        <span class="search-icon">⌕</span>
-        <input id="q" type="search" placeholder="Buscar por nome, cidade, organizador…" autocomplete="off">
-        <kbd>/</kbd>
+    <section class="explore" aria-labelledby="exploreTitle">
+      <div class="section-head">
+        <h2 id="exploreTitle">Explore nossos temas</h2>
+        <button class="link-btn" id="allThemes" type="button">Ver todos</button>
       </div>
-      <div class="chip-group">
-        <span class="chip-label">Temas</span>
-        <div class="chips" id="themeChips" role="group" aria-label="Temas"></div>
+      <div class="carousel">
+        <button class="car-nav prev" type="button" aria-label="Temas anteriores">‹</button>
+        <div class="theme-row" id="themeChips" role="group" aria-label="Temas"></div>
+        <button class="car-nav next" type="button" aria-label="Mais temas">›</button>
       </div>
-      <div class="chip-group">
-        <span class="chip-label">Categoria</span>
-        <div class="chips" id="typeChips" role="group" aria-label="Categoria"></div>
-      </div>
-      <div class="filters">
-        <label class="field"><span>Região / Estado</span>
-          <select id="fState"><option value="">Todo o Brasil</option></select></label>
-        <label class="field"><span>Período</span>
-          <select id="fPeriod">
-            <option value="upcoming">A partir de hoje</option>
-            <option value="7">Próximos 7 dias</option>
-            <option value="30">Próximos 30 dias</option>
-            <option value="90">Próximos 3 meses</option>
-            <option value="180">Próximos 6 meses</option>
-            <option value="custom">Escolher datas…</option>
-            <option value="tbd">Data a confirmar</option>
-            <option value="all">Tudo (inclui recentes)</option>
-          </select></label>
-        <label class="field"><span>Data início</span>
-          <input type="date" id="fFrom"></label>
-        <label class="field"><span>Data fim</span>
-          <input type="date" id="fTo"></label>
-        <label class="field"><span>Formato</span>
-          <select id="fFormat">
-            <option value="">Todos</option><option value="presencial">Presencial</option>
-            <option value="hibrido">Híbrido</option><option value="online">Online</option>
-          </select></label>
-        <div class="toggles">
-          <label class="toggle"><input type="checkbox" id="fFav"><span>★ Favoritos</span></label>
-          <label class="toggle"><input type="checkbox" id="fNew"><span>Novos</span></label>
+    </section>
+
+    <section class="filterbar" aria-label="Filtros">
+      <label class="field"><span>Região / Estado</span>
+        <select id="fState"><option value="">Todo o Brasil</option></select></label>
+      <label class="field"><span>Período</span>
+        <select id="fPeriod">
+          <option value="upcoming">A partir de hoje</option>
+          <option value="7">Próximos 7 dias</option>
+          <option value="30">Próximos 30 dias</option>
+          <option value="90">Próximos 3 meses</option>
+          <option value="180">Próximos 6 meses</option>
+          <option value="custom">Datas escolhidas</option>
+          <option value="tbd">Data a confirmar</option>
+          <option value="all">Tudo (inclui recentes)</option>
+        </select></label>
+      <div class="field field-dates"><span>Datas</span>
+        <div class="daterange">
+          <input type="date" id="fFrom" aria-label="Data início">
+          <span class="arrow" aria-hidden="true">→</span>
+          <input type="date" id="fTo" aria-label="Data fim">
         </div>
+      </div>
+      <label class="field"><span>Categoria</span>
+        <select id="fType"><option value="">Todas</option></select></label>
+      <label class="field"><span>Formato</span>
+        <select id="fFormat">
+          <option value="">Todos</option><option value="presencial">Presencial</option>
+          <option value="hibrido">Híbrido</option><option value="online">Online</option>
+        </select></label>
+      <div class="toggles">
+        <label class="toggle"><input type="checkbox" id="fFav"><span>★ Favoritos</span></label>
+        <label class="toggle"><input type="checkbox" id="fNew"><span>Novos</span></label>
       </div>
     </section>
 
     <section class="toolbar">
-      <div class="tabs" role="tablist">
-        <button class="tab active" data-view="cards" role="tab">▦ Cards</button>
-        <button class="tab" data-view="list" role="tab">☰ Lista</button>
-        <button class="tab" data-view="calendar" role="tab">▣ Calendário</button>
-        <button class="tab" data-view="map" role="tab">◎ Mapa</button>
+      <div class="tabs" role="tablist" aria-label="Visualização">
+        <button class="tab active" data-view="cards" role="tab">Cards</button>
+        <button class="tab" data-view="list" role="tab">Lista</button>
+        <button class="tab" data-view="calendar" role="tab">Calendário</button>
+        <button class="tab" data-view="map" role="tab">Mapa</button>
       </div>
       <div class="toolbar-right">
         <span class="count" id="count"></span>
-        <button class="btn ghost sm" id="clearBtn">Limpar filtros</button>
-        <button class="btn ghost sm" id="csvBtn" title="Exportar resultado em CSV">⤓ CSV</button>
-        <button class="btn ghost sm" id="icsBtn" title="Exportar resultado para o calendário">⤓ Agenda (.ics)</button>
+        <button class="btn ghost sm" id="clearBtn" type="button">Limpar filtros</button>
+        <button class="btn ghost sm" id="csvBtn" type="button" title="Baixar o resultado em planilha">Baixar CSV</button>
+        <button class="btn ghost sm" id="icsBtn" type="button" title="Baixar o resultado para a sua agenda">Baixar agenda</button>
       </div>
     </section>
 
@@ -98,12 +111,13 @@
   </main>
 
   <footer class="wrap footer">
-    <p>Fontes: Sympla, Eventbrite, Meetup, Even3, Doity, sites oficiais e busca automática na web, além de uma curadoria editável.
-      Confirme sempre datas e local no site oficial do evento.</p>
+    <p>Fontes: Sympla, Eventbrite, Meetup, sites oficiais e busca automática na web, além de uma curadoria editável.
+      Valores e datas podem mudar: confirme sempre no site do evento. Mapa © OpenStreetMap, © CARTO.</p>
   </footer>
 
   <dialog id="modal" class="modal"><div class="modal-body" id="modalBody"></div></dialog>
 
-  <script src="app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" defer></script>
+  <script src="app.js" defer></script>
 </body>
 </html>

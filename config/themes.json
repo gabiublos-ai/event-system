@@ -35,11 +35,14 @@
         "ai day",
         "ai festival",
         "ia summit",
-        " ai ",
         "ia generativa",
         "agentes inteligentes",
         "ai hub",
-        "ia hub"
+        "ia hub",
+        "re:\\bAI\\b",
+        "re:\\bA\\.I\\.",
+        "data & ai",
+        "generative ai"
       ]
     },
     "startups": {
@@ -368,6 +371,14 @@
     "rock",
     "quick massage",
     "cancelar",
-    "cancelado"
-  ]
+    "cancelado",
+    "ai de mim",
+    "danca",
+    "dancas",
+    "samba",
+    "forro",
+    "pagode",
+    "sertanejo"
+  ],
+  "_comment_re": "Palavras-chave que começam com 're:' são expressões regulares aplicadas ao texto original, diferenciando maiúsculas (ex.: re:\\bAI\\b casa 'AI' mas não 'aí')."
 }

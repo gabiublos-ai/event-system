@@ -20,10 +20,28 @@ from scraper.sources.common import _is_event, _walk, extract_next_data, fetch, f
 
 log = logging.getLogger("scraper")
 CACHE_FILE = DATA_DIR / "enrich_cache.json"
-CACHE_VERSION = 3  # aumente para forçar reabrir todas as páginas
+CACHE_VERSION = 4  # aumente para forçar reabrir todas as páginas
 PAID = "Pago (valor no site)"
+# textos padrão das plataformas que não descrevem o evento
+GENERIC_DESC = re.compile(r"^(encontre os melhores eventos|descubra eventos|find events|meetup is)", re.I)
 FREE_RX = re.compile(r"\b(evento gratuito|entrada gratuita|entrada franca|gratuito|gratuita|gratis|free)\b", re.I)
-BRL_RX = re.compile(r"R\$\s?(\d{1,3}(?:\.\d{3})*(?:,\d{2})?|\d+(?:,\d{2})?)")
+BRL_RX = re.compile(r"R\$\s?(\d{1,3}(?:\.\d{3})*(?:,\d{2})?|\d+(?:,\d{2})?)(?!\s*(?:mil|milh|bilh|bi\b|mi\b|k\b))", re.I)
+
+
+def min_price_in_text(text: str) -> str | None:
+    """'Investimento: R$ 297' / 'Lote 1 R$ 50,00' -> 'A partir de R$ 50' (ignora 'R$ 2 milhões')."""
+    vals = []
+    for v in BRL_RX.findall(text or ""):
+        try:
+            n = float(v.replace(".", "").replace(",", "."))
+        except ValueError:
+            continue
+        if 5 <= n <= 50000:
+            vals.append(n)
+    if not vals:
+        return None
+    lo = min(vals)
+    return fmt_brl(lo) if len(set(vals)) == 1 else f"A partir de {fmt_brl(lo)}"
 
 
 def clean_text(text: str) -> str:
@@ -68,11 +86,14 @@ def parse_page(html: str) -> dict:
     sev = (((nd.get("props") or {}).get("pageProps") or {}).get("hydrationData") or {}).get("eventHydration", {})
     sev = sev.get("event") if isinstance(sev, dict) else None
     if isinstance(sev, dict):
-        desc = desc or clean_text(sev.get("strippedDetail") or "")
+        full = clean_text(sev.get("strippedDetail") or "")
+        desc = desc or full
         kind = str(sev.get("paymentEventType") or "").lower()
         if not price and kind:
-            price = ("Gratuito" if kind in ("free", "unpaid") else PAID if kind == "paid"
-                     else "Gratuito e pago (ver no site)")
+            if kind in ("free", "unpaid"):
+                price = "Gratuito"
+            else:  # pago: procura o valor escrito pelo organizador na descrição
+                price = min_price_in_text(full) or (PAID if kind == "paid" else "Gratuito e pago (ver no site)")
     # Meetup: feeSettings nulo = sem cobrança
     for d in _walk(nd):
         if "feeSettings" in d and not price:
@@ -93,10 +114,9 @@ def parse_page(html: str) -> dict:
         if FREE_RX.search(desc):
             price = "Gratuito"
         else:
-            vals = [float(v.replace(".", "").replace(",", ".")) for v in BRL_RX.findall(desc)]
-            vals = [v for v in vals if v > 0]
-            if vals:
-                price = f"A partir de {fmt_brl(min(vals))}"
+            price = min_price_in_text(desc)
+    if GENERIC_DESC.search(desc or ""):
+        desc = ""
     return {"description": desc, "price": price}
 
 
@@ -106,7 +126,7 @@ def enrich(events: list[dict], max_pages: int = 400, refresh_days: int = 30) -> 
     except (FileNotFoundError, json.JSONDecodeError):
         cache = {}
     limit = (date.today() - timedelta(days=refresh_days)).isoformat()
-    need = [e for e in events if e.get("url", "").startswith("http") and (not e.get("price") or len(e.get("description") or "") < 40)]
+    need = [e for e in events if e.get("url", "").startswith("http") and (not e.get("price") or e.get("price") == PAID or len(e.get("description") or "") < 40)]
     def stale(info):
         return info.get("v") != CACHE_VERSION or info.get("date", "") <= limit
     todo = [e["url"] for e in need if stale(cache.get(e["url"], {}))]
@@ -131,6 +151,8 @@ def enrich(events: list[dict], max_pages: int = 400, refresh_days: int = 30) -> 
             continue
         if info.get("price"):
             e["price"] = info["price"]
+        if GENERIC_DESC.search(e.get("description") or ""):
+            e["description"] = ""
         if len(info.get("description") or "") > len(e.get("description") or ""):
             e["description"] = info["description"][:600]
     for e in events:

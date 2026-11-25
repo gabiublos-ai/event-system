@@ -82,7 +82,9 @@ def exclude_keywords() -> list[str]:
     return _config("themes.json").get("exclude_keywords", [])
 
 
-def _match(kw: str, normalized_text: str) -> bool:
+def _match(kw: str, normalized_text: str, original: str = "") -> bool:
+    if kw.startswith("re:"):  # regex sobre o texto original (diferencia maiúsculas/acentos)
+        return bool(original) and re.search(kw[3:], original) is not None
     core = norm(kw).strip()
     if not core:
         return False
@@ -97,7 +99,7 @@ def keyword_hits(text: str, themes: dict | None = None) -> dict[str, set[str]]:
     t = norm(text)
     out: dict[str, set[str]] = {}
     for key, cfg in themes.items():
-        found = {norm(kw).strip() for kw in cfg["keywords"] if _match(kw, t)}
+        found = {norm(kw).strip() if not kw.startswith("re:") else kw for kw in cfg["keywords"] if _match(kw, t, text or "")}
         if found:
             out[key] = found
     return out

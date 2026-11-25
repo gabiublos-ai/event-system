@@ -14,6 +14,7 @@ from datetime import date, datetime, timedelta, timezone
 
 from scraper.core import (CONFIG_DIR, DATA_DIR, SITE_DATA_DIR, UFS, Event, classify_type, dedupe_key,
                           is_brazil, is_excluded, load_themes, load_types, merge, relevant_themes, today)
+from scraper import geo
 from scraper.sources import ai_discovery, enrich, free_search, platforms
 
 log = logging.getLogger("scraper")
@@ -160,6 +161,7 @@ def main():
     # valor e descrição: abre páginas novas (offline = só reaproveita o cache)
     ecfg = sources.get("enrich", {})
     enrich.enrich(events, 0 if args.offline or not ecfg.get("enabled", True) else ecfg.get("max_pages_per_day", 400))
+    geo.geocode_events(events, online=not args.offline)
 
     SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
     meta = {
