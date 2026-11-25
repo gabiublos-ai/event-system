@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated_at": "2026-11-25T15:45-03:00",
+  "updated_at": "2026-11-25T15:51-03:00",
   "total": 79,
   "sources_raw": {
    "curadoria": 79
@@ -118,7 +118,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Amazon IA Summit 2026",
@@ -148,7 +148,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "BRDE Labs Summit 2026",
@@ -180,7 +180,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Bahia Tech Experience (BTX) 2026",
@@ -211,7 +211,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Smart City Expo Curitiba 2027",
@@ -242,7 +242,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "South Summit Brazil 2027",
@@ -274,7 +274,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "São Paulo Innovation Week 2027",
@@ -305,7 +305,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Gramado Summit 2027",
@@ -336,7 +336,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Fispal Food Service 2027",
@@ -366,7 +366,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Hospitalar 2027",
@@ -396,7 +396,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "VTEX Day 2027",
@@ -427,7 +427,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Web Summit Rio 2027",
@@ -458,7 +458,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Fispal Tecnologia 2027",
@@ -488,7 +488,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "BNDES Garagem - Demo Day (ciclo 2026)",
@@ -520,7 +520,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Febraban Tech 2027",
@@ -551,7 +551,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Rio Innovation Week 2027",
@@ -582,7 +582,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "AI Brasil Experience",
@@ -612,7 +612,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "AI Summit Money",
@@ -643,7 +643,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "AWS Summit São Paulo",
@@ -674,7 +674,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Bioeconomy Amazon Summit",
@@ -704,7 +704,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "BitDevs Belo Horizonte",
@@ -734,7 +734,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "BitDevs Brasília",
@@ -764,7 +764,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "BitDevs Curitiba",
@@ -794,7 +794,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "BitDevs Florianópolis",
@@ -824,7 +824,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "BitDevs Porto Alegre",
@@ -854,7 +854,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "BitDevs São Paulo",
@@ -884,7 +884,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Blockchain Conference Brasil",
@@ -916,7 +916,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Blockchain.RIO",
@@ -949,7 +949,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "CIMATEC Business Arena",
@@ -979,7 +979,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Campus Party Brasil",
@@ -1010,7 +1010,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Campus Party Goiás",
@@ -1041,7 +1041,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Casa Adyen",
@@ -1071,7 +1071,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Conahp - Congresso Nacional de Hospitais Privados",
@@ -1102,7 +1102,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Conexão & Capital",
@@ -1133,7 +1133,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "ETH Latam São Paulo",
@@ -1163,7 +1163,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Epicentro da Inteligência Artificial - Demoday",
@@ -1196,7 +1196,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Ethereum Brasil",
@@ -1226,7 +1226,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Expert XP",
@@ -1256,7 +1256,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Expo Favela Innovation Brasil",
@@ -1286,7 +1286,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Expo Favela Innovation Brasília",
@@ -1316,7 +1316,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "FGV Ventures Demoday",
@@ -1349,7 +1349,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Fi South America",
@@ -1379,7 +1379,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Fintouch Brasília",
@@ -1409,7 +1409,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Fintouch São Paulo",
@@ -1441,7 +1441,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "FoodBiz Summit",
@@ -1471,7 +1471,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Futurecom",
@@ -1501,7 +1501,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "G4 Valley",
@@ -1533,7 +1533,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Gartner Data & Analytics Summit São Paulo 2027",
@@ -1563,7 +1563,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Google for Startups Accelerator Brasil - Demo Day",
@@ -1596,7 +1596,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "HIMSS Executive Summit Brasil",
@@ -1627,7 +1627,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "HackTown",
@@ -1658,7 +1658,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Hackstars Cuiabá",
@@ -1688,7 +1688,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Healthcare Innovation Show (HIS)",
@@ -1719,7 +1719,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "IA Conference Brasil",
@@ -1749,7 +1749,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Innova Summit",
@@ -1780,7 +1780,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Inova Amazônia Summit 2027",
@@ -1811,7 +1811,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Insper Startup Week",
@@ -1844,7 +1844,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "International FoodTech Fórum & FoodTech Expo",
@@ -1876,7 +1876,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "MERGE São Paulo",
@@ -1907,7 +1907,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "MV Experience Forum (MEF)",
@@ -1938,7 +1938,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Mercopar",
@@ -1968,7 +1968,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Minas Summit",
@@ -1999,7 +1999,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "NEON - Nordeste ON",
@@ -2030,7 +2030,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "NVIDIA AI Day São Paulo",
@@ -2061,7 +2061,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "RD Summit",
@@ -2092,7 +2092,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "REC'n'Play",
@@ -2123,7 +2123,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Satsconf",
@@ -2154,7 +2154,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Saúde Business Fórum",
@@ -2184,7 +2184,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Siará Tech Summit",
@@ -2215,7 +2215,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Silicon Valley Healthtech",
@@ -2246,7 +2246,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "StartSe AI Festival",
@@ -2277,7 +2277,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Startup Day Cuiabá",
@@ -2307,7 +2307,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Startup Day São Luís",
@@ -2337,7 +2337,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Startup Summit",
@@ -2369,7 +2369,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Vetor Norte Summit",
@@ -2399,7 +2399,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "WISE - Workshop de Inovação: Startup e Empreendedorismo Digital",
@@ -2430,7 +2430,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Web Summit Spotlight Paraíba 2027",
@@ -2461,7 +2461,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "Web3Experts Brazil",
@@ -2491,7 +2491,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "name": "XZone",
@@ -2522,7 +2522,7 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": false
+   "is_new": true
   }
  ]
 }

@@ -278,6 +278,7 @@ function renderCards(v, list) {
         ${e.is_new ? `<span class="badge new">Novo</span>` : ""}
         ${rec ? `<span class="badge rec">↻ ${REC_LABEL[e.recurrence] || "Recorrente"}</span>` : ""}
         ${!e.start_date ? `<span class="badge">Data a confirmar</span>` : ""}
+        ${e.start_date && e.date_confirmed === false ? `<span class="badge" title="Data identificada automaticamente — confirme no site">Data estimada</span>` : ""}
       </div>
       ${e.description ? `<p class="desc">${esc(e.description)}</p>` : ""}
       <div class="pills">${pills(e)}</div>
@@ -397,7 +398,7 @@ function onViewClick(e) {
 function openModal(e) {
   if (!e) return;
   const rows = [
-    ["Quando", fmtRange(e)],
+    ["Quando", fmtRange(e) + (e.start_date && e.date_confirmed === false ? " (estimada — confirme no site)" : "")],
     ["Onde", [e.venue, place(e)].filter(Boolean).join(" · ")],
     ["Formato", FORMAT_LABEL[e.format]],
     ["Recorrência", REC_LABEL[e.recurrence] || "Ocasional"],

@@ -24,8 +24,11 @@ Atualiza sozinho **todos os dias às 9h (horário de Brasília)** e publica um s
 | Eventbrite | Páginas de busca Brasil (JSON-LD) |
 | Meetup | Busca por tema em 14 capitais/polos |
 | Even3, Doity | Páginas de busca (JSON-LD) |
-| Busca na web com IA (Claude) | Pesquisa por tema × região em sites oficiais, hubs, aceleradoras e portais. Gira as combinações a cada dia para cobrir tudo ao longo da semana |
+| **Busca na web grátis** (DuckDuckGo + Bing) | Pesquisa ~60 combinações por dia de tema × tipo de evento × cidade/região × ano, abre as páginas encontradas e extrai o evento (JSON-LD ou, se não houver, título + datas em português + cidade/UF). Gira as combinações a cada dia e não reabre páginas já vistas por 14 dias. **Sem chave e sem custo** |
+| Busca com IA (Claude) — *opcional, paga* | Desligada por padrão. Pode ser ligada em `config/sources.json` |
 | Curadoria | `data/seed_events.json` — grandes eventos recorrentes, editável à mão |
+
+Eventos achados pela busca grátis sem data estruturada aparecem com o selo **Data estimada**.
 
 Depois o robô:
 1. classifica cada evento nos 10 temas por palavras‑chave (`config/themes.json`);
@@ -39,8 +42,8 @@ Depois o robô:
 ## Colocando no ar (uma vez só)
 
 1. **Ativar o GitHub Pages:** no repositório, `Settings → Pages → Build and deployment → Source: GitHub Actions`.
-2. **(Recomendado) Ativar a busca com IA:** `Settings → Secrets and variables → Actions → New repository secret`, nome `ANTHROPIC_API_KEY`, com uma chave da [Claude Console](https://console.anthropic.com/).
-   - Por padrão faz 10 buscas por dia (≈ 4 dias para varrer os 10 temas × 4 regiões). Para mudar, crie a *variable* `AI_MAX_CALLS`. Cada busca custa alguns centavos de dólar; acompanhe o gasto na Console.
+2. Pronto — **tudo roda de graça**: o GitHub Actions e o GitHub Pages são gratuitos para repositórios públicos (em repositórios privados o plano gratuito inclui 2.000 min/mês de Actions; a coleta diária usa ~10–15 min).
+   - *Opcional (pago):* para somar a busca com IA, mude `ai_discovery.enabled` para `true` em `config/sources.json` e crie o secret `ANTHROPIC_API_KEY`.
 3. Fazer merge desta branch na `main`. O workflow `.github/workflows/update-events.yml` roda todo dia às 9h; para rodar na hora: aba **Actions → Atualizar eventos → Run workflow**.
 
 O site fica em `https://<usuario>.github.io/<repositorio>/`.
@@ -55,6 +58,7 @@ O site fica em `https://<usuario>.github.io/<repositorio>/`.
 | Cadastrar um evento à mão | `data/seed_events.json` |
 | Esconder um evento que entrou por engano | coloque o nome em `data/blocklist.json` |
 | Ligar/desligar fontes, cidades do Meetup, páginas de agenda extras | `config/sources.json` |
+| Fazer a busca grátis pesquisar mais/menos por dia | `free_search.queries_per_day` e `max_pages_per_day` em `config/sources.json` |
 | Mudar textos/cores do site | `docs/index.html`, `docs/styles.css` (variáveis no topo) |
 | Mudar o horário | linha `cron` em `.github/workflows/update-events.yml` (em UTC: 9h BRT = 12h UTC) |
 

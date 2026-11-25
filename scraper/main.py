@@ -13,7 +13,7 @@ from datetime import datetime, timedelta, timezone
 
 from scraper.core import (CONFIG_DIR, DATA_DIR, SITE_DATA_DIR, UFS, Event, dedupe_key, is_brazil,
                           load_themes, merge, today)
-from scraper.sources import ai_discovery, platforms
+from scraper.sources import ai_discovery, free_search, platforms
 
 log = logging.getLogger("scraper")
 BRT = timezone(timedelta(hours=-3))
@@ -52,6 +52,8 @@ def collect(themes: dict, sources: dict) -> tuple[list[Event], dict]:
             jobs[name] = (lambda n=name: platforms.search_pages(n, sources[n]["url"], terms))
     if sources.get("extra_pages"):
         jobs["agenda"] = lambda: platforms.extra_pages(sources["extra_pages"])
+    if sources.get("free_search", {}).get("enabled"):
+        jobs["busca_web"] = lambda: free_search.discover(themes, sources["free_search"])
     if sources.get("ai_discovery", {}).get("enabled"):
         jobs["ia_web"] = lambda: ai_discovery.discover(themes)
 

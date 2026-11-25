@@ -51,3 +51,31 @@ def test_harvest_and_dedupe(tmp_path, monkeypatch):
 def test_event_finalize_region():
     e = Event(name="Healthtech Conference", url="u", source="t", city="Manaus", start_date="2030-02-01").finalize()
     assert e.state == "AM" and e.region == "Norte" and "healthtech" in e.themes
+
+
+def test_free_search_dates():
+    from datetime import date
+    from scraper.sources.free_search import find_dates
+    ref = date(2026, 11, 25)
+    assert find_dates("Acontece de 10 a 12 de maio de 2027 no Recife", ref)[0] == ("2027-05-10", "2027-05-12")
+    assert find_dates("Dia 3 de março, em SP", ref)[0] == ("2027-03-03", "2027-03-03")
+    assert find_dates("Inscrições até 15/04/2027", ref)[0] == ("2027-04-15", "2027-04-15")
+    assert find_dates("Edição passada: 5 de maio de 2025", ref) == []
+    assert find_dates("1 de marketing digital", ref) == []
+
+
+def test_free_search_parsers_and_heuristic():
+    from scraper.core import load_themes
+    from scraper.sources.free_search import extract_from_page, parse_bing_rss, parse_duckduckgo
+    ddg = '<a class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fevento.com.br%2F&rut=x">X</a>'
+    assert parse_duckduckgo(ddg) == ["https://evento.com.br/"]
+    rss = "<rss><channel><item><title>T</title><link>https://a.com/e</link></item></channel></rss>"
+    assert parse_bing_rss(rss) == ["https://a.com/e"]
+    html = """<html><head><title>Fintech Summit Nordeste 2027 | Site</title>
+    <meta name="description" content="O maior evento de fintech do Nordeste. Recife - PE, 8 e 9 de junho de 2027."></head>
+    <body>Inscrições abertas</body></html>"""
+    ev = extract_from_page(html, "https://fs.com.br", load_themes())[0].finalize()
+    assert ev.name == "Fintech Summit Nordeste 2027" and ev.state == "PE" and ev.start_date == "2027-06-08"
+    assert "fintech" in ev.themes
+    news = html.replace("<head>", '<head><meta property="og:type" content="article">')
+    assert extract_from_page(news, "https://n.com", load_themes()) == []
