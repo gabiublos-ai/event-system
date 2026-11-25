@@ -231,7 +231,7 @@ def discover(themes_cfg: dict, cfg: dict) -> list[Event]:
              len(candidates), relevant, len(todo))
 
     def work(url):
-        r = fetch(url, retries=1, timeout=20)
+        r = fetch(url, retries=1, timeout=10)
         if not r or "html" not in r.headers.get("content-type", "html"):
             return []
         try:

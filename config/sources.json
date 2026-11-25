@@ -42,8 +42,8 @@
       "duckduckgo",
       "bing"
     ],
-    "queries_per_day": 60,
-    "max_pages_per_day": 250,
+    "queries_per_day": 30,
+    "max_pages_per_day": 80,
     "revisit_days": 14
   },
   "extra_pages": [],
