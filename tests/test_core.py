@@ -67,10 +67,11 @@ def test_free_search_dates():
 def test_free_search_parsers_and_heuristic():
     from scraper.core import load_themes
     from scraper.sources.free_search import extract_from_page, parse_bing_rss, parse_duckduckgo
-    ddg = '<a class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fevento.com.br%2F&rut=x">X</a>'
-    assert parse_duckduckgo(ddg) == ["https://evento.com.br/"]
+    ddg = ('<div class="result"><a class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fevento.com.br%2F'
+           '&rut=x">Fintech Day</a><a class="result__snippet">Evento</a></div>')
+    assert parse_duckduckgo(ddg) == [("https://evento.com.br/", "Fintech Day Evento")]
     rss = "<rss><channel><item><title>T</title><link>https://a.com/e</link></item></channel></rss>"
-    assert parse_bing_rss(rss) == ["https://a.com/e"]
+    assert parse_bing_rss(rss) == [("https://a.com/e", "T ")]
     html = """<html><head><title>Fintech Summit Nordeste 2027 | Site</title>
     <meta name="description" content="O maior evento de fintech do Nordeste. Recife - PE, 8 e 9 de junho de 2027."></head>
     <body>Inscrições abertas</body></html>"""

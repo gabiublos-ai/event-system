@@ -82,34 +82,39 @@ def _mk(pos, y, mon, d1, d2):
 
 
 # ------------------------------------------------------------------ buscadores
-def search_duckduckgo(query: str) -> list[str]:
+def search_duckduckgo(query: str) -> list[tuple[str, str]]:
     r = fetch("https://html.duckduckgo.com/html/", method="POST", data={"q": query, "kl": "br-pt"}, retries=2)
     return parse_duckduckgo(r.text) if r else []
 
 
-def parse_duckduckgo(html: str) -> list[str]:
-    urls = []
-    for a in BeautifulSoup(html, "html.parser").select("a.result__a, a.result-link"):
-        href = a.get("href", "")
-        if "uddg=" in href:
-            href = unquote(parse_qs(urlparse(href).query).get("uddg", [""])[0])
-        if href.startswith("http"):
-            urls.append(href)
-    return urls
+def parse_duckduckgo(html: str) -> list[tuple[str, str]]:
+    """Lista de (url, título + trecho) dos resultados."""
+    out = []
+    soup = BeautifulSoup(html, "html.parser")
+    for res in soup.select(".result, .web-result") or [soup]:
+        for a in res.select("a.result__a, a.result-link"):
+            href = a.get("href", "")
+            if "uddg=" in href:
+                href = unquote(parse_qs(urlparse(href).query).get("uddg", [""])[0])
+            snip = res.select_one(".result__snippet")
+            if href.startswith("http"):
+                out.append((href, f"{a.get_text(' ')} {snip.get_text(' ') if snip else ''}"))
+    return out
 
 
-def search_bing(query: str) -> list[str]:
+def search_bing(query: str) -> list[tuple[str, str]]:
     r = fetch("https://www.bing.com/search", params={"q": query, "format": "rss", "cc": "BR", "setlang": "pt-BR",
                                                      "count": "30"}, retries=2)
     return parse_bing_rss(r.text) if r else []
 
 
-def parse_bing_rss(xml: str) -> list[str]:
+def parse_bing_rss(xml: str) -> list[tuple[str, str]]:
     try:
         root = ET.fromstring(xml)
     except ET.ParseError:
         return []
-    return [i.findtext("link") for i in root.iter("item") if (i.findtext("link") or "").startswith("http")]
+    return [(i.findtext("link"), f"{i.findtext('title') or ''} {i.findtext('description') or ''}")
+            for i in root.iter("item") if (i.findtext("link") or "").startswith("http")]
 
 
 ENGINES = {"duckduckgo": search_duckduckgo, "bing": search_bing}
@@ -172,7 +177,7 @@ def _queries(themes_cfg: dict, n: int) -> list[str]:
             for ev in EVENT_WORDS:
                 for reg in REGION_WORDS:
                     for yr in (year, year + 1):
-                        qs.append(" ".join(x for x in (ev, term, reg, str(yr)) if x))
+                        qs.append(" ".join(x for x in (ev, f'"{term}"', reg, str(yr)) if x))
     # rotação diária: cada dia pega uma fatia diferente e espalhada das combinações
     step = 7919  # primo, embaralha sem aleatoriedade
     off = date.today().toordinal() * n
@@ -201,7 +206,7 @@ def discover(themes_cfg: dict, cfg: dict) -> list[Event]:
     today = date.today().isoformat()
     limit = (date.today() - timedelta(days=revisit)).isoformat()
 
-    candidates: list[str] = []
+    candidates: list[tuple[str, str]] = []
     for q in _queries(themes_cfg, n_queries):
         for engine in engines:
             try:
@@ -210,14 +215,20 @@ def discover(themes_cfg: dict, cfg: dict) -> list[Event]:
                 log.warning("busca '%s' falhou: %s", q, e)
             time.sleep(1.5)  # educado com os buscadores
     seen, todo = set(), []
-    for u in candidates:
+    relevant = 0
+    for u, snippet in candidates:
         u = u.split("#")[0]
+        # só abre páginas cujo resultado (título/trecho/url) fala de algum tema
+        if not classify(f"{snippet} {u.replace('-', ' ').replace('/', ' ')}", themes_cfg):
+            continue
+        relevant += 1
         if u in seen or _skip(u) or cache.get(u, "") > limit:
             continue
         seen.add(u)
         todo.append(u)
     todo = todo[:max_pages]
-    log.info("busca grátis: %d resultados, %d páginas novas para abrir", len(candidates), len(todo))
+    log.info("busca grátis: %d resultados, %d relevantes, %d páginas novas para abrir",
+             len(candidates), relevant, len(todo))
 
     def work(url):
         r = fetch(url, retries=1, timeout=20)
