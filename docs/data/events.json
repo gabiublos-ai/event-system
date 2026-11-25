@@ -1,15 +1,15 @@
 {
  "meta": {
-  "updated_at": "2026-11-25T16:15-03:00",
-  "total": 383,
+  "updated_at": "2026-11-25T16:49-03:00",
+  "total": 389,
   "sources_raw": {
    "curadoria": 79,
    "sympla": 3439,
-   "eventbrite": 0,
-   "meetup": 2662,
+   "eventbrite": 505,
+   "meetup": 2652,
    "even3": 0,
    "doity": 0,
-   "busca_web": 770
+   "busca_web": 1
   },
   "themes": {
    "ia": {
@@ -3641,6 +3641,96 @@
    "last_seen": "2026-11-25",
    "sources": [
     "sympla"
+   ],
+   "is_new": true
+  },
+  {
+   "name": "Founders Running Club :: Rio de Janeiro",
+   "url": "https://www.eventbrite.ca/e/founders-running-club-rio-de-janeiro-tickets-1637676587759",
+   "source": "eventbrite",
+   "start_date": "2026-11-28",
+   "end_date": "2026-11-28",
+   "description": "Global community and weekly events for founders, investors, tech/creative ppl and startup enthusiasts with 35000+ members, across 45+ cities",
+   "city": "Leblon",
+   "state": "RJ",
+   "venue": "La Carioca en La Playa",
+   "format": "presencial",
+   "type": null,
+   "organizer": null,
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1143282493%2F178152123089%2F1%2Foriginal.20251003-022617?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=490888345da48a23e2e059e4d5f9fc78",
+   "price": null,
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 11,
+   "date_confirmed": true,
+   "id": "31c6de6f6cb8",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "eventbrite"
+   ],
+   "is_new": true
+  },
+  {
+   "name": "Founders Running Club :: São Paulo",
+   "url": "https://www.eventbrite.com/e/founders-running-club-sao-paulo-tickets-1962438952735",
+   "source": "eventbrite",
+   "start_date": "2026-11-28",
+   "end_date": "2026-11-28",
+   "description": "Global community and weekly events for founders, investors, tech-/creative ppl and startup enthusiasts with10000+ members, across 22 cities",
+   "city": "Jardim Paulista",
+   "state": "SP",
+   "venue": "Serena Cafeteria",
+   "format": "presencial",
+   "type": null,
+   "organizer": null,
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F644661089%2F1520517282543%2F1%2Foriginal.20231119-184242?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=149%2C227%2C1692%2C846&s=30cbc067ef8bbf2a227c69a04aaa0fa5",
+   "price": null,
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 11,
+   "date_confirmed": true,
+   "id": "6db4c927ba46",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "eventbrite"
+   ],
+   "is_new": true
+  },
+  {
+   "name": "Founders Running Club :: São Paulo - cancelar",
+   "url": "https://www.eventbrite.com/e/founders-running-club-sao-paulo-cancelar-tickets-1087382864419",
+   "source": "eventbrite",
+   "start_date": "2026-11-28",
+   "end_date": "2026-11-28",
+   "description": "Global community and weekly events for founders, investors, tech-/creative ppl and startup enthusiasts with10000+ members, across 22 cities",
+   "city": "Consolação",
+   "state": "SP",
+   "venue": "Universidade Presbiteriana Mackenzie",
+   "format": "presencial",
+   "type": null,
+   "organizer": null,
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F644661089%2F1520517282543%2F1%2Foriginal.20231119-184242?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=149%2C227%2C1692%2C846&s=30cbc067ef8bbf2a227c69a04aaa0fa5",
+   "price": null,
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 11,
+   "date_confirmed": true,
+   "id": "c2772434d43f",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "eventbrite"
    ],
    "is_new": true
   },
@@ -7293,7 +7383,7 @@
    "start_date": "2026-12-08",
    "end_date": "2026-12-08",
    "description": "There are many groups promoting this event. Our meetup group is participating by promoting this event. This event is organized by Albert's List. This is an online event. Attendees can be located anywhere in the world! Registration is FREE In order to attend, please register here: [https://www.eventbrite.com/e/how-to-land-a-job-in-2027-build-your-strategy-for-the-new-year-tickets-1995864419205?aff=oddtdtcreator&keep_tld=true](https://www.eventbrite.com/e/how-to-land-a-job-in-2027-build-your-strategy-for-the-new-year-tickets-1995864419205?aff=oddtdtcreator&keep_tld=true) 2026 went by fast. Befor",
-   "city": "Sao Paulo",
+   "city": "Campinas",
    "state": "SP",
    "venue": null,
    "format": "online",
@@ -7373,6 +7463,36 @@
    "last_seen": "2026-11-25",
    "sources": [
     "sympla"
+   ],
+   "is_new": true
+  },
+  {
+   "name": "Rio AI Hub #02: Happy Hour e Inteligência Artificial",
+   "url": "https://www.meetup.com/rioai-hub/events/317583266/",
+   "source": "meetup",
+   "start_date": "2026-12-08",
+   "end_date": "2026-12-08",
+   "description": "**Rio AI Hub #02: Happy Hour e Inteligência Artificial** Nosso segundo encontro oficial do Rio AI Hub já tem data e local! Junte-se a nós para uma noite dedicada a conexões reais, networking e conversas sobre o uso prático da Inteligência Artificial no nosso dia a dia, nos projetos e nos negócios. **Detalhes do Encontro:** * **Data:** Terça-feira, 8 de dezembro * **Horário:** 19h * **Local:** Braseiro Colarinho (Botafogo) **O que esperar:** Este é um encontro sem palestras formais ou apresentações de slides. O formato é 100% focado em um happy hour descontraído para troca de ideias. Traga suas",
+   "city": "Botafogo",
+   "state": "RJ",
+   "venue": "R. Nelson Mandela, 100",
+   "format": "presencial",
+   "type": null,
+   "organizer": "Rio AI Hub",
+   "image": "/images/fallbacks/redesign/group-cover-1-square.webp",
+   "price": null,
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "1b419527b7a7",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "meetup"
    ],
    "is_new": true
   },
@@ -9485,6 +9605,36 @@
    "is_new": true
   },
   {
+   "name": "Florianópolis 2027 Venture Capital World Summit",
+   "url": "https://www.eventbrite.com/e/florianopolis-2027-venture-capital-world-summit-tickets-1999757548660",
+   "source": "eventbrite",
+   "start_date": "2027-06-02",
+   "end_date": "2027-06-02",
+   "description": "Florianópolis Santa Catarina Brazil Venture Capital World Summit, World Series Season of Investment Conferences",
+   "city": "Florianopolis",
+   "state": "SC",
+   "venue": "Costa Norte Hotel",
+   "format": "presencial",
+   "type": null,
+   "organizer": null,
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192664329%2F626217048%2F1%2Foriginal.20260904-093218?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.661&fp-y=0.405&s=b72f10ed4eb8db31b46cbbeda26f79ca",
+   "price": null,
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 6,
+   "date_confirmed": true,
+   "id": "be7a362b330c",
+   "region": "Sul",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "eventbrite"
+   ],
+   "is_new": true
+  },
+  {
    "name": "VIII International FoodTech Forum + VII FoodTech Expo",
    "url": "https://www.sympla.com.br/evento/viii-international-foodtech-forum-vii-foodtech-expo/3495280",
    "source": "sympla",
@@ -9511,6 +9661,36 @@
    "last_seen": "2026-11-25",
    "sources": [
     "sympla"
+   ],
+   "is_new": true
+  },
+  {
+   "name": "Rio de Janeiro 2027 Venture Capital World Summit",
+   "url": "https://www.eventbrite.com/e/rio-de-janeiro-2027-venture-capital-world-summit-tickets-1999735711344",
+   "source": "eventbrite",
+   "start_date": "2027-06-04",
+   "end_date": "2027-06-04",
+   "description": "Rio de Janeiro Brazil Venture Capital World Summit, World Series Season of Investment Conferences",
+   "city": "Centro",
+   "state": "RJ",
+   "venue": "Regus Bolsa de Valores",
+   "format": "presencial",
+   "type": null,
+   "organizer": null,
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192640796%2F626217048%2F1%2Foriginal.20260904-003228?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.475&fp-y=0.42&s=38da212619cdbdac8dea8442388711ea",
+   "price": null,
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 6,
+   "date_confirmed": true,
+   "id": "8f9a47750bd0",
+   "region": "Sudeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "sources": [
+    "eventbrite"
    ],
    "is_new": true
   },
