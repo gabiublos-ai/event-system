@@ -119,3 +119,19 @@ def test_price_and_summary():
     assert parse_page(meta)["price"] == "Gratuito"
     s = summarize("Primeira frase do evento com bastante conteúdo para passar do mínimo. " * 6)
     assert s.endswith(".") and len(s) <= 240
+
+
+def test_enrich_sympla_meetup():
+    import json as _j
+    from scraper.sources.enrich import parse_page
+    def nd(obj):
+        return f'<script id="__NEXT_DATA__" type="application/json">{_j.dumps(obj)}</script>'
+    sym = nd({"props": {"pageProps": {"hydrationData": {"eventHydration": {"event": {
+        "paymentEventType": "paid", "strippedDetail": "Curso prático de IA para negócios."}}}}}})
+    assert parse_page(sym) == {"description": "Curso prático de IA para negócios.", "price": "Pago (valor no site)"}
+    meet = nd({"props": {"pageProps": {"event": {"feeSettings": None}}}})
+    assert parse_page(meet)["price"] == "Gratuito"
+    meet2 = nd({"props": {"pageProps": {"event": {"feeSettings": {"amount": 30, "currency": "BRL"}}}}})
+    assert parse_page(meet2)["price"] == "R$ 30"
+    from scraper.sources.common import price_from_offers
+    assert price_from_offers([{"price": -1}]) is None

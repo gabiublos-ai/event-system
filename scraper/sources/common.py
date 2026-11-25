@@ -134,11 +134,13 @@ def price_from_offers(offers, free_flag=None) -> str | None:
             continue
         for k in ("price", "lowPrice", "highPrice"):
             n = _num(o.get(k))
-            if n is not None:
+            if n is not None and n >= 0:
                 vals.append(n)
     if not vals:
         return None
     lo, hi = min(vals), max(vals)
+    if hi > 10000 and hi > 20 * max(lo, 1):  # valor fora da curva (erro de cadastro)
+        return f"A partir de {fmt_brl(lo)}" if lo else "Gratuito"
     if hi == 0:
         return "Gratuito"
     if lo == 0:
