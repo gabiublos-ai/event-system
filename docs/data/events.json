@@ -1,9 +1,15 @@
 {
  "meta": {
-  "updated_at": "2026-11-25T17:53-03:00",
+  "updated_at": "2026-11-25T18:03-03:00",
   "total": 344,
   "sources_raw": {
-   "curadoria": 79
+   "curadoria": 79,
+   "sympla": 3433,
+   "eventbrite": 0,
+   "meetup": 2660,
+   "even3": 0,
+   "doity": 0,
+   "busca_web": 0
   },
   "themes": {
    "ia": {
@@ -244,8 +250,7 @@
    "image": "https://images.sympla.com.br/69389d3975541.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -274,7 +279,7 @@
    "type": "curso",
    "organizer": "Mutua-ES - Caixa de Assistência dos Profissionais do Crea-ES",
    "image": "https://images.sympla.com.br/6abac1ee65f71.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -367,7 +372,7 @@
    "type": "conferencia",
    "organizer": "FESSUL",
    "image": "https://images.sympla.com.br/6afb498d07fdc.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -429,7 +434,7 @@
    "type": "conferencia",
    "organizer": "INAED associado à Fundação Dom Cabral",
    "image": "https://images.sympla.com.br/6afc6647a00a2.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "escolas_negocio"
    ],
@@ -460,7 +465,7 @@
    "type": "curso",
    "organizer": "Sine Pinhais",
    "image": "https://images.sympla.com.br/5f282a0c6a2d9.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -491,7 +496,7 @@
    "type": "evento",
    "organizer": "Gastronomia Anhembi Morumbi",
    "image": "https://images.sympla.com.br/6ac558a0d3b0f.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -584,9 +589,8 @@
    "type": "curso",
    "organizer": "Parque Tecnológico de Santos",
    "image": "https://images.sympla.com.br/6afc410c60c10.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -647,7 +651,7 @@
    "type": "forum",
    "organizer": "Fundação Guamá",
    "image": "https://images.sympla.com.br/6afafa31e7a5d.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -678,7 +682,7 @@
    "type": "curso",
    "organizer": "UNIMED TUBARÃO",
    "image": "https://images.sympla.com.br/6ae0b24b669ad.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -928,7 +932,6 @@
    "image": "https://images.sympla.com.br/6ae9f2884f048.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -1051,7 +1054,7 @@
    "type": "evento",
    "organizer": "Núcleo de Mulheres Empreendedoras da ACISCS",
    "image": "https://images.sympla.com.br/6af5cf108d9fc.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -1113,7 +1116,7 @@
    "type": "summit",
    "organizer": "Traciona Tecnologia e Inovação",
    "image": "https://images.sympla.com.br/6afabe8ead575.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -1144,7 +1147,7 @@
    "type": "palestra",
    "organizer": "Liga de Tecnologia, Empreendedorismo e Inovação - UNIFAN",
    "image": "https://images.sympla.com.br/6af2823895398.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -1238,7 +1241,7 @@
    "type": "workshop",
    "organizer": "Integra Campinas",
    "image": "https://images.sympla.com.br/5f282a0c6a2d9.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -1300,7 +1303,7 @@
    "type": "palestra",
    "organizer": "Sebrae Januária",
    "image": "https://images.sympla.com.br/6afba6ca763d2.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -1518,7 +1521,7 @@
    "type": "networking",
    "organizer": "SEBRAELAB",
    "image": "https://images.sympla.com.br/6b05e73d5db05.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -1582,8 +1585,7 @@
    "image": "https://images.sympla.com.br/6b05c283b61e5.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -1612,7 +1614,7 @@
    "type": "conferencia",
    "organizer": "Wiseplan Group",
    "image": "https://images.sympla.com.br/6aedec3c8fbae.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -1645,7 +1647,6 @@
    "image": "https://images.sympla.com.br/6af222e19488c.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "aceleradoras",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -1738,7 +1739,7 @@
    "type": "evento",
    "organizer": "Plugmais Distribuidora",
    "image": "https://images.sympla.com.br/6aa94e402539f.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -1769,7 +1770,7 @@
    "type": "networking",
    "organizer": "Fábrica de Conexões",
    "image": "https://images.sympla.com.br/6b0434b262973.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -1866,7 +1867,6 @@
    "image": "https://images.sympla.com.br/6a29899e23e8c.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -1927,11 +1927,9 @@
    "type": "networking",
    "organizer": "Critt UFJF",
    "image": "https://images.sympla.com.br/6afaf5ad6d4da.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
-    "aceleradoras",
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -1960,7 +1958,7 @@
    "type": "palestra",
    "organizer": "Casa do Empreendedor",
    "image": "https://images.sympla.com.br/6af5d415e0e6f.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -1991,7 +1989,7 @@
    "type": "palestra",
    "organizer": "DEVVO TECNOLOGIA",
    "image": "https://images.sympla.com.br/6af763ee25efc.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -2084,7 +2082,7 @@
    "type": "networking",
    "organizer": "UPF Parque",
    "image": "https://images.sympla.com.br/6af300c096372.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "healthtech",
     "ia"
@@ -2147,7 +2145,7 @@
    "type": "evento",
    "organizer": "IPOG - Instituto de Pós-graduação e Graduação",
    "image": "https://images.sympla.com.br/6b058775ba674.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -2178,7 +2176,7 @@
    "type": "evento",
    "organizer": "Gradium Software e Comunicação",
    "image": "https://images.sympla.com.br/6ae9fd1282dae.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -2209,7 +2207,7 @@
    "type": "evento",
    "organizer": "OAB Cabo Frio e Arraial do Cabo",
    "image": "https://images.sympla.com.br/6ac647e1301f7.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -2242,8 +2240,7 @@
    "image": "https://images.sympla.com.br/6aff02dbca82d.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -2272,7 +2269,7 @@
    "type": "hackathon",
    "organizer": "Startup Piauí",
    "image": "https://images.sympla.com.br/6afdb8ac8f0cb.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -2365,7 +2362,7 @@
    "type": "evento",
    "organizer": "Escola Superior de Advocacia Pública - ESAP",
    "image": "https://images.sympla.com.br/6b07292e2088a.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -2427,7 +2424,7 @@
    "type": "palestra",
    "organizer": "Eventos Corporativos",
    "image": "https://images.sympla.com.br/6af5fabb02a7a.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -2489,7 +2486,7 @@
    "type": "evento",
    "organizer": "You IT Serviços e Tecnologia LTDA",
    "image": "https://images.sympla.com.br/6af34c8cca79c.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -2551,7 +2548,7 @@
    "type": "meetup",
    "organizer": "TXP",
    "image": "https://images.sympla.com.br/6adf52243612e.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -2614,12 +2611,9 @@
    "type": "demo_day",
    "organizer": "tecnoPARQ ",
    "image": "https://images.sympla.com.br/6b0598810e0de.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
-    "aceleradoras",
-    "demo_day",
-    "escolas_negocio",
-    "startups"
+    "demo_day"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -2679,7 +2673,7 @@
    "type": "conferencia",
    "organizer": "João Pedro Teixeira",
    "image": "https://images.sympla.com.br/6adb61ac97178.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "foodtech"
    ],
@@ -2710,7 +2704,7 @@
    "type": "workshop",
    "organizer": "Eliab Venâncio",
    "image": "https://images.sympla.com.br/6af46c2d90de2.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -2741,7 +2735,7 @@
    "type": "networking",
    "organizer": "Caroline Soares Freitas",
    "image": "https://images.sympla.com.br/6afe2cc160803.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -2772,7 +2766,7 @@
    "type": "workshop",
    "organizer": "AMPE METROPOLITANA",
    "image": "https://images.sympla.com.br/6af31e174ad99.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -2803,9 +2797,8 @@
    "type": "palestra",
    "organizer": "Laboratório de Análises de Sementes",
    "image": "https://images.sympla.com.br/5f282a0c6a2d9.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -2835,10 +2828,9 @@
    "type": "demo_day",
    "organizer": "Instituto MultipliCidades",
    "image": "https://images.sympla.com.br/6b071a5a43a6b.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "demo_day",
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -2901,7 +2893,6 @@
    "image": "https://images.sympla.com.br/6af377e5d2a77.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -3117,10 +3108,9 @@
    "type": "workshop",
    "organizer": "Sebrae - UR 01",
    "image": "https://images.sympla.com.br/6aecc9feb86aa.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -3304,7 +3294,7 @@
    "type": "evento",
    "organizer": "Franklin Moura",
    "image": "https://images.sympla.com.br/6b02e09bc9471.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -3428,7 +3418,7 @@
    "type": "evento",
    "organizer": "Colégio Ramo da Videira",
    "image": "https://images.sympla.com.br/6ac3a0efca6c5.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -3676,7 +3666,7 @@
    "type": "evento",
    "organizer": "Distrito de SBC",
    "image": "https://images.sympla.com.br/6aec97496d421.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -3862,7 +3852,7 @@
    "type": "evento",
    "organizer": "MBAs Universidade Positivo",
    "image": "https://images.sympla.com.br/5f282a0c6a2d9.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -3893,9 +3883,8 @@
    "type": "forum",
    "organizer": "Escola de Contas e Capacitação Professor Pedro Aleixo",
    "image": "https://images.sympla.com.br/6a99679527ef4.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
-    "escolas_negocio",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -4051,8 +4040,7 @@
    "image": "https://images.sympla.com.br/6af518a1df36f.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4177,8 +4165,7 @@
    "image": "https://images.sympla.com.br/6ae4f200ee60f.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4209,9 +4196,7 @@
    "image": "https://images.sympla.com.br/6a982881dd5be.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "demo_day",
-    "escolas_negocio",
-    "startups"
+    "demo_day"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4302,7 +4287,7 @@
    "type": "evento",
    "organizer": "Agência Jequié",
    "image": "https://images.sympla.com.br/6afaf8040ca7a.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -4333,7 +4318,7 @@
    "type": "evento",
    "organizer": "Sebrae - UR 01",
    "image": "https://images.sympla.com.br/6aeb7dc796e28.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -4364,7 +4349,7 @@
    "type": "palestra",
    "organizer": "Talk Inc",
    "image": "https://images.sympla.com.br/6afb29dd471c5.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -4519,9 +4504,8 @@
    "type": "evento",
    "organizer": "MBAs Universidade Positivo",
    "image": "https://images.sympla.com.br/5f282a0c6a2d9.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -4551,7 +4535,7 @@
    "type": "evento",
    "organizer": "IBMR",
    "image": "https://images.sympla.com.br/6a305858e05b1.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -4615,8 +4599,7 @@
    "image": "https://images.sympla.com.br/6af62c9e221c0.png",
    "price": "Gratuito",
    "themes": [
-    "escolas_negocio",
-    "startups"
+    "escolas_negocio"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4645,7 +4628,7 @@
    "type": "evento",
    "organizer": "Sebrae - UR 01",
    "image": "https://images.sympla.com.br/6aeb7dfc5cc50.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -4804,8 +4787,7 @@
    "image": "https://images.sympla.com.br/6b045fe0b6341.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4834,7 +4816,7 @@
    "type": "summit",
    "organizer": "BRDE",
    "image": null,
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "aceleradoras",
     "demo_day",
@@ -4867,7 +4849,7 @@
    "type": "evento",
    "organizer": "ASG TECH",
    "image": "https://images.sympla.com.br/6afdfcf7de6b9.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -4898,7 +4880,7 @@
    "type": "evento",
    "organizer": "[PROVIDERS]",
    "image": "https://images.sympla.com.br/6afd1bac2c687.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -4960,9 +4942,8 @@
    "type": "demo_day",
    "organizer": "PUCTEC Startups",
    "image": "https://images.sympla.com.br/6afd046032760.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "demo_day",
     "startups"
    ],
@@ -4993,7 +4974,7 @@
    "type": "demo_day",
    "organizer": "Eleva Incubadora",
    "image": "https://images.sympla.com.br/6af1ff5749014.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "demo_day",
     "startups"
@@ -5025,7 +5006,7 @@
    "type": "conferencia",
    "organizer": "TrêsBê Delas",
    "image": "https://images.sympla.com.br/6b04df6965664.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -5056,7 +5037,7 @@
    "type": "evento",
    "organizer": "Horus S/A Distribuidora de Soluções Tecnológicas",
    "image": "https://images.sympla.com.br/6b05b392e8497.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -5149,10 +5130,9 @@
    "type": "demo_day",
    "organizer": "Granioter",
    "image": "https://images.sympla.com.br/6ae37fb4d36dd.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
-    "demo_day",
-    "startups"
+    "demo_day"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5181,7 +5161,7 @@
    "type": "imersao",
    "organizer": "CRECI/SC",
    "image": "https://images.sympla.com.br/6aff0297a4ccf.png",
-   "price": "A partir de R$ 1",
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -5212,7 +5192,7 @@
    "type": "workshop",
    "organizer": "Insted Centro Universitário",
    "image": "https://images.sympla.com.br/6aff04a1dec0f.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -5245,7 +5225,6 @@
    "image": "https://images.sympla.com.br/6af5dad3c40e8.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -5275,10 +5254,9 @@
    "type": "evento",
    "organizer": "Critt - Centro Regional de Inovação e Transferência de Tecnologia",
    "image": "https://images.sympla.com.br/6afc908b621a5.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
-    "aceleradoras",
-    "startups"
+    "aceleradoras"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5369,7 +5347,7 @@
    "type": "evento",
    "organizer": "Sebrae Feira de Santana",
    "image": "https://images.sympla.com.br/6aff3a95567bb.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -5400,7 +5378,7 @@
    "type": "evento",
    "organizer": "Sebrae - UR 01",
    "image": "https://images.sympla.com.br/6aeb7c9ae81a6.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -5493,9 +5471,8 @@
    "type": "evento",
    "organizer": "Alê Pacheco",
    "image": "https://images.sympla.com.br/6af470e1a818f.png",
-   "price": "A partir de R$ 20",
+   "price": "Gratuito",
    "themes": [
-    "cripto",
     "fintech"
    ],
    "recurrence": "ocasional",
@@ -5556,7 +5533,7 @@
    "type": "evento",
    "organizer": "VIRTUS",
    "image": "https://images.sympla.com.br/6ab3ec96cabfd.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -5618,7 +5595,7 @@
    "type": "evento",
    "organizer": "VIVIAN MASUTTI JONKE RIBEIRO",
    "image": "https://images.sympla.com.br/6ab56df7e34e4.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -5680,7 +5657,7 @@
    "type": "palestra",
    "organizer": "IEP",
    "image": "https://images.sympla.com.br/6afc99f8bc66a.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -5743,7 +5720,7 @@
    "type": "pitch",
    "organizer": "CDL Passo Fundo",
    "image": "https://images.sympla.com.br/5f282a0c6a2d9.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -5868,9 +5845,8 @@
    "type": "conferencia",
    "organizer": "Sebrae Startups Ba",
    "image": "https://images.sympla.com.br/6ac4f7083aaae.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -5900,7 +5876,7 @@
    "type": "evento",
    "organizer": "Escola Conquer",
    "image": "https://images.sympla.com.br/6b044060b94af.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "escolas_negocio",
     "ia"
@@ -6056,7 +6032,7 @@
    "type": "evento",
    "organizer": "MORE UP LANGUAGE INSTITUTE",
    "image": "https://images.sympla.com.br/6a8793ed4366e.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -6087,7 +6063,7 @@
    "type": "hackathon",
    "organizer": "Sebrae for Startups",
    "image": "https://images.sympla.com.br/6af20e14c6291.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -6211,7 +6187,7 @@
    "type": "feira",
    "organizer": "Sebrae Feira de Santana",
    "image": "https://images.sympla.com.br/6b042c660645d.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -6242,7 +6218,7 @@
    "type": "evento",
    "organizer": "Autom Hub",
    "image": "https://images.sympla.com.br/6afc82ba052b1.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -6273,9 +6249,8 @@
    "type": "evento",
    "organizer": "Parque Tecnológico UFC",
    "image": "https://images.sympla.com.br/6b070fdd5b075.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -6494,7 +6469,6 @@
    "image": "https://images.sympla.com.br/6adb7a13c0d61.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -6617,7 +6591,7 @@
    "type": "evento",
    "organizer": "RIOSOFT",
    "image": "https://images.sympla.com.br/6af32923979d0.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -6680,7 +6654,7 @@
    "type": "evento",
    "organizer": "Sebrae Feira de Santana",
    "image": "https://images.sympla.com.br/6afb0fb0adeec.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -6742,7 +6716,7 @@
    "type": "evento",
    "organizer": "IEEE SMC Systems, Man and Cybernetic",
    "image": "https://images.sympla.com.br/6afdc4f5e9181.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -6773,7 +6747,7 @@
    "type": "conferencia",
    "organizer": "LUIS AUGUSTO OLIVEIRA",
    "image": "https://images.sympla.com.br/6aee1776b4d10.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -6804,7 +6778,7 @@
    "type": "evento",
    "organizer": "RE/MAX Origens",
    "image": "https://images.sympla.com.br/6af2353aaf702.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -6835,7 +6809,7 @@
    "type": "evento",
    "organizer": "VIRTUS",
    "image": "https://images.sympla.com.br/69ef60b74ea44.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -6897,7 +6871,7 @@
    "type": "evento",
    "organizer": "Digital College",
    "image": "https://images.sympla.com.br/6ae9f99556d6c.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -7021,7 +6995,7 @@
    "type": "palestra",
    "organizer": "Fecomércio MG",
    "image": "https://images.sympla.com.br/6b055d3aa4afa.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -7052,7 +7026,7 @@
    "type": "premiacao",
    "organizer": "Miller Gomes",
    "image": "https://images.sympla.com.br/6b049e6e2f88c.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -7177,10 +7151,9 @@
    "type": "demo_day",
    "organizer": "Polo Tecnológico da Informação e Comunicação - BLUSOFT",
    "image": "https://images.sympla.com.br/6afb433b55adb.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
-    "demo_day",
-    "startups"
+    "demo_day"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -7273,7 +7246,6 @@
    "image": "https://images.sympla.com.br/6af38079a8c6c.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -7397,10 +7369,9 @@
    "type": "workshop",
    "organizer": "Sebrae - UR 01",
    "image": "https://images.sympla.com.br/6ad280008a7ab.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -7429,7 +7400,7 @@
    "type": "hackathon",
    "organizer": "Sebrae for Startups",
    "image": "https://images.sympla.com.br/6afcc20378662.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -7522,9 +7493,8 @@
    "type": "summit",
    "organizer": "BRASIL STARTUPS",
    "image": "https://images.sympla.com.br/6aff96f55632a.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -7585,7 +7555,7 @@
    "type": "meetup",
    "organizer": "ASIAM - Associação de Startups e Inovação da Amazônia",
    "image": "https://images.sympla.com.br/6af609d72911a.png",
-   "price": "A partir de R$ 1",
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -7678,7 +7648,7 @@
    "type": "workshop",
    "organizer": "Setor de Treinamento do CRITT/UFJF",
    "image": "https://images.sympla.com.br/6af4b5f349aaa.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -7957,7 +7927,7 @@
    "type": "workshop",
    "organizer": "AgriHub",
    "image": "https://images.sympla.com.br/5f282a0c6a2d9.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -8083,7 +8053,6 @@
    "image": "https://images.sympla.com.br/6a47cb9c5fcf1.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "aceleradoras",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -8175,7 +8144,7 @@
    "type": "conferencia",
    "organizer": "Show Rural Digital",
    "image": "https://images.sympla.com.br/693ffb3c6a211.jpg",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -8208,9 +8177,7 @@
    "image": "https://images.sympla.com.br/69c512c306840.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "healthtech",
-    "ia",
-    "startups"
+    "healthtech"
    ],
    "recurrence": "ocasional",
    "typical_month": 2,
@@ -8335,7 +8302,6 @@
    "image": "https://images.sympla.com.br/6ad94611bd830.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "foodtech",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -8429,7 +8395,7 @@
    "type": "workshop",
    "organizer": "Agencia de Inovação do INCA",
    "image": "https://images.sympla.com.br/6a9ad7202dd72.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -8651,8 +8617,7 @@
    "image": "https://images.sympla.com.br/6a4e550ec3e71.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "foodtech",
-    "startups"
+    "foodtech"
    ],
    "recurrence": "ocasional",
    "typical_month": 6,
@@ -8712,7 +8677,7 @@
    "type": "evento",
    "organizer": "Lja",
    "image": "https://images.sympla.com.br/5f282a0c6a2d9.png",
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "ia"
    ],
@@ -8808,8 +8773,7 @@
    "image": "https://images.sympla.com.br/6a42abe031423.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 6,
@@ -9345,7 +9309,7 @@
    "type": "conferencia",
    "organizer": "SENAI CIMATEC",
    "image": null,
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -10451,7 +10415,7 @@
    "source": "curadoria",
    "start_date": null,
    "end_date": null,
-   "description": "Evento gratuito da NVIDIA sobre IA soberana, computação acelerada e ecossistema de desenvolvedores.",
+   "description": "Join peers and experts for hands-on training sessions focused on real-world applications, frameworks, and tools that accelerate AI innovation.",
    "city": "São Paulo",
    "state": "SP",
    "venue": "WTC Sheraton",
@@ -10475,7 +10439,7 @@
     "curadoria"
    ],
    "is_new": true,
-   "summary": "Evento gratuito da NVIDIA sobre IA soberana, computação acelerada e ecossistema de desenvolvedores."
+   "summary": "Join peers and experts for hands-on training sessions focused on real-world applications, frameworks, and tools that accelerate AI innovation."
   },
   {
    "name": "RD Summit",
@@ -10714,7 +10678,7 @@
    "type": "meetup",
    "organizer": "Sebrae Startups",
    "image": null,
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
@@ -10745,7 +10709,7 @@
    "type": "meetup",
    "organizer": "Sebrae Startups",
    "image": null,
-   "price": null,
+   "price": "Gratuito",
    "themes": [
     "startups"
    ],
