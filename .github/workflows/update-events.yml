@@ -60,16 +60,25 @@ jobs:
           # se outra execução salvou antes, reaplica por cima mantendo os dados desta coleta
           for i in 1 2 3; do git push && break; git pull --rebase -X theirs || exit 1; done
 
-      # Publica no GitHub Pages (Settings > Pages > Source: GitHub Actions).
-      # Se o Pages ainda não estiver ativado, estes passos falham sem derrubar a coleta.
+      # Prepara o site para o GitHub Pages (Settings > Pages > Source: GitHub Actions).
+      # Se o Pages não estiver ativado, estes passos falham sem derrubar a coleta.
       - id: pages
         uses: actions/configure-pages@v5
         continue-on-error: true
-        with:
-          enablement: true
       - if: steps.pages.outcome == 'success'
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs
-      - if: steps.pages.outcome == 'success'
+    outputs:
+      pages: ${{ steps.pages.outcome }}
+
+  deploy:
+    needs: update
+    if: needs.update.outputs.pages == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
         uses: actions/deploy-pages@v4
