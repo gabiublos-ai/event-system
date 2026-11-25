@@ -6,7 +6,7 @@ on:
     - cron: "0 12 * * *"
   workflow_dispatch: {}   # botão "Run workflow" para rodar manualmente
   push:
-    branches: [main]
+    branches: [main, "claude/**"]
     paths: ["docs/**", "data/**", "config/**", "scraper/**"]
 
 permissions:
@@ -54,8 +54,12 @@ jobs:
           git diff --cached --quiet || git commit -m "Atualiza eventos $(TZ=America/Sao_Paulo date +'%Y-%m-%d %H:%M')"
           git push || (git pull --rebase && git push)
 
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      # GitHub Pages (opcional): crie a variável PAGES_ENABLED=true depois de ativar o Pages
+      - if: vars.PAGES_ENABLED == 'true'
+        uses: actions/configure-pages@v5
+      - if: vars.PAGES_ENABLED == 'true'
+        uses: actions/upload-pages-artifact@v3
         with:
           path: docs
-      - uses: actions/deploy-pages@v4
+      - if: vars.PAGES_ENABLED == 'true'
+        uses: actions/deploy-pages@v4
