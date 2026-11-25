@@ -4,7 +4,12 @@ on:
   schedule:
     # 12:00 UTC = 09:00 em Brasília (o Brasil não tem horário de verão desde 2019)
     - cron: "0 12 * * *"
-  workflow_dispatch: {}   # botão "Run workflow" para rodar manualmente
+  workflow_dispatch:      # botão "Run workflow" para rodar manualmente
+    inputs:
+      offline:
+        description: "Só republicar o site, sem coletar de novo"
+        type: boolean
+        default: false
   push:
     branches: [main, "claude/**"]
     paths: ["docs/**", "data/**", "config/**", "scraper/**"]
@@ -40,7 +45,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           AI_MAX_CALLS: ${{ vars.AI_MAX_CALLS || '10' }}
         run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
+          if [ "${{ github.event_name }}" = "push" ] || [ "${{ inputs.offline }}" = "true" ]; then
             python -m scraper.main --offline
           else
             python -m scraper.main
