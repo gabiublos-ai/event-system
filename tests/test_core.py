@@ -129,6 +129,8 @@ def test_enrich_sympla_meetup():
     sym = nd({"props": {"pageProps": {"hydrationData": {"eventHydration": {"event": {
         "paymentEventType": "paid", "strippedDetail": "Curso prático de IA para negócios."}}}}}})
     assert parse_page(sym) == {"description": "Curso prático de IA para negócios.", "price": "Pago (valor no site)"}
+    free = nd({"props": {"pageProps": {"hydrationData": {"eventHydration": {"event": {"paymentEventType": "unpaid"}}}}}})
+    assert parse_page(free)["price"] == "Gratuito"
     meet = nd({"props": {"pageProps": {"event": {"feeSettings": None}}}})
     assert parse_page(meet)["price"] == "Gratuito"
     meet2 = nd({"props": {"pageProps": {"event": {"feeSettings": {"amount": 30, "currency": "BRL"}}}}})

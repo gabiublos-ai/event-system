@@ -20,7 +20,7 @@ from scraper.sources.common import _is_event, _walk, extract_next_data, fetch, f
 
 log = logging.getLogger("scraper")
 CACHE_FILE = DATA_DIR / "enrich_cache.json"
-CACHE_VERSION = 2  # aumente para forçar reabrir todas as páginas
+CACHE_VERSION = 3  # aumente para forçar reabrir todas as páginas
 PAID = "Pago (valor no site)"
 FREE_RX = re.compile(r"\b(evento gratuito|entrada gratuita|entrada franca|gratuito|gratuita|gratis|free)\b", re.I)
 BRL_RX = re.compile(r"R\$\s?(\d{1,3}(?:\.\d{3})*(?:,\d{2})?|\d+(?:,\d{2})?)")
@@ -71,7 +71,8 @@ def parse_page(html: str) -> dict:
         desc = desc or clean_text(sev.get("strippedDetail") or "")
         kind = str(sev.get("paymentEventType") or "").lower()
         if not price and kind:
-            price = "Gratuito" if kind == "free" else PAID if kind == "paid" else None
+            price = ("Gratuito" if kind in ("free", "unpaid") else PAID if kind == "paid"
+                     else "Gratuito e pago (ver no site)")
     # Meetup: feeSettings nulo = sem cobrança
     for d in _walk(nd):
         if "feeSettings" in d and not price:
@@ -135,6 +136,11 @@ def enrich(events: list[dict], max_pages: int = 400, refresh_days: int = 30) -> 
     for e in events:
         if (e.get("price") or "").startswith("R$ -"):
             e["price"] = None
+        m = re.match(r"R\$ ([\d.,]+) a R\$ ([\d.,]+)$", e.get("price") or "")
+        if m:
+            lo, hi = (float(x.replace(".", "").replace(",", ".")) for x in m.groups())
+            if hi > 10000 and hi > 20 * lo:  # valor fora da curva (erro de cadastro)
+                e["price"] = f"A partir de R$ {m.group(1)}"
         e["summary"] = summarize(e.get("description") or "")
     old = (date.today() - timedelta(days=180)).isoformat()
     cache = {u: v for u, v in cache.items() if v.get("date", "") > old}
