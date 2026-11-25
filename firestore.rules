@@ -1,0 +1,42 @@
+rules_version = '2';
+// Regras do Firestore para o Radar de Eventos BR.
+// Cole este arquivo em: Console do Firebase > Firestore Database > Regras > Publicar.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null && request.auth.token.email_verified == true;
+    }
+    function email() {
+      return request.auth.token.email.lower();
+    }
+    function isAdmin() {
+      return signedIn() && exists(/databases/$(database)/documents/admins/$(email()));
+    }
+    function isMember() {
+      return isAdmin() || (signedIn() && exists(/databases/$(database)/documents/invites/$(email())));
+    }
+
+    // Quem pode convidar. Crie à mão no console: coleção "admins", documento = seu e-mail.
+    match /admins/{e} {
+      allow read: if signedIn() && e == email();
+      allow write: if false;
+    }
+
+    // Lista de convidados (quem tem acesso).
+    match /invites/{e} {
+      allow read: if isAdmin() || (signedIn() && e == email());
+      allow create, update: if isAdmin() && e == request.resource.data.email;
+      allow delete: if isAdmin();
+    }
+
+    // Perfil e favoritos de cada pessoa: todos os membros leem, cada um só altera o seu.
+    match /users/{uid} {
+      allow read: if isMember();
+      allow create, update: if isMember() && request.auth.uid == uid
+        && request.resource.data.email == email()
+        && (!('favs' in request.resource.data)
+            || (request.resource.data.favs is list && request.resource.data.favs.size() <= 2000));
+      allow delete: if isAdmin() || request.auth.uid == uid;
+    }
+  }
+}

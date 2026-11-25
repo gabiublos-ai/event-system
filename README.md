@@ -52,6 +52,23 @@ O site fica em `https://<usuario>.github.io/<repositorio>/`.
 
 > O GitHub pode atrasar execuções agendadas em alguns minutos em horários de pico.
 
+## Acesso por convite e favoritos por pessoa
+
+Com o login ligado, o radar só abre para quem foi convidado. Cada pessoa entra com o próprio e-mail (link de acesso, sem senha), marca os seus favoritos, e todos podem ver os favoritos da equipe (filtro **Favoritos** e as iniciais de quem favoritou em cada card). Quem administra vê o botão **Convidar pessoa**, envia convites e remove acessos.
+
+Usa o Firebase (Google), gratuito para esse volume. Configuração (uma vez só, ~10 min):
+
+1. Acesse https://console.firebase.google.com → **Criar projeto** (pode desativar o Google Analytics).
+2. **Authentication → Começar → Método de login → E-mail/senha** → ative também **Link do e-mail (login sem senha)** → Salvar.
+3. **Authentication → Configurações → Domínios autorizados → Adicionar domínio**: `gabiublos-ai.github.io`.
+4. **Firestore Database → Criar banco de dados** (modo de produção, região `southamerica-east1`) → aba **Regras** → cole o conteúdo de `firestore.rules` → **Publicar**.
+5. Ainda no Firestore, **Iniciar coleção** `admins` → ID do documento = **seu e-mail em minúsculas** → campo `name` (texto) = seu nome → Salvar. Repita para cada administrador.
+6. **Configurações do projeto (engrenagem) → Seus apps → ícone `</>` (Web)** → registre o app → copie o objeto `firebaseConfig` e cole em `docs/firebase-config.js` no lugar de `null`.
+
+Pronto: ao publicar, o site passa a pedir login. O e-mail de convite é enviado pelo próprio Firebase; o texto pode ser ajustado em **Authentication → Modelos**.
+
+> Observação: o arquivo de eventos (`docs/data/events.json`) continua público no repositório. O login protege o uso do site e os favoritos de cada pessoa.
+
 ## Fácil de mexer
 
 | Quero… | Edite |

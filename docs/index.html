@@ -31,6 +31,10 @@
       </label>
       <div class="topbar-actions">
         <a class="btn ghost sm" id="suggestBtn" target="_blank" rel="noopener">Sugerir evento</a>
+        <button class="btn primary sm" id="inviteBtn" type="button" hidden>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg>
+          Convidar pessoa</button>
+        <button class="user-chip" id="userChip" type="button" hidden></button>
         <button class="btn ghost sm icon" id="themeToggle" title="Alternar tema claro/escuro" aria-label="Alternar tema claro/escuro">☾</button>
       </div>
     </div>
@@ -86,8 +90,12 @@
           <option value="">Todos</option><option value="presencial">Presencial</option>
           <option value="hibrido">Híbrido</option><option value="online">Online</option>
         </select></label>
+      <label class="field"><span>Favoritos</span>
+        <select id="fFavOf">
+          <option value="">Todos os eventos</option>
+          <option value="me">★ Meus favoritos</option>
+        </select></label>
       <div class="toggles">
-        <label class="toggle"><input type="checkbox" id="fFav"><span>★ Favoritos</span></label>
         <label class="toggle"><input type="checkbox" id="fNew"><span>Novos</span></label>
       </div>
     </section>
@@ -117,7 +125,13 @@
 
   <dialog id="modal" class="modal"><div class="modal-body" id="modalBody"></div></dialog>
 
+  <div class="gate" id="gate" hidden>
+    <div class="gate-card" id="gateCard"></div>
+  </div>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" defer></script>
+  <script src="firebase-config.js" defer></script>
+  <script src="team.js" defer></script>
   <script src="app.js" defer></script>
 </body>
 </html>

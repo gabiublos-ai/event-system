@@ -48,7 +48,8 @@ const store = {
 const state = {
   all: [], meta: {}, themes: {}, states: {},
   q: "", themesOn: new Set(), type: "", uf: "", city: "", period: "upcoming", from: "", to: "", format: "",
-  fav: false, onlyNew: false, view: "cards",
+  favOf: "", onlyNew: false, view: "cards",
+  team: { status: "off", members: [] },
   favs: new Set(store.get("favs", [])),
   calMonth: null,
   map: null, mapView: null, statesGeo: null,
@@ -75,6 +76,160 @@ async function init() {
   buildControls();
   bind();
   render();
+  window.Team?.init(onTeam);
+}
+
+/* ---------- equipe: login por convite e favoritos por pessoa ---------- */
+const initials = (n) => String(n || "?").trim().split(/\s+/).slice(0, 2).map((w) => w[0]).join("").toUpperCase();
+const signedIn = () => state.team.status === "in";
+const membersWhoFav = (id) => signedIn() ? state.team.members.filter((m) => m.favs.includes(id)) : [];
+
+function onTeam(t) {
+  state.team = t;
+  if (t.status === "in") {
+    const me = t.members.find((m) => m.uid === t.me.uid);
+    state.favs = new Set(me ? me.favs : state.favs);
+  }
+  renderGate();
+  const chip = $("#userChip");
+  chip.hidden = t.status !== "in";
+  if (t.status === "in") chip.innerHTML = `<span class="avatar">${esc(initials(t.me.name))}</span><span class="uname">${esc(t.me.name.split(" ")[0])}</span>`;
+  $("#inviteBtn").hidden = !(t.status === "in" && t.admin) && t.status !== "off";
+  renderFavSelect();
+  if (t.status === "in" || t.status === "off") render(false);
+}
+
+function renderFavSelect() {
+  const sel = $("#fFavOf");
+  let opts = `<option value="">Todos os eventos</option><option value="me">★ Meus favoritos</option>`;
+  if (signedIn()) {
+    const others = state.team.members.filter((m) => m.uid !== state.team.me.uid);
+    if (others.length) {
+      opts += `<option value="any">★ Favoritos de toda a equipe</option><optgroup label="Favoritos de…">` +
+        others.map((m) => `<option value="${esc(m.uid)}">${esc(m.name)} (${m.favs.length})</option>`).join("") + `</optgroup>`;
+    }
+  }
+  sel.innerHTML = opts;
+  if (![...sel.options].some((o) => o.value === state.favOf)) state.favOf = state.favOf && !signedIn() ? state.favOf : "";
+  sel.value = state.favOf;
+}
+
+function renderGate() {
+  const t = state.team, gate = $("#gate"), card = $("#gateCard");
+  const show = Team.enabled && t.status !== "in";
+  gate.hidden = !show;
+  document.body.classList.toggle("locked", show);
+  if (!show) return;
+  const brand = `<div class="gate-brand"><span class="brand-mark"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.2"/><path d="M16.2 7.8a6 6 0 0 1 0 8.4M7.8 16.2a6 6 0 0 1 0-8.4M19 5a10 10 0 0 1 0 14M5 19A10 10 0 0 1 5 5"/></svg></span><b>Radar de Eventos BR</b></div>`;
+  const form = (label, btn, id) => `<form id="${id}" class="gate-form">
+      <label for="gateEmail">${label}</label>
+      <input id="gateEmail" type="email" required autocomplete="email" placeholder="seu@email.com">
+      <button class="btn primary" type="submit">${btn}</button>
+      <p class="gate-msg" id="gateMsg" role="status">${esc(t.error || "")}</p></form>`;
+  if (t.status === "loading") card.innerHTML = `${brand}<p class="gate-sub">Conectando…</p>`;
+  else if (t.status === "needEmail") card.innerHTML = `${brand}<h2>Confirme seu e-mail</h2><p class="gate-sub">Para concluir o acesso neste aparelho, digite o e-mail em que você recebeu o convite.</p>${form("E-mail", "Entrar", "gateConfirm")}`;
+  else if (t.status === "notInvited") card.innerHTML = `${brand}<h2>Acesso não liberado</h2><p class="gate-sub">O e-mail <b>${esc(t.me?.email || "")}</b> ainda não foi convidado. Peça um convite a quem administra o radar.</p><button class="btn" id="gateOut" type="button">Entrar com outro e-mail</button>`;
+  else if (t.status === "error") card.innerHTML = `${brand}<h2>Não foi possível entrar</h2><p class="gate-sub">${esc(t.error)}</p><button class="btn" type="button" onclick="location.reload()">Tentar de novo</button>`;
+  else card.innerHTML = `${brand}<h2>Acesso por convite</h2><p class="gate-sub">Digite seu e-mail e enviaremos um link de acesso, sem senha.</p>${form("E-mail", "Receber link de acesso", "gateLogin")}`;
+  $("#gateLogin")?.addEventListener("submit", async (ev) => {
+    ev.preventDefault();
+    const email = $("#gateEmail").value, msg = $("#gateMsg");
+    msg.textContent = "Enviando…";
+    try { await Team.requestLink(email); msg.textContent = `Pronto! Enviamos um link para ${email}. Abra o e-mail neste aparelho para entrar (veja também o spam).`; }
+    catch (e) { msg.textContent = "Não foi possível enviar o link. Confira o e-mail e tente de novo."; }
+  });
+  $("#gateConfirm")?.addEventListener("submit", async (ev) => { ev.preventDefault(); $("#gateMsg").textContent = "Entrando…"; await Team.completeLink($("#gateEmail").value); });
+  $("#gateOut")?.addEventListener("click", () => Team.signOut());
+}
+
+async function toggleFav(id) {
+  const on = !state.favs.has(id);
+  on ? state.favs.add(id) : state.favs.delete(id);
+  if (signedIn()) {
+    const me = state.team.members.find((m) => m.uid === state.team.me.uid);
+    if (me) me.favs = on ? [...me.favs, id] : me.favs.filter((x) => x !== id);
+    Team.setFav(id, on).catch(() => alertToast("Não foi possível salvar o favorito. Tente de novo."));
+  } else store.set("favs", [...state.favs]);
+}
+
+function alertToast(text) {
+  let t = $("#toast");
+  if (!t) { t = document.createElement("div"); t.id = "toast"; t.className = "toast"; t.setAttribute("role", "status"); document.body.append(t); }
+  t.textContent = text; t.classList.add("show");
+  clearTimeout(alertToast.tm); alertToast.tm = setTimeout(() => t.classList.remove("show"), 3500);
+}
+
+/* Convites (só administradores) */
+async function openInvite() {
+  if (!Team.enabled) {
+    $("#modalBody").innerHTML = `<button class="btn ghost sm icon close" aria-label="Fechar">✕</button>
+      <h2>Convidar pessoas</h2>
+      <p class="desc">Para convidar pessoas com acesso nominal e favoritos individuais, falta ligar o login do radar (Firebase, gratuito).
+      O passo a passo está no README do repositório, na seção “Acesso por convite”.</p>`;
+    $("#modal").showModal(); return;
+  }
+  $("#modalBody").innerHTML = `<button class="btn ghost sm icon close" aria-label="Fechar">✕</button>
+    <h2>Convidar pessoa</h2>
+    <p class="desc">A pessoa recebe um e-mail com o link de acesso ao radar. Cada um entra com o próprio e-mail e marca os seus favoritos.</p>
+    <form id="inviteForm" class="invite-form">
+      <label class="field"><span>Nome</span><input id="invName" required placeholder="Nome da pessoa" autocomplete="off"></label>
+      <label class="field"><span>E-mail</span><input id="invEmail" type="email" required placeholder="pessoa@empresa.com" autocomplete="off"></label>
+      <button class="btn primary" type="submit">Enviar convite</button>
+    </form>
+    <p class="gate-msg" id="invMsg" role="status"></p>
+    <h3 class="inv-title">Pessoas com acesso</h3>
+    <div id="invList" class="inv-list"><p class="hint">Carregando…</p></div>`;
+  $("#modal").showModal();
+  const load = async () => {
+    try {
+      const list = await Team.listInvites();
+      const joined = new Set(state.team.members.map((m) => (m.email || "").toLowerCase()));
+      $("#invList").innerHTML = list.length ? list.map((i) => `<div class="inv-row">
+          <span class="avatar">${esc(initials(i.name))}</span>
+          <span class="inv-who"><b>${esc(i.name)}</b><small>${esc(i.email)}</small></span>
+          <span class="inv-status ${joined.has(i.email) ? "ok" : ""}">${joined.has(i.email) ? "Ativo" : "Convite enviado"}</span>
+          <a class="btn ghost sm" href="${mailtoInvite(i)}" title="Abrir uma mensagem no seu e-mail">Lembrar</a>
+          <button class="btn ghost sm" data-revoke="${esc(i.email)}" type="button">Remover</button></div>`).join("")
+        : `<p class="hint">Ninguém convidado ainda.</p>`;
+    } catch { $("#invList").innerHTML = `<p class="hint">Não foi possível carregar a lista.</p>`; }
+  };
+  load();
+  $("#inviteForm").addEventListener("submit", async (ev) => {
+    ev.preventDefault();
+    const name = $("#invName").value.trim(), email = $("#invEmail").value.trim();
+    $("#invMsg").textContent = "Enviando convite…";
+    try {
+      await Team.invite(name, email);
+      $("#invMsg").innerHTML = `Convite enviado para <b>${esc(email)}</b>. Quer mandar uma mensagem pessoal também? <a href="${mailtoInvite({ name, email })}">Abrir no meu e-mail</a>`;
+      ev.target.reset(); load();
+    } catch (e) { $("#invMsg").textContent = "Não foi possível enviar o convite: " + (e.message || e); }
+  });
+  $("#invList").addEventListener("click", async (ev) => {
+    const b = ev.target.closest("[data-revoke]"); if (!b) return;
+    if (b.dataset.confirm !== "1") { b.dataset.confirm = "1"; b.textContent = "Confirmar remoção"; return; }
+    await Team.revoke(b.dataset.revoke).catch(() => {}); load();
+  });
+}
+function mailtoInvite(i) {
+  const first = String(i.name || "").split(" ")[0];
+  const body = `Oi ${first}!\n\nTe convidei para o Radar de Eventos BR, com os eventos de IA, startups, fintech, health tech, cripto e mais em todo o Brasil.\n\nVocê vai receber um e-mail com o link de acesso. Se não chegar, entre em ${Team.siteUrl()} e digite este e-mail (${i.email}) para receber o link.\n\nLá você pode marcar seus eventos favoritos e ver os da equipe.`;
+  return `mailto:${encodeURIComponent(i.email)}?subject=${encodeURIComponent("Convite: Radar de Eventos BR")}&body=${encodeURIComponent(body)}`;
+}
+
+function openUserMenu() {
+  const t = state.team;
+  $("#modalBody").innerHTML = `<button class="btn ghost sm icon close" aria-label="Fechar">✕</button>
+    <div class="me-head"><span class="avatar lg">${esc(initials(t.me.name))}</span><div><h2>${esc(t.me.name)}</h2><p class="desc">${esc(t.me.email)}${t.admin ? " · administrador(a)" : ""}</p></div></div>
+    <p class="desc">Você tem <b>${state.favs.size}</b> evento(s) favorito(s). A equipe tem ${t.members.length} pessoa(s) com acesso.</p>
+    <div class="actions">
+      <button class="btn" id="seeMine" type="button">★ Ver meus favoritos</button>
+      ${t.members.length > 1 ? `<button class="btn" id="seeTeam" type="button">Ver favoritos da equipe</button>` : ""}
+      <button class="btn" id="logout" type="button">Sair</button>
+    </div>`;
+  $("#modal").showModal();
+  $("#seeMine").addEventListener("click", () => { state.favOf = "me"; $("#fFavOf").value = "me"; $("#modal").close(); render(); });
+  $("#seeTeam")?.addEventListener("click", () => { state.favOf = "any"; $("#fFavOf").value = "any"; $("#modal").close(); render(); });
+  $("#logout").addEventListener("click", async () => { $("#modal").close(); await Team.signOut(); });
 }
 
 function applyTheme(t) {
@@ -99,7 +254,6 @@ function buildControls() {
   }
   sel.insertAdjacentHTML("beforeend", `<option value="ONLINE">Somente online</option>`);
   buildControlsLight();
-  $("#fFav").checked = state.fav;
   $("#fNew").checked = state.onlyNew;
   setView(state.view, false);
 }
@@ -119,6 +273,7 @@ function renderTypeSelect() {
   const total = Object.values(tc).reduce((a, b) => a + b, 0);
   const types = state.meta.types || {};
   const opts = Object.entries(types).filter(([k]) => tc[k] || state.type === k)
+    .sort((a, b) => a[1].label.localeCompare(b[1].label, "pt-BR"))
     .map(([k, t]) => `<option value="${k}">${esc(t.label)} (${tc[k] || 0})</option>`).join("");
   $("#fType").innerHTML = `<option value="">Todas (${total})</option>${opts}`;
   $("#fType").value = state.type;
@@ -163,7 +318,9 @@ function bind() {
     $("#fPeriod").value = state.period;
     render();
   });
-  $("#fFav").addEventListener("change", (e) => { state.fav = e.target.checked; render(); });
+  $("#fFavOf").addEventListener("change", (e) => { state.favOf = e.target.value; render(); });
+  $("#inviteBtn").addEventListener("click", openInvite);
+  $("#userChip").addEventListener("click", openUserMenu);
   $("#fNew").addEventListener("change", (e) => { state.onlyNew = e.target.checked; render(); });
   $("#themeChips").addEventListener("click", (e) => {
     const b = e.target.closest(".theme-card"); if (!b) return;
@@ -204,9 +361,9 @@ function applyPeriod() {
 }
 
 function clearFilters() {
-  Object.assign(state, { q: "", type: "", uf: "", city: "", period: "upcoming", format: "", fav: false, onlyNew: false, mapView: null, calMonth: null });
+  Object.assign(state, { q: "", type: "", uf: "", city: "", period: "upcoming", format: "", favOf: "", onlyNew: false, mapView: null, calMonth: null });
   state.themesOn.clear(); applyPeriod();
-  buildControlsLight(); $("#fFav").checked = false; $("#fNew").checked = false;
+  buildControlsLight(); $("#fFavOf").value = ""; $("#fNew").checked = false;
   render();
 }
 
@@ -272,7 +429,12 @@ function baseFiltered(skip = "") {
     if (state.format && e.format !== state.format) return false;
     if (skip !== "type" && state.type && (e.type || "evento") !== state.type) return false;
     if (skip !== "themes" && state.themesOn.size && !(e.themes || []).some((t) => state.themesOn.has(t))) return false;
-    if (state.fav && !state.favs.has(e.id)) return false;
+    if (state.favOf === "me" && !state.favs.has(e.id)) return false;
+    if (state.favOf === "any" && !membersWhoFav(e.id).length) return false;
+    if (state.favOf && !["me", "any"].includes(state.favOf)) {
+      const m = state.team.members.find((x) => x.uid === state.favOf);
+      if (!m || !m.favs.includes(e.id)) return false;
+    }
     if (state.onlyNew && !e.is_new) return false;
     if (q) {
       const hay = strip([e.name, typeLabel(e), e.description, e.city, e.state, e.organizer, e.venue, ...(e.themes || []).map((t) => state.themes[t]?.label)].join(" "));
@@ -340,7 +502,14 @@ function summaryOf(e) {
 }
 const priceText = (e) => !e.price ? "Valor no site" : e.price === PAID ? "Pago · ver valor no site" : e.price;
 const priceTag = (e) => `<span class="price ${e.price === "Gratuito" ? "free" : e.price && e.price !== PAID ? "" : "unknown"}">${esc(priceText(e))}</span>`;
-const starBtn = (e) => `<button class="star ${state.favs.has(e.id) ? "on" : ""}" data-star="${e.id}" title="Favoritar" aria-label="Favoritar">${state.favs.has(e.id) ? "★" : "☆"}</button>`;
+const starBtn = (e) => `<button class="star ${state.favs.has(e.id) ? "on" : ""}" data-star="${e.id}" title="${state.favs.has(e.id) ? "Remover dos favoritos" : "Favoritar"}" aria-label="Favoritar" aria-pressed="${state.favs.has(e.id)}">${state.favs.has(e.id) ? "★" : "☆"}</button>`;
+/* bolinhas com as iniciais de quem da equipe favoritou */
+function favFaces(e) {
+  const ms = membersWhoFav(e.id);
+  if (!ms.length) return "";
+  const names = ms.map((m) => m.name).join(", ");
+  return `<span class="faces" title="Favoritado por: ${esc(names)}">${ms.slice(0, 4).map((m) => `<span class="avatar sm">${esc(initials(m.name))}</span>`).join("")}${ms.length > 4 ? `<span class="avatar sm more">+${ms.length - 4}</span>` : ""}</span>`;
+}
 
 function renderCards(v, list) {
   v.innerHTML = `<div class="grid">${list.map((e) => {
@@ -359,7 +528,7 @@ function renderCards(v, list) {
       <h3>${esc(e.name)}</h3>
       <div class="where">${PIN}<span>${esc(place(e))} · ${FORMAT_LABEL[e.format] || ""}</span></div>
       <p class="desc">${esc(summaryOf(e))}</p>
-      <div class="card-foot"><div class="pills">${pills(e)}</div>${priceTag(e)}</div>
+      <div class="card-foot"><div class="pills">${pills(e)}</div>${favFaces(e)}${priceTag(e)}</div>
     </article>`;
   }).join("")}</div>`;
 }
@@ -518,10 +687,8 @@ function onViewClick(ev) {
   const star = ev.target.closest("[data-star]");
   if (star) {
     ev.stopPropagation();
-    const id = star.dataset.star;
-    state.favs.has(id) ? state.favs.delete(id) : state.favs.add(id);
-    store.set("favs", [...state.favs]);
-    render();
+    toggleFav(star.dataset.star);
+    render(false);
     return;
   }
   const cal = ev.target.closest("[data-cal]");
@@ -556,6 +723,7 @@ function openModal(e) {
     ["Formato", FORMAT_LABEL[e.format]],
     ["Valor", priceText(e)],
     ["Organização", e.organizer],
+    ["Favoritado por", membersWhoFav(e.id).map((m) => m.name).join(", ")],
     ["Fontes", (e.sources || [e.source]).join(", ")],
   ].filter(([, v]) => v);
   $("#modalBody").innerHTML = `
@@ -572,8 +740,7 @@ function openModal(e) {
     </div>`;
   $("#oneIcs")?.addEventListener("click", () => download(`${e.id}.ics`, toICS([e]), "text/calendar"));
   $("#favModal").addEventListener("click", () => {
-    state.favs.has(e.id) ? state.favs.delete(e.id) : state.favs.add(e.id);
-    store.set("favs", [...state.favs]); if (state.view !== "map") render(); openModal(e);
+    toggleFav(e.id); if (state.view !== "map") render(false); openModal(e);
   });
   if (!$("#modal").open) $("#modal").showModal();
 }

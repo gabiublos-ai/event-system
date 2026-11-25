@@ -1,15 +1,9 @@
 {
  "meta": {
-  "updated_at": "2026-11-25T18:35-03:00",
+  "updated_at": "2026-11-25T18:45-03:00",
   "total": 336,
   "sources_raw": {
-   "curadoria": 79,
-   "sympla": 3425,
-   "eventbrite": 0,
-   "meetup": 2660,
-   "even3": 0,
-   "doity": 0,
-   "busca_web": 0
+   "curadoria": 79
   },
   "themes": {
    "ia": {
@@ -222,7 +216,8 @@
    "image": "https://images.sympla.com.br/69389d3975541.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia"
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -562,6 +557,7 @@
    "image": "https://images.sympla.com.br/6afc410c60c10.jpg",
    "price": "Gratuito",
    "themes": [
+    "aceleradoras",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -936,6 +932,7 @@
    "image": "https://images.sympla.com.br/6ae9f2884f048.png",
    "price": "Gratuito",
    "themes": [
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -1652,7 +1649,8 @@
    "image": "https://images.sympla.com.br/6b05c283b61e5.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia"
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -1720,6 +1718,7 @@
    "image": "https://images.sympla.com.br/6af222e19488c.png",
    "price": "Pago (valor no site)",
    "themes": [
+    "aceleradoras",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -1961,6 +1960,7 @@
    "image": "https://images.sympla.com.br/6a29899e23e8c.png",
    "price": "Gratuito",
    "themes": [
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -2029,7 +2029,9 @@
    "image": "https://images.sympla.com.br/6afaf5ad6d4da.png",
    "price": "Gratuito",
    "themes": [
-    "ia"
+    "aceleradoras",
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -2336,7 +2338,8 @@
    "image": "https://images.sympla.com.br/6aff02dbca82d.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia"
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -2745,7 +2748,10 @@
    "image": "https://images.sympla.com.br/6b0598810e0de.jpg",
    "price": "Gratuito",
    "themes": [
-    "demo_day"
+    "aceleradoras",
+    "demo_day",
+    "escolas_negocio",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -2984,6 +2990,7 @@
    "price": "Gratuito",
    "themes": [
     "demo_day",
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -3052,6 +3059,7 @@
    "image": "https://images.sympla.com.br/6af377e5d2a77.png",
    "price": "Gratuito",
    "themes": [
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -3256,7 +3264,8 @@
    "image": "https://images.sympla.com.br/6aecc9feb86aa.jpg",
    "price": "Gratuito",
    "themes": [
-    "ia"
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -4072,6 +4081,7 @@
    "image": "https://images.sympla.com.br/6a99679527ef4.jpg",
    "price": "Gratuito",
    "themes": [
+    "escolas_negocio",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -4242,7 +4252,8 @@
    "image": "https://images.sympla.com.br/6af518a1df36f.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia"
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4379,7 +4390,8 @@
    "image": "https://images.sympla.com.br/6ae4f200ee60f.png",
    "price": "R$ 79,99",
    "themes": [
-    "ia"
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4413,7 +4425,9 @@
    "image": "https://images.sympla.com.br/6a982881dd5be.png",
    "price": "R$ 10",
    "themes": [
-    "demo_day"
+    "demo_day",
+    "escolas_negocio",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4753,6 +4767,7 @@
    "image": "https://images.sympla.com.br/5f282a0c6a2d9.png",
    "price": "Gratuito",
    "themes": [
+    "aceleradoras",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -4855,7 +4870,8 @@
    "image": "https://images.sympla.com.br/6af62c9e221c0.png",
    "price": "Gratuito",
    "themes": [
-    "escolas_negocio"
+    "escolas_negocio",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5061,7 +5077,8 @@
    "image": "https://images.sympla.com.br/6b045fe0b6341.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia"
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5233,6 +5250,7 @@
    "image": "https://images.sympla.com.br/6afd046032760.jpg",
    "price": "Gratuito",
    "themes": [
+    "aceleradoras",
     "demo_day",
     "startups"
    ],
@@ -5439,7 +5457,8 @@
    "image": "https://images.sympla.com.br/6ae37fb4d36dd.png",
    "price": "Gratuito",
    "themes": [
-    "demo_day"
+    "demo_day",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5541,6 +5560,7 @@
    "image": "https://images.sympla.com.br/6af5dad3c40e8.png",
    "price": "Pago (valor no site)",
    "themes": [
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -5575,7 +5595,8 @@
    "image": "https://images.sympla.com.br/6afc908b621a5.png",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras"
+    "aceleradoras",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5813,6 +5834,7 @@
    "image": "https://images.sympla.com.br/6af470e1a818f.png",
    "price": "Gratuito",
    "themes": [
+    "cripto",
     "fintech"
    ],
    "recurrence": "ocasional",
@@ -6224,6 +6246,7 @@
    "image": "https://images.sympla.com.br/6ac4f7083aaae.png",
    "price": "Gratuito",
    "themes": [
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -6599,6 +6622,7 @@
    "image": "https://images.sympla.com.br/6b070fdd5b075.jpg",
    "price": "Gratuito",
    "themes": [
+    "aceleradoras",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -6873,6 +6897,7 @@
    "image": "https://images.sympla.com.br/6adb7a13c0d61.png",
    "price": "Pago (valor no site)",
    "themes": [
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -7624,7 +7649,8 @@
    "image": "https://images.sympla.com.br/6afb433b55adb.png",
    "price": "Gratuito",
    "themes": [
-    "demo_day"
+    "demo_day",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -7726,6 +7752,7 @@
    "image": "https://images.sympla.com.br/6af38079a8c6c.png",
    "price": "Gratuito",
    "themes": [
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -7863,7 +7890,8 @@
    "image": "https://images.sympla.com.br/6ad280008a7ab.png",
    "price": "Gratuito",
    "themes": [
-    "ia"
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -7999,6 +8027,7 @@
    "image": "https://images.sympla.com.br/6aff96f55632a.jpg",
    "price": "Gratuito",
    "themes": [
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -8577,6 +8606,7 @@
    "image": "https://images.sympla.com.br/6a47cb9c5fcf1.jpg",
    "price": "Pago (valor no site)",
    "themes": [
+    "aceleradoras",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -8713,7 +8743,9 @@
    "image": "https://images.sympla.com.br/69c512c306840.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "healthtech"
+    "healthtech",
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 2,
@@ -8850,6 +8882,7 @@
    "image": "https://images.sympla.com.br/6ad94611bd830.jpg",
    "price": "Pago (valor no site)",
    "themes": [
+    "foodtech",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -9195,7 +9228,8 @@
    "image": "https://images.sympla.com.br/6a4e550ec3e71.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "foodtech"
+    "foodtech",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 6,
@@ -9332,7 +9366,8 @@
    "image": "https://images.sympla.com.br/6a42abe031423.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia"
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 6,
