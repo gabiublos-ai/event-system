@@ -39,7 +39,7 @@ const store = {
 
 const state = {
   all: [], meta: {}, themes: {}, states: {},
-  q: "", themesOn: new Set(), uf: "", period: "upcoming", format: "", rec: "", type: "", sort: "date",
+  q: "", themesOn: new Set(), typesOn: new Set(), uf: "", period: "upcoming", from: "", to: "", format: "",
   fav: false, onlyNew: false, view: "cards",
   favs: new Set(store.get("favs", [])),
   calMonth: null,
@@ -90,25 +90,21 @@ function buildControls() {
   }
   sel.insertAdjacentHTML("beforeend", `<option value="ONLINE">Somente online</option>`);
   sel.value = state.uf;
-  $("#fPeriod").value = state.period;
-  $("#fFormat").value = state.format;
-  $("#fRec").value = state.rec;
-  const types = state.meta.types || {};
-  const tcount = {};
-  for (const e of state.all) tcount[e.type] = (tcount[e.type] || 0) + 1;
-  $("#fType").insertAdjacentHTML("beforeend", Object.entries(types).filter(([k]) => tcount[k])
-    .map(([k, t]) => `<option value="${k}">${t.icon} ${esc(t.label)}</option>`).join(""));
-  $("#fType").value = state.type;
-  $("#fSort").value = state.sort;
-  $("#q").value = state.q;
+  buildControlsLight();
   $("#fFav").checked = state.fav;
   $("#fNew").checked = state.onlyNew;
   setView(state.view, false);
 }
 
-function renderChips(baseList) {
+function renderChips() {
   const counts = {};
-  for (const e of baseList) for (const t of e.themes || []) counts[t] = (counts[t] || 0) + 1;
+  for (const e of baseFiltered("themes")) for (const t of e.themes || []) counts[t] = (counts[t] || 0) + 1;
+  const tc = {};
+  for (const e of baseFiltered("types")) tc[e.type || "evento"] = (tc[e.type || "evento"] || 0) + 1;
+  const types = state.meta.types || {};
+  $("#typeChips").innerHTML = Object.entries(types).filter(([k]) => tc[k] || state.typesOn.has(k)).map(([k, t]) =>
+    `<button class="chip ${state.typesOn.has(k) ? "on" : ""}" data-type="${k}" aria-pressed="${state.typesOn.has(k)}">
+      ${t.icon} ${esc(t.label)} <span class="n">${tc[k] || 0}</span></button>`).join("");
   $("#themeChips").innerHTML = Object.entries(state.themes).map(([k, t]) =>
     `<button class="chip ${state.themesOn.has(k) ? "on" : ""}" data-theme="${k}" style="--c:${t.color}" aria-pressed="${state.themesOn.has(k)}">
       ${t.emoji} ${esc(t.label)} <span class="n">${counts[k] || 0}</span></button>`).join("");
@@ -117,8 +113,29 @@ function renderChips(baseList) {
 function bind() {
   let tmr;
   $("#q").addEventListener("input", (e) => { clearTimeout(tmr); tmr = setTimeout(() => { state.q = e.target.value; render(); }, 120); });
-  const map = { fState: "uf", fPeriod: "period", fFormat: "format", fRec: "rec", fType: "type", fSort: "sort" };
+  const map = { fState: "uf", fFormat: "format" };
   for (const [id, key] of Object.entries(map)) $("#" + id).addEventListener("change", (e) => { state[key] = e.target.value; render(); });
+  $("#fPeriod").addEventListener("change", (e) => {
+    state.period = e.target.value; state.calMonth = null;
+    applyPeriod();
+    buildControlsLight();
+    if (state.period === "custom") $("#fFrom").showPicker?.();
+    render();
+  });
+  for (const id of ["fFrom", "fTo"]) $("#" + id).addEventListener("change", () => {
+    state.from = $("#fFrom").value; state.to = $("#fTo").value; state.calMonth = null;
+    if (state.from && state.to && state.to < state.from) { state.to = state.from; $("#fTo").value = state.to; }
+    state.period = state.from || state.to ? "custom" : "upcoming";
+    if (state.period === "upcoming") applyPeriod();
+    $("#fPeriod").value = state.period;
+    render();
+  });
+  $("#typeChips").addEventListener("click", (e) => {
+    const b = e.target.closest(".chip"); if (!b) return;
+    const k = b.dataset.type;
+    state.typesOn.has(k) ? state.typesOn.delete(k) : state.typesOn.add(k);
+    render();
+  });
   $("#fFav").addEventListener("change", (e) => { state.fav = e.target.checked; render(); });
   $("#fNew").addEventListener("change", (e) => { state.onlyNew = e.target.checked; render(); });
   $("#themeChips").addEventListener("click", (e) => {
@@ -142,12 +159,22 @@ function bind() {
 
 function buildControlsLight() {
   $("#fState").value = state.uf; $("#fPeriod").value = state.period; $("#fFormat").value = state.format;
-  $("#fRec").value = state.rec; $("#fType").value = state.type; $("#fSort").value = state.sort; $("#q").value = state.q;
+  $("#fFrom").value = state.from; $("#fTo").value = state.to; $("#q").value = state.q;
+  $("#fFrom").disabled = $("#fTo").disabled = state.period === "tbd";
+}
+
+/* Atalhos de período preenchem as datas de início/fim */
+function applyPeriod() {
+  const p = state.period;
+  if (p === "custom") return;
+  if (p === "tbd" || p === "all") { state.from = ""; state.to = ""; return; }
+  state.from = todayISO;
+  state.to = p === "upcoming" ? "" : addDays(todayISO, +p);
 }
 
 function clearFilters() {
-  Object.assign(state, { q: "", uf: "", period: "upcoming", format: "", rec: "", type: "", sort: "date", fav: false, onlyNew: false });
-  state.themesOn.clear();
+  Object.assign(state, { q: "", uf: "", period: "upcoming", from: "", to: "", format: "", fav: false, onlyNew: false });
+  state.themesOn.clear(); state.typesOn.clear(); applyPeriod();
   buildControlsLight(); $("#fFav").checked = false; $("#fNew").checked = false;
   render();
 }
@@ -165,9 +192,9 @@ function writeHash() {
   if (state.themesOn.size) p.set("t", [...state.themesOn].join(","));
   if (state.uf) p.set("uf", state.uf);
   if (state.period !== "upcoming") p.set("p", state.period);
+  if (state.period === "custom") { if (state.from) p.set("de", state.from); if (state.to) p.set("ate", state.to); }
   if (state.format) p.set("f", state.format);
-  if (state.rec) p.set("r", state.rec);
-  if (state.type) p.set("ty", state.type);
+  if (state.typesOn.size) p.set("c", [...state.typesOn].join(","));
   if (state.view !== "cards") p.set("v", state.view);
   const h = p.toString();
   history.replaceState(null, "", h ? "#" + h : location.pathname);
@@ -178,24 +205,31 @@ function readHash() {
   state.themesOn = new Set((p.get("t") || "").split(",").filter(Boolean));
   state.uf = p.get("uf") || "";
   state.period = p.get("p") || "upcoming";
+  state.from = p.get("de") || ""; state.to = p.get("ate") || "";
+  applyPeriod();
   state.format = p.get("f") || "";
-  state.rec = p.get("r") || "";
-  state.type = p.get("ty") || "";
+  state.typesOn = new Set((p.get("c") || "").split(",").filter(Boolean));
   state.view = p.get("v") || state.view;
 }
 
 /* ---------- filtering ---------- */
 function addDays(iso, n) { const d = new Date(iso + "T12:00:00"); d.setDate(d.getDate() + n); return d.toISOString().slice(0, 10); }
 
-function baseFiltered() {
+/* skip: "themes" ou "types" ignora esse filtro (para contar os chips) */
+function baseFiltered(skip = "") {
   const q = strip(state.q).trim();
   return state.all.filter((e) => {
     const end = e.end_date || e.start_date;
     if (state.period === "tbd") { if (e.start_date) return false; }
-    else if (state.period !== "all") {
-      if (end && end < todayISO) return false;
-      if (["30", "90", "180"].includes(state.period)) {
-        if (!e.start_date || e.start_date > addDays(todayISO, +state.period)) return false;
+    else if (state.period !== "all" || state.from || state.to) {
+      // evento aparece se qualquer dia dele cai dentro do período escolhido
+      if (!e.start_date) { if (state.to || state.period === "custom") return false; }
+      else {
+        // datas escolhidas: o evento precisa começar dentro do período;
+        // atalhos ("a partir de hoje" etc.): vale também o que já começou e ainda não terminou
+        const ref = state.period === "custom" ? e.start_date : end;
+        if (state.from && ref < state.from) return false;
+        if (state.to && e.start_date > state.to) return false;
       }
     }
     if (state.uf) {
@@ -204,9 +238,8 @@ function baseFiltered() {
       else if (e.state !== state.uf) return false;
     }
     if (state.format && e.format !== state.format) return false;
-    if (state.type && (e.type || "evento") !== state.type) return false;
-    if (state.rec === "rec" && (!e.recurrence || e.recurrence === "ocasional")) return false;
-    if (state.rec === "ocasional" && e.recurrence && e.recurrence !== "ocasional") return false;
+    if (skip !== "types" && state.typesOn.size && !state.typesOn.has(e.type || "evento")) return false;
+    if (skip !== "themes" && state.themesOn.size && !(e.themes || []).some((t) => state.themesOn.has(t))) return false;
     if (state.fav && !state.favs.has(e.id)) return false;
     if (state.onlyNew && !e.is_new) return false;
     if (q) {
@@ -216,21 +249,15 @@ function baseFiltered() {
     return true;
   });
 }
-function filtered(base = baseFiltered()) {
-  let list = state.themesOn.size ? base.filter((e) => (e.themes || []).some((t) => state.themesOn.has(t))) : base;
-  const by = {
-    date: (a, b) => (a.start_date || "9999").localeCompare(b.start_date || "9999") || a.name.localeCompare(b.name),
-    new: (a, b) => (b.first_seen || "").localeCompare(a.first_seen || "") || (a.start_date || "9999").localeCompare(b.start_date || "9999"),
-    name: (a, b) => a.name.localeCompare(b.name, "pt-BR"),
-  }[state.sort];
-  return [...list].sort(by);
+function filtered() {
+  return baseFiltered().sort((a, b) =>
+    (a.start_date || "9999").localeCompare(b.start_date || "9999") || a.name.localeCompare(b.name, "pt-BR"));
 }
 
 /* ---------- render ---------- */
 function render(updateHash = true) {
-  const base = baseFiltered();
-  const list = filtered(base);
-  renderChips(base);
+  const list = filtered();
+  renderChips();
   renderStats();
   $("#count").textContent = `${list.length} evento${list.length === 1 ? "" : "s"}`;
   const v = $("#view");
@@ -271,6 +298,18 @@ const pills = (e) => (e.themes || []).map((t) => state.themes[t] ? `<span class=
 const typeInfo = (e) => (state.meta.types || {})[e.type || "evento"] || { label: "Evento", icon: "📅" };
 const typeLabel = (e, icon = false) => (icon ? typeInfo(e).icon + " " : "") + typeInfo(e).label;
 const typeBadge = (e) => `<span class="badge type">${typeInfo(e).icon} ${esc(typeInfo(e).label)}</span>`;
+/* Resumo curto: descrição do evento ou, sem ela, um resumo montado com o que se sabe */
+function summaryOf(e) {
+  const d = (e.summary || e.description || "").trim();
+  if (d.length >= 40) return d;
+  const temas = (e.themes || []).map((t) => state.themes[t]?.label).filter(Boolean);
+  const onde = e.format === "online" ? "online" : e.city ? `em ${e.city}${e.state ? " – " + e.state : ""}` : "";
+  const quem = e.organizer ? `, organizado por ${e.organizer}` : "";
+  const base = `${typeInfo(e).label} sobre ${temas.length ? temas.join(", ") : "inovação"} ${onde}${quem}.`;
+  return (d ? d + " " : "") + base.replace(/\s+/g, " ").replace(" .", ".");
+}
+const priceOf = (e) => e.price || "Valor no site do evento";
+const priceTag = (e) => `<span class="price ${e.price === "Gratuito" ? "free" : e.price ? "" : "unknown"}">${esc(priceOf(e))}</span>`;
 const starBtn = (e) => `<button class="star ${state.favs.has(e.id) ? "on" : ""}" data-star="${e.id}" title="Favoritar" aria-label="Favoritar">${state.favs.has(e.id) ? "★" : "☆"}</button>`;
 
 function renderCards(v, list) {
@@ -293,8 +332,8 @@ function renderCards(v, list) {
         ${!e.start_date ? `<span class="badge">Data a confirmar</span>` : ""}
         ${e.start_date && e.date_confirmed === false ? `<span class="badge" title="Data identificada automaticamente — confirme no site">Data estimada</span>` : ""}
       </div>
-      ${e.description ? `<p class="desc">${esc(e.description)}</p>` : ""}
-      <div class="pills">${pills(e)}</div>
+      <p class="desc">${esc(summaryOf(e))}</p>
+      <div class="card-foot"><div class="pills">${pills(e)}</div>${priceTag(e)}</div>
     </article>`;
   }).join("")}</div>`;
 }
@@ -304,7 +343,7 @@ function renderList(v, list) {
   const rows = list.map((e) => {
     const key = e.start_date ? e.start_date.slice(0, 7) : "tbd";
     let sep = "";
-    if (key !== last && state.sort === "date") {
+    if (key !== last) {
       last = key;
       sep = `<div class="month-sep">${key === "tbd" ? "Data a confirmar" : `${MONTHS_FULL[+key.slice(5) - 1]} ${key.slice(0, 4)}`}</div>`;
     }
@@ -313,7 +352,7 @@ function renderList(v, list) {
       <div class="when">${when}</div>
       <div style="min-width:0"><div class="t">${esc(e.name)}</div><div class="sub2">${(e.themes || []).map((t) => state.themes[t]?.emoji || "").join(" ")} ${esc(e.organizer || e.description || "")}</div></div>
       <div class="where">📍 ${esc(place(e))}</div>
-      <div class="fmt">${typeLabel(e)} · ${FORMAT_LABEL[e.format] || ""}${e.recurrence && e.recurrence !== "ocasional" ? " · ↻" : ""}</div>
+      <div class="fmt">${typeLabel(e)} · ${esc(e.price || "valor no site")}</div>
       ${starBtn(e)}
     </div>`;
   }).join("");
@@ -322,7 +361,7 @@ function renderList(v, list) {
 
 function renderCalendar(v, list) {
   if (!state.calMonth) {
-    const firstUp = list.find((e) => e.start_date && e.start_date >= todayISO);
+    const firstUp = list.find((e) => e.start_date && e.start_date >= (state.from || todayISO)) || list.find((e) => e.start_date);
     state.calMonth = (firstUp ? firstUp.start_date : todayISO).slice(0, 7);
   }
   const [y, m] = state.calMonth.split("-").map(Number);
@@ -414,17 +453,17 @@ function openModal(e) {
     ["Quando", fmtRange(e) + (e.start_date && e.date_confirmed === false ? " (estimada — confirme no site)" : "")],
     ["Onde", [e.venue, place(e)].filter(Boolean).join(" · ")],
     ["Formato", FORMAT_LABEL[e.format]],
-    ["Tipo", typeLabel(e, true)],
+    ["Categoria", typeLabel(e, true)],
+    ["Valor", priceOf(e)],
     ["Recorrência", REC_LABEL[e.recurrence] || "Ocasional"],
     ["Organização", e.organizer],
-    ["Preço", e.price],
     ["Fontes", (e.sources || [e.source]).join(", ")],
   ].filter(([, v]) => v);
   $("#modalBody").innerHTML = `
     <button class="btn ghost sm icon close" aria-label="Fechar">✕</button>
     <div class="pills">${pills(e)}</div>
     <h2>${esc(e.name)}</h2>
-    ${e.description ? `<p class="desc" style="-webkit-line-clamp:unset">${esc(e.description)}</p>` : ""}
+    <p class="desc" style="-webkit-line-clamp:unset">${esc(e.description && e.description.length >= 40 ? e.description : summaryOf(e))}</p>
     <dl class="kv">${rows.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
     <div class="actions">
       ${e.url ? `<a class="btn primary" href="${esc(e.url)}" target="_blank" rel="noopener">Site do evento ↗</a>` : ""}
@@ -462,7 +501,7 @@ function toICS(list) {
   return `BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Radar de Eventos BR//PT-BR\r\nCALSCALE:GREGORIAN\r\n${body}\r\nEND:VCALENDAR\r\n`;
 }
 function exportCSV(list) {
-  const cols = ["name", "type", "start_date", "end_date", "city", "state", "region", "venue", "format", "recurrence", "themes", "organizer", "url", "description"];
+  const cols = ["name", "type", "price", "start_date", "end_date", "city", "state", "region", "venue", "format", "recurrence", "themes", "organizer", "url", "description"];
   list = list.map((e) => ({ ...e, type: typeLabel(e) }));
   const q = (v) => `"${String(Array.isArray(v) ? v.map((t) => state.themes[t]?.label || t).join(" | ") : v ?? "").replace(/"/g, '""')}"`;
   download("eventos.csv", "﻿" + [cols.join(";"), ...list.map((e) => cols.map((c) => q(e[c])).join(";"))].join("\n"), "text/csv");

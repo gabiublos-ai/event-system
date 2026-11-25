@@ -6,6 +6,7 @@ Uso:  python -m scraper.main            (coleta tudo)
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import logging
 from concurrent.futures import ThreadPoolExecutor
@@ -13,7 +14,7 @@ from datetime import date, datetime, timedelta, timezone
 
 from scraper.core import (CONFIG_DIR, DATA_DIR, SITE_DATA_DIR, UFS, Event, classify_type, dedupe_key,
                           is_brazil, is_excluded, load_themes, load_types, merge, relevant_themes, today)
-from scraper.sources import ai_discovery, free_search, platforms
+from scraper.sources import ai_discovery, enrich, free_search, platforms
 
 log = logging.getLogger("scraper")
 BRT = timezone(timedelta(hours=-3))
@@ -126,6 +127,7 @@ def build(raw: list[Event], themes: dict, keep_past_days: int) -> list[dict]:
                 old["end_date"] = old["start_date"]
                 if old["end_date"] < cutoff:
                     continue
+        old["name"] = html.unescape(old["name"])
         if old.get("type") not in load_types():
             old["type"] = classify_type(old["name"], old.get("description") or "", old.get("source", ""))
         if old.get("end_date") and old["end_date"] < cutoff:
@@ -155,6 +157,9 @@ def main():
         raw += collected
         stats.update(s)
     events = build(raw, themes, sources.get("keep_past_days", 30))
+    # valor e descrição: abre páginas novas (offline = só reaproveita o cache)
+    ecfg = sources.get("enrich", {})
+    enrich.enrich(events, 0 if args.offline or not ecfg.get("enabled", True) else ecfg.get("max_pages_per_day", 400))
 
     SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
     meta = {

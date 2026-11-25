@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import hashlib
+import html
 import json
 import re
 import unicodedata
@@ -205,8 +206,8 @@ class Event:
     sources: list[str] = field(default_factory=list)
 
     def finalize(self, themes_cfg: dict | None = None) -> "Event":
-        self.name = re.sub(r"\s+", " ", (self.name or "").strip())
-        self.description = re.sub(r"\s+", " ", (self.description or "").strip())[:600]
+        self.name = re.sub(r"\s+", " ", html.unescape(self.name or "").strip())
+        self.description = re.sub(r"\s+", " ", html.unescape(self.description or "").strip())[:600]
         self.start_date = parse_date(self.start_date)
         self.end_date = parse_date(self.end_date) or self.start_date
         # plataformas às vezes mandam o fim das vendas como "fim do evento" (meses depois);

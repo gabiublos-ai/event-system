@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated_at": "2026-11-25T17:24-03:00",
+  "updated_at": "2026-11-25T17:28-03:00",
   "total": 305,
   "sources_raw": {
    "curadoria": 79
@@ -194,7 +194,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Curso de Inteligência Artificial na Prática - IA para Negócios em NIterói",
@@ -224,7 +225,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Curso de Tecnologias da Construção Civil e Inteligência Artificial Aplicada à Engenharia",
@@ -254,7 +256,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Workshop Presencial em São Paulo | Prospecção com IA + Planejamento 2027",
@@ -284,7 +287,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "SEMANA GLOBAL DE EMPREENDEDORISMO 2026",
@@ -314,7 +318,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Encontro de Presidentes e Dirigentes PAN & PAEX - FDC",
@@ -344,7 +349,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Pré-inscrição curso Inteligência Artificial na Prática",
@@ -374,7 +380,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "DOCE FUTURO UNIÃO | Empreendedorismo em Gastronomia",
@@ -404,10 +411,11 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
-   "name": "Jornada Empreendedora IPPE Capacitação &amp; Extraclasse",
+   "name": "Jornada Empreendedora IPPE Capacitação & Extraclasse",
    "url": "https://www.sympla.com.br/evento/jornada-empreendedora-ippe-capacitacao-extraclasse/3651606",
    "source": "sympla",
    "start_date": "2026-11-23",
@@ -434,7 +442,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Letramento em Inteligência Artificial para Jovens",
@@ -464,7 +473,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Turma VIVO_Imersão IA: da sua rotina à solução",
@@ -494,7 +504,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Capacitação em Excel com IA",
@@ -524,7 +535,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Festival de Inovação, Desenvolvimento e Empreendedorismo de Resende (FIND)",
@@ -554,7 +566,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "IMERSÃO IA NA PRÁTICA",
@@ -584,7 +597,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Semana do Empreendedor ACIAS 2026",
@@ -614,7 +628,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "When Artificial Intelligence Surpasses Human Intelligence",
@@ -644,7 +659,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "22º SCGP 2027 - PRÉ VENDA - Seminário Capixaba de Gestão de Projetos",
@@ -674,7 +690,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "31º BitDevs BH",
@@ -704,7 +721,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "BitDevs é uma comunidade para aqueles interessados em discutir e participar na pesquisa e desenvolvimento do Bitcoin e de protocolos relacionados. Apesar de as discussões serem técnicas, são abertas a interessados de todos os níveis."
   },
   {
    "name": "4° Fórum Food Service",
@@ -734,7 +752,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Acelera Startup",
@@ -764,7 +783,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Curso CFTV IA",
@@ -794,7 +814,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Da Experimentação à Produção: Os 3Cs da IA Agêntica Contexto, Confiabilidade e Custo",
@@ -824,7 +845,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "ENCONTRO DE COMUNIDADES DE STARTUPS | ESQUENTA CASE 2026",
@@ -854,7 +876,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Empreendedorismo Feminino - 10 anos - Núcleo de Mulheres Empreendedoras da Aciscs",
@@ -884,7 +907,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Encontro de Empreendedores Utilità",
@@ -914,7 +938,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Engaja Startups: WebSummit Lisboa",
@@ -944,7 +969,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Founders Talk #03 - LTEI Unifan",
@@ -974,7 +1000,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Inteligência Artificial na Prática: Empreendedorismo",
@@ -1005,7 +1032,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Laboratório de Inteligencia Artificial Para Terceiro Setor",
@@ -1035,7 +1063,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Microsoft AI Challenge - Desafio AI Finance - Online e Gratuito",
@@ -1065,7 +1094,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "💰 Microsoft AI Challenge · Desafio 01: AI Finance 📅 Quarta, 25/11 · online e gratuito Seja desafiado. Construa com IA. Conquiste seu badge."
   },
   {
    "name": "PALESTRA INTELIGÊNCIA ARTIFICIAL PARA EDUCAÇÃO EM MONTALVÂNIA",
@@ -1095,7 +1125,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "PALESTRA SOBRE IA | PROGRAMA COMÉRCIO INTELIGENTE VALE DO SAPUCAÍ",
@@ -1125,7 +1156,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "PARE DE PERGUNTAR, COMECE A DELEGAR: IA no trabalho de verdade",
@@ -1155,7 +1187,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Pitch Night SC|Angels Florianópolis",
@@ -1186,7 +1219,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Porto Alegre Bitdevs - Seminário Socrático de Bitcoin #19",
@@ -1216,7 +1250,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Décima sétima edição do Porto Alegre BitDev, no Senge (Av. Érico Veríssimo, 960 - Menino Deus). Agradecemos à [Vinteum](https://vinteum.org/) e à [GoBTC](https://gobtc.com.br/) pelo apoio na organização do meetup."
   },
   {
    "name": "VISE, Visão Empreendedora: Edição Medicina | Unesc",
@@ -1246,7 +1281,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "10ª REUNIÃO DO ECOSSISTEMA DE IA E CIBERSEGURANÇA DO RN",
@@ -1276,7 +1312,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "2º Encontro da Rede Dr. Empreendedor",
@@ -1306,7 +1343,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "AIDataTech Connect: Global Virtual Networking Event for AI, Data & Tech Pros",
@@ -1337,7 +1375,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Are you working in artificial intelligence, data science, or machine learning? Whether you're a developer, researcher, startup founder, or aspiring tech enthusiast — **AIDataTech Connect** is your go-to **AI networking event online**…"
   },
   {
    "name": "Ativação CASE Santa Inês | Conferência Anual de Startups e Empreendedorismo",
@@ -1367,7 +1406,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "BARRA DO GARÇAS - SOLUÇÕES DE IA PARA A ÁREA RURAL.",
@@ -1397,7 +1437,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "BIOHACKING - Empreendedorismo, Saúde, Biohacking e Networking.",
@@ -1427,7 +1468,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "BOM DIA ASSOCIADO | BRANDING E EMPREENDEDORISMO",
@@ -1457,7 +1499,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "CASE 2026 - Conferência Anual de Startups e Empreendedorismo",
@@ -1489,7 +1532,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Principal evento da Associação Brasileira de Startups (ABStartups), com palco de IA, tokenização e ativos digitais."
   },
   {
    "name": "CASE 26 - Conferência Anual de Startups e Empreendedorismo",
@@ -1519,7 +1563,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Café com Administradores - Como profissionais de mais de 30 países estão utilizando a IA",
@@ -1549,7 +1594,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Critt Hour - O futuro da Inteligência Artificial: tendências globais e oportunidades",
@@ -1579,7 +1625,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Delas para Elas - Palestra Empreendedorismo Feminino",
@@ -1609,7 +1656,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Devvo Future Talks | A advocacia do futuro: quem não será substituído pela IA?",
@@ -1639,7 +1687,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "DiretorIA - Formação em IA para Diretores e Gestores | Presencial | Porto Alegre-RS",
@@ -1669,7 +1718,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "EXPRESSO COM CIÊNCIA | Telemedicina, inteligência artificial, proteção de dados e direito à saúde",
@@ -1700,7 +1750,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Encontro presencial Zonas Críticas: música humana, inteligência artificial, memórias e repetições",
@@ -1730,7 +1781,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Entre o Algoritmo e a Emoção: Como a IA está Transformando o Consumo, o Marketing e os Negócios",
@@ -1760,7 +1812,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Esquenta TDC - Governança é a chave para o futuro da IA corporativa?",
@@ -1790,7 +1843,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "IA NA ADVOCACIA: Entre a eficiência, a ética, a responsabilidade e a transparência",
@@ -1820,7 +1874,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "IA aplicada a vendas: da prospecção à automação com ChatGPT | Aula Comunidade Casa Baanko",
@@ -1850,7 +1905,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Ideathon Agr-IA: Inteligência Articial para transformar territórios - Novembro",
@@ -1880,7 +1936,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Infraestrutura de TI, Identidade Digital e Inteligência Artificial na transformação dos negócios",
@@ -1910,7 +1967,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Inova Primavera - Summit de Inovação e Desenvolvimento Territorial",
@@ -1940,7 +1998,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "LANÇAMENTO DA INTELIGÊNCIA ARTIFICIAL DA PGE",
@@ -1970,7 +2029,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Microsoft AI Challenge - Desafio AI Operations - Online e Gratuito",
@@ -2000,7 +2060,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "⚙️ Microsoft AI Challenge · Desafio 02: AI Operations 📅 Quinta, 26/11 · online e gratuito Seja desafiado. Construa com IA. Conquiste seu badge."
   },
   {
    "name": "Palestra IA - Walter Longo",
@@ -2030,7 +2091,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Pitch & Wine em Criciúma",
@@ -2060,7 +2122,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Stand para Startup - CASE 26",
@@ -2090,7 +2153,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Visita Guiada: O Mundo através da IA (Sesc 24 de Maio) {EXCLUSIVO PARA MULHERES}",
@@ -2120,7 +2184,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "tecnoPARQ Investor Day - 10ª edição",
@@ -2150,7 +2215,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "💬 Brasília Bitdevs - Seminário Socrático #035",
@@ -2180,7 +2246,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Veja a pauta em: https://bitdevs.bsb.br/ \\-\\-\\- Bem vindos ao Bitdevs em Brasília. Agradecemos a Vinteum pelo apoio na organização do meetup e fornecimento de pizzas."
   },
   {
    "name": "10° Encontro de Tendências na Panificações e Food Service.",
@@ -2210,7 +2277,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "1º Workshop Research HPC & IA UFV",
@@ -2240,7 +2308,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "2º Networking de Empreendedorismo Feminino de Arroio dos Ratos",
@@ -2270,7 +2339,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "3º Workshop de Empreendedorismo",
@@ -2300,7 +2370,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Batalha de Pitches Hackacity Guará 2026",
@@ -2331,7 +2402,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Engenharia de Software e IA: Conheçendo o KIRO",
@@ -2361,7 +2433,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "**Aprenda a ir muito além do \"vibe coding\" e leve suas aplicações direto para a produção!** Já aconteceu de você gerar um aplicativo inteiro usando IA com vários prompts, mas na hora de colocar em produção perceber que falta documentação…"
   },
   {
    "name": "Startup Experience Health - Itabira",
@@ -2391,7 +2464,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Curso de vídeo arte com inteligência artificial",
@@ -2421,7 +2495,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Data & AI in Practice",
@@ -2451,7 +2526,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "# **REGISTER OVER IN LUMA: link to follow soon** # **Follow our new Calendar in Luma: [luma.com/mug-brasilia](https://luma.com/mug-brasilia)** \\*\\*\\*\\*\\* Depois de explorar os fundamentos do MongoDB em nossos últimos encontros, chegou a…"
   },
   {
    "name": "ESPIRAL DE NEGÓCIOS 3ª EDIÇÃO - NETWORKING - EMPREENDEDORISMO E AUTOCONHECIMENTO",
@@ -2481,7 +2557,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Excel do Básico ao Avançado com Inteligência Artificial",
@@ -2511,7 +2588,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Gamelab - Atendimento Inteligente & IA",
@@ -2541,7 +2619,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "IA no seu Trabalho",
@@ -2571,7 +2650,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "IV Seminário Desafios Emergentes da Inteligência Artificial",
@@ -2601,7 +2681,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Imersão Fluência em IA",
@@ -2631,7 +2712,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Imersão de IA para Negócios",
@@ -2661,7 +2743,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Inovação e Empreendedorismo: Fatec de Portas Abertas",
@@ -2691,7 +2774,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Líder Builder - Líderes que não programam, mas querem construir com IA · Workshop Líder Builder",
@@ -2721,7 +2805,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Mulheres, propósito e empreendedorismo",
@@ -2751,7 +2836,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "PO com Superpoderes de IA",
@@ -2781,7 +2867,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Projeto Empreendedorismo 2026",
@@ -2811,7 +2898,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Raízes & Conexões 1ª Edição | Cultura, Educação e Empreendedorismo",
@@ -2841,7 +2929,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "SOS RECUPERAÇÃO COM IA",
@@ -2871,7 +2960,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Scrum Master product Owner Webinar! Unique interview questions",
@@ -2901,7 +2991,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Agenda of Webinar: Free Session: SCRUM MASTER INTERVIEW TIPS & Scrum Master Resume 👉🏼 How can i become an exceptional SM ❓ 👉🏼 How can i crack Scrum master interview ❓ 👉🏼 What is the career path of a scrum master ❓ 👉🏼 How much I can earn as…"
   },
   {
    "name": "Workshop - Inteligência Artificial Descomplicada",
@@ -2931,7 +3022,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Workshop - WebTech: IA em Produção com o JEV: decisões por 1/10 do custo",
@@ -2961,7 +3053,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Workshop Meu.Primeiro.Site · Crie o site do seu negócio com IA",
@@ -2991,7 +3084,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "[Presencial | SP] Grafana Weekend 2ed: novidades em Observabilidade, DevOps, IA",
@@ -3021,7 +3115,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Evento PRESENCIAL e GRATUITO na FIAP Campus Avenida Paulista! *Grafana Weekend 2a edição: novidades em Observabilidade, DevOps, IA...* Você quer saber mais sobre **implementação de práticas de Observabilidade e Monitoramento** em…"
   },
   {
    "name": "Como ganhar dinheiro e não ser substituído pela IA?",
@@ -3051,7 +3146,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Amazon IA Summit 2026",
@@ -3081,7 +3177,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Evento sobre inteligência artificial aplicada a vendas e negócios para empresários e gestores da região Norte."
   },
   {
    "name": "Curso de Inteligência Artificial do zero, para quem tem mais de 40 anos e ainda não sabe nada sobre",
@@ -3111,7 +3208,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Curso de Inteligência Artificial do zero, para quem tem mais de 40 anos e ainda não sabe sobre",
@@ -3141,7 +3239,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Estratégia para 2027: O Novo Cenário de Projetos, Reforma Tributária, Captação e IA",
@@ -3171,7 +3270,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Marketing, Inovação e Inteligência Artificial: oportunidades e tendências",
@@ -3201,7 +3301,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Seminário: Inteligência Artificial Generativa Aplicada ao Controle e à Administração Pública",
@@ -3231,7 +3332,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Workshop - A sutil arte do pitch que converte",
@@ -3261,7 +3363,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "CONFRARIA WHY BITCOIN? - DIÁLOGO E APRENDIZADO - 1° DEZ 2026",
@@ -3291,7 +3394,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "De dados brutos a dados prontos para IA: Spark no Fabric",
@@ -3321,7 +3425,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "A IA só é útil quando os dados por trás dela também são. Nesta sessão, vamos usar Spark no Fabric para pegar dados brutos, limpar e transformar esses dados e criar uma base que uma solução de IA ou analytics possa realmente usar."
   },
   {
    "name": "Estratégias Digitas com IA para aumentar Resultados II",
@@ -3351,7 +3456,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "FIAP Meetup | Engenharia de software na era da IA: o que vem depois do código?",
@@ -3381,7 +3487,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Se a IA consegue gerar código, onde está o valor do engenheiro de software? Neste meetup, vamos responder essa pergunta com exemplos práticos e troca de experiências entre professores e profissionais, explorando o caminho entre gerar…"
   },
   {
    "name": "From First Idea to First Funding: Global Alumni Stories",
@@ -3412,7 +3519,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "**Founder Institute alumni have raised $2B+ and built some of the world's fastest-growing tech companies.** Join our **live Q&A** to get real insights on launching and scaling a startup, hear what the FI accelerator is really like, and…"
   },
   {
    "name": "IMERSÃO EM INTELIGÊNCIA ARTIFICIAL COM JUNITHI UEDA",
@@ -3442,7 +3550,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "INTELIGÊNCIA ARTIFICIAL EM GESTÃO E MARKETING",
@@ -3472,7 +3581,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Link Demo Day 2026.2",
@@ -3502,7 +3612,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Live Code | Engenharia de Agentes Conversacionais: como criar esses agentes",
@@ -3532,7 +3643,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "**Live Code \\| Engenharia de Agentes Conversacionais: como criar esses agentes** Como transformar modelos de inteligência artificial em agentes capazes de compreender contextos, tomar decisões e interagir com usuários e sistemas?"
   },
   {
    "name": "Matriz Delta Módulo 3 - Assistentes - Da execução constante à delegação real com IA",
@@ -3562,7 +3674,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Mulheres que inspiram: Empreendedorismo, Renda e Autonomia em Todas Idades",
@@ -3592,7 +3705,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Potência PcD Camaçari: Empreendedorismo e Geração de Renda",
@@ -3622,7 +3736,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Talk & Inovabra - Lançamento da 3ª onda do estudo - IA na vida Real 2026.",
@@ -3652,7 +3767,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Amazon IA Summit 2026",
@@ -3682,7 +3798,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Aprenda a Usar IA para Atrair Clientes e Vender Todos os Dias (Recife)",
@@ -3712,7 +3829,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Curso de site com IA - Ed.03",
@@ -3742,7 +3860,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Desenho de Novos Negócios: primeiros passos para a sua startup",
@@ -3772,7 +3891,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "IBMR MOVIMENTA 2026.2 - Projeto de Extensão EnGen AI",
@@ -3802,7 +3922,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "PALESTRA SOBRE IA | PROGRAMA COMÉRCIO INTELIGENTE SINDIMACO | SINDLAV",
@@ -3832,7 +3953,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "PIC DAY - FORMATURA FGV",
@@ -3862,7 +3984,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Potência PcD Lauro de Freitas: Empreendedorismo e Geração de Renda",
@@ -3892,7 +4015,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "TechConnect: Global Virtual Job & Networking Event for Data, AI, and Tech Pros",
@@ -3923,7 +4047,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Calling all developers, AI engineers, software architects, data scientists, DevOps professionals, and tech enthusiasts — **TechConnect** is your ultimate destination for career growth, project showcasing, and global peer networking in the…"
   },
   {
    "name": "Tokenization was the Beginning. Agentic Capital Markets is the endgame",
@@ -3954,7 +4079,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Join us for a webinar with Brickken, an LFDT general member, on building Agentic Capital Markets. Tokenization has made financial assets programmable."
   },
   {
    "name": "4° POWER MEETING JF - Reforma Tributária & IA",
@@ -3984,7 +4110,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "A REVOLUÇÃO DA IA NÃO É MAIS DOS JOVENS. É DE QUEM TEM REPERTÓRIO.",
@@ -4014,7 +4141,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "BRDE Labs Summit 2026",
@@ -4046,7 +4174,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Encontro do ecossistema de inovação do Sul com anúncio dos vencedores do programa BRDE Labs Growth 2026."
   },
   {
    "name": "D2C: como escalar marcas no digital na era da inteligência artificial",
@@ -4076,7 +4205,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "De freelancer a fundador: como virar empresa sem perder o que você faz",
@@ -4106,7 +4236,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Você faz bem o que faz. Tem cliente, tem produto. Mas quando alguém pergunta, você ainda diz que é um projeto. O Felipe dizia também. Ele vinha da fotografia de moda, um mundo que não tem nada a ver com startup, e em 2019 fundou a MERUS."
   },
   {
    "name": "Demo Day | PUCTEC Startups 2026",
@@ -4137,7 +4268,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Do Storytelling ao Palco: Pitch Day & Negócios de Impacto",
@@ -4168,7 +4300,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "EMEP - Encontro Municipalista do Empreendedorismo Paraibano",
@@ -4198,7 +4331,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Entendendo a Inteligência Artificial no Videomonitoramento",
@@ -4228,7 +4362,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "FIAP Meetup | Cybersecurity + AI: a nova engenharia da defesa",
@@ -4258,7 +4393,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "A inteligência artificial já mudou a dinâmica da cibersegurança. Enquanto atacantes usam IA generativa para escalar phishing, malware e novas formas de exploração, os times de defesa precisam automatizar detecção, threat hunting e resposta…"
   },
   {
    "name": "Fórum de Startups",
@@ -4288,7 +4424,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "GRANIOTER MEETING 2026 - DEMODAY GRANIOTER ACELERA",
@@ -4318,7 +4455,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "IMERSÃO DE INTELIGÊNCIA ARTIFICIAL PARA CORRETORES E IMOBILIÁRIAS, EM BLUMENAU",
@@ -4348,7 +4486,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "INSTED LAB IA - VENHA CONHECER A GRADUAÇÃO DE CIÊNCIA DE DADOS E IA",
@@ -4378,7 +4517,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Lei do Bem e Lei de Informática: oportunidades para empresas, incubadoras e parques tecnológicos",
@@ -4408,7 +4548,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Palestra : A Nova Era da Gestão Jurídica com IA: do Atendimento ao Cliente ao Acompanhamento...",
@@ -4438,7 +4579,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Pitch de Soluções e Oportunidades",
@@ -4468,7 +4610,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Potência PCD - Empreendedorismo e geração de renda | Santo Estêvão",
@@ -4498,7 +4641,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Potência PcD Salvador: Empreendedorismo e Geração de Renda",
@@ -4528,7 +4672,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Programa de Mentoria para Negócios de Impacto: pitch dos negócios finalistas",
@@ -4558,7 +4703,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "SJC - IA NA PRÁTICA PARA NEGÓCIOS",
@@ -4588,7 +4734,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Você recebe mais de R$ 20 mil por mês em PIX? Conheça o PIX Anônimo",
@@ -4618,7 +4765,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Workshop Gestão Inteligente: IA na prática para o varejo · Recife",
@@ -4648,7 +4796,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Conect.AI Startup |Natal - RN",
@@ -4678,7 +4827,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "FERRAMENTAS DE IA PARA O CIRURGIÃO VASCULAR",
@@ -4708,7 +4858,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Ferramentas práticas de IA para o cirurgião vascular",
@@ -4738,7 +4889,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "PALESTRA - A IA RASCUNHA, VOCÊ ASSINA",
@@ -4768,7 +4920,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Pitch Night",
@@ -4799,7 +4952,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Pitch de Negócios | CDL Passo Fundo",
@@ -4829,7 +4983,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Startup Weekend Summit Brasil",
@@ -4859,7 +5014,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "O **AWS Women User Group Goiânia** é uma das **comunidades apoiadores** desse evento. ***\"O maior encontro de líderes de comunidades de startups do Brasil.\"*** **O que é o Summit?** O Summit não é um Startup Weekend."
   },
   {
    "name": "1° Congresso de Saúde Integrada e Empreendedorismo",
@@ -4889,7 +5045,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Bahia Tech Experience (BTX) 2026",
@@ -4920,7 +5077,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Maior evento de startups da Bahia, com startups, investidores e especialistas nacionais e internacionais."
   },
   {
    "name": "Bahia Tech Experience - BTX26",
@@ -4950,7 +5108,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Conquer Open - IA",
@@ -4981,7 +5140,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "ENGEFEST 2026 - Seminário Norte Capixaba de Engenharia, Integração, Inovação e Desenvolvimento",
@@ -5011,7 +5171,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Encontro Summit Internacional | Florianópolis 5 e 6 Dez | Saúde Mental e Empreendedorismo",
@@ -5041,7 +5202,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "IA 4Business : Pontos de Atenção x Desafios & Oportunidades.",
@@ -5071,7 +5233,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "II COLLOQUIUM MORE UP \"EDUCAÇÃO BILÍNGUE NA ERA DA INTELIGÊNCIA ARTIFICIAL\".",
@@ -5101,7 +5264,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Ideathon - IMATech Campinas",
@@ -5131,7 +5295,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Imersão de Inteligência Artificial - Operação IA - Londrina",
@@ -5161,7 +5326,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Workshop IA para o Têxtil - 05/12",
@@ -5191,7 +5357,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Potência PCD - Empreendedorismo e geração de renda | Cromossomos 21 - Feira de Santana",
@@ -5221,7 +5388,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "STARTUP LINK | 2ª edição | Oportunidades de Fomento para Startups e Empresas",
@@ -5251,7 +5419,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "VI Mostra de startups & Spin-Offs apoiadas pela UFC",
@@ -5281,7 +5450,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "FÁBRICA DE PROGRAMADORES 2026 - APRENDENDO À PROGRAMAR COM GAMES E IA",
@@ -5311,7 +5481,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "IA que vende!",
@@ -5341,7 +5512,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "O Natal do Food Service de Macaé",
@@ -5371,7 +5543,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "AI FESTIVAL Uberlândia - Inteligência Artificial Para Todos",
@@ -5401,7 +5574,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "AI Webinar (Diagrid and AWS) - Durable Execution for Agents",
@@ -5432,7 +5606,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "**Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026120910) to receive the joining link. (rsvp on meetup will NOT receive anything)."
   },
   {
    "name": "From API Platform to AI Gateway, Deep Dive",
@@ -5462,7 +5637,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "La IA llegado no solo para cambiar como programamos nuestras APIS, si no también como las exponemos en nuestro Gateway."
   },
   {
    "name": "Fórum de Empreendedorismo Energia #Delas",
@@ -5492,7 +5668,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "IA Agêntica · Ep. 4 — Ecossistemas Multiagentes",
@@ -5522,7 +5699,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "INOVA IA 2026 - Caminhos para a IA no Brasil",
@@ -5552,7 +5730,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Microsoft AI Agents Hack - Desafie-se e Participe. Online e Gratuito",
@@ -5583,7 +5762,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Microsoft AI Agents Hack: 3 novas datas em dezembro! aihack.com.br Em cada Hack, sua equipe constrói agentes de IA no Azure de ponta a ponta, do dado bruto à solução funcionando, em um único dia."
   },
   {
    "name": "Potência PCD - Empreendedorismo e Geração de Renda",
@@ -5613,7 +5793,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Automação na era da Inteligência Artificial Industrial",
@@ -5643,7 +5824,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Como planejar seu 2.027 com IA e lideres do mercado imobiliário",
@@ -5673,7 +5855,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Conect.AI Startup | Rio de Janeiro - RJ",
@@ -5703,7 +5886,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Consultório Inteligente: IA na gestão e reforma tributária para profissionais da saúde",
@@ -5733,7 +5917,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Digital Plus | Prompts para Co-pys Copywriting e Inteligência Artificial - ALDEOTA",
@@ -5763,7 +5948,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "How to Build an eBay Reselling Side Hustle with AI in One Weekend",
@@ -5793,7 +5979,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "This event is being promoted by many groups. Our meetup group is participating by promoting this event. This event is organized by Albert's List. Our meetup group is collaborating by promoting this event. This is an online event."
   },
   {
    "name": "Introducing ThunderID: Open Source Identity for Humans, AI Agents, and Machines",
@@ -5823,7 +6010,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "ThunderID ([https://github.com/thunder-id](https://github.com/thunder-id)) is an open source identity and access management project, hosted by LF Decentralized Trust as an incubation project."
   },
   {
    "name": "LABORATÓRIO DE ADVOCACIA COM IA",
@@ -5853,7 +6041,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "PALESTRA SOBRE IA | PROGRAMA COMÉRCIO INTELIGENTE GOVERNADOR VALADARES",
@@ -5883,7 +6072,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Prêmio É do Empreendedorismo com Propósito 2026",
@@ -5913,7 +6103,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Transitioning from Founder-Led Sales to a Repeatable Revenue Engine",
@@ -5944,7 +6135,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "If your leads live in spreadsheets, your deals live in your inbox and every sale depends on you, your startup has a bottleneck: the founder."
   },
   {
    "name": "Venture Trailblazers featuring Harry Stebbings",
@@ -5974,7 +6166,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Venture Trailblazers is an exclusive event series that connects leading investors, founders, and ecosystem leaders from across the globe to discuss the latest trends in startups and venture capital."
   },
   {
    "name": "Workshop Gestão Inteligente: IA na prática para Gestores - João Pessoa",
@@ -6004,7 +6197,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "DEMODAY Hackathon +Devs2Blu",
@@ -6034,7 +6228,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "IMERSÃO CULTURA + IA: FUNDAMENTOS DE IA GENERATIVA PARA O SETOR CULTURAL",
@@ -6064,7 +6259,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Imersão de Inteligência Artificial - Operação IA Curitiba",
@@ -6094,7 +6290,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Techstars Startup Weekend Santa Maria Varejo",
@@ -6124,7 +6321,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Café com IA | Talk Tech Como líderes aplicam IA em suas operações",
@@ -6155,7 +6353,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "DevFest Nova Lima 2026: Da ideia à aplicação com IA",
@@ -6185,7 +6384,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Gamelab - Agentes de IA e Produtividade",
@@ -6215,7 +6415,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Ideathon Osasco",
@@ -6245,7 +6446,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "JOVENS EMPREENDEDORES - INOVAÇÃO, TECNOLOGIA E OPORTUNIDADES",
@@ -6275,7 +6477,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Líder Builder - Líderes que não programam, mas querem construir com IA · Workshop Líder Builder",
@@ -6305,7 +6508,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Brasil Startups Summit 2026 · A nova arquitetura da economia",
@@ -6335,7 +6539,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Conheça o Intelbras Defense IA Lite",
@@ -6365,7 +6570,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "1º MEETUP ILHA TECH",
@@ -6395,7 +6601,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "AI FESTIVAL Curitiba - Inteligência Artificial Para Todos",
@@ -6425,7 +6632,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Espaço UX | Qual Design vai sobreviver à IA?",
@@ -6455,7 +6663,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Nosso palestrante de hoje é David Arty. Ele é Product Designer, formado em Design Gráfico e pós-graduado em UX Design."
   },
   {
    "name": "Workshop: Preparando sua Startup para Crescer com Segurança: Societário, LGPD e Contratos",
@@ -6485,7 +6694,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "The Mid-Call Switch: Synthetic Voice Detection and Routing for Voice AI",
@@ -6515,7 +6725,8 @@
    "sources": [
     "meetup"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "​**JOINING LINK: [https://streamyard.com/watch/PStkgu9KY5h9](https://streamyard.com/watch/PStkgu9KY5h9?utm_source=luma)** **What happens when a caller starts with a real voice, and switches to a synthetic one halfway through the…"
   },
   {
    "name": "PRÊMIO EMPREENDEDOR E INOVADOR DA EDUCAÇÃO FÍSICA",
@@ -6545,7 +6756,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Curso IA Generativa com RAG, Fine Tuning e Agentes de IA., MCP, Guardrails, JEV, LaYa, Observabilida",
@@ -6575,7 +6787,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "DigitalCamp |Desenvolvedor de Produto com IA | Sede Bezerra",
@@ -6605,7 +6818,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Gestão Estratégica de Objetivos e Resultados com OKR + Liderança + IA",
@@ -6635,7 +6849,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Workshop de Inteligência Artificial & Sucessão Rural",
@@ -6665,7 +6880,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Implantação de IA na Prática · Imersão Venci",
@@ -6695,7 +6911,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "LUFARI Summit - Pulso do Empreendedor",
@@ -6725,7 +6942,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "IA além do discurso: descubra onde ela pode gerar valor para o seu negócio.",
@@ -6755,7 +6973,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "DPOday 2027: Governança de Dados na Era dos Agentes de IA",
@@ -6785,7 +7004,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Gestão de Objetivos e Resultados Chave com OKR + Soft Skills + IA",
@@ -6815,7 +7035,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "IA LASER CONGRESS",
@@ -6845,7 +7066,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Health Summit Latin America 2027",
@@ -6875,7 +7097,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Lidera Lab 17 | IA para revolucionar sua carreira | Erick Costa convida Gabriel Nogueira",
@@ -6905,7 +7128,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Smart City Expo Curitiba 2027",
@@ -6936,7 +7160,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Versão brasileira do Smart City Expo de Barcelona, com feira de negócios entre empresas, startups e governos."
   },
   {
    "name": "South Summit Brazil 2027",
@@ -6968,7 +7193,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Edição brasileira do South Summit, com Startup Competition e foco em conectar startups, corporações e investidores."
   },
   {
    "name": "Workshop de Inovação e Empreendedorismo do INCA - WINE 2027 (Evento Presencial)",
@@ -6998,7 +7224,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "São Paulo Innovation Week 2027",
@@ -7029,7 +7256,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Versão paulistana do Rio Innovation Week, focada em inovação, tecnologia e economia criativa."
   },
   {
    "name": "Gramado Summit 2027",
@@ -7060,7 +7288,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Festival de inovação e empreendedorismo na Serra Gaúcha; a edição 2027 será a 10ª."
   },
   {
    "name": "Fispal Food Service 2027",
@@ -7090,7 +7319,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Principal feira de food service da América Latina, realizada junto com a Fispal Sorvetes."
   },
   {
    "name": "Hospitalar 2027",
@@ -7120,7 +7350,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Maior feira de saúde da América Latina, com produtos, equipamentos, serviços e tecnologia para hospitais e clínicas."
   },
   {
    "name": "VTEX Day 2027",
@@ -7151,7 +7382,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Maior evento de comércio digital da América Latina, com foco em IA e comércio agêntico."
   },
   {
    "name": "Florianópolis 2027 Venture Capital World Summit",
@@ -7181,7 +7413,8 @@
    "sources": [
     "eventbrite"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Florianópolis Santa Catarina Brazil Venture Capital World Summit, World Series Season of Investment Conferences"
   },
   {
    "name": "VIII International FoodTech Forum + VII FoodTech Expo",
@@ -7211,7 +7444,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "Rio de Janeiro 2027 Venture Capital World Summit",
@@ -7241,7 +7475,8 @@
    "sources": [
     "eventbrite"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Rio de Janeiro Brazil Venture Capital World Summit, World Series Season of Investment Conferences"
   },
   {
    "name": "Web Summit Rio 2027",
@@ -7272,7 +7507,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Edição brasileira do Web Summit, reunindo startups, investidores e big techs com forte foco em IA."
   },
   {
    "name": "Fispal Tecnologia 2027",
@@ -7302,7 +7538,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Feira de tecnologia para a indústria de alimentos e bebidas: processamento, embalagem e automação."
   },
   {
    "name": "Summit de Inteligência Artificial Brasil 2027",
@@ -7332,7 +7569,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "BNDES Garagem - Demo Day (ciclo 2026)",
@@ -7364,7 +7602,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Demo Day do programa de aceleração do BNDES para startups de impacto socioambiental."
   },
   {
    "name": "Febraban Tech 2027",
@@ -7396,7 +7635,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Maior evento de tecnologia e inovação do setor financeiro da América Latina, promovido pela Febraban."
   },
   {
    "name": "Rio Innovation Week 2027",
@@ -7427,7 +7667,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Um dos maiores eventos de tecnologia e inovação do país, realizado no Píer Mauá."
   },
   {
    "name": "23º Fórum Internacional de Ciências Bíblicas | Bíblia e Igreja em tempos de IA",
@@ -7457,7 +7698,8 @@
    "sources": [
     "sympla"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": ""
   },
   {
    "name": "AI Brasil Experience",
@@ -7487,7 +7729,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Evento de inteligência artificial com múltiplos palcos sobre gestão, vendas e integração entre IA e inteligência humana."
   },
   {
    "name": "AI Summit Money",
@@ -7518,7 +7761,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Evento do Instituto Valor sobre a convergência entre IA, finanças, seguros e capital."
   },
   {
    "name": "AWS Summit São Paulo",
@@ -7549,7 +7793,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Evento gratuito da AWS sobre nuvem e IA generativa, com Executive Forum para líderes."
   },
   {
    "name": "Bioeconomy Amazon Summit",
@@ -7579,7 +7824,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Encontro sobre investimento, inovação e negócios da bioeconomia amazônica, criado por KPTL e Kyvo."
   },
   {
    "name": "BitDevs Belo Horizonte",
@@ -7609,7 +7855,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Meetup mensal de desenvolvedores Bitcoin no formato socrático (BitDevs), apoiado pela Vinteum."
   },
   {
    "name": "BitDevs Brasília",
@@ -7639,7 +7886,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Meetup mensal de desenvolvedores Bitcoin no formato socrático (BitDevs), apoiado pela Vinteum."
   },
   {
    "name": "BitDevs Curitiba",
@@ -7669,7 +7917,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Meetup mensal de desenvolvedores Bitcoin no formato socrático (BitDevs), apoiado pela Vinteum."
   },
   {
    "name": "BitDevs Florianópolis",
@@ -7699,7 +7948,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Meetup mensal de desenvolvedores Bitcoin no formato socrático (BitDevs), apoiado pela Vinteum."
   },
   {
    "name": "BitDevs Porto Alegre",
@@ -7729,7 +7979,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Meetup mensal de desenvolvedores Bitcoin no formato socrático (BitDevs), apoiado pela Vinteum."
   },
   {
    "name": "BitDevs São Paulo",
@@ -7759,7 +8010,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Meetup mensal de desenvolvedores Bitcoin no formato socrático (BitDevs), apoiado pela Vinteum."
   },
   {
    "name": "Blockchain Conference Brasil",
@@ -7791,7 +8043,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Conferência de blockchain e criptoativos; a edição 2026 teve o tema 'O Efeito Bitcoin'."
   },
   {
    "name": "Blockchain.RIO",
@@ -7823,7 +8076,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Grande evento de blockchain, tokenização, ativos digitais e inovação financeira, com Launchpad para startups."
   },
   {
    "name": "CIMATEC Business Arena",
@@ -7853,7 +8107,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Encontro do SENAI CIMATEC voltado a estudantes, pesquisadores, empreendedores, startups e investidores."
   },
   {
    "name": "Campus Party Brasil",
@@ -7884,7 +8139,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Festival de tecnologia, ciência e empreendedorismo com acampamento, palestras e programa Campus Startups; edição 2026 (CPBR18) em Brasília."
   },
   {
    "name": "Campus Party Goiás",
@@ -7915,7 +8171,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Edição goiana da Campus Party, com foco em IA aplicada; a edição 2025 reuniu mais de 100 mil pessoas."
   },
   {
    "name": "Casa Adyen",
@@ -7945,7 +8202,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Evento da Adyen sobre o futuro dos pagamentos no Brasil."
   },
   {
    "name": "Conahp - Congresso Nacional de Hospitais Privados",
@@ -7976,7 +8234,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Congresso anual da Anahp sobre o futuro da saúde, com temas como transformação digital e IA."
   },
   {
    "name": "Conexão & Capital",
@@ -8007,7 +8266,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Encontro que conecta startups cearenses a fundos de investimento nacionais, com pitches e rodadas de negócio."
   },
   {
    "name": "ETH Latam São Paulo",
@@ -8037,7 +8297,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Conferência e hackathon da comunidade Ethereum latino-americana; quarta edição realizada em São Paulo em 2025."
   },
   {
    "name": "Epicentro da Inteligência Artificial - Demoday",
@@ -8069,7 +8330,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Encerramento nacional do programa de aceleração de startups de IA do Governo de Goiás, com pitches de finalistas."
   },
   {
    "name": "Ethereum Brasil",
@@ -8099,7 +8361,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Evento de Web3 e Ethereum que conecta builders, empresas, protocolos e instituições no estádio MorumBIS."
   },
   {
    "name": "Expert XP",
@@ -8129,7 +8392,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Maior evento de investimentos do Brasil, promovido pela XP; a edição 2026 reuniu 64 mil participantes."
   },
   {
    "name": "Expo Favela Innovation Brasil",
@@ -8159,7 +8423,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Feira nacional de empreendedorismo e inovação das favelas, promovida pela CUFA e Favela Holding."
   },
   {
    "name": "Expo Favela Innovation Brasília",
@@ -8189,7 +8454,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Edição do DF da Expo Favela, promovendo empreendedorismo e inovação nas periferias."
   },
   {
    "name": "FGV Ventures Demoday",
@@ -8221,7 +8487,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Demo Day semestral das startups aceleradas pela FGV Ventures, aceleradora da FGV EAESP."
   },
   {
    "name": "Fi South America",
@@ -8251,7 +8518,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Feira de ingredientes alimentícios da América do Sul, com inovação para a indústria de alimentos e bebidas."
   },
   {
    "name": "Fintouch Brasília",
@@ -8281,7 +8549,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Edição do Fintouch na capital federal, com foco na agenda regulatória e diálogo com reguladores."
   },
   {
    "name": "Fintouch São Paulo",
@@ -8313,7 +8582,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Maior evento de fintechs do país, promovido pela ABFintechs, com debates sobre Open Finance, IA, Web3 e pagamentos."
   },
   {
    "name": "FoodBiz Summit",
@@ -8343,7 +8613,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Encontro de líderes do food service com executivos, operadores, fornecedores e investidores."
   },
   {
    "name": "Futurecom",
@@ -8373,7 +8644,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Feira e congresso de tecnologia, transformação digital e telecomunicações da América Latina."
   },
   {
    "name": "G4 Valley",
@@ -8405,7 +8677,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Evento anual do G4 Educação para empresários, com palestras de gestão, inovação e IA."
   },
   {
    "name": "Gartner Data & Analytics Summit São Paulo 2027",
@@ -8435,7 +8708,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Conferência do Gartner sobre dados, analytics e IA para líderes de tecnologia."
   },
   {
    "name": "Google for Startups Accelerator Brasil - Demo Day",
@@ -8468,7 +8742,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Demo Day do programa de aceleração do Google para startups brasileiras de Seed a Série A."
   },
   {
    "name": "HIMSS Executive Summit Brasil",
@@ -8499,7 +8774,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Encontro executivo da HIMSS sobre saúde digital e inovação no Brasil."
   },
   {
    "name": "HackTown",
@@ -8530,7 +8806,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Festival de inovação, tecnologia e criatividade que ocupa a cidade de Santa Rita do Sapucaí, o Vale da Eletrônica."
   },
   {
    "name": "Hackstars Cuiabá",
@@ -8560,7 +8837,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Maratona de inovação de 48 horas com desafios de empresas, organizada pela comunidade local de startups."
   },
   {
    "name": "Healthcare Innovation Show (HIS)",
@@ -8592,7 +8870,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Feira de inovação e transformação digital em saúde."
   },
   {
    "name": "IA Conference Brasil",
@@ -8622,7 +8901,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Conferência de inteligência artificial da Alura com palcos simultâneos e mais de 1.300 profissionais."
   },
   {
    "name": "Innova Summit",
@@ -8653,7 +8933,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Maior evento gratuito de inovação do país, com centenas de palestras em vários palcos no DF."
   },
   {
    "name": "Inova Amazônia Summit 2027",
@@ -8684,7 +8965,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Principal encontro de bioeconomia, inovação e empreendedorismo da Amazônia Legal, itinerante; 2027 em Rondônia."
   },
   {
    "name": "Insper Startup Week",
@@ -8716,7 +8998,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Semana de empreendedorismo do Insper com programação que inclui Pitch Day."
   },
   {
    "name": "International FoodTech Fórum & FoodTech Expo",
@@ -8748,7 +9031,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Fórum internacional sobre inovação, biotecnologia e IA na indústria de alimentos."
   },
   {
    "name": "MERGE São Paulo",
@@ -8779,7 +9063,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Conferência institucional de cripto com reguladores e instituições financeiras; primeira edição em São Paulo em 2026."
   },
   {
    "name": "MV Experience Forum (MEF)",
@@ -8810,7 +9095,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Fórum de inovação e tecnologia em saúde da healthtech MV, com temas como IA, interoperabilidade e analytics."
   },
   {
    "name": "Mercopar",
@@ -8840,7 +9126,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Maior feira de inovação industrial da América Latina, com expositores e área de startups."
   },
   {
    "name": "Minas Summit",
@@ -8871,7 +9158,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Maior evento de inovação corporativa de Minas Gerais, com a competição de startups Innovation Race."
   },
   {
    "name": "NEON - Nordeste ON",
@@ -8902,7 +9190,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Maior evento de inovação e empreendedorismo do Nordeste, itinerante entre capitais; edição 2026 em Maceió."
   },
   {
    "name": "NVIDIA AI Day São Paulo",
@@ -8933,7 +9222,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Evento gratuito da NVIDIA sobre IA soberana, computação acelerada e ecossistema de desenvolvedores."
   },
   {
    "name": "RD Summit",
@@ -8964,7 +9254,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Grande evento de marketing e vendas da RD Station (TOTVS); pausado em 2026, retorna em outubro de 2027 em São Paulo."
   },
   {
    "name": "REC'n'Play",
@@ -8995,7 +9286,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Festival gratuito de tecnologia, criatividade e cultura que ocupa o Bairro do Recife, realizado pelo Porto Digital e Sebrae-PE."
   },
   {
    "name": "Satsconf",
@@ -9026,7 +9318,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Uma das maiores conferências 100% dedicadas ao Bitcoin na América Latina; última edição conhecida em nov/2025 no Audio Club."
   },
   {
    "name": "Saúde Business Fórum",
@@ -9056,7 +9349,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Fórum executivo do setor de saúde com mesas de discussão, rodadas de negócio e arenas de conteúdo; edição 2026 na Costa do Sauípe."
   },
   {
    "name": "Siará Tech Summit",
@@ -9087,7 +9381,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Principal evento de inovação do Ceará, gratuito, com startups, rodadas de negócios, hackathon e trilhas de deep tech e IA."
   },
   {
    "name": "Silicon Valley Healthtech",
@@ -9118,7 +9413,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Evento do Futuro da Saúde sobre como inovações do Vale do Silício (IA, longevidade, biotech) podem transformar a saúde no Brasil."
   },
   {
    "name": "StartSe AI Festival",
@@ -9149,7 +9445,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Festival de inteligência artificial da StartSe com executivos de big techs e empresas de IA."
   },
   {
    "name": "Startup Day Cuiabá",
@@ -9179,7 +9476,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Edição cuiabana do Startup Day, dia nacional de atividades do Sebrae Startups para o ecossistema de inovação."
   },
   {
    "name": "Startup Day São Luís",
@@ -9209,7 +9507,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Edição maranhense do Startup Day do Sebrae, com palestras e conexões para startups."
   },
   {
    "name": "Startup Summit",
@@ -9241,7 +9540,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Evento do Sebrae Startups com a ACATE que reúne founders, investidores e delegações internacionais em Florianópolis."
   },
   {
    "name": "Vetor Norte Summit",
@@ -9271,7 +9571,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Evento de inovação e negócios da Região Metropolitana de BH, com espaço para startups."
   },
   {
    "name": "WISE - Workshop de Inovação: Startup e Empreendedorismo Digital",
@@ -9302,7 +9603,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Workshop gratuito do IComp/UFAM com palestras, networking e Demo Day para startups iniciantes."
   },
   {
    "name": "Web Summit Spotlight Paraíba 2027",
@@ -9333,7 +9635,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Evento do Web Summit em João Pessoa, primeiro Spotlight da América Latina; edição 2027 ampliada para dois dias."
   },
   {
    "name": "Web3Experts Brazil",
@@ -9363,7 +9666,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Encontro técnico gratuito de Web3 voltado a desenvolvedores, com três dias de conteúdo prático."
   },
   {
    "name": "XZone",
@@ -9394,7 +9698,8 @@
    "sources": [
     "curadoria"
    ],
-   "is_new": true
+   "is_new": true,
+   "summary": "Festival de tecnologia, inovação e economia criativa que reúne IA, games, startups e cultura geek."
   }
  ]
 }

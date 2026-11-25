@@ -51,5 +51,10 @@
     "enabled": false,
     "_comment": "OPCIONAL e PAGO: busca com Claude. Para ligar, mude enabled para true e crie o secret ANTHROPIC_API_KEY."
   },
-  "keep_past_days": 30
+  "keep_past_days": 30,
+  "enrich": {
+    "enabled": true,
+    "_comment": "Abre a página de cada evento novo para buscar valor e descrição (fica em cache).",
+    "max_pages_per_day": 400
+  }
 }

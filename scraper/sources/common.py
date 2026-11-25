@@ -86,14 +86,7 @@ def event_from_jsonld(d: dict, source: str, fallback_url: str = "") -> Event:
         fmt = "hibrido"
     if isinstance(loc, dict) and loc.get("@type") == "VirtualLocation":
         fmt = "online"
-    offers = d.get("offers")
-    price = None
-    if isinstance(offers, list) and offers:
-        offers = offers[0]
-    if isinstance(offers, dict):
-        p = offers.get("price") or offers.get("lowPrice")
-        if p is not None:
-            price = "Gratuito" if str(p) in ("0", "0.0", "0.00") else f"R$ {p}"
+    price = price_from_offers(d.get("offers"), d.get("isAccessibleForFree"))
     st = state if state and len(str(state)) == 2 else None
     return Event(
         name=_text(d.get("name")) or "",
@@ -110,6 +103,47 @@ def event_from_jsonld(d: dict, source: str, fallback_url: str = "") -> Event:
         image=_text(d.get("image")),
         price=price,
     )
+
+
+def fmt_brl(value: float) -> str:
+    s = f"{value:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    return "R$ " + (s[:-3] if s.endswith(",00") else s)
+
+
+def _num(v) -> float | None:
+    if v is None or isinstance(v, bool):
+        return None
+    try:
+        return float(str(v).replace("R$", "").strip().replace(".", "").replace(",", ".")
+                     if isinstance(v, str) and "," in v else v)
+    except (TypeError, ValueError):
+        return None
+
+
+def price_from_offers(offers, free_flag=None) -> str | None:
+    """schema.org offers -> 'Gratuito' | 'R$ 50' | 'R$ 50 a R$ 200'."""
+    if free_flag is True or str(free_flag).lower() == "true":
+        return "Gratuito"
+    if isinstance(offers, dict):
+        offers = [offers]
+    if not isinstance(offers, list):
+        return None
+    vals = []
+    for o in offers:
+        if not isinstance(o, dict):
+            continue
+        for k in ("price", "lowPrice", "highPrice"):
+            n = _num(o.get(k))
+            if n is not None:
+                vals.append(n)
+    if not vals:
+        return None
+    lo, hi = min(vals), max(vals)
+    if hi == 0:
+        return "Gratuito"
+    if lo == 0:
+        return f"Gratuito a {fmt_brl(hi)}"
+    return fmt_brl(lo) if lo == hi else f"{fmt_brl(lo)} a {fmt_brl(hi)}"
 
 
 def extract_jsonld_events(html: str, source: str, page_url: str = "") -> list[Event]:

@@ -8,7 +8,8 @@ Atualiza sozinho **todos os dias às 9h (horário de Brasília)** e publica um s
 
 ## O que o site faz
 
-- Busca instantânea (atalho `/`), filtros por tema, região/estado, período, formato e recorrência
+- Busca instantânea (atalho `/`), filtros por **tema**, **categoria** (Congresso, Feira, Curso, Workshop, Meetup…), região/estado, **período com data início e fim** e formato
+- Cada card mostra a categoria, um resumo do evento e o **valor** (ou “Gratuito”)
 - 4 visualizações: **Cards**, **Lista** (agrupada por mês), **Calendário** e **Mapa** do Brasil por estado
 - Selo **Novo** para eventos que entraram no radar nos últimos 7 dias
 - ⭐ Favoritos (ficam salvos no navegador)
@@ -57,6 +58,8 @@ O site fica em `https://<usuario>.github.io/<repositorio>/`.
 | Adicionar/remover palavras‑chave ou um tema novo | `config/themes.json` (cor, emoji, termos de busca e palavras‑chave) |
 | Cadastrar um evento à mão | `data/seed_events.json` |
 | Esconder um evento que entrou por engano | coloque o nome em `data/blocklist.json` |
+| Descartar eventos por palavra no nome (ex.: “degustação”) | `exclude_keywords` em `config/themes.json` |
+| Mudar/criar categorias (Congresso, Feira, Curso…) | `config/event_types.json` |
 | Ligar/desligar fontes, cidades do Meetup, páginas de agenda extras | `config/sources.json` |
 | Fazer a busca grátis pesquisar mais/menos por dia | `free_search.queries_per_day` e `max_pages_per_day` em `config/sources.json` |
 | Mudar textos/cores do site | `docs/index.html`, `docs/styles.css` (variáveis no topo) |

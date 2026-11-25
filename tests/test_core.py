@@ -103,3 +103,19 @@ def test_event_type():
     assert classify_type("Algo sem pista", source="meetup") == "meetup"
     assert classify_type("Algo sem pista") == "evento"
     assert Event(name="Web Summit Rio", url="u", source="t", city="Rio de Janeiro").finalize().type == "summit"
+
+
+def test_price_and_summary():
+    from scraper.sources.common import price_from_offers
+    from scraper.sources.enrich import parse_page, summarize
+    assert price_from_offers({"price": "0"}) == "Gratuito"
+    assert price_from_offers([{"price": 50}, {"price": 1250.5}]) == "R$ 50 a R$ 1.250,50"
+    assert price_from_offers({"lowPrice": 0, "highPrice": 90}) == "Gratuito a R$ 90"
+    html = ('<script type="application/ld+json">{"@type":"Event","name":"X","description":"<p>Um summit sobre IA.</p>",'
+            '"offers":{"@type":"AggregateOffer","lowPrice":"120.00","highPrice":"300.00"}}</script>')
+    info = parse_page(html)
+    assert info == {"description": "Um summit sobre IA.", "price": "R$ 120 a R$ 300"}
+    meta = '<meta property="og:description" content="Evento gratuito sobre fintech.">'
+    assert parse_page(meta)["price"] == "Gratuito"
+    s = summarize("Primeira frase do evento com bastante conteúdo para passar do mínimo. " * 6)
+    assert s.endswith(".") and len(s) <= 240
