@@ -42,7 +42,7 @@ Depois o robô:
 ## Colocando no ar (uma vez só)
 
 1. **Ativar o GitHub Pages:** no repositório, `Settings → Pages → Build and deployment → Source: GitHub Actions`.
-2. Pronto — **tudo roda de graça**: o GitHub Actions e o GitHub Pages são gratuitos para repositórios públicos (em repositórios privados o plano gratuito inclui 2.000 min/mês de Actions; a coleta diária usa ~10–15 min).
+2. Pronto — **tudo roda de graça**: o GitHub Actions e o GitHub Pages são gratuitos para repositórios públicos (em repositórios privados o plano gratuito inclui 2.000 min/mês de Actions — a coleta diária usa ~10–15 min — mas o GitHub Pages em repositório privado exige plano pago; deixe o repositório público para ficar tudo grátis).
    - *Opcional (pago):* para somar a busca com IA, mude `ai_discovery.enabled` para `true` em `config/sources.json` e crie o secret `ANTHROPIC_API_KEY`.
 3. Fazer merge desta branch na `main`. O workflow `.github/workflows/update-events.yml` roda todo dia às 9h; para rodar na hora: aba **Actions → Atualizar eventos → Run workflow**.
 
