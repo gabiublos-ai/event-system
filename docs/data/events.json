@@ -1,15 +1,9 @@
 {
  "meta": {
-  "updated_at": "2026-11-25T16:49-03:00",
+  "updated_at": "2026-11-25T16:50-03:00",
   "total": 389,
   "sources_raw": {
-   "curadoria": 79,
-   "sympla": 3439,
-   "eventbrite": 505,
-   "meetup": 2652,
-   "even3": 0,
-   "doity": 0,
-   "busca_web": 1
+   "curadoria": 79
   },
   "themes": {
    "ia": {
