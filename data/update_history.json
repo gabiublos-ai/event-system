@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "at": "2026-11-26T11:40-03:00",
+  "trigger": "publicacao",
+  "mode": "reprocessamento",
+  "total": 336,
+  "added": 0,
+  "removed": 0,
+  "sources": {
+   "curadoria": 79
+  },
+  "run_url": "https://github.com/gabiublos-ai/event-system/actions/runs/45841290714"
+ }
+]
