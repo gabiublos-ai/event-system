@@ -10,7 +10,7 @@
  * Regras de segurança: firestore.rules (na raiz do repositório).
  */
 window.Team = (() => {
-  const V = "10.12.2";
+  const V = "13.4.0"; // versão do SDK do Firebase (a mesma indicada no console)
   const cfg = window.FIREBASE_CONFIG;
   const enabled = !!(cfg && cfg.apiKey && cfg.projectId);
   const EMAIL_KEY = "radar_email_login";
