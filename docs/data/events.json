@@ -1,9 +1,15 @@
 {
  "meta": {
-  "updated_at": "2026-11-26T11:43-03:00",
-  "total": 336,
+  "updated_at": "2026-11-26T11:56-03:00",
+  "total": 351,
   "sources_raw": {
-   "curadoria": 79
+   "curadoria": 79,
+   "sympla": 3400,
+   "eventbrite": 0,
+   "meetup": 2728,
+   "even3": 0,
+   "doity": 0,
+   "busca_web": 0
   },
   "themes": {
    "ia": {
@@ -190,7 +196,7 @@
    "id": "a71aa85faa56",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -216,8 +222,7 @@
    "image": "https://images.sympla.com.br/69389d3975541.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -225,7 +230,7 @@
    "id": "a4fec86569eb",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -259,7 +264,7 @@
    "id": "c0dffe505c8c",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -293,7 +298,7 @@
    "id": "06f38fe330a3",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -327,7 +332,7 @@
    "id": "6b9ae765ed85",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -429,7 +434,7 @@
    "id": "cb658c6fed27",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -463,7 +468,7 @@
    "id": "8c450e957d68",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -497,7 +502,7 @@
    "id": "63ddbc5f72e8",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -557,7 +562,6 @@
    "image": "https://images.sympla.com.br/6afc410c60c10.jpg",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -566,7 +570,7 @@
    "id": "a13776321ea6",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -634,7 +638,7 @@
    "id": "6e5d8d905a72",
    "region": "Norte",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -668,7 +672,7 @@
    "id": "9e819975ec3d",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -770,7 +774,7 @@
    "id": "63c2b7a507b6",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -804,7 +808,7 @@
    "id": "5c75bcc3abde",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -1418,7 +1422,7 @@
    "id": "073707595459",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -1498,40 +1502,6 @@
    "lon": -51.2304
   },
   {
-   "name": "UNINASSAU On Tech 2026",
-   "url": "https://www.sympla.com.br/evento/uninassau-on-tech-2026/3646281",
-   "source": "sympla",
-   "start_date": "2026-11-25",
-   "end_date": "2026-11-27",
-   "description": "UNINASSAU On Tech 2026Palestras, Feira de Sistemas e mesas-redondas25, 26 e 27 de novembro de 2026 · UNINASSAU Parnaíba – PIGARANTA SUA VAGAO evento é gratuito. Inscreva-se pelo botão de ingressos e venha fazer parte do On Tech 2026.SOBRE O EVENTOO UNINASSAU On Tech 2026 é um evento oficial e técnico-científico do curso de Análise e Desenvolvimento de Sistemas (ADS) da UNINASSAU Parnaíba.Ao longo de três dias, o evento reúne estudantes, profissionais, empreendedores e comunidades de tecnologia para uma programação que combina formação técnica, exposição de trabalhos acadêmicos e troca direta c",
-   "city": "Parnaíba",
-   "state": "PI",
-   "venue": "UNINASSAU - Parnaíba",
-   "format": "presencial",
-   "type": "evento",
-   "organizer": "Uninassau Parnaba",
-   "image": "https://images.sympla.com.br/6aede2eb935eb.png",
-   "price": "Gratuito",
-   "themes": [
-    "startups"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 11,
-   "date_confirmed": true,
-   "id": "b69fb68a7b45",
-   "region": "Nordeste",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
-   "sources": [
-    "sympla"
-   ],
-   "is_new": true,
-   "summary": "UNINASSAU On Tech 2026Palestras, Feira de Sistemas e mesas-redondas25, 26 e 27 de novembro de 2026 · UNINASSAU Parnaíba – PIGARANTA SUA VAGAO evento é gratuito.",
-   "geo_precision": "cidade",
-   "lat": -2.9148,
-   "lon": -41.7662
-  },
-  {
    "name": "VISE, Visão Empreendedora: Edição Medicina | Unesc",
    "url": "https://www.sympla.com.br/evento/vise-visao-empreendedora-edicao-medicina-unesc/3646049",
    "source": "sympla",
@@ -1589,7 +1559,7 @@
    "id": "037a98bcc18c",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -1623,7 +1593,7 @@
    "id": "38f9ea08375b",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -1649,8 +1619,7 @@
    "image": "https://images.sympla.com.br/6b05c283b61e5.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -1658,7 +1627,7 @@
    "id": "c307dd23ecbe",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -1692,7 +1661,7 @@
    "id": "7a7195b0a182",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -1718,7 +1687,6 @@
    "image": "https://images.sympla.com.br/6af222e19488c.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "aceleradoras",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -1727,7 +1695,7 @@
    "id": "72ea7ef3fc29",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -1773,6 +1741,40 @@
    "lon": -46.6334
   },
   {
+   "name": "ARARAQUARA - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR",
+   "url": "https://www.sympla.com.br/evento/araraquara-palestra-aceleracao-de-vendas-como-vender-mais-mais-facil-e-melhor/3661978",
+   "source": "sympla",
+   "start_date": "2026-11-26",
+   "end_date": "2026-11-26",
+   "description": "Compre ingressos para ARARAQUARA - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR em Araraquara dia 26/11. Confira os melhores eventos da Sympla!",
+   "city": "Araraquara",
+   "state": "SP",
+   "venue": "Transamerica | Hotel em Araraquara - SP",
+   "format": "presencial",
+   "type": "imersao",
+   "organizer": "Equipe Conselheiro Comercial",
+   "image": "https://images.sympla.com.br/6afbc7b2c2f7f.jpg",
+   "price": "Gratuito",
+   "themes": [
+    "aceleradoras"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 11,
+   "date_confirmed": true,
+   "id": "fd2ba6c3c9d5",
+   "region": "Sudeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "Compre ingressos para ARARAQUARA - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR em Araraquara dia 26/11. Confira os melhores eventos da Sympla!",
+   "geo_precision": "cidade",
+   "lat": -21.7887,
+   "lon": -48.1773
+  },
+  {
    "name": "Ativação CASE Santa Inês | Conferência Anual de Startups e Empreendedorismo",
    "url": "https://www.sympla.com.br/evento/ativacao-case-santa-ines-conferencia-anual-de-startups-e-empreendedorismo/3644976",
    "source": "sympla",
@@ -1796,7 +1798,7 @@
    "id": "471632501be7",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -1830,7 +1832,7 @@
    "id": "b3ded49733be",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -1864,7 +1866,7 @@
    "id": "03715562a4fb",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -1960,7 +1962,6 @@
    "image": "https://images.sympla.com.br/6a29899e23e8c.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -1969,7 +1970,7 @@
    "id": "82f77c8d08a6",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2029,9 +2030,7 @@
    "image": "https://images.sympla.com.br/6afaf5ad6d4da.png",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -2039,7 +2038,7 @@
    "id": "2061f72bc92f",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2073,7 +2072,7 @@
    "id": "beb984ba356f",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2107,7 +2106,7 @@
    "id": "51ba2a34185a",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2141,7 +2140,7 @@
    "id": "4f3245f0916c",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2176,7 +2175,7 @@
    "id": "6efd81cfaeae",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2210,7 +2209,7 @@
    "id": "65d63b74d6a8",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2244,7 +2243,7 @@
    "id": "e36b34bbbe83",
    "region": "Norte",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2278,7 +2277,7 @@
    "id": "884c984e25f1",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2312,7 +2311,7 @@
    "id": "d469ccbda5c6",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2338,8 +2337,7 @@
    "image": "https://images.sympla.com.br/6aff02dbca82d.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -2347,7 +2345,7 @@
    "id": "4e41c9861f50",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2381,7 +2379,7 @@
    "id": "68ac028cdb64",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2415,7 +2413,7 @@
    "id": "603a870ba1f1",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2449,7 +2447,7 @@
    "id": "5f2d9860cecb",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2483,7 +2481,7 @@
    "id": "f412b664b0f8",
    "region": "Norte",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2517,7 +2515,7 @@
    "id": "e134d48b3d7b",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -2551,7 +2549,7 @@
    "id": "c17d8f0915f8",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2585,7 +2583,7 @@
    "id": "439bbd4ad1fa",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2619,7 +2617,7 @@
    "id": "e7d8b947279a",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2653,7 +2651,7 @@
    "id": "01b8150661cb",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2662,6 +2660,40 @@
    "geo_precision": "cidade",
    "lat": -23.5507,
    "lon": -46.6334
+  },
+  {
+   "name": "SÃO CARLOS - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR",
+   "url": "https://www.sympla.com.br/evento/sao-carlos-palestra-aceleracao-de-vendas-como-vender-mais-mais-facil-e-melhor/3661981",
+   "source": "sympla",
+   "start_date": "2026-11-26",
+   "end_date": "2026-11-26",
+   "description": "Compre ingressos para SÃO CARLOS - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR em São Carlos dia 26/11. Confira os melhores eventos da Sympla!",
+   "city": "São Carlos",
+   "state": "SP",
+   "venue": "Wikilab Coworking",
+   "format": "presencial",
+   "type": "imersao",
+   "organizer": "Equipe Conselheiro Comercial",
+   "image": "https://images.sympla.com.br/6afbc7b2c2f7f.jpg",
+   "price": "Gratuito",
+   "themes": [
+    "aceleradoras"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 11,
+   "date_confirmed": true,
+   "id": "6c21837854ce",
+   "region": "Sudeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "Compre ingressos para SÃO CARLOS - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR em São Carlos dia 26/11. Confira os melhores eventos da Sympla!",
+   "geo_precision": "cidade",
+   "lat": -22.017,
+   "lon": -47.891
   },
   {
    "name": "TXP Tech Meetup - Fortaleza",
@@ -2687,7 +2719,7 @@
    "id": "712719f223be",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup",
     "sympla"
@@ -2697,6 +2729,40 @@
    "geo_precision": "cidade",
    "lat": -3.7932,
    "lon": -38.528
+  },
+  {
+   "name": "UNINASSAU On Tech 2026",
+   "url": "https://www.sympla.com.br/evento/uninassau-on-tech-2026/3646281",
+   "source": "sympla",
+   "start_date": "2026-11-26",
+   "end_date": "2026-11-28",
+   "description": "UNINASSAU On Tech 2026Palestras, Feira de Sistemas e mesas-redondas25, 26 e 27 de novembro de 2026 · UNINASSAU Parnaíba – PIGARANTA SUA VAGAO evento é gratuito. Inscreva-se pelo botão de ingressos e venha fazer parte do On Tech 2026.SOBRE O EVENTOO UNINASSAU On Tech 2026 é um evento oficial e técnico-científico do curso de Análise e Desenvolvimento de Sistemas (ADS) da UNINASSAU Parnaíba.Ao longo de três dias, o evento reúne estudantes, profissionais, empreendedores e comunidades de tecnologia para uma programação que combina formação técnica, exposição de trabalhos acadêmicos e troca direta c",
+   "city": "Parnaíba",
+   "state": "PI",
+   "venue": "UNINASSAU - Parnaíba",
+   "format": "presencial",
+   "type": "evento",
+   "organizer": "Uninassau Parnaba",
+   "image": "https://images.sympla.com.br/6b0752edec41c.png",
+   "price": "Gratuito",
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 11,
+   "date_confirmed": true,
+   "id": "b69fb68a7b45",
+   "region": "Nordeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "UNINASSAU On Tech 2026Palestras, Feira de Sistemas e mesas-redondas25, 26 e 27 de novembro de 2026 · UNINASSAU Parnaíba – PIGARANTA SUA VAGAO evento é gratuito.",
+   "geo_precision": "cidade",
+   "lat": -2.9148,
+   "lon": -41.7662
   },
   {
    "name": "Visita Guiada: O Mundo através da IA (Sesc 24 de Maio) {EXCLUSIVO PARA MULHERES}",
@@ -2722,7 +2788,7 @@
    "id": "1e5b03ed3314",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2748,10 +2814,7 @@
    "image": "https://images.sympla.com.br/6b0598810e0de.jpg",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
-    "demo_day",
-    "escolas_negocio",
-    "startups"
+    "demo_day"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -2759,7 +2822,7 @@
    "id": "cc2080e3ca0e",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2793,7 +2856,7 @@
    "id": "07e07c0fbe18",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -2827,7 +2890,7 @@
    "id": "4fffc1152472",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2861,7 +2924,7 @@
    "id": "bc6dd795f395",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2895,7 +2958,7 @@
    "id": "b49d7893be0c",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2929,7 +2992,7 @@
    "id": "7169b71f0d78",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2963,7 +3026,7 @@
    "id": "f09814986b57",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -2990,7 +3053,6 @@
    "price": "Gratuito",
    "themes": [
     "demo_day",
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -2999,7 +3061,7 @@
    "id": "9e641e8a561d",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3033,7 +3095,7 @@
    "id": "c4e8e1671a1f",
    "region": "Norte",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -3059,7 +3121,6 @@
    "image": "https://images.sympla.com.br/6af377e5d2a77.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -3068,7 +3129,7 @@
    "id": "a465e1be62e6",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3102,7 +3163,7 @@
    "id": "06fc7fb1555e",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3136,7 +3197,7 @@
    "id": "cb2f49ba5e7e",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3170,7 +3231,7 @@
    "id": "978c6afc57db",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -3204,7 +3265,7 @@
    "id": "bf9d1a77720c",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3238,7 +3299,7 @@
    "id": "a406d9e8c893",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3264,8 +3325,7 @@
    "image": "https://images.sympla.com.br/6aecc9feb86aa.jpg",
    "price": "Gratuito",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -3273,7 +3333,7 @@
    "id": "fdaa75d83530",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3307,7 +3367,7 @@
    "id": "76c011a9369b",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3341,7 +3401,7 @@
    "id": "eed3a1c7ef26",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3375,7 +3435,7 @@
    "id": "bd2b3c586f58",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3409,7 +3469,7 @@
    "id": "fb2c01211ccd",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3443,7 +3503,7 @@
    "id": "94bc004f1e96",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3477,7 +3537,7 @@
    "id": "751a64109c30",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3511,7 +3571,7 @@
    "id": "8e4a586b4710",
    "region": "Norte",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3545,7 +3605,7 @@
    "id": "cbe1855e5e6c",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3579,7 +3639,7 @@
    "id": "bb0d50e8f60f",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3613,7 +3673,7 @@
    "id": "9dc8fac7ab9a",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3647,7 +3707,7 @@
    "id": "778bcf0ba8b5",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3681,7 +3741,7 @@
    "id": "986d6c440390",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -3715,7 +3775,7 @@
    "id": "083cecead747",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3749,7 +3809,7 @@
    "id": "0f0c9e7a328c",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3783,7 +3843,7 @@
    "id": "dca4cef40cc8",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3817,7 +3877,7 @@
    "id": "e06a77c3f838",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -3851,7 +3911,7 @@
    "id": "d53076bb100d",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3885,7 +3945,7 @@
    "id": "5efac8aefd3d",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3953,7 +4013,7 @@
    "id": "35dcdd8b5b5d",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3987,7 +4047,7 @@
    "id": "6fa6aa0ba49a",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -3996,6 +4056,40 @@
    "geo_precision": "cidade",
    "lat": -30.0325,
    "lon": -51.2304
+  },
+  {
+   "name": "Do Shadow IT ao Shadow AI: Como os Dados Corporativos Vazam no Fluxo de Trabalho dos Desenvolvedores",
+   "url": "https://www.sympla.com.br/evento/do-shadow-it-ao-shadow-ai-como-os-dados-corporativos-vazam-no-fluxo-de-trabalho-dos-desenvolvedores/3667394",
+   "source": "sympla",
+   "start_date": "2026-11-30",
+   "end_date": "2026-11-30",
+   "description": "Palestra técnica sobre cybersegurança.Antonio Andrade, MSc. é Mestre em Engenharia Biomédica e Graduado em Tecnologia da Informação, com sólida trajetória na intersecção entre engenharia de software, segurança cibernética e governança de dados. Atua como gestor de desenvolvimento de sistemas e arquitetura de TI no setor da saúde (Grupo Trasmontano) e é cofundador das empresas de tecnologia ViaClient e SMIT. No meio acadêmico, leciona há mais de uma década em cursos de Graduação e Pós-Graduação nas áreas de Segurança da Informação, Cibersegurança e Arquitetura de Sistemas. Na APDADOS (Associaçã",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Anhembi Morumbi - Unidade Av Paulista",
+   "format": "presencial",
+   "type": "evento",
+   "organizer": "Alexandre Tavares Soares",
+   "image": "https://images.sympla.com.br/6b0824b624e95.jpg",
+   "price": "Gratuito",
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 11,
+   "date_confirmed": true,
+   "id": "7024a3182618",
+   "region": "Sudeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "Palestra técnica sobre cybersegurança.Antonio Andrade, MSc. é Mestre em Engenharia Biomédica e Graduado em Tecnologia da Informação, com sólida trajetória na intersecção entre engenharia de software, segurança cibernética e governança de…",
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Estratégia para 2027: O Novo Cenário de Projetos, Reforma Tributária, Captação e IA",
@@ -4021,7 +4115,7 @@
    "id": "8561f74312bd",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4055,7 +4149,7 @@
    "id": "e098ad974cfc",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4081,7 +4175,6 @@
    "image": "https://images.sympla.com.br/6a99679527ef4.jpg",
    "price": "Gratuito",
    "themes": [
-    "escolas_negocio",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -4090,7 +4183,7 @@
    "id": "ea16c04591b1",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4124,7 +4217,7 @@
    "id": "dfe08d0b6ec8",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4133,6 +4226,74 @@
    "geo_precision": "cidade",
    "lat": -29.4686,
    "lon": -52.0869
+  },
+  {
+   "name": "Workshop | Processos e Inteligência Artificial na Contabilidade Preparando para a Reforma Tributária",
+   "url": "https://www.sympla.com.br/evento/workshop-processos-e-inteligencia-artificial-na-contabilidade-preparando-para-a-reforma-tributaria/3655388",
+   "source": "sympla",
+   "start_date": "2026-11-30",
+   "end_date": "2026-12-01",
+   "description": "Workshop | Processos e Inteligência Artificial na ContabilidadePreparando seu escritório para a Reforma Tributária 2027.Um workshop presencial voltado a contadores e gestores que desejam estruturar processos internos, automatizar rotinas com Inteligência Artificial, reduzir retrabalhos e a dependência de atividades manuais, aumentando a produtividade e a eficiência do escritório.Data: 30/11/2026Local: Império Nexus – Anápolis/GOPrepare seu escritório para os desafios de 2027 com processos mais inteligentes, organizados e automatizados.",
+   "city": "Anápolis",
+   "state": "GO",
+   "venue": "Império Nexus",
+   "format": "presencial",
+   "type": "workshop",
+   "organizer": "ADRIANA FRANCIELE F",
+   "image": "https://images.sympla.com.br/6afa36343cde7.jpg",
+   "price": "Pago (valor no site)",
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 11,
+   "date_confirmed": true,
+   "id": "e2275b6300ff",
+   "region": "Centro-Oeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "Workshop | Processos e Inteligência Artificial na ContabilidadePreparando seu escritório para a Reforma Tributária 2027.Um workshop presencial voltado a contadores e gestores que desejam estruturar processos internos, automatizar rotinas…",
+   "geo_precision": "cidade",
+   "lat": -16.3333,
+   "lon": -48.9526
+  },
+  {
+   "name": "Agentes de IA: quando a IA para de responder e começa a trabalhar",
+   "url": "https://www.sympla.com.br/evento/agentes-de-ia-quando-a-ia-para-de-responder-e-comeca-a-trabalhar/3667579",
+   "source": "sympla",
+   "start_date": "2026-12-01",
+   "end_date": "2026-12-02",
+   "description": "Chatbots respondem perguntas. Agentes executam tarefas. Nesta palestra você vai entender o que muda quando a IA ganha autonomia para planejar, usar ferramentas e tomar decisões. Vamos ver exemplos reais, o que já funciona hoje, onde ainda tropeça e como isso vai impactar o trabalho de desenvolvedores, empresas e profissionais de todas as áreas.Reinaldo Silotto começou a programar aos 10 anos, digitando em BASIC os programas que vinham impressos nas revistas. Em 1995 publicou o primeiro site, ainda na internet discada. Em 2002 ganhou o Prêmio iBest com o Emulando, um site sobre emulação que man",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Universidade Anhembi Morumbi",
+   "format": "presencial",
+   "type": "evento",
+   "organizer": "Alexandre Tavares Soares",
+   "image": "https://images.sympla.com.br/6b083ebb28d54.jpg",
+   "price": "Gratuito",
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "3ca777843e4b",
+   "region": "Sudeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "Chatbots respondem perguntas. Agentes executam tarefas. Nesta palestra você vai entender o que muda quando a IA ganha autonomia para planejar, usar ferramentas e tomar decisões.",
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Bob TV Episode 4: Why generic AI fails at mainframe scale - and what works",
@@ -4158,7 +4319,7 @@
    "id": "e756e3e1cf5f",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -4192,7 +4353,7 @@
    "id": "d6e13e9cb96e",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4226,7 +4387,7 @@
    "id": "2a2ccd052642",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -4252,8 +4413,7 @@
    "image": "https://images.sympla.com.br/6af518a1df36f.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4261,7 +4421,7 @@
    "id": "eaa07314a87f",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4295,7 +4455,7 @@
    "id": "1121db447b32",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -4330,7 +4490,7 @@
    "id": "4c4ebbd90073",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -4364,7 +4524,7 @@
    "id": "4e69282b29bd",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4390,8 +4550,7 @@
    "image": "https://images.sympla.com.br/6ae4f200ee60f.png",
    "price": "R$ 79,99",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4399,7 +4558,7 @@
    "id": "9a040e9ae815",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4425,9 +4584,7 @@
    "image": "https://images.sympla.com.br/6a982881dd5be.png",
    "price": "R$ 10",
    "themes": [
-    "demo_day",
-    "escolas_negocio",
-    "startups"
+    "demo_day"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4435,7 +4592,7 @@
    "id": "6b79d388e37c",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4469,7 +4626,7 @@
    "id": "30b9cd2b437d",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -4503,7 +4660,7 @@
    "id": "9a297f44fb20",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4537,7 +4694,7 @@
    "id": "bf1218dd226c",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4571,7 +4728,7 @@
    "id": "6a309484f1b8",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4605,7 +4762,7 @@
    "id": "479dded532bd",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4639,7 +4796,7 @@
    "id": "c1630848dcbf",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4673,7 +4830,7 @@
    "id": "c99779dee66a",
    "region": "Norte",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4707,7 +4864,7 @@
    "id": "dbdedbc30356",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4741,7 +4898,7 @@
    "id": "b80875764e08",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4767,7 +4924,6 @@
    "image": "https://images.sympla.com.br/5f282a0c6a2d9.png",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -4776,7 +4932,7 @@
    "id": "819a179bc8d0",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4810,7 +4966,7 @@
    "id": "62dc9e1b1c58",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4819,6 +4975,40 @@
    "geo_precision": "cidade",
    "lat": -22.911,
    "lon": -43.2094
+  },
+  {
+   "name": "PALESTRA SOBRE IA | PROGRAMA COMÉRCIO INTELIGENTE SINDICFC MG",
+   "url": "https://www.sympla.com.br/evento/palestra-sobre-ia-programa-comercio-inteligente-sindicfc-mg/3667442",
+   "source": "sympla",
+   "start_date": "2026-12-02",
+   "end_date": "2026-12-02",
+   "description": "O setor de autoescolas está passando por importantes transformações. Estar preparado para essas mudanças é fundamental para garantir a competitividade e o crescimento do seu negócio.Pensando nisso, o SINDICFC-MG, com o apoio da Fecomércio MG, promove um encontro especial voltado para empresários, gestores e profissionais do setor de autoescolas.O evento será uma oportunidade de atualização, aprendizado e troca de experiências sobre temas estratégicos que impactam diretamente o ambiente empresarial.Confira os temas da programação:Inteligência Artificial: palestra com Alexandre Calmon, especiali",
+   "city": "Belo Horizonte",
+   "state": "MG",
+   "venue": "Fecomércio MG",
+   "format": "presencial",
+   "type": "palestra",
+   "organizer": "Fecomércio MG",
+   "image": "https://images.sympla.com.br/6b0831042e4ae.png",
+   "price": "Gratuito",
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "3bb8d520fee9",
+   "region": "Sudeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "O setor de autoescolas está passando por importantes transformações. Estar preparado para essas mudanças é fundamental para garantir a competitividade e o crescimento do seu negócio.Pensando nisso, o SINDICFC-MG, com o apoio da Fecomércio…",
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
   },
   {
    "name": "PALESTRA SOBRE IA | PROGRAMA COMÉRCIO INTELIGENTE SINDIMACO | SINDLAV",
@@ -4844,7 +5034,7 @@
    "id": "67dd86239931",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4870,8 +5060,7 @@
    "image": "https://images.sympla.com.br/6af62c9e221c0.png",
    "price": "Gratuito",
    "themes": [
-    "escolas_negocio",
-    "startups"
+    "escolas_negocio"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4879,7 +5068,7 @@
    "id": "a133fee406a2",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4913,7 +5102,7 @@
    "id": "df73905b7ca6",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4947,7 +5136,7 @@
    "id": "df1724daa4f8",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -4982,7 +5171,7 @@
    "id": "dff280a49570",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -5017,7 +5206,7 @@
    "id": "ab4037d8e76a",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -5026,6 +5215,40 @@
    "geo_precision": "cidade",
    "lat": -23.5507,
    "lon": -46.6334
+  },
+  {
+   "name": "WORKSHOP GENTE & GESTÃO COM TECNOLOGIA E IA",
+   "url": "https://www.sympla.com.br/evento/workshop-gente-gestao-com-tecnologia-e-ia/3667189",
+   "source": "sympla",
+   "start_date": "2026-12-02",
+   "end_date": "2026-12-02",
+   "description": "Workshop Gente & Gestão com Tecnologia e IAA gestão de pessoas está evoluindo, e a tecnologia e a Inteligência Artificial estão transformando a maneira como empresas lideram, desenvolvem equipes e alcançam resultados.A Apex Conexões convida você para um encontro exclusivo com Michel Ávila, CEO e fundador da Apex Holding, e Anderson Nogueira, Head International, em um workshop pensado para empresários e líderes que desejam acompanhar as transformações do mercado e aprimorar a gestão de seus negócios.Será uma manhã de conhecimento, troca de experiências e insights sobre como tecnologia e IA pode",
+   "city": "Fortaleza",
+   "state": "CE",
+   "venue": "Torre Empresarial Iguatemi",
+   "format": "presencial",
+   "type": "workshop",
+   "organizer": "APEX IMERSOES LTDA",
+   "image": "https://images.sympla.com.br/6b0776f6882ca.png",
+   "price": "Pago (valor no site)",
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "699830626b65",
+   "region": "Nordeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "Workshop Gente & Gestão com Tecnologia e IAA gestão de pessoas está evoluindo, e a tecnologia e a Inteligência Artificial estão transformando a maneira como empresas lideram, desenvolvem equipes e alcançam resultados.A Apex Conexões…",
+   "geo_precision": "cidade",
+   "lat": -3.7932,
+   "lon": -38.528
   },
   {
    "name": "4° POWER MEETING JF - Reforma Tributária & IA",
@@ -5040,7 +5263,7 @@
    "format": "presencial",
    "type": "evento",
    "organizer": "Federação dos Contabilistas do Estado de Minas Gerais",
-   "image": "https://images.sympla.com.br/6afdf3b36799f.jpg",
+   "image": "https://images.sympla.com.br/6b08347200a7d.png",
    "price": "A partir de R$ 50",
    "themes": [
     "ia"
@@ -5051,7 +5274,7 @@
    "id": "8ca639798432",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5077,8 +5300,7 @@
    "image": "https://images.sympla.com.br/6b045fe0b6341.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5086,7 +5308,7 @@
    "id": "f30802fcaae7",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5156,7 +5378,7 @@
    "id": "0f44415f8396",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5190,7 +5412,7 @@
    "id": "28de73e71461",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5224,7 +5446,7 @@
    "id": "1ed4b7462774",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -5250,7 +5472,6 @@
    "image": "https://images.sympla.com.br/6afd046032760.jpg",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "demo_day",
     "startups"
    ],
@@ -5260,7 +5481,7 @@
    "id": "a55795a9b094",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5295,7 +5516,7 @@
    "id": "f21f3cc80428",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5329,7 +5550,7 @@
    "id": "14c9646f42b7",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5363,7 +5584,7 @@
    "id": "8ff3ab0d34e7",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5397,7 +5618,7 @@
    "id": "d24e49a4cfcf",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -5431,7 +5652,7 @@
    "id": "a77716027ebe",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5457,8 +5678,7 @@
    "image": "https://images.sympla.com.br/6ae37fb4d36dd.png",
    "price": "Gratuito",
    "themes": [
-    "demo_day",
-    "startups"
+    "demo_day"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5466,7 +5686,7 @@
    "id": "aeb153ad0be6",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5500,7 +5720,7 @@
    "id": "7952d681d594",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5534,7 +5754,7 @@
    "id": "217807b6f46c",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5560,7 +5780,6 @@
    "image": "https://images.sympla.com.br/6af5dad3c40e8.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -5569,7 +5788,7 @@
    "id": "77b4d22a1ed1",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5578,6 +5797,40 @@
    "geo_precision": "cidade",
    "lat": -22.911,
    "lon": -43.2094
+  },
+  {
+   "name": "Inovação cidadã: conectividade, tecnologias sociais e inteligência artificial a serviço da inclusão",
+   "url": "https://www.sympla.com.br/evento/inovacao-cidada-conectividade-tecnologias-sociais-e-inteligencia-artificial-a-servico-da-inclusao/3666834",
+   "source": "sympla",
+   "start_date": "2026-12-03",
+   "end_date": "2026-12-03",
+   "description": "Visamos capacitar os participantes para o uso crítico, ético e responsável de tecnologias sociais, ferramentas digitais e inteligência artificial, articulando inovação, regulação e defesa de direitos como estratégias para fortalecer comunidades, redes socioassistenciais e a efetivação dos direitos no SUAS.PALESTRANTE:José Artur Castilho - educador social e trabalhador do SUAS. Pedagogo, especialista em Arte-Educação e mestre em Ciências Ambientais. Tem ampla experiência no terceiro setor e no serviço público, tendo atuado em serviços da Proteção Social Básica e Especial e na Gestão do SUAS. PÚ",
+   "city": "Belém",
+   "state": "PA",
+   "venue": "Sociedade Bíblica do Brasil - Regional Belém",
+   "format": "presencial",
+   "type": "evento",
+   "organizer": "Sociedade Bíblica do Brasil",
+   "image": "https://images.sympla.com.br/6abeae44e083f.png",
+   "price": "Gratuito",
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "9e51b760fb78",
+   "region": "Norte",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "Visamos capacitar os participantes para o uso crítico, ético e responsável de tecnologias sociais, ferramentas digitais e inteligência artificial, articulando inovação, regulação e defesa de direitos como estratégias para fortalecer…",
+   "geo_precision": "cidade",
+   "lat": -1.4506,
+   "lon": -48.4682
   },
   {
    "name": "Lei do Bem e Lei de Informática: oportunidades para empresas, incubadoras e parques tecnológicos",
@@ -5595,8 +5848,7 @@
    "image": "https://images.sympla.com.br/6afc908b621a5.png",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
-    "startups"
+    "aceleradoras"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5604,7 +5856,7 @@
    "id": "24b0b9cb96ad",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5638,7 +5890,7 @@
    "id": "cd977f6fdf27",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5672,7 +5924,7 @@
    "id": "81e0d63fdaa8",
    "region": "Norte",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5706,7 +5958,7 @@
    "id": "3c1cf741154f",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5740,7 +5992,7 @@
    "id": "1dcd02ef5144",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5774,7 +6026,7 @@
    "id": "e7ed8c6e6473",
    "region": "Norte",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5808,7 +6060,7 @@
    "id": "fc0a4bdea391",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5834,7 +6086,6 @@
    "image": "https://images.sympla.com.br/6af470e1a818f.png",
    "price": "Gratuito",
    "themes": [
-    "cripto",
     "fintech"
    ],
    "recurrence": "ocasional",
@@ -5843,7 +6094,7 @@
    "id": "4989caaf9d90",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5877,7 +6128,7 @@
    "id": "2311c6a3e481",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5912,7 +6163,7 @@
    "id": "6cc0c5bb424f",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5921,6 +6172,40 @@
    "geo_precision": "cidade",
    "lat": -5.8054,
    "lon": -35.2081
+  },
+  {
+   "name": "Demo Day Distrito Inovador",
+   "url": "https://www.sympla.com.br/evento/demo-day-distrito-inovador/3667416",
+   "source": "sympla",
+   "start_date": "2026-12-04",
+   "end_date": "2026-12-04",
+   "description": "Brasília cresce quando a gente cresce junto. Uma boa conexão pode abrir novos caminhos para uma ideia, um projeto ou um negócio. No dia 4 de dezembro de 2026, o Demo Day Distrito Inovador convida você a conhecer soluções, trocar experiências e se aproximar de quem está construindo novas possibilidades no Distrito Federal. O encontro reúne negócios, projetos e pessoas em diferentes momentos de suas trajetórias. Uma vitrine de inovação para dar visibilidade ao que está sendo desenvolvido e aproximar empreendedores, estudantes, investidores e parceiros. Um encontro para Descobrir soluções: conheç",
+   "city": "Brasília",
+   "state": "DF",
+   "venue": "IDP Asa Norte",
+   "format": "presencial",
+   "type": "demo_day",
+   "organizer": "Cotidiano Aceleradora",
+   "image": "https://images.sympla.com.br/6b082d5a87161.png",
+   "price": "Gratuito",
+   "themes": [
+    "demo_day"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "8a02242127ac",
+   "region": "Centro-Oeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "Brasília cresce quando a gente cresce junto. Uma boa conexão pode abrir novos caminhos para uma ideia, um projeto ou um negócio.",
+   "geo_precision": "cidade",
+   "lat": -15.794,
+   "lon": -47.8828
   },
   {
    "name": "FERRAMENTAS DE IA PARA O CIRURGIÃO VASCULAR",
@@ -5946,7 +6231,7 @@
    "id": "a3576f3500ea",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -5980,7 +6265,7 @@
    "id": "1cf8918bc6c3",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6014,7 +6299,7 @@
    "id": "fda9e8808385",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -6048,7 +6333,7 @@
    "id": "5d82dfe42e0c",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6083,7 +6368,7 @@
    "id": "f73f07e77bef",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6106,7 +6391,7 @@
    "format": "presencial",
    "type": "pitch",
    "organizer": "CDL Passo Fundo",
-   "image": "https://images.sympla.com.br/5f282a0c6a2d9.png",
+   "image": "https://images.sympla.com.br/6b0811bbccbcd.png",
    "price": "Gratuito",
    "themes": [
     "startups"
@@ -6117,7 +6402,7 @@
    "id": "074542ea3656",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6151,7 +6436,7 @@
    "id": "2f1e7577a940",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -6185,7 +6470,7 @@
    "id": "08252e7a91be",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6246,7 +6531,6 @@
    "image": "https://images.sympla.com.br/6ac4f7083aaae.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -6255,7 +6539,7 @@
    "id": "b72c4994dbee",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6290,7 +6574,7 @@
    "id": "1146c117f22a",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6324,7 +6608,7 @@
    "id": "0d766b4c8685",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6358,7 +6642,7 @@
    "id": "5ec4c97446d3",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6392,7 +6676,7 @@
    "id": "760feaea10a7",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6426,12 +6710,46 @@
    "id": "2500a7915136",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
    "is_new": true,
    "summary": "II COLOQUIUM MORE UP \"EDUCAÇÃO BILÍNGUE NA ERA DA INTELIGÊNCIA ARTIFICIAL: Inovação, Criatividade e Protagonismo Docente.\"“Quando a inteligência humana encontra a inteligência artificial, nasce uma nova forma de ensinar.” O II Colloquium…",
+   "geo_precision": "cidade",
+   "lat": -2.5295,
+   "lon": -44.2964
+  },
+  {
+   "name": "INTELIGÊNCIA ARTIFICIAL _Aplicada a tomada de decisão (Presencial - São Luís)",
+   "url": "https://www.sympla.com.br/evento/inteligencia-artificial-aplicada-a-tomada-de-decisao-presencial-sao-luis/3632546",
+   "source": "sympla",
+   "start_date": "2026-12-05",
+   "end_date": "2026-12-05",
+   "description": "A Yeow Treinamentos Gamificados Tornar o aprendizado mais dinâmico, inclusivo e eficaz, ajudando profissionais de todos os níveis a alcançarem seu potencial máximo.O Que Nos Diferencia? Gamificação: Aprendizagem através de desafios, jogos e competições interativas. Metodologia Personalizada: Conteúdos adaptados à realidade e objetivos do mercado de trabalho. Foco em Resultados: Impacto direto na performance individual e coletiva dos nossos alunos. Diversidade e Inclusão: Abordagens que valorizam diferentes perspectivas e habilidades. Certificação: Certificado de participação ao termino do trei",
+   "city": "São Luís",
+   "state": "MA",
+   "venue": "Yeow Treinamentos Gameficados",
+   "format": "presencial",
+   "type": "evento",
+   "organizer": "Bruno de Castro Silva",
+   "image": "https://images.sympla.com.br/68588da775bad.jpg",
+   "price": "Pago (valor no site)",
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "2239b8fea6b5",
+   "region": "Nordeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "A Yeow Treinamentos Gamificados Tornar o aprendizado mais dinâmico, inclusivo e eficaz, ajudando profissionais de todos os níveis a alcançarem seu potencial máximo.O Que Nos Diferencia?",
    "geo_precision": "cidade",
    "lat": -2.5295,
    "lon": -44.2964
@@ -6460,7 +6778,7 @@
    "id": "5ed1b839a0dc",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6494,7 +6812,7 @@
    "id": "d01c0f6ecf5c",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6528,7 +6846,7 @@
    "id": "c9089970ea27",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6562,7 +6880,7 @@
    "id": "d3c6cc4acc31",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6596,7 +6914,7 @@
    "id": "60c3906b60ce",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6622,7 +6940,6 @@
    "image": "https://images.sympla.com.br/6b070fdd5b075.jpg",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -6631,7 +6948,7 @@
    "id": "0b899a23a4d6",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6665,7 +6982,7 @@
    "id": "7bda9f780c41",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -6699,7 +7016,7 @@
    "id": "2241dc048d31",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6734,7 +7051,7 @@
    "id": "e625c2a46c8a",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -6743,6 +7060,40 @@
    "geo_precision": "cidade",
    "lat": -23.5507,
    "lon": -46.6334
+  },
+  {
+   "name": "IA na Economia Real: Verdade ou Mito",
+   "url": "https://www.sympla.com.br/evento/ia-na-economia-real-verdade-ou-mito/3667352",
+   "source": "sympla",
+   "start_date": "2026-12-08",
+   "end_date": "2026-12-09",
+   "description": "Essa é uma proposta simples e leve de trazer conhecimento e aproximação das pessoas e organizações ao universo cada vez mais intenso e real da IA. De um jeito simples e descontraído serão abordados temas e desmistificados alguns pontos para que haja entendimento do caminho que essa nova era de Tecnologia está nos levando.",
+   "city": "Jaraguá do Sul",
+   "state": "SC",
+   "venue": "Complexo Novale de Inovação",
+   "format": "presencial",
+   "type": "evento",
+   "organizer": "Widelab",
+   "image": "https://images.sympla.com.br/6b0816dd4de41.jpg",
+   "price": "Gratuito",
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "aed7b855c346",
+   "region": "Sul",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "Essa é uma proposta simples e leve de trazer conhecimento e aproximação das pessoas e organizações ao universo cada vez mais intenso e real da IA.",
+   "geo_precision": "cidade",
+   "lat": -26.4897,
+   "lon": -49.0778
   },
   {
    "name": "IA que vende!",
@@ -6768,7 +7119,7 @@
    "id": "e7004255a98f",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6802,7 +7153,7 @@
    "id": "71f919ac629c",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6836,7 +7187,7 @@
    "id": "a43d33e5f5c4",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6871,7 +7222,7 @@
    "id": "2524133af11c",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -6897,7 +7248,6 @@
    "image": "https://images.sympla.com.br/6adb7a13c0d61.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -6906,7 +7256,7 @@
    "id": "c00bdec0c6a8",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -6940,7 +7290,7 @@
    "id": "cea49624de88",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -6974,7 +7324,7 @@
    "id": "abe808a3aec7",
    "region": "Norte",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7008,7 +7358,7 @@
    "id": "7b9917fbbe88",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7042,7 +7392,7 @@
    "id": "fa24ce201317",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7077,7 +7427,7 @@
    "id": "70a37dc96fcb",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -7111,7 +7461,7 @@
    "id": "9221f98ae605",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7145,7 +7495,7 @@
    "id": "09bfe3a62caf",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7154,6 +7504,41 @@
    "geo_precision": "cidade",
    "lat": -19.9227,
    "lon": -43.9451
+  },
+  {
+   "name": "API ENERGIAS | Pitch Day de projetos e oportunidades de incentivo para inovação",
+   "url": "https://www.sympla.com.br/evento/api-energias-pitch-day-de-projetos-e-oportunidades-de-incentivo-para-inovacao/3667409",
+   "source": "sympla",
+   "start_date": "2026-12-10",
+   "end_date": "2026-12-10",
+   "description": "API ENERGIAS | Conheça projetos de inovação e transforme seus tributos em oportunidades para FlorianópolisParticipe conosco do encontro com apresentação dos projetos aprovados no ciclo 2026 do API EnergiasComo sua empresa pode contribuir para o desenvolvimento de novas soluções em energia e, ao mesmo tempo, destinar parte dos tributos municipais a projetos de inovação?O API Energias, liderado pelo InPETU hub, promove um encontro para apresentar os projetos aprovados no ciclo 2026 do Arranjo Promotor de Inovação (API), que estão aptos a captar recursos por meio do incentivo fiscal previsto na L",
+   "city": "Florianópolis",
+   "state": "SC",
+   "venue": "Centro de Inovação, Pesquisa, Empreendedorismo e Tecnologia da UFSC (InPETU hub)",
+   "format": "presencial",
+   "type": "demo_day",
+   "organizer": "InPETU hub",
+   "image": "https://images.sympla.com.br/6b0824788668f.jpg",
+   "price": "Gratuito",
+   "themes": [
+    "demo_day",
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "089123f511a8",
+   "region": "Sul",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "API ENERGIAS | Conheça projetos de inovação e transforme seus tributos em oportunidades para FlorianópolisParticipe conosco do encontro com apresentação dos projetos aprovados no ciclo 2026 do API EnergiasComo sua empresa pode contribuir…",
+   "geo_precision": "cidade",
+   "lat": -27.5973,
+   "lon": -48.5496
   },
   {
    "name": "Automação na era da Inteligência Artificial Industrial",
@@ -7179,7 +7564,7 @@
    "id": "7ac3314f5e0a",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7213,7 +7598,7 @@
    "id": "d7f5c5d41c0f",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7247,7 +7632,7 @@
    "id": "b3bc67e36a6e",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7282,7 +7667,7 @@
    "id": "52fad0d04dc2",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7316,7 +7701,7 @@
    "id": "b8d9aefe5041",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7350,7 +7735,7 @@
    "id": "e9471e32f296",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7359,6 +7744,40 @@
    "geo_precision": "cidade",
    "lat": -3.7932,
    "lon": -38.528
+  },
+  {
+   "name": "Ethereum pós-quântico",
+   "url": "https://www.meetup.com/lfdt-sao-paulo/events/317586164/",
+   "source": "meetup",
+   "start_date": "2026-12-10",
+   "end_date": "2026-12-10",
+   "description": "Toda transação no Ethereum depende de uma assinatura digital que um computador quântico criptograficamente relevante poderá falsificar, e os dados registrados hoje continuarão na blockchain quando ele chegar. A pergunta deixou de ser \"se\" e passou a ser \"como\" se preparar. Neste workshop online, vamos mostrar uma resposta concreta: a criptografia pós-quântica (PQC). Começamos com um pouco de teoria: por que a computação quântica ameaça as assinaturas atuais, o que torna um algoritmo resistente a ela e como funcionam o ML-DSA e o Falcon, algoritmos de assinatura pós-quântica selecionados pelo N",
+   "city": "Sao Paulo",
+   "state": "SP",
+   "venue": "Online event",
+   "format": "online",
+   "type": "meetup",
+   "organizer": "LFDT São Paulo",
+   "image": "/images/fallbacks/redesign/group-cover-2-square.webp",
+   "price": "Gratuito",
+   "themes": [
+    "cripto"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "b6df3f320496",
+   "region": "Sudeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "meetup"
+   ],
+   "is_new": true,
+   "summary": "Toda transação no Ethereum depende de uma assinatura digital que um computador quântico criptograficamente relevante poderá falsificar, e os dados registrados hoje continuarão na blockchain quando ele chegar.",
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "How to Build an eBay Reselling Side Hustle with AI in One Weekend",
@@ -7384,7 +7803,7 @@
    "id": "e110f31b002f",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -7418,7 +7837,7 @@
    "id": "179c96579c93",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -7452,7 +7871,7 @@
    "id": "201ce7550073",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7486,7 +7905,7 @@
    "id": "c55f966fdf38",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7520,7 +7939,7 @@
    "id": "cf2f7444e4d1",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7555,7 +7974,7 @@
    "id": "dc0df39087a6",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -7589,7 +8008,7 @@
    "id": "869e7d1ac8e0",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -7623,7 +8042,7 @@
    "id": "fbeb353c5e7f",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7649,8 +8068,7 @@
    "image": "https://images.sympla.com.br/6afb433b55adb.png",
    "price": "Gratuito",
    "themes": [
-    "demo_day",
-    "startups"
+    "demo_day"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -7658,7 +8076,7 @@
    "id": "8ec396353f85",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7692,7 +8110,7 @@
    "id": "f5ef6b184cf3",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7726,7 +8144,7 @@
    "id": "694ddd429e2e",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7752,7 +8170,6 @@
    "image": "https://images.sympla.com.br/6af38079a8c6c.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -7761,7 +8178,7 @@
    "id": "d8f882071530",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7795,7 +8212,7 @@
    "id": "294e035f9bc5",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7830,7 +8247,7 @@
    "id": "03b8f797bc7a",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7864,7 +8281,7 @@
    "id": "2b9252cca407",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7890,8 +8307,7 @@
    "image": "https://images.sympla.com.br/6ad280008a7ab.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -7899,7 +8315,7 @@
    "id": "8ddd8f9d36b1",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7933,7 +8349,7 @@
    "id": "e58755a8e642",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -7967,7 +8383,7 @@
    "id": "336db71d03f4",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8001,7 +8417,7 @@
    "id": "d0fea8c4a7c9",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8027,7 +8443,6 @@
    "image": "https://images.sympla.com.br/6aff96f55632a.jpg",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -8036,7 +8451,7 @@
    "id": "dd7417f1a22c",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8070,7 +8485,7 @@
    "id": "36e9ba50fb33",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8104,7 +8519,7 @@
    "id": "8b3ae330fc3a",
    "region": "Norte",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8138,7 +8553,7 @@
    "id": "00abad925799",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8172,7 +8587,7 @@
    "id": "0602a7dd539e",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -8206,7 +8621,7 @@
    "id": "5cfab406157d",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8240,7 +8655,7 @@
    "id": "bc4e62859967",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -8274,7 +8689,7 @@
    "id": "ff90ab98bffa",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "meetup"
    ],
@@ -8308,7 +8723,7 @@
    "id": "cd4c84065c55",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8342,7 +8757,7 @@
    "id": "8515e98b3783",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8376,7 +8791,7 @@
    "id": "28d19f6b5840",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8410,7 +8825,7 @@
    "id": "991c63500384",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8444,7 +8859,7 @@
    "id": "5c9d0bbff364",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8478,7 +8893,7 @@
    "id": "ab423a090c9a",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8512,7 +8927,7 @@
    "id": "3e306863d457",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8546,7 +8961,7 @@
    "id": "b049c79cf11d",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8580,7 +8995,7 @@
    "id": "27e9331094f4",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8606,7 +9021,6 @@
    "image": "https://images.sympla.com.br/6a47cb9c5fcf1.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "aceleradoras",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -8615,7 +9029,7 @@
    "id": "3a34125b7032",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8649,7 +9063,7 @@
    "id": "43bf5305917f",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8683,7 +9097,7 @@
    "id": "69bdb31448d2",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8717,7 +9131,7 @@
    "id": "8315359133e8",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8743,9 +9157,7 @@
    "image": "https://images.sympla.com.br/69c512c306840.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "healthtech",
-    "ia",
-    "startups"
+    "healthtech"
    ],
    "recurrence": "ocasional",
    "typical_month": 2,
@@ -8753,7 +9165,7 @@
    "id": "80afa9c23a38",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8787,7 +9199,7 @@
    "id": "799ceef2311c",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8796,6 +9208,74 @@
    "geo_precision": "cidade",
    "lat": -21.5566,
    "lon": -45.4341
+  },
+  {
+   "name": "Curso Inteligência Artificial para Marketing Digital",
+   "url": "https://www.sympla.com.br/evento/curso-inteligencia-artificial-para-marketing-digital/3667059",
+   "source": "sympla",
+   "start_date": "2027-02-27",
+   "end_date": "2027-02-27",
+   "description": "A inteligência artificial tem reconfigurado o campo do marketing digital, impactando desde o planejamento estratégico até a produção e análise de conteúdos. Diante desse cenário, cresce a necessidade de profissionais capazes de compreender não apenas o funcionamento dessas tecnologias, mas também suas aplicações práticas, limites e implicações éticas no contexto da comunicação digital. O uso de ferramentas de IA já faz parte das rotinas de criação, segmentação de público, otimização de campanhas e organização do trabalho, exigindo uma atualização constante por parte de quem atua na área.O curs",
+   "city": "Rio de Janeiro",
+   "state": "RJ",
+   "venue": "Shopping Cassino Atlântico",
+   "format": "presencial",
+   "type": "curso",
+   "organizer": "Lapa Comunicação",
+   "image": "https://images.sympla.com.br/69d4139104339.png",
+   "price": "Pago (valor no site)",
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 2,
+   "date_confirmed": true,
+   "id": "c650108d39e0",
+   "region": "Sudeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "A inteligência artificial tem reconfigurado o campo do marketing digital, impactando desde o planejamento estratégico até a produção e análise de conteúdos.",
+   "geo_precision": "cidade",
+   "lat": -22.911,
+   "lon": -43.2094
+  },
+  {
+   "name": "Workshop de IA na prática: Seu Próximo Colaborador Não Custa Salário",
+   "url": "https://www.sympla.com.br/evento/workshop-de-ia-na-pratica-seu-proximo-colaborador-nao-custa-salario/3667433",
+   "source": "sympla",
+   "start_date": "2027-03-01",
+   "end_date": "2027-03-03",
+   "description": "﻿Workshop de IA na prática: Seu Próximo Colaborador Não Custa SalárioData: 1 e 2 de MarçoHorário: das 19h00 às 21h30 Local: Sala Cinza - ACIMM Mogi MirimFormato: Workshop Presencial de 2 Dias (Dia 1 Conceitual + Dia 2 Prático)30 VAGASCertificado de participação Mais informações: (19) 99615-2742Professor: Jonas Henrique Ferreira Professor e Especialista em Tecnologia, Redes de Computadores, Segurança da Informação e IA Aplicada aos Negócios. UnixEdge – Soluções em Tecnologia e IA Aplicada aos Negócios. Especialista em Segurança da Informação Mais de 20 anos de experiência com tecnologia em proj",
+   "city": "Mogi Mirim",
+   "state": "SP",
+   "venue": "ACIMM Mogi Mirim",
+   "format": "presencial",
+   "type": "workshop",
+   "organizer": "ACIMM",
+   "image": "https://images.sympla.com.br/5f282a0c6a2d9.png",
+   "price": "Pago (valor no site)",
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 3,
+   "date_confirmed": true,
+   "id": "d9ba26ec0531",
+   "region": "Sudeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "﻿Workshop de IA na prática: Seu Próximo Colaborador Não Custa SalárioData: 1 e 2 de MarçoHorário: das 19h00 às 21h30 Local: Sala Cinza - ACIMM Mogi MirimFormato: Workshop Presencial de 2 Dias (Dia 1 Conceitual + Dia 2 Prático)30…",
+   "geo_precision": "cidade",
+   "lat": -22.4331,
+   "lon": -46.9582
   },
   {
    "name": "Rust AI Forge: Arquitetando Agentes Autônomos de Alta Performance com segurança e desempenho superio",
@@ -8821,7 +9301,7 @@
    "id": "69e6ff2cc400",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8882,7 +9362,6 @@
    "image": "https://images.sympla.com.br/6ad94611bd830.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "foodtech",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -8891,7 +9370,7 @@
    "id": "b2b3f7da504a",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8925,7 +9404,7 @@
    "id": "3638cf49f5ac",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -8995,7 +9474,7 @@
    "id": "0d9935761308",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -9228,8 +9707,7 @@
    "image": "https://images.sympla.com.br/6a4e550ec3e71.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "foodtech",
-    "startups"
+    "foodtech"
    ],
    "recurrence": "ocasional",
    "typical_month": 6,
@@ -9237,7 +9715,7 @@
    "id": "c7bde5f0962e",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -9366,8 +9844,7 @@
    "image": "https://images.sympla.com.br/6a42abe031423.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 6,
@@ -9375,7 +9852,7 @@
    "id": "8edea95fb0d3",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
@@ -9516,7 +9993,7 @@
    "id": "769dd7ee9a89",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],

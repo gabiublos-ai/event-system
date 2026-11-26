@@ -159,10 +159,10 @@
 "date": "2026-11-25"
 },
 "https://goias.gov.br/inovacao/?p=102627": {
-"date": "2026-11-25",
+"date": "2026-11-26",
 "description": "",
 "price": null,
-"v": 2
+"v": 4
 },
 "https://goias.gov.br/inovacao/epicentro-da-inteligencia-artificial-encerra-etapa-de-aceleracao-com-startups-de-todo-o-pais-no-hub-goias/": {
 "date": "2026-11-25",
@@ -500,6 +500,12 @@
 "price": "Gratuito",
 "v": 4
 },
+"https://www.meetup.com/lfdt-sao-paulo/events/317586164/": {
+"date": "2026-11-26",
+"description": "Toda transação no Ethereum depende de uma assinatura digital que um computador quântico criptograficamente relevante poderá falsificar, e os dados registra",
+"price": "Gratuito",
+"v": 4
+},
 "https://www.meetup.com/microsoft-reactor-sao-paulo/events/316484441/": {
 "date": "2026-11-25",
 "description": "La IA llegado no solo para cambiar como programamos nuestras APIS, si no también como las exponemos en nuestro Gateway. En esta sesion veremos como transfo",
@@ -713,6 +719,12 @@
 "price": "Gratuito",
 "v": 4
 },
+"https://www.sympla.com.br/evento/agentes-de-ia-quando-a-ia-para-de-responder-e-comeca-a-trabalhar/3667579": {
+"date": "2026-11-26",
+"description": "Chatbots respondem perguntas. Agentes executam tarefas. Nesta palestra você vai entender o que muda quando a IA ganha autonomia para planejar, usar ferramentas e tomar decisões. Vamos ver exemplos reais, o que já funciona hoje, onde ainda tropeça e como isso vai impactar o trabalho de desenvolvedores, empresas e profissionais de todas as áreas.Reinaldo Silotto começou a programar aos 10 anos, digitando em BASIC os programas que vinham impressos nas revistas. Em 1995 publicou o primeiro site, ainda na internet discada. Em 2002 ganhou o Prêmio iBest com o Emulando, um site sobre emulação que mantinha por conta própria.Desde 2012 está à frente do TekZoom, onde ensina IA, agentes e automação em cursos, certificações e mentorias. Também criou o Deplo, plataforma que coloca aplicações no ar no servidor do próprio cliente, sem exigir que ele entenda de infraestrutura. É Intel Software Innovator desde 2015.",
+"price": "Gratuito",
+"v": 4
+},
 "https://www.sympla.com.br/evento/agro-tech-talks-16a-edicao/3664562": {
 "date": "2026-11-25",
 "description": "AGRO TECH TALKS – 16ª EDIÇÃOVem aí mais uma edição do Agro Tech Talks! Desta vez, receberemos Álvaro Medina de Aguiar Rangel, RTV da Syngenta Biológico, para a palestra “O Que Agrega: atitudes, perspectivas e o que aprendi errando. O que podemos oferecer após a formatura.”. 27/11/202619h00Auditório 07 – Bloco Xingu II | UFMT Sinop",
@@ -791,10 +803,22 @@
 "price": "Pago (valor no site)",
 "v": 4
 },
+"https://www.sympla.com.br/evento/api-energias-pitch-day-de-projetos-e-oportunidades-de-incentivo-para-inovacao/3667409": {
+"date": "2026-11-26",
+"description": "API ENERGIAS | Conheça projetos de inovação e transforme seus tributos em oportunidades para FlorianópolisParticipe conosco do encontro com apresentação dos projetos aprovados no ciclo 2026 do API EnergiasComo sua empresa pode contribuir para o desenvolvimento de novas soluções em energia e, ao mesmo tempo, destinar parte dos tributos municipais a projetos de inovação?O API Energias, liderado pelo InPETU hub, promove um encontro para apresentar os projetos aprovados no ciclo 2026 do Arranjo Promotor de Inovação (API), que estão aptos a captar recursos por meio do incentivo fiscal previsto na Lei Municipal de Inovação de Florianópolis.Será uma oportunidade para conhecer as propostas, conversar diretamente com seus responsáveis e avaliar a possibilidade de apoiar iniciativas inovadoras por meio da destinação de parte do IPTU e ISSQN devidos em 2027.Representantes da Secretaria Municipal de Desenvolvimento e Inovação de Florianópolis também estarão presentes para esclarecer dúvidas sobre ",
+"price": "Gratuito",
+"v": 4
+},
 "https://www.sympla.com.br/evento/aprenda-a-usar-ia-para-atrair-clientes-e-vender-todos-os-dias-recife/3666188": {
 "date": "2026-11-25",
 "description": "Descubra como usar a IA para criar conteúdo, campanhas e estratégias que vendem todos os dias, mesmo sem se você não domina tecnologia.Você sente que o Instagram não traz os resultados que deveria?Talvez você:A verdade é: você não precisa ser expert em tecnologia.O que falta é aprender como usar a Inteligência Artificial de forma prática para vender mais.Imagine um mês inteiro de conteúdo para o Instagram pronto em minutosEssa é a nossa proposta!Nesse Curso Expresso você vai aprender, na prática, como usar as ferramentas que estão revolucionando o marketing digital, e aplicá-las no seu negócio no mesmo dia.Durante o curso, você vai descobrir:Resultado: mais produtividade, mais clientes e mais vendas com menos esforço.Este curso é para:Perfeito para quem quer vender mais gastando menos tempo produzindo conteúdo.Aplicando as ferramentas e estratégias você vai sair com:FELIPE PEREIRA, DR.Felipe Pereira é um dos principais nomes do marketing digital no Brasil. Empresário, mentor, palestran",
 "price": "Pago (valor no site)",
+"v": 4
+},
+"https://www.sympla.com.br/evento/araraquara-palestra-aceleracao-de-vendas-como-vender-mais-mais-facil-e-melhor/3661978": {
+"date": "2026-11-26",
+"description": "Compre ingressos para ARARAQUARA - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR em Araraquara dia 26/11. Confira os melhores eventos da Sympla!",
+"price": "Gratuito",
 "v": 4
 },
 "https://www.sympla.com.br/evento/ativacao-case-santa-ines-conferencia-anual-de-startups-e-empreendedorismo/3644976": {
@@ -995,6 +1019,12 @@
 "price": "Pago (valor no site)",
 "v": 4
 },
+"https://www.sympla.com.br/evento/curso-inteligencia-artificial-para-marketing-digital/3667059": {
+"date": "2026-11-26",
+"description": "A inteligência artificial tem reconfigurado o campo do marketing digital, impactando desde o planejamento estratégico até a produção e análise de conteúdos. Diante desse cenário, cresce a necessidade de profissionais capazes de compreender não apenas o funcionamento dessas tecnologias, mas também suas aplicações práticas, limites e implicações éticas no contexto da comunicação digital. O uso de ferramentas de IA já faz parte das rotinas de criação, segmentação de público, otimização de campanhas e organização do trabalho, exigindo uma atualização constante por parte de quem atua na área.O curso Inteligência Artificial para Marketing Digital foi desenvolvido para oferecer uma formação aplicada sobre o tema, combinando fundamentos conceituais com usos práticos das principais ferramentas disponíveis no mercado. Ao longo do curso, os participantes irão explorar como integrar a IA às estratégias de comunicação, criar conteúdos com maior eficiência, analisar resultados e incorporar soluções ",
+"price": "Pago (valor no site)",
+"v": 4
+},
 "https://www.sympla.com.br/evento/d2c-como-escalar-marcas-no-digital-na-era-da-inteligencia-artificial/3659240": {
 "date": "2026-11-25",
 "description": "D2C: como escalar marcas no digital na era da inteligência artificial Como usar dados, automação e IA para conquistar, converter e fidelizar clientes em escala, sem depender de intermediários.Sobre o eventoVender direto ao consumidor deixou de ser uma alternativa e virou o caminho de quem quer controlar a marca, a margem e o relacionamento com o cliente. Mas crescer no D2C ficou mais complexo: a mídia está mais cara, a concorrência é global e o consumidor espera experiências cada vez mais rápidas, relevantes e personalizadas.É nesse cenário que a inteligência artificial muda o jogo. Da aquisição à retenção, a IA já está redefinindo como as marcas criam conteúdo, analisam dados, atendem clientes e tomam decisões. Mais do que adotar novas ferramentas, o desafio é repensar a operação para crescer com eficiência, sem perder a identidade da marca nem a conexão com o consumidor.No dia 3 de dezembro, vamos reunir visões, estratégias e casos práticos sobre como escalar marcas no digital com a ",
@@ -1016,6 +1046,12 @@
 "https://www.sympla.com.br/evento/delas-para-elas-palestra-empreendedorismo-feminino/3646183": {
 "date": "2026-11-25",
 "description": "Delas para Elas: um encontro para celebrar, conectar e inspirar mulheres!Em comemoração ao Dia do Empreendedorismo Feminino, a Casa do Empreendedor, em parceria com o Sebrae, convida você para uma noite especial de troca de experiências, conexões e inspiração. Um momento para compartilhar conhecimentos, despertar emoções e fortalecer o protagonismo feminino no mundo dos negócios. E para deixar a noite ainda mais especial, teremos coffee break preparado para receber vocês!26 de novembro (quinta-feira) Às 19h Auditório da Semed – Centro Administrativo Leopoldo Zschoerper.Chame uma amiga e venha fazer parte desse encontro! Esperamos por você!",
+"price": "Gratuito",
+"v": 4
+},
+"https://www.sympla.com.br/evento/demo-day-distrito-inovador/3667416": {
+"date": "2026-11-26",
+"description": "Brasília cresce quando a gente cresce junto. Uma boa conexão pode abrir novos caminhos para uma ideia, um projeto ou um negócio. No dia 4 de dezembro de 2026, o Demo Day Distrito Inovador convida você a conhecer soluções, trocar experiências e se aproximar de quem está construindo novas possibilidades no Distrito Federal. O encontro reúne negócios, projetos e pessoas em diferentes momentos de suas trajetórias. Uma vitrine de inovação para dar visibilidade ao que está sendo desenvolvido e aproximar empreendedores, estudantes, investidores e parceiros. Um encontro para Descobrir soluções: conheça projetos, produtos e serviços desenvolvidos por iniciativas do Distrito Federal. Acompanhar trajetórias: veja como ideias evoluem, quais desafios os negócios enfrentam e o que estão construindo para o próximo passo. Ampliar conexões: troque com empreendedores, profissionais, estudantes, investidores e representantes de instituições. Abrir novas conversas: encontre interesses em comum e explore p",
 "price": "Gratuito",
 "v": 4
 },
@@ -1065,6 +1101,12 @@
 "date": "2026-11-25",
 "description": "A Formação DiretorIA é um programa imersivo voltado para líderes que querem integrar a Inteligência Artificial como parte estratégica dos seus negócios. A jornada capacita executivos a usar IA para tomar decisões mais assertivas, explorar soluções inovadoras em análise de dados e gerar resultados concretos.Você vai aprender como a inteligência artificial está transformando modelos de negócio e como aplicar essa tecnologia de forma estratégica na tomada de decisão. O programa apresenta ferramentas e conceitos que ajudam líderes a interpretar dados com mais profundidade, identificar oportunidades reais de inovação e dialogar com times técnicos com mais confiança. A partir de estudos de caso e práticas do mercado, você entenderá como acelerar resultados combinando visão de negócio com as possibilidades da IA.26 DE NOVEMBRO | PORTO ALEGRE | VAGAS LIMITADASUm dia inteiro de muito conteúdo!26/11 das 09h às 17hManhã: 9h às 12hAlmoço: 12h às 13h30Tarde: 14h às 17hOlha só quem vai te ensinar:Ra",
 "price": "Pago (valor no site)",
+"v": 4
+},
+"https://www.sympla.com.br/evento/do-shadow-it-ao-shadow-ai-como-os-dados-corporativos-vazam-no-fluxo-de-trabalho-dos-desenvolvedores/3667394": {
+"date": "2026-11-26",
+"description": "Palestra técnica sobre cybersegurança.Antonio Andrade, MSc. é Mestre em Engenharia Biomédica e Graduado em Tecnologia da Informação, com sólida trajetória na intersecção entre engenharia de software, segurança cibernética e governança de dados. Atua como gestor de desenvolvimento de sistemas e arquitetura de TI no setor da saúde (Grupo Trasmontano) e é cofundador das empresas de tecnologia ViaClient e SMIT. No meio acadêmico, leciona há mais de uma década em cursos de Graduação e Pós-Graduação nas áreas de Segurança da Informação, Cibersegurança e Arquitetura de Sistemas. Na APDADOS (Associação Nacional dos Profissionais de Privacidade de Dados), integra o Comitê de Segurança, atua como Representante Regional de São Paulo, Vice-Diretor do Comitê Startech e editor de conteúdo, dedicando-se à disseminação da cultura de proteção de dados (LGPD), ética e governança de Inteligência Artificial.",
+"price": "Gratuito",
 "v": 4
 },
 "https://www.sympla.com.br/evento/do-storytelling-ao-palco-pitch-day-negocios-de-impacto/3640568": {
@@ -1307,6 +1349,12 @@
 "price": "Gratuito",
 "v": 4
 },
+"https://www.sympla.com.br/evento/ia-na-economia-real-verdade-ou-mito/3667352": {
+"date": "2026-11-26",
+"description": "Essa é uma proposta simples e leve de trazer conhecimento e aproximação das pessoas e organizações ao universo cada vez mais intenso e real da IA. De um jeito simples e descontraído serão abordados temas e desmistificados alguns pontos para que haja entendimento do caminho que essa nova era de Tecnologia está nos levando.",
+"price": "Gratuito",
+"v": 4
+},
 "https://www.sympla.com.br/evento/ia-no-seu-trabalho/3658629": {
 "date": "2026-11-25",
 "description": "IA NO TRABALHO Palestra presencial e prática · Só 20 vagas Aprenda a usar inteligência artificial no seu negócio e no seu trabalho, a partir do dia seguinte. Sem termos técnicos e sem precisar entender de tecnologia. Em 1h30 você vai: • Ver a IA resolvendo tarefas reais, ao vivo • Aprender a pedir do jeito certo para ter boas respostas • Resolver 3 tarefas do seu próprio trabalho, no seu celular Para donos de empresa, gestores e profissionais que querem ganhar tempo. Com Gabriel, varejista que usa IA na gestão das próprias lojas.",
@@ -1423,6 +1471,12 @@
 "price": "Gratuito",
 "v": 4
 },
+"https://www.sympla.com.br/evento/inovacao-cidada-conectividade-tecnologias-sociais-e-inteligencia-artificial-a-servico-da-inclusao/3666834": {
+"date": "2026-11-26",
+"description": "Visamos capacitar os participantes para o uso crítico, ético e responsável de tecnologias sociais, ferramentas digitais e inteligência artificial, articulando inovação, regulação e defesa de direitos como estratégias para fortalecer comunidades, redes socioassistenciais e a efetivação dos direitos no SUAS.PALESTRANTE:José Artur Castilho - educador social e trabalhador do SUAS. Pedagogo, especialista em Arte-Educação e mestre em Ciências Ambientais. Tem ampla experiência no terceiro setor e no serviço público, tendo atuado em serviços da Proteção Social Básica e Especial e na Gestão do SUAS. PÚBLICO-ALVO: Gestores (as), trabalhadoras (es), conselheiras (os), organizações da sociedade civil vinculadas ao SUAS, grupos, coletivos, fóruns, movimentos sociais e interessados pela temática.PROGRAMAÇÃO DO EVENTO:08h30 - Recepção e Check-in09h00 - Apresentação SBB - equipe de ação social09h20 - Café da manhã ofertado pela SBB09h40 - Capacitação \"Inovação cidadã: conectividade, tecnologias sociai",
+"price": "Gratuito",
+"v": 4
+},
 "https://www.sympla.com.br/evento/inovacao-e-empreendedorismo-fatec-de-portas-abertas/3654619": {
 "date": "2026-11-25",
 "description": "​Seja muito bem-vindo(a) à nossa Feira Tecnológica da Fatec Ferraz de Vasconcelos! Preparamos um espaço super dinâmico e interativo para você conhecer de perto tudo o que a nossa faculdade pública e gratuita tem a oferecer. Venha descobrir nossos cursos, tirar dúvidas sobre o vestibular e participar de atividades práticas super divertidas. ​Ao longo da nossa programação, você poderá acompanhar mini-palestras para bater um papo rápido e descomplicado sobre como funciona a Fatec, os detalhes dos nossos cursos (Gestão Empresarial, Análise e Desenvolvimento de Sistemas e Gestão da Produção Industrial), dicas para entrar na faculdade pelo Vestibular e Provão Paulista, e como a gestão empresarial transforma a prática dos negócios no dia a dia.​Além disso, nos intervalos e durante toda a visitação, teremos várias atividades e oficinas interativas rolando no estande. Você poderá participar da Entrevista Implacável da Tesla, uma simulação realista de processo seletivo para treinar postura profi",
@@ -1433,6 +1487,12 @@
 "date": "2026-11-25",
 "description": "O que é o INSTED Lab IAUma noite para aprender fazendo: criar, testar e melhorar soluções com Inteligência Artificial. Quem participa vive, antes de entrar, como serão as aulas do Bacharelado em Ciência de Dados e Inteligência Artificial da Insted.Presencial - Vagas limitadasAssuntos:ProgramaçãoAnálise de dadosTestes e qualidadeCibersegurança",
 "price": "Gratuito",
+"v": 4
+},
+"https://www.sympla.com.br/evento/inteligencia-artificial-aplicada-a-tomada-de-decisao-presencial-sao-luis/3632546": {
+"date": "2026-11-26",
+"description": "A Yeow Treinamentos Gamificados Tornar o aprendizado mais dinâmico, inclusivo e eficaz, ajudando profissionais de todos os níveis a alcançarem seu potencial máximo.O Que Nos Diferencia? Gamificação: Aprendizagem através de desafios, jogos e competições interativas. Metodologia Personalizada: Conteúdos adaptados à realidade e objetivos do mercado de trabalho. Foco em Resultados: Impacto direto na performance individual e coletiva dos nossos alunos. Diversidade e Inclusão: Abordagens que valorizam diferentes perspectivas e habilidades. Certificação: Certificado de participação ao termino do treinamento, de forma online e segura. -------No treinamento de Inteligência Artificial aplicada a tomada de decisão, vamos gamificar os conteúdos abaixo:Bloco 1: Panorama da Produtividade no Mundo Atual - Conceito de produtividade- Mudanças no ambiente de trabalho (tecnologia, home office, novas gerações)- Principais gargalos de produtividadeBloco 2: Ferramentas de Gestão Tradicionais x Inovadoras - ",
+"price": "Pago (valor no site)",
 "v": 4
 },
 "https://www.sympla.com.br/evento/inteligencia-artificial-em-gestao-e-marketing/3638867": {
@@ -1603,6 +1663,12 @@
 "price": "Gratuito",
 "v": 4
 },
+"https://www.sympla.com.br/evento/palestra-sobre-ia-programa-comercio-inteligente-sindicfc-mg/3667442": {
+"date": "2026-11-26",
+"description": "O setor de autoescolas está passando por importantes transformações. Estar preparado para essas mudanças é fundamental para garantir a competitividade e o crescimento do seu negócio.Pensando nisso, o SINDICFC-MG, com o apoio da Fecomércio MG, promove um encontro especial voltado para empresários, gestores e profissionais do setor de autoescolas.O evento será uma oportunidade de atualização, aprendizado e troca de experiências sobre temas estratégicos que impactam diretamente o ambiente empresarial.Confira os temas da programação:Inteligência Artificial: palestra com Alexandre Calmon, especialista em Inteligência Artificial e Transformação Digital, em formato híbrido;Mudanças na escala de trabalho: atualização sobre as mudanças e seus impactos no ambiente empresarial;Reforma Tributária: informações sobre as transformações no cenário tributário brasileiro;Participação especial do DETRAN: informações e orientações relevantes para o setor de autoescolas.Além disso, os participantes terão a",
+"price": "Gratuito",
+"v": 4
+},
 "https://www.sympla.com.br/evento/palestra-sobre-ia-programa-comercio-inteligente-sindimaco-sindlav/3570888": {
 "date": "2026-11-25",
 "description": "O Sindimaco e o Sindlav, em parceria com a Fecomércio MG e a Acomac, promovem duas palestras voltadas aos empresários do setor.Uma delas vai apresentar estratégias práticas para transformar a forma como a Inteligência Artificial pode ser utilizada no dia a dia dos negócios, aumentando produtividade, eficiência e resultados.A outra palestra vai abordar os principais pontos relacionados ao fim da escala 6x1, ajudando os empresários a compreender os impactos, desafios e mudanças que podem afetar suas empresas.E tem mais: os empresários que participarem das palestras também terão acesso gratuito à plataforma iAiE360º por 1 ano.Uma oportunidade para se atualizar, preparar o seu negócio para as mudanças e conhecer novas ferramentas para crescer.",
@@ -1739,6 +1805,12 @@
 "date": "2026-11-25",
 "description": "Curso Extensão: Rust AI Forge: Arquitetando Agentes Autônomos de Alta Performance com segurança e desempenho das grandes Big Techs.Este curso tem como objetivo..: Objetivo Central: Capacitar desenvolvedores a construírem Agentes de IA (sistemas que percebem, raciocinam e agem) utilizando Rust como núcleo de processamento, expondo essas funcionalidades para aplicações Python e JavaScript/Node.js.Público-Alvo: Engenheiros de software, desenvolvedores Full-stack e entusiastas de dados que já conhecem o básico de programação e desejam elevar o nível de suas aplicações de IA. Segue o link com a ementa e plano de aulas do curso completo no GitHub.rust-ai-forge/README.md at main · ricardoricrob76/rust-ai-forge O mercado de Inteligência Artificial está migrando rapidamente do simples consumo de APIs para a construção de sistemas inteligentes robustos, eficientes e preparados para produção.O Rust AI Forge foi desenvolvido para profissionais que desejam ultrapassar o nível de \"prompt engineering",
 "price": "Pago (valor no site)",
+"v": 4
+},
+"https://www.sympla.com.br/evento/sao-carlos-palestra-aceleracao-de-vendas-como-vender-mais-mais-facil-e-melhor/3661981": {
+"date": "2026-11-26",
+"description": "Compre ingressos para SÃO CARLOS - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR em São Carlos dia 26/11. Confira os melhores eventos da Sympla!",
+"price": "Gratuito",
 "v": 4
 },
 "https://www.sympla.com.br/evento/semana-do-empreendedor-acias-2026/3649000": {
@@ -1930,6 +2002,12 @@
 "price": "R$ 49,90",
 "v": 4
 },
+"https://www.sympla.com.br/evento/workshop-de-ia-na-pratica-seu-proximo-colaborador-nao-custa-salario/3667433": {
+"date": "2026-11-26",
+"description": "﻿Workshop de IA na prática: Seu Próximo Colaborador Não Custa SalárioData: 1 e 2 de MarçoHorário: das 19h00 às 21h30 Local: Sala Cinza - ACIMM Mogi MirimFormato: Workshop Presencial de 2 Dias (Dia 1 Conceitual + Dia 2 Prático)30 VAGASCertificado de participação Mais informações: (19) 99615-2742Professor: Jonas Henrique Ferreira Professor e Especialista em Tecnologia, Redes de Computadores, Segurança da Informação e IA Aplicada aos Negócios. UnixEdge – Soluções em Tecnologia e IA Aplicada aos Negócios. Especialista em Segurança da Informação Mais de 20 anos de experiência com tecnologia em projetos nacionais e internacionaisO que você vai aprender? DIA 1 (01/03/2027) – Mente ABERTA: Conceitual, Estratégia e Engenharia de Prompt ● Abertura & Visão Geral: O cenário da IA nos negócios — De ameaça a superpoder operacional. ● O Conceito do \"Funcionário Virtual\": Como enxergar a IA não como uma ferramenta de busca, mas como um estagiário de alta performance. ● Engenharia de Prompt Eficiente: ",
+"price": "Pago (valor no site)",
+"v": 4
+},
 "https://www.sympla.com.br/evento/workshop-de-inovacao-e-empreendedorismo-do-inca-wine-2027-evento-presencial/3556597": {
 "date": "2026-11-25",
 "description": "Compre ingressos para Workshop de Inovação e Empreendedorismo do INCA - WINE 2027 (Evento Presencial) em Rio de Janeiro dia 15/04. Confira os melhores eventos da Sympla!",
@@ -1940,6 +2018,12 @@
 "date": "2026-11-25",
 "description": "Workshop de Inteligência Artificial & Sucessão Rural O futuro do agro começa com você!Você já imaginou como a Inteligência Artificial pode transformar a rotina de uma propriedade rural?O AgriHub, em parceria com o Sindicato Rural de Cláudia, convida jovens de 16 a 25 anos para um dia de aprendizado, tecnologia e troca de experiências sobre o futuro do agronegócio.O Workshop de Inteligência Artificial & Sucessão Rural foi desenvolvido para aproximar os jovens das novas tecnologias, apresentando ferramentas que podem contribuir para a gestão, a produtividade e a tomada de decisões no campo.E o melhor: você terá a oportunidade de colocar esse conhecimento em prática! O que você vai aprender?Inteligência Artificial: Conheça ferramentas de IA e aprenda como utilizá-las em situações reais do agronegócio;Sucessão rural: Entenda sobre o papel das novas gerações na continuidade e no futuro dos negócios familiares. Informações do eventoData: 15/01/2027Horário: 7h30 às 17hLocal: NAC – Núcleo de A",
 "price": "Gratuito",
+"v": 4
+},
+"https://www.sympla.com.br/evento/workshop-gente-gestao-com-tecnologia-e-ia/3667189": {
+"date": "2026-11-26",
+"description": "Workshop Gente & Gestão com Tecnologia e IAA gestão de pessoas está evoluindo, e a tecnologia e a Inteligência Artificial estão transformando a maneira como empresas lideram, desenvolvem equipes e alcançam resultados.A Apex Conexões convida você para um encontro exclusivo com Michel Ávila, CEO e fundador da Apex Holding, e Anderson Nogueira, Head International, em um workshop pensado para empresários e líderes que desejam acompanhar as transformações do mercado e aprimorar a gestão de seus negócios.Será uma manhã de conhecimento, troca de experiências e insights sobre como tecnologia e IA podem contribuir para uma gestão mais estratégica, eficiente e preparada para os desafios do futuro.Prepare-se para repensar a gestão, potencializar pessoas e explorar novas possibilidades para o seu negócio. 02 de dezembro 08h30 às 12h00 Torre Empresarial – Iguatemi FortalezaAv. Washington Soares, 85 – Edson QueirozUm evento premium, onde os decisores se encontram.Apex Conexões | Conectando empresári",
+"price": "Pago (valor no site)",
 "v": 4
 },
 "https://www.sympla.com.br/evento/workshop-gestao-inteligente-ia-na-pratica-para-gestores-joao-pessoa/3663071": {
@@ -1982,6 +2066,12 @@
 "date": "2026-11-25",
 "description": "Quem você quer conquistar em 2027 — e como vai se organizar para chegar até essas pessoas?Entre atender, entregar e administrar, encontrar tempo para conquistar novos clientes pode acabar ficando para depois. E planejar o próximo ano exige olhar para tudo isso junto: quem você quer atender, o que vai comunicar e como vai conduzir as oportunidades comerciais.No dia 5 de dezembro, você vai passar um sábado comigo trabalhando essas decisões no seu negócio.Neste workshop presencial da ABRAVA, vamos unir Prospecção do Zero usando a IA e Planejamento Comercial e de Marketing para 2027, com exercícios, orientação e espaço para esclarecer suas dúvidas.O que vamos colocar em práticaConhecer o cliente que faz sentido para seu negócioVamos olhar para o serviço que você oferece, as necessidades que ele atende e os critérios que ajudam a direcionar sua busca por potenciais clientes.Usar a inteligência artificial como apoio à prospecçãoVocê vai aprender a orientar a pesquisa, avaliar as informações ",
 "price": "R$ 207",
+"v": 4
+},
+"https://www.sympla.com.br/evento/workshop-processos-e-inteligencia-artificial-na-contabilidade-preparando-para-a-reforma-tributaria/3655388": {
+"date": "2026-11-26",
+"description": "Workshop | Processos e Inteligência Artificial na ContabilidadePreparando seu escritório para a Reforma Tributária 2027.Um workshop presencial voltado a contadores e gestores que desejam estruturar processos internos, automatizar rotinas com Inteligência Artificial, reduzir retrabalhos e a dependência de atividades manuais, aumentando a produtividade e a eficiência do escritório.Data: 30/11/2026Local: Império Nexus – Anápolis/GOPrepare seu escritório para os desafios de 2027 com processos mais inteligentes, organizados e automatizados.",
+"price": "Pago (valor no site)",
 "v": 4
 },
 "https://www.sympla.com.br/evento/workshop-webtech-ia-em-producao-com-o-jev-decisoes-por-1-10-do-custo/3656849": {
