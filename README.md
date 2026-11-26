@@ -4,7 +4,7 @@ Sistema que mapeia automaticamente eventos, feiras, congressos, meetups e demo d
 
 🤖 IA · 🚀 Startups · ⚡ Aceleradoras · 🎓 Escolas de Negócio (G4, Link, StartSe…) · 🎤 Demo Days · 💳 Fintech · 🩺 Health Tech · 🪙 Cripto · ₿ Bitcoin · 🥗 Food Tech
 
-Atualiza sozinho **todos os dias às 9h (horário de Brasília)** e publica um site interativo.
+Atualiza sozinho **todos os dias por volta das 9h (horário de Brasília)**, com tentativas de reserva às 10h37 e 13h17 caso o GitHub atrase, e publica um site interativo.
 
 ## O que o site faz
 
@@ -46,7 +46,7 @@ Depois o robô:
 1. **Ativar o GitHub Pages:** no repositório, `Settings → Pages → Build and deployment → Source: GitHub Actions`.
 2. Pronto — **tudo roda de graça**: o GitHub Actions e o GitHub Pages são gratuitos para repositórios públicos (em repositórios privados o plano gratuito inclui 2.000 min/mês de Actions — a coleta diária usa ~10–15 min — mas o GitHub Pages em repositório privado exige plano pago; deixe o repositório público para ficar tudo grátis).
    - *Opcional (pago):* para somar a busca com IA, mude `ai_discovery.enabled` para `true` em `config/sources.json` e crie o secret `ANTHROPIC_API_KEY`.
-3. Fazer merge desta branch na `main`. O workflow `.github/workflows/update-events.yml` roda todo dia às 9h; para rodar na hora: aba **Actions → Atualizar eventos → Run workflow**.
+3. Fazer merge desta branch na `main`. O workflow `.github/workflows/update-events.yml` roda todo dia por volta das 9h (com reservas às 10h37 e 13h17); para rodar na hora: aba **Actions → Atualizar eventos → Run workflow**.
 
 O site fica em `https://<usuario>.github.io/<repositorio>/`.
 
@@ -81,7 +81,7 @@ Pronto: ao publicar, o site passa a pedir login. O e-mail de convite é enviado 
 | Ligar/desligar fontes, cidades do Meetup, páginas de agenda extras | `config/sources.json` |
 | Fazer a busca grátis pesquisar mais/menos por dia | `free_search.queries_per_day` e `max_pages_per_day` em `config/sources.json` |
 | Mudar textos/cores do site | `docs/index.html`, `docs/styles.css` (variáveis no topo) |
-| Mudar o horário | linha `cron` em `.github/workflows/update-events.yml` (em UTC: 9h BRT = 12h UTC) |
+| Mudar o horário | linha `cron` em `.github/workflows/update-events.yml` (em UTC: 9h07 BRT = 12h07 UTC) |
 
 Tudo pode ser editado pelo próprio site do GitHub (ícone de lápis) — ao salvar, o site é republicado.
 

@@ -2,8 +2,12 @@ name: Atualizar eventos (diário 9h)
 
 on:
   schedule:
-    # 12:00 UTC = 09:00 em Brasília (o Brasil não tem horário de verão desde 2019)
-    - cron: "0 12 * * *"
+    # O GitHub não garante o horário dos agendamentos (pode atrasar ou pular, principalmente na
+    # hora cheia). Por isso: horário principal 9h07 (Brasília) e duas tentativas de reserva.
+    # A reserva só coleta se a atualização do dia ainda não tiver sido feita (job "check").
+    - cron: "7 12 * * *"    # 09:07 em Brasília (UTC-3)
+    - cron: "37 13 * * *"   # 10:37 — reserva
+    - cron: "17 16 * * *"   # 13:17 — reserva
   workflow_dispatch:      # botão "Run workflow" para rodar manualmente
     inputs:
       offline:
@@ -24,7 +28,31 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Nas execuções agendadas, pula se a atualização automática de hoje já foi feita.
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.guard.outputs.skip }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: guard
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then echo "skip=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          python3 - <<'PY'
+          import datetime, json, os
+          try:
+              hist = json.load(open("data/update_history.json"))
+          except Exception:
+              hist = []
+          hoje = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=3)).date().isoformat()
+          feita = any(h.get("trigger") == "automatica" and h.get("mode") == "coleta" and h.get("at", "").startswith(hoje) for h in hist)
+          print("atualização de hoje já feita" if feita else "atualização de hoje pendente")
+          open(os.environ["GITHUB_OUTPUT"], "a").write(f"skip={'true' if feita else 'false'}\n")
+          PY
+
   update:
+    needs: check
+    if: needs.check.outputs.skip != 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
