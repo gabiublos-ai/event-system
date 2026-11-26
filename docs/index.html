@@ -31,6 +31,9 @@
       </label>
       <div class="topbar-actions">
         <a class="btn ghost sm" id="suggestBtn" target="_blank" rel="noopener">Sugerir evento</a>
+        <button class="btn ghost sm" id="adminBtn" type="button" hidden aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <span>Admin</span></button>
         <button class="btn primary sm" id="inviteBtn" type="button" hidden>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg>
           <span>Convidar pessoa</span></button>
@@ -106,7 +109,6 @@
         <button class="tab" data-view="list" role="tab">Lista</button>
         <button class="tab" data-view="calendar" role="tab">Calendário</button>
         <button class="tab" data-view="map" role="tab">Mapa</button>
-        <button class="tab tab-admin" data-view="admin" role="tab" hidden>Admin</button>
       </div>
       <div class="toolbar-right">
         <span class="count" id="count"></span>

@@ -95,7 +95,7 @@ function onTeam(t) {
   chip.hidden = t.status !== "in";
   if (t.status === "in") chip.innerHTML = `<span class="avatar">${esc(initials(t.me.name))}</span><span class="uname">${esc(t.me.name.split(" ")[0])}</span>`;
   $("#inviteBtn").hidden = !(t.status === "in" && t.admin) && t.status !== "off";
-  $(".tab-admin").hidden = !(t.status === "in" && t.admin);
+  $("#adminBtn").hidden = !(t.status === "in" && t.admin);
   if (state.view === "admin" && !(t.status === "in" && t.admin)) setView("cards", false);
   renderFavSelect();
   if (t.status === "in" || t.status === "off") render(false);
@@ -322,6 +322,10 @@ function bind() {
   });
   $("#fFavOf").addEventListener("change", (e) => { state.favOf = e.target.value; render(); });
   $("#inviteBtn").addEventListener("click", openInvite);
+  $("#adminBtn").addEventListener("click", () => {
+    setView(state.view === "admin" ? "cards" : "admin");
+    window.scrollTo({ top: $(".toolbar").offsetTop - 80, behavior: "smooth" });
+  });
   $("#userChip").addEventListener("click", openUserMenu);
   $("#fNew").addEventListener("change", (e) => { state.onlyNew = e.target.checked; render(); });
   $("#themeChips").addEventListener("click", (e) => {
@@ -372,6 +376,8 @@ function clearFilters() {
 function setView(v, rerender = true) {
   state.view = v;
   document.body.classList.toggle("admin-mode", v === "admin");
+  const ab = $("#adminBtn");
+  if (ab) { ab.classList.toggle("on", v === "admin"); ab.setAttribute("aria-pressed", v === "admin"); }
   $$(".tab").forEach((t) => { t.classList.toggle("active", t.dataset.view === v); t.setAttribute("aria-selected", t.dataset.view === v); });
   if (rerender) render();
 }

@@ -306,8 +306,7 @@ body.locked main, body.locked .footer { filter: blur(6px); pointer-events: none;
 
 /* ---------- Aba Admin ---------- */
 body.admin-mode .explore, body.admin-mode .filterbar, body.admin-mode .toolbar-right { display: none; }
-.tab-admin { margin-left: 6px; position: relative; }
-.tab-admin::before { content: ""; position: absolute; left: -5px; top: 8px; bottom: 8px; width: 1px; background: var(--border); }
+#adminBtn.on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
 .admin { display: grid; gap: 16px; }
 .admin-kpis { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .seg { display: inline-flex; gap: 2px; padding: 3px; background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px; flex-wrap: wrap; }
@@ -395,7 +394,8 @@ body.admin-mode .explore, body.admin-mode .filterbar, body.admin-mode .toolbar-r
   .inv-row .btn { grid-column: span 1; }
   .inv-row .inv-status { grid-column: 2; }
   #inviteBtn { padding: 7px 10px; }
-  #inviteBtn span { display: none; }
+  #inviteBtn span, #adminBtn span { display: none; }
+  #adminBtn { padding: 7px 10px; }
   .kv dd { margin-bottom: 8px; }
 }
 @media (prefers-reduced-motion: reduce) {
