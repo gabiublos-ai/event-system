@@ -130,7 +130,7 @@ function renderGate() {
   else if (t.status === "needEmail") card.innerHTML = `${brand}<h2>Confirme seu e-mail</h2><p class="gate-sub">Para concluir o acesso neste aparelho, digite o e-mail em que você recebeu o convite.</p>${form("E-mail", "Entrar", "gateConfirm")}`;
   else if (t.status === "notInvited") card.innerHTML = `${brand}<h2>Acesso não liberado</h2><p class="gate-sub">O e-mail <b>${esc(t.me?.email || "")}</b> ainda não foi convidado. Peça um convite a quem administra o radar.</p><button class="btn" id="gateOut" type="button">Entrar com outro e-mail</button>`;
   else if (t.status === "error") card.innerHTML = `${brand}<h2>Não foi possível entrar</h2><p class="gate-sub">${esc(t.error)}</p><button class="btn" type="button" onclick="location.reload()">Tentar de novo</button>`;
-  else card.innerHTML = `${brand}<h2>Acesso por convite</h2><p class="gate-sub">Digite seu e-mail e enviaremos um link de acesso, sem senha.</p>${form("E-mail", "Receber link de acesso", "gateLogin")}`;
+  else card.innerHTML = `${brand}<h2>Acesso por convite</h2><p class="gate-sub">Digite seu e-mail e enviaremos um link de acesso, sem senha. Depois do primeiro acesso, este navegador fica conectado e entra direto.</p>${form("E-mail", "Receber link de acesso", "gateLogin")}`;
   $("#gateLogin")?.addEventListener("submit", async (ev) => {
     ev.preventDefault();
     const email = $("#gateEmail").value, msg = $("#gateMsg");
@@ -386,7 +386,7 @@ function writeHash() {
   if (state.format) p.set("f", state.format);
   if (state.view !== "cards") p.set("v", state.view);
   const h = p.toString();
-  history.replaceState(null, "", h ? "#" + h : location.pathname);
+  history.replaceState(null, "", location.pathname + location.search + (h ? "#" + h : ""));
 }
 function readHash() {
   const p = new URLSearchParams(location.hash.slice(1));

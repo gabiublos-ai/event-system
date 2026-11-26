@@ -10,6 +10,8 @@
  * Regras de segurança: firestore.rules (na raiz do repositório).
  */
 window.Team = (() => {
+  // guarda o endereço original: o link do e-mail traz o código de acesso na URL
+  const START_HREF = location.href;
   const V = "13.4.0"; // versão do SDK do Firebase (a mesma indicada no console)
   const cfg = window.FIREBASE_CONFIG;
   const enabled = !!(cfg && cfg.apiKey && cfg.projectId);
@@ -39,7 +41,9 @@ window.Team = (() => {
       st.status = "error"; st.error = "Não foi possível conectar ao serviço de login."; emit(); return;
     }
     // chegou pelo link do e-mail?
-    if (A.isSignInWithEmailLink(auth, location.href)) {
+    // mantém a pessoa conectada neste navegador depois do primeiro acesso
+    try { await A.setPersistence(auth, A.browserLocalPersistence); } catch { /* usa o padrão */ }
+    if (A.isSignInWithEmailLink(auth, START_HREF)) {
       let email = null;
       try { email = localStorage.getItem(EMAIL_KEY); } catch { /* sem storage */ }
       if (email) await completeLink(email);
@@ -50,7 +54,7 @@ window.Team = (() => {
 
   async function completeLink(email) {
     try {
-      await A.signInWithEmailLink(auth, lower(email), location.href);
+      await A.signInWithEmailLink(auth, lower(email), START_HREF);
       try { localStorage.removeItem(EMAIL_KEY); } catch { /* ok */ }
       history.replaceState(null, "", siteUrl() + location.hash);
     } catch (e) {
