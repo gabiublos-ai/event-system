@@ -95,6 +95,8 @@ function onTeam(t) {
   chip.hidden = t.status !== "in";
   if (t.status === "in") chip.innerHTML = `<span class="avatar">${esc(initials(t.me.name))}</span><span class="uname">${esc(t.me.name.split(" ")[0])}</span>`;
   $("#inviteBtn").hidden = !(t.status === "in" && t.admin) && t.status !== "off";
+  $(".tab-admin").hidden = !(t.status === "in" && t.admin);
+  if (state.view === "admin" && !(t.status === "in" && t.admin)) setView("cards", false);
   renderFavSelect();
   if (t.status === "in" || t.status === "off") render(false);
 }
@@ -369,6 +371,7 @@ function clearFilters() {
 
 function setView(v, rerender = true) {
   state.view = v;
+  document.body.classList.toggle("admin-mode", v === "admin");
   $$(".tab").forEach((t) => { t.classList.toggle("active", t.dataset.view === v); t.setAttribute("aria-selected", t.dataset.view === v); });
   if (rerender) render();
 }
@@ -457,7 +460,9 @@ function render(updateHash = true) {
   $("#count").textContent = `${list.length} evento${list.length === 1 ? "" : "s"}${state.city ? ` na cidade selecionada no mapa` : ""}`;
   const v = $("#view");
   if (state.view !== "map" && state.map) { state.map.remove(); state.map = null; }
-  if (!list.length && !["map", "calendar"].includes(state.view)) {
+  if (state.view === "admin") {
+    renderAdmin(v);
+  } else if (!list.length && !["map", "calendar"].includes(state.view)) {
     v.innerHTML = `<div class="empty"><b>Nenhum evento encontrado</b>Tente remover alguns filtros ou ampliar o período.</div>`;
   } else {
     ({ cards: renderCards, list: renderList, calendar: renderCalendar, map: renderMap })[state.view](v, list);
@@ -684,6 +689,7 @@ async function drawStates(map, list) {
 
 /* ---------- interações ---------- */
 function onViewClick(ev) {
+  if (state.view === "admin") { onAdminClick(ev); return; }
   const star = ev.target.closest("[data-star]");
   if (star) {
     ev.stopPropagation();
@@ -743,6 +749,122 @@ function openModal(e) {
     toggleFav(e.id); if (state.view !== "map") render(false); openModal(e);
   });
   if (!$("#modal").open) $("#modal").showModal();
+}
+
+/* ---------- Aba Admin: acessos e histórico de atualizações ---------- */
+const ADMIN = { sub: "acessos", hist: "todas", changelog: null, invites: null };
+const TRIGGER_LABEL = { automatica: "Atualização automática (9h)", manual: "Atualização manual", publicacao: "Publicação do site", registro: "Atualização dos eventos" };
+const SOURCE_LABEL = { curadoria: "Curadoria", sympla: "Sympla", eventbrite: "Eventbrite", meetup: "Meetup", even3: "Even3", doity: "Doity", busca_web: "Busca na web", ia_web: "Busca com IA", agenda: "Agendas" };
+const fmtDT = (iso) => iso ? new Date(iso).toLocaleString("pt-BR", { day: "2-digit", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" }) : "—";
+function ago(iso) {
+  if (!iso) return "nunca";
+  const m = Math.round((Date.now() - new Date(iso)) / 60000);
+  if (m < 2) return "agora";
+  if (m < 60) return `há ${m} min`;
+  const h = Math.round(m / 60);
+  if (h < 24) return `há ${h} h`;
+  const d = Math.round(h / 24);
+  return d < 30 ? `há ${d} dia${d > 1 ? "s" : ""}` : fmtDT(iso);
+}
+
+async function renderAdmin(v) {
+  if (!(signedIn() && state.team.admin)) { setView("cards"); return; }
+  if (!ADMIN.changelog) {
+    v.innerHTML = `<div class="empty"><b>Carregando…</b></div>`;
+    const [cl, inv] = await Promise.all([
+      fetch(`data/changelog.json?v=${Date.now()}`).then((r) => r.ok ? r.json() : { improvements: [], updates: [] }).catch(() => ({ improvements: [], updates: [] })),
+      Team.listInvites().catch(() => []),
+    ]);
+    ADMIN.changelog = cl; ADMIN.invites = inv;
+    if (state.view !== "admin") return;
+  }
+  const members = state.team.members;
+  const byEmail = {};
+  for (const i of ADMIN.invites) byEmail[i.email] = { ...i, invited: true };
+  for (const m of members) byEmail[(m.email || "").toLowerCase()] = { ...(byEmail[(m.email || "").toLowerCase()] || {}), ...m, member: true };
+  const people = Object.values(byEmail).sort((a, b) => (b.lastSeen || "").localeCompare(a.lastSeen || "") || (a.name || "").localeCompare(b.name || "", "pt-BR"));
+  const week = Date.now() - 7 * 864e5;
+  const active7 = people.filter((p) => p.lastSeen && new Date(p.lastSeen) > week).length;
+  const pending = people.filter((p) => p.invited && !p.member).length;
+  const cl = ADMIN.changelog;
+  const lastUpd = cl.updates[0]?.at || state.meta.updated_at;
+
+  const kpis = [[people.length, "pessoas com acesso"], [active7, "ativas nos últimos 7 dias"], [pending, "convites pendentes"], [ago(lastUpd), "última atualização dos eventos"]]
+    .map(([b, l]) => `<div class="stat"><dt>${l}</dt><dd>${b}</dd></div>`).join("");
+
+  let body;
+  if (ADMIN.sub === "acessos") {
+    body = `<div class="admin-head"><h3>Acessos</h3><button class="btn primary sm" type="button" data-admin-invite="1">Convidar pessoa</button></div>
+      <div class="table-wrap"><table class="admin-table">
+        <thead><tr><th>Pessoa</th><th>Situação</th><th>Convidado em</th><th>Último acesso</th><th class="num">Acessos</th><th class="num">Favoritos</th><th></th></tr></thead>
+        <tbody>${people.map((p) => {
+          const status = p.member && p.lastSeen ? `<span class="inv-status ok">Ativo</span>` : p.invited ? `<span class="inv-status">Convite enviado</span>` : `<span class="inv-status">Administrador(a)</span>`;
+          const self = p.email === state.team.me.email;
+          return `<tr>
+            <td><div class="who"><span class="avatar">${esc(initials(p.name))}</span><span><b>${esc(p.name || p.email)}</b><small>${esc(p.email)}</small></span></div></td>
+            <td>${status}${self ? ` <span class="badge soft">você</span>` : ""}</td>
+            <td>${p.invitedAt ? fmtDT(p.invitedAt) : "—"}${p.invitedBy ? `<small class="by">por ${esc(p.invitedBy)}</small>` : ""}</td>
+            <td title="${p.lastSeen ? esc(fmtDT(p.lastSeen)) : ""}">${ago(p.lastSeen)}</td>
+            <td class="num">${p.visits || 0}</td>
+            <td class="num">${p.favs ? `<button class="link-btn" data-admin-favs="${esc(p.uid)}" type="button">${p.favs.length}</button>` : 0}</td>
+            <td class="row-actions">${p.invited && !self ? `<a class="btn ghost sm" href="${mailtoInvite(p)}">Lembrar</a><button class="btn ghost sm" data-admin-revoke="${esc(p.email)}" type="button">Remover</button>` : ""}</td>
+          </tr>`;
+        }).join("") || `<tr><td colspan="7" class="hint">Ninguém convidado ainda.</td></tr>`}</tbody>
+      </table></div>
+      <p class="hint">"Acessos" conta cada vez que a pessoa abre o radar já conectada. Clique no número de favoritos para ver os eventos favoritos da pessoa.</p>`;
+  } else {
+    const ups = cl.updates.map((u) => ({ kind: "auto", at: u.at, u }));
+    const imps = cl.improvements.map((i) => ({ kind: "melhoria", at: i.at, i }));
+    const items = (ADMIN.hist === "automaticas" ? ups : ADMIN.hist === "melhorias" ? imps : [...ups, ...imps])
+      .sort((a, b) => b.at.localeCompare(a.at)).slice(0, 300);
+    const n = (x) => Number(x || 0).toLocaleString("pt-BR");
+    body = `<div class="admin-head"><h3>Histórico de atualizações</h3>
+        <div class="seg" role="group" aria-label="Filtrar histórico">
+          ${[["todas", "Todas"], ["automaticas", `Automáticas (${ups.length})`], ["melhorias", `Melhorias (${imps.length})`]]
+            .map(([k, l]) => `<button type="button" class="${ADMIN.hist === k ? "on" : ""}" data-admin-hist="${k}">${l}</button>`).join("")}
+        </div></div>
+      <ol class="timeline">${items.map((it) => {
+        if (it.kind === "auto") {
+          const u = it.u;
+          const stats = u.total != null ? `<p class="tl-stats"><b>+${n(u.added)}</b> novos · <b>−${n(u.removed)}</b> removidos · <b>${n(u.total)}</b> eventos no radar</p>` : "";
+          const src = u.sources ? `<p class="tl-src">${Object.entries(u.sources).filter(([, c]) => c).map(([k, c]) => `${SOURCE_LABEL[k] || k}: ${n(c)}`).join(" · ")}</p>` : "";
+          return `<li class="tl auto"><span class="tl-dot" aria-hidden="true">↻</span><div>
+            <div class="tl-top"><span class="tl-kind">${esc(TRIGGER_LABEL[u.trigger] || "Atualização")}${u.mode === "reprocessamento" ? " · reprocessamento" : ""}</span><time>${fmtDT(u.at)}</time></div>
+            ${stats}${src}${u.run_url ? `<a class="tl-link" href="${esc(u.run_url)}" target="_blank" rel="noopener">ver execução ↗</a>` : ""}</div></li>`;
+        }
+        const i = it.i;
+        return `<li class="tl imp"><span class="tl-dot" aria-hidden="true">✦</span><div>
+          <div class="tl-top"><span class="tl-kind">Melhoria</span><time>${fmtDT(i.at)}</time></div>
+          <p class="tl-title">${esc(i.title)}</p>
+          ${i.details.length ? `<details><summary>Ver detalhes (${i.details.length})</summary><ul>${i.details.map((d) => `<li>${esc(d)}</li>`).join("")}</ul></details>` : ""}
+          <a class="tl-link" href="https://github.com/${CONFIG.repo}/commit/${esc(i.sha)}" target="_blank" rel="noopener">${esc(i.sha)} ↗</a></div></li>`;
+      }).join("") || `<li class="hint">Sem registros ainda.</li>`}</ol>`;
+  }
+  v.innerHTML = `<div class="admin">
+    <dl class="stats admin-kpis">${kpis}</dl>
+    <div class="seg big" role="tablist">
+      <button type="button" class="${ADMIN.sub === "acessos" ? "on" : ""}" data-admin-sub="acessos">Acessos</button>
+      <button type="button" class="${ADMIN.sub === "historico" ? "on" : ""}" data-admin-sub="historico">Histórico de atualizações</button>
+    </div>
+    <section class="admin-panel">${body}</section></div>`;
+}
+
+function onAdminClick(ev) {
+  const t = ev.target;
+  const sub = t.closest("[data-admin-sub]");
+  if (sub) { ADMIN.sub = sub.dataset.adminSub; render(false); return true; }
+  const hist = t.closest("[data-admin-hist]");
+  if (hist) { ADMIN.hist = hist.dataset.adminHist; render(false); return true; }
+  if (t.closest("[data-admin-invite]")) { openInvite(); ADMIN.changelog = null; return true; }
+  const favs = t.closest("[data-admin-favs]");
+  if (favs) { state.favOf = favs.dataset.adminFavs === state.team.me.uid ? "me" : favs.dataset.adminFavs; $("#fFavOf").value = state.favOf; setView("cards"); return true; }
+  const rv = t.closest("[data-admin-revoke]");
+  if (rv) {
+    if (rv.dataset.confirm !== "1") { rv.dataset.confirm = "1"; rv.textContent = "Confirmar remoção"; return true; }
+    Team.revoke(rv.dataset.adminRevoke).then(() => { ADMIN.changelog = null; render(false); alertToast("Acesso removido."); }).catch(() => alertToast("Não foi possível remover."));
+    return true;
+  }
+  return false;
 }
 
 /* ---------- exportações ---------- */

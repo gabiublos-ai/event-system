@@ -22,6 +22,7 @@ window.Team = (() => {
   const emit = () => onChange({ ...st });
   const lower = (s) => String(s || "").trim().toLowerCase();
   const siteUrl = () => location.origin + location.pathname;
+  const toIso = (ts) => (ts && typeof ts.toDate === "function" ? ts.toDate().toISOString() : null);
 
   async function init(cb) {
     onChange = cb || onChange;
@@ -79,11 +80,15 @@ window.Team = (() => {
     // primeiro acesso: leva os favoritos que já estavam neste navegador
     let local = [];
     try { local = JSON.parse(localStorage.getItem("favs") || "[]"); } catch { /* ok */ }
-    const data = { name, email, updatedAt: F.serverTimestamp() };
+    // registra o acesso (aba Admin: último acesso e número de acessos)
+    const data = { name, email, updatedAt: F.serverTimestamp(), lastSeen: F.serverTimestamp(), visits: F.increment(1) };
     if (local.length) data.favs = F.arrayUnion(...local);
     await F.setDoc(F.doc(db, "users", user.uid), data, { merge: true });
     unsubUsers = F.onSnapshot(F.collection(db, "users"), (snap) => {
-      st.members = snap.docs.map((d) => ({ uid: d.id, ...d.data(), favs: d.data().favs || [] }))
+      st.members = snap.docs.map((d) => {
+        const x = d.data();
+        return { uid: d.id, ...x, favs: x.favs || [], lastSeen: toIso(x.lastSeen), visits: x.visits || 0 };
+      })
         .sort((a, b) => (a.name || "").localeCompare(b.name || "", "pt-BR"));
       st.status = "in"; emit();
     }, (e) => { st.status = "error"; st.error = String(e.message || e); emit(); });
@@ -107,14 +112,19 @@ window.Team = (() => {
     await A.sendSignInLinkToEmail(auth, email, { url: siteUrl(), handleCodeInApp: true });
   }
 
+  async function listAdmins() {
+    // a lista de administradores não é pública; o próprio admin sabe que é admin
+    return st.admin ? [st.me.email] : [];
+  }
+
   async function revoke(email) { await F.deleteDoc(F.doc(db, "invites", lower(email))); }
 
   async function listInvites() {
     const snap = await F.getDocs(F.collection(db, "invites"));
-    return snap.docs.map((d) => d.data()).sort((a, b) => (a.name || "").localeCompare(b.name || "", "pt-BR"));
+    return snap.docs.map((d) => ({ ...d.data(), invitedAt: toIso(d.data().invitedAt) })).sort((a, b) => (a.name || "").localeCompare(b.name || "", "pt-BR"));
   }
 
   async function signOut() { await A.signOut(auth); }
 
-  return { enabled, init, completeLink, requestLink, setFav, invite, revoke, listInvites, signOut, siteUrl, state: () => ({ ...st }) };
+  return { enabled, init, completeLink, requestLink, setFav, invite, revoke, listInvites, listAdmins, signOut, siteUrl, state: () => ({ ...st }) };
 })();

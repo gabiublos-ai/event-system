@@ -6,6 +6,7 @@ Uso:  python -m scraper.main            (coleta tudo)
 from __future__ import annotations
 
 import argparse
+import os
 import html
 import json
 import logging
@@ -172,9 +173,33 @@ def main():
         "types": {k: {"label": v["label"], "icon": v["icon"]} for k, v in load_types().items()},
         "states": UFS,
     }
+    prev_ids = {e["id"] for e in load_json(SITE_DATA_DIR / "events.json", {}).get("events", [])}
     payload = {"meta": meta, "events": events}
     (SITE_DATA_DIR / "events.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     log.info("OK: %d eventos salvos em %s", len(events), SITE_DATA_DIR / "events.json")
+    if os.environ.get("GITHUB_ACTIONS"):  # só registra as execuções do robô (não as locais)
+        record_run(meta, prev_ids, {e["id"] for e in events}, args.offline)
+
+
+TRIGGERS = {"schedule": "automatica", "workflow_dispatch": "manual", "push": "publicacao"}
+
+
+def record_run(meta: dict, prev_ids: set, new_ids: set, offline: bool) -> None:
+    """Histórico das atualizações (aba Admin): data, tipo, eventos novos/removidos, fontes."""
+    path = DATA_DIR / "update_history.json"
+    hist = load_json(path, [])
+    hist.append({
+        "at": meta["updated_at"],
+        "trigger": TRIGGERS.get(os.environ.get("GITHUB_EVENT_NAME", ""), "manual"),
+        "mode": "reprocessamento" if offline else "coleta",
+        "total": meta["total"],
+        "added": len(new_ids - prev_ids),
+        "removed": len(prev_ids - new_ids),
+        "sources": {k: v for k, v in meta["sources_raw"].items()},
+        "run_url": (f"{os.environ['GITHUB_SERVER_URL']}/{os.environ['GITHUB_REPOSITORY']}/actions/runs/{os.environ['GITHUB_RUN_ID']}"
+                    if os.environ.get("GITHUB_RUN_ID") else None),
+    })
+    path.write_text(json.dumps(hist[-500:], ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 if __name__ == "__main__":
