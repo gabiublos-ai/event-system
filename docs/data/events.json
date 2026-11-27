@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated_at": "2026-11-27T19:15-03:00",
-  "total": 389,
+  "updated_at": "2026-11-27T19:26-03:00",
+  "total": 374,
   "sources_raw": {
    "curadoria": 79,
    "sympla": 3337,
@@ -9,7 +9,7 @@
    "meetup": 2644,
    "even3": 0,
    "doity": 0,
-   "imprensa": 29,
+   "imprensa": 5,
    "busca_web": 0
   },
   "themes": {
@@ -223,8 +223,7 @@
    "image": "https://images.sympla.com.br/69389d3975541.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -3406,8 +3405,7 @@
    "image": "https://images.sympla.com.br/6aecc9feb86aa.jpg",
    "price": "Gratuito",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -3509,7 +3507,6 @@
    "image": "https://images.sympla.com.br/6af377e5d2a77.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -4361,7 +4358,6 @@
    "image": "https://images.sympla.com.br/6a99679527ef4.jpg",
    "price": "Gratuito",
    "themes": [
-    "escolas_negocio",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -4600,8 +4596,7 @@
    "image": "https://images.sympla.com.br/6af518a1df36f.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4738,8 +4733,7 @@
    "image": "https://images.sympla.com.br/6ae4f200ee60f.png",
    "price": "R$ 79,99",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4773,9 +4767,7 @@
    "image": "https://images.sympla.com.br/6a982881dd5be.png",
    "price": "R$ 10",
    "themes": [
-    "demo_day",
-    "escolas_negocio",
-    "startups"
+    "demo_day"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5183,7 +5175,6 @@
    "image": "https://images.sympla.com.br/5f282a0c6a2d9.png",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -5320,8 +5311,7 @@
    "image": "https://images.sympla.com.br/6af62c9e221c0.png",
    "price": "Gratuito",
    "themes": [
-    "escolas_negocio",
-    "startups"
+    "escolas_negocio"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5561,8 +5551,7 @@
    "image": "https://images.sympla.com.br/6b045fe0b6341.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5734,7 +5723,6 @@
    "image": "https://images.sympla.com.br/6afd046032760.jpg",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "demo_day",
     "startups"
    ],
@@ -5941,8 +5929,7 @@
    "image": "https://images.sympla.com.br/6ae37fb4d36dd.png",
    "price": "Gratuito",
    "themes": [
-    "demo_day",
-    "startups"
+    "demo_day"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -6044,7 +6031,6 @@
    "image": "https://images.sympla.com.br/6af5dad3c40e8.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -6113,8 +6099,7 @@
    "image": "https://images.sympla.com.br/6afc908b621a5.png",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
-    "startups"
+    "aceleradoras"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -6148,7 +6133,6 @@
    "image": "https://images.sympla.com.br/6b09e46933ea9.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -6387,7 +6371,6 @@
    "image": "https://images.sympla.com.br/6af470e1a818f.png",
    "price": "Gratuito",
    "themes": [
-    "cripto",
     "fintech"
    ],
    "recurrence": "ocasional",
@@ -6525,8 +6508,7 @@
    "image": "https://images.sympla.com.br/6b0871af0cb87.jpg",
    "price": "Gratuito",
    "themes": [
-    "demo_day",
-    "startups"
+    "demo_day"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -6868,7 +6850,6 @@
    "image": "https://images.sympla.com.br/6ac4f7083aaae.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -7346,7 +7327,6 @@
    "image": "https://images.sympla.com.br/6b070fdd5b075.jpg",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -7605,181 +7585,6 @@
    "lon": -41.9649
   },
   {
-   "name": "Startup Summit",
-   "url": "https://startupsummit.com.br/",
-   "source": "curadoria",
-   "start_date": "2026-12-08",
-   "end_date": "2026-12-09",
-   "description": "A 10ª edição do maior encontro de startups do Brasil. 3 dias, 10 palcos, 20 trilhas e milhares de founders, investidores e empresas no CentroSul, em Florianópolis.",
-   "city": "Florianópolis",
-   "state": "SC",
-   "venue": "CentroSul",
-   "format": "presencial",
-   "type": "summit",
-   "organizer": "Sebrae / ACATE",
-   "image": null,
-   "price": null,
-   "themes": [
-    "aceleradoras",
-    "ia",
-    "startups"
-   ],
-   "recurrence": "anual",
-   "typical_month": 8,
-   "date_confirmed": false,
-   "id": "dbe495f5e0d5",
-   "region": "Sul",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "curadoria",
-    "imprensa"
-   ],
-   "is_new": true,
-   "summary": "A 10ª edição do maior encontro de startups do Brasil. 3 dias, 10 palcos, 20 trilhas e milhares de founders, investidores e empresas no CentroSul, em Florianópolis.",
-   "geo_precision": "cidade",
-   "lat": -27.5973,
-   "lon": -48.5496
-  },
-  {
-   "name": "Startup Summit 2025 Além",
-   "url": "https://www.google.com/preferences/source?q=startups.com.br",
-   "source": "imprensa",
-   "start_date": "2026-12-08",
-   "end_date": "2026-12-09",
-   "description": "Empreendedores destacaram como é possível furar a bolha da Faria Lima e atrair atenção mesmo fora do principal centro financeiro do país",
-   "city": null,
-   "state": "SP",
-   "venue": null,
-   "format": "presencial",
-   "type": "summit",
-   "organizer": null,
-   "image": null,
-   "price": null,
-   "themes": [
-    "startups"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 12,
-   "date_confirmed": false,
-   "id": "b628a3163bc2",
-   "region": "Sudeste",
-   "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "imprensa"
-   ],
-   "is_new": true,
-   "summary": "Empreendedores destacaram como é possível furar a bolha da Faria Lima e atrair atenção mesmo fora do principal centro financeiro do país",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
-  },
-  {
-   "name": "Web Summit Fundador",
-   "url": "https://www.google.com/preferences/source?q=startups.com.br",
-   "source": "imprensa",
-   "start_date": "2026-12-08",
-   "end_date": "2026-12-09",
-   "description": "Fundador do Web Summit diz que estrelas do futuro não vêm da Califórnia e olha para a China, inclusive como possível nova casa do evento",
-   "city": null,
-   "state": "SP",
-   "venue": null,
-   "format": "presencial",
-   "type": "summit",
-   "organizer": null,
-   "image": null,
-   "price": null,
-   "themes": [
-    "ia",
-    "startups"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 12,
-   "date_confirmed": false,
-   "id": "9e49c3c5a593",
-   "region": "Sudeste",
-   "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "imprensa"
-   ],
-   "is_new": true,
-   "summary": "Fundador do Web Summit diz que estrelas do futuro não vêm da Califórnia e olha para a China, inclusive como possível nova casa do evento",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
-  },
-  {
-   "name": "Web Summit Rio 2026",
-   "url": "https://www.google.com/preferences/source?q=startups.com.br",
-   "source": "imprensa",
-   "start_date": "2026-12-08",
-   "end_date": "2026-12-09",
-   "description": "Um ano após o Nubank contratar Roberto Campos Neto, a Revolut traz ex-ministro da Economia e acirra competição entre os maiores neobancos",
-   "city": null,
-   "state": "SP",
-   "venue": null,
-   "format": "presencial",
-   "type": "summit",
-   "organizer": null,
-   "image": null,
-   "price": null,
-   "themes": [
-    "startups"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 12,
-   "date_confirmed": false,
-   "id": "ee89a1aebb7c",
-   "region": "Sudeste",
-   "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "imprensa"
-   ],
-   "is_new": true,
-   "summary": "Um ano após o Nubank contratar Roberto Campos Neto, a Revolut traz ex-ministro da Economia e acirra competição entre os maiores neobancos",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
-  },
-  {
-   "name": "Web Summit Rio Web Summit",
-   "url": "https://www.google.com/preferences/source?q=startups.com.br",
-   "source": "imprensa",
-   "start_date": "2026-12-08",
-   "end_date": "2026-12-09",
-   "description": "Sem confirmar data ou local, CEO Paddy Cosgrave afirma que está em \"conversas ativas\" com cidades chinesas e evento pode ser na China continental",
-   "city": null,
-   "state": "RJ",
-   "venue": null,
-   "format": "presencial",
-   "type": "summit",
-   "organizer": null,
-   "image": null,
-   "price": null,
-   "themes": [
-    "ia",
-    "startups"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 12,
-   "date_confirmed": false,
-   "id": "ba55a32e3087",
-   "region": "Sudeste",
-   "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "imprensa"
-   ],
-   "is_new": true,
-   "summary": "Sem confirmar data ou local, CEO Paddy Cosgrave afirma que está em \"conversas ativas\" com cidades chinesas e evento pode ser na China continental",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
-  },
-  {
    "name": "AI FESTIVAL Uberlândia - Inteligência Artificial Para Todos",
    "url": "https://www.sympla.com.br/evento/ai-festival-uberlandia-inteligencia-artificial-para-todos/3636353",
    "source": "sympla",
@@ -7899,7 +7704,6 @@
    "image": "https://images.sympla.com.br/6adb7a13c0d61.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -8822,8 +8626,7 @@
    "image": "https://images.sympla.com.br/6afb433b55adb.png",
    "price": "Gratuito",
    "themes": [
-    "demo_day",
-    "startups"
+    "demo_day"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -8925,7 +8728,6 @@
    "image": "https://images.sympla.com.br/6af38079a8c6c.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -9131,8 +8933,7 @@
    "image": "https://images.sympla.com.br/6b08c5f5a30e3.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -9268,7 +9069,6 @@
    "image": "https://images.sympla.com.br/6aff96f55632a.jpg",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -9881,7 +9681,6 @@
    "image": "https://images.sympla.com.br/6a47cb9c5fcf1.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "aceleradoras",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -10018,9 +9817,7 @@
    "image": "https://images.sympla.com.br/69c512c306840.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "healthtech",
-    "ia",
-    "startups"
+    "healthtech"
    ],
    "recurrence": "ocasional",
    "typical_month": 2,
@@ -10141,41 +9938,6 @@
    "lon": -46.9582
   },
   {
-   "name": "Março",
-   "url": "http://admin.fivenews.intranet.jc/tinyurl.com/mve622dn",
-   "source": "imprensa",
-   "start_date": "2027-03-03",
-   "end_date": "2027-03-03",
-   "description": "Há 28 anos, o Marcas de Quem Decide, promovido pelo Jornal do Comércio, reconhece as marcas mais lembradas e preferidas no Rio Grande do Sul. Em 2026, o evento ganha um novo formato. Além da já conhecida premiação, o Marcas de Quem Decide terá uma programação de conteúdo e branding no período da tarde. Geraldo Rufino, founder da JRufino Diesel, Marcus Rossi, founder e CEO da Gramado Summit, Cesar",
-   "city": null,
-   "state": "RS",
-   "venue": null,
-   "format": "presencial",
-   "type": "evento",
-   "organizer": null,
-   "image": null,
-   "price": null,
-   "themes": [
-    "ia",
-    "startups"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 3,
-   "date_confirmed": false,
-   "id": "30f8e72b7944",
-   "region": "Sul",
-   "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "imprensa"
-   ],
-   "is_new": true,
-   "summary": "Há 28 anos, o Marcas de Quem Decide, promovido pelo Jornal do Comércio, reconhece as marcas mais lembradas e preferidas no Rio Grande do Sul. Em 2026, o evento ganha um novo formato.",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
-  },
-  {
    "name": "Rust AI Forge: Arquitetando Agentes Autônomos de Alta Performance com segurança e desempenho superio",
    "url": "https://www.sympla.com.br/evento/rust-ai-forge-arquitetando-agentes-autonomos-de-alta-performance-com-seguranca-e-desempenho-superio/3655779",
    "source": "sympla",
@@ -10280,40 +10042,6 @@
    "lon": -49.2713
   },
   {
-   "name": "Startup Day 2026 (SP)",
-   "url": "https://sebrae.com.br/subsites/startup-day",
-   "source": "imprensa",
-   "start_date": "2027-03-22",
-   "end_date": "2027-03-22",
-   "description": "O Startup Day é um dos maiores movimentos de fomento ao empreendedorismo e inovação do Brasil, realizado pelo Sebrae-SP. O evento é idealizado pelo Sebrae Startups e cocriado com um amplo ecossistema de empresas locais, com o objetivo de promover o crescimento de startups em todos os momentos de maturidade: curiosidade, ideação, validação, tração, crescimento e escala.",
-   "city": null,
-   "state": "SP",
-   "venue": null,
-   "format": "presencial",
-   "type": "conferencia",
-   "organizer": null,
-   "image": null,
-   "price": null,
-   "themes": [
-    "startups"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 3,
-   "date_confirmed": false,
-   "id": "d659407cbe82",
-   "region": "Sudeste",
-   "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "imprensa"
-   ],
-   "is_new": true,
-   "summary": "O Startup Day é um dos maiores movimentos de fomento ao empreendedorismo e inovação do Brasil, realizado pelo Sebrae-SP.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
-  },
-  {
    "name": "3º Food & Innovation Dive",
    "url": "https://www.sympla.com.br/evento/3o-food-innovation-dive/3627876",
    "source": "sympla",
@@ -10329,7 +10057,6 @@
    "image": "https://images.sympla.com.br/6ad94611bd830.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "foodtech",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -10381,77 +10108,6 @@
    "geo_precision": "cidade",
    "lat": -23.5507,
    "lon": -46.6334
-  },
-  {
-   "name": "South Summit Brazil 2026 (RS)",
-   "url": "https://www.southsummit.io/pt",
-   "source": "imprensa",
-   "start_date": "2027-03-25",
-   "end_date": "2027-03-27",
-   "description": "Conecte-se com as melhores startups, investidores visionários e empresas líderes. O South Summit é o catalisador global para a inovação e o crescimento dos negócios.",
-   "city": null,
-   "state": "RS",
-   "venue": null,
-   "format": "presencial",
-   "type": "summit",
-   "organizer": null,
-   "image": null,
-   "price": null,
-   "themes": [
-    "ia",
-    "startups"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 3,
-   "date_confirmed": false,
-   "id": "6c88ae9959b7",
-   "region": "Sul",
-   "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "imprensa"
-   ],
-   "is_new": true,
-   "summary": "Conecte-se com as melhores startups, investidores visionários e empresas líderes. O South Summit é o catalisador global para a inovação e o crescimento dos negócios.",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
-  },
-  {
-   "name": "Abril",
-   "url": "https://brazilatsiliconvalley.com/",
-   "source": "imprensa",
-   "start_date": "2027-04-06",
-   "end_date": "2027-04-08",
-   "description": "A Brazil at Silicon Valley (BSV) é um evento anual que visa aproximar lideranças do Brasil do ecossistema do Vale do Silício. Realizada na Califórnia, a conferência reúne empreendedores, investidores e pesquisadores em conversas sobre os rumos da inovação e do desenvolvimento do país, criando pontes entre o ecossistema brasileiro e as principais tendências globais. A participação na BSV é restrita",
-   "city": null,
-   "state": "DF",
-   "venue": null,
-   "format": "presencial",
-   "type": "evento",
-   "organizer": null,
-   "image": null,
-   "price": null,
-   "themes": [
-    "fintech",
-    "ia",
-    "startups"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 4,
-   "date_confirmed": false,
-   "id": "c17ebf2a0d0d",
-   "region": "Centro-Oeste",
-   "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "imprensa"
-   ],
-   "is_new": true,
-   "summary": "A Brazil at Silicon Valley (BSV) é um evento anual que visa aproximar lideranças do Brasil do ecossistema do Vale do Silício.",
-   "geo_precision": "estado",
-   "lat": -15.794,
-   "lon": -47.882
   },
   {
    "name": "AI Executive Summit 2027",
@@ -10630,42 +10286,6 @@
    "lon": -50.874
   },
   {
-   "name": "Maio",
-   "url": "https://www.gramadosummit.com/",
-   "source": "imprensa",
-   "start_date": "2027-05-06",
-   "end_date": "2027-05-08",
-   "description": "Realizada anualmente no Rio Grande do Sul, a Gramado Summit oferece uma programação de palestras e debates, além de uma feira de negócios que conecta startups a potenciais parceiros e oportunidades de investimento. Com foco na troca de ideias e geração de conexões, o evento tornou-se um espaço relevante para discutir tendências, soluções e impulsionar novos negócios no ecossistema latino-americano",
-   "city": null,
-   "state": "RS",
-   "venue": null,
-   "format": "presencial",
-   "type": "evento",
-   "organizer": null,
-   "image": null,
-   "price": null,
-   "themes": [
-    "escolas_negocio",
-    "ia",
-    "startups"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 5,
-   "date_confirmed": false,
-   "id": "a9224b76e1dd",
-   "region": "Sul",
-   "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "imprensa"
-   ],
-   "is_new": true,
-   "summary": "Realizada anualmente no Rio Grande do Sul, a Gramado Summit oferece uma programação de palestras e debates, além de uma feira de negócios que conecta startups a potenciais parceiros e oportunidades de investimento.",
-   "geo_precision": "estado",
-   "lat": -30.035,
-   "lon": -51.218
-  },
-  {
    "name": "Fispal Food Service 2027",
    "url": "https://www.fispalfoodservice.com.br/",
    "source": "curadoria",
@@ -10769,43 +10389,6 @@
    "lon": -46.6334
   },
   {
-   "name": "Junho",
-   "url": "https://www.sxswlondon.com/",
-   "source": "imprensa",
-   "start_date": "2027-06-01",
-   "end_date": "2027-06-06",
-   "description": "A edição londrina do SxSw abre a programação de eventos do mês de junho, ocorrendo do dia 1 a 6. A edição de 2026 será a segunda em Londres. Entre os nomes confirmados estão Ben Cohen, da Ben & Jerry’s, Joleen Liang, da Squirrel AI, Lars Rasmussen, do Google Maps, Eric Yuan, do Zoom, e Cristina Diezhandino, da Diageo.",
-   "city": null,
-   "state": "RJ",
-   "venue": null,
-   "format": "presencial",
-   "type": "evento",
-   "organizer": null,
-   "image": null,
-   "price": null,
-   "themes": [
-    "aceleradoras",
-    "fintech",
-    "ia",
-    "startups"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 6,
-   "date_confirmed": false,
-   "id": "35ce92d4dd71",
-   "region": "Sudeste",
-   "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "imprensa"
-   ],
-   "is_new": true,
-   "summary": "A edição londrina do SxSw abre a programação de eventos do mês de junho, ocorrendo do dia 1 a 6. A edição de 2026 será a segunda em Londres.",
-   "geo_precision": "estado",
-   "lat": -22.907,
-   "lon": -43.173
-  },
-  {
    "name": "Florianópolis 2027 Venture Capital World Summit",
    "url": "https://www.eventbrite.com/e/florianopolis-2027-venture-capital-world-summit-tickets-1999757548660",
    "source": "eventbrite",
@@ -10855,8 +10438,7 @@
    "image": "https://images.sympla.com.br/6a4e550ec3e71.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "foodtech",
-    "startups"
+    "foodtech"
    ],
    "recurrence": "ocasional",
    "typical_month": 6,
@@ -10873,40 +10455,6 @@
    "geo_precision": "cidade",
    "lat": -22.906,
    "lon": -47.061
-  },
-  {
-   "name": "Gramado Summit 2026 (RS)",
-   "url": "https://www.gramadosummit.com/",
-   "source": "imprensa",
-   "start_date": "2027-06-04",
-   "end_date": "2027-06-06",
-   "description": "O maior evento de inovação do Brasil está confirmado para 2027. Garanta já seu ingresso. Compre seu passaporte antecipadamente e pague menos. Serra Park, Gramado RS. Maior Evento de Startups. Maior Brainstorming.",
-   "city": null,
-   "state": "SP",
-   "venue": null,
-   "format": "presencial",
-   "type": "summit",
-   "organizer": null,
-   "image": null,
-   "price": null,
-   "themes": [
-    "startups"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 6,
-   "date_confirmed": false,
-   "id": "1144bb9f852e",
-   "region": "Sudeste",
-   "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "imprensa"
-   ],
-   "is_new": true,
-   "summary": "O maior evento de inovação do Brasil está confirmado para 2027. Garanta já seu ingresso. Compre seu passaporte antecipadamente e pague menos. Serra Park, Gramado RS. Maior Evento de Startups. Maior Brainstorming.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
   },
   {
    "name": "Rio de Janeiro 2027 Venture Capital World Summit",
@@ -11028,8 +10576,7 @@
    "image": "https://images.sympla.com.br/6a42abe031423.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 6,
@@ -11046,75 +10593,6 @@
    "geo_precision": "cidade",
    "lat": -26.304,
    "lon": -48.846
-  },
-  {
-   "name": "Julho",
-   "url": "https://acesummit.com.br/",
-   "source": "imprensa",
-   "start_date": "2027-07-30",
-   "end_date": "2027-07-30",
-   "description": "O ACE Summit é um encontro anual promovido pela ACE com foco em inovação, tecnologia e empreendedorismo. A conferência reúne fundadores de startups, investidores e executivos de grandes empresas para debater tendências e caminhos para a transformação digital. Com a maior parte do público composta por tomadores de decisão, o evento oferece painéis temáticos e experiências voltadas a repensar modelo",
-   "city": null,
-   "state": "SP",
-   "venue": null,
-   "format": "presencial",
-   "type": "evento",
-   "organizer": null,
-   "image": null,
-   "price": null,
-   "themes": [
-    "startups"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 7,
-   "date_confirmed": false,
-   "id": "0eb0f6228017",
-   "region": "Sudeste",
-   "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "imprensa"
-   ],
-   "is_new": true,
-   "summary": "O ACE Summit é um encontro anual promovido pela ACE com foco em inovação, tecnologia e empreendedorismo.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
-  },
-  {
-   "name": "Agosto",
-   "url": "https://con.contaazul.com/",
-   "source": "imprensa",
-   "start_date": "2027-08-01",
-   "end_date": "2027-08-01",
-   "description": "Com o objetivo de estimular reflexões e gerar impactos concretos, a Rio Innovation Week oferece um ambiente focado em oportunidades, negócios, experiências e conteúdos relacionados à inovação e ao empreendedorismo. Para esta edição, já estão confirmados nomes relevantes do ecossistema, como Amy Webb, Ian Beacraft, João Apolinário e até a ginasta Rebeca Andrade.",
-   "city": null,
-   "state": "SP",
-   "venue": null,
-   "format": "presencial",
-   "type": "evento",
-   "organizer": null,
-   "image": null,
-   "price": null,
-   "themes": [
-    "fintech",
-    "startups"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 8,
-   "date_confirmed": false,
-   "id": "a6c1320fbc76",
-   "region": "Sudeste",
-   "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "imprensa"
-   ],
-   "is_new": true,
-   "summary": "Com o objetivo de estimular reflexões e gerar impactos concretos, a Rio Innovation Week oferece um ambiente focado em oportunidades, negócios, experiências e conteúdos relacionados à inovação e ao empreendedorismo.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
   },
   {
    "name": "BNDES Garagem - Demo Day (ciclo 2026)",
@@ -11224,42 +10702,6 @@
    "lon": -43.2094
   },
   {
-   "name": "Setembro",
-   "url": "https://hacktown.com.br/",
-   "source": "imprensa",
-   "start_date": "2027-09-03",
-   "end_date": "2027-09-07",
-   "description": "Realizado anualmente em Santa Rita do Sapucaí, no sul de Minas Gerais, o HackTown transforma a cidade em um grande palco de inovação, cultura e tecnologia. Com atividades distribuídas por escolas, universidades, praças e outros espaços urbanos, o evento cria um ambiente favorável à troca de ideias, à formação de parcerias e ao desenvolvimento de projetos e negócios, reunindo executivos, profission",
-   "city": null,
-   "state": "MG",
-   "venue": null,
-   "format": "presencial",
-   "type": "evento",
-   "organizer": null,
-   "image": null,
-   "price": null,
-   "themes": [
-    "aceleradoras",
-    "ia",
-    "startups"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 9,
-   "date_confirmed": false,
-   "id": "a7619fb89cc2",
-   "region": "Sudeste",
-   "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "imprensa"
-   ],
-   "is_new": true,
-   "summary": "Realizado anualmente em Santa Rita do Sapucaí, no sul de Minas Gerais, o HackTown transforma a cidade em um grande palco de inovação, cultura e tecnologia.",
-   "geo_precision": "estado",
-   "lat": -19.917,
-   "lon": -43.934
-  },
-  {
    "name": "23º Fórum Internacional de Ciências Bíblicas | Bíblia e Igreja em tempos de IA",
    "url": "https://www.sympla.com.br/evento/23o-forum-internacional-de-ciencias-biblicas-biblia-e-igreja-em-tempos-de-ia/3573075",
    "source": "sympla",
@@ -11292,41 +10734,6 @@
    "geo_precision": "cidade",
    "lat": -23.5507,
    "lon": -46.6334
-  },
-  {
-   "name": "Outubro",
-   "url": "https://www.futurecom.com.br/pt/home.htmlpt/home.html",
-   "source": "imprensa",
-   "start_date": "2027-10-08",
-   "end_date": "2027-10-10",
-   "description": "Há mais de 20 anos fomentando o mercado de inovação, a Futurecom une exposição, experiências, debates e networking com o objetivo de gerar grandes oportunidades de negócios. Em 2024, a feira contará com 800 especialistas, 200 horas de conteúdo e oito palcos para os participantes explorarem os mais recentes debates tecnológicos e se atualizarem sobre as últimas tendências do mercado. Além disso, ha",
-   "city": null,
-   "state": "SP",
-   "venue": null,
-   "format": "presencial",
-   "type": "evento",
-   "organizer": null,
-   "image": null,
-   "price": null,
-   "themes": [
-    "escolas_negocio",
-    "startups"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 10,
-   "date_confirmed": false,
-   "id": "5271bad5b05c",
-   "region": "Sudeste",
-   "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "imprensa"
-   ],
-   "is_new": true,
-   "summary": "Há mais de 20 anos fomentando o mercado de inovação, a Futurecom une exposição, experiências, debates e networking com o objetivo de gerar grandes oportunidades de negócios.",
-   "geo_precision": "estado",
-   "lat": -23.55,
-   "lon": -46.633
   },
   {
    "name": "Brazil Tech Summit",
@@ -13375,6 +12782,42 @@
    "geo_precision": "cidade",
    "lat": -2.5295,
    "lon": -44.2964
+  },
+  {
+   "name": "Startup Summit",
+   "url": "https://startupsummit.com.br/",
+   "source": "curadoria",
+   "start_date": null,
+   "end_date": null,
+   "description": "A 10ª edição do maior encontro de startups do Brasil. 3 dias, 10 palcos, 20 trilhas e milhares de founders, investidores e empresas no CentroSul, em Florianópolis.",
+   "city": "Florianópolis",
+   "state": "SC",
+   "venue": "CentroSul",
+   "format": "presencial",
+   "type": "summit",
+   "organizer": "Sebrae / ACATE",
+   "image": null,
+   "price": null,
+   "themes": [
+    "aceleradoras",
+    "ia",
+    "startups"
+   ],
+   "recurrence": "anual",
+   "typical_month": 8,
+   "date_confirmed": false,
+   "id": "dbe495f5e0d5",
+   "region": "Sul",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-27",
+   "sources": [
+    "curadoria"
+   ],
+   "is_new": true,
+   "summary": "A 10ª edição do maior encontro de startups do Brasil. 3 dias, 10 palcos, 20 trilhas e milhares de founders, investidores e empresas no CentroSul, em Florianópolis.",
+   "geo_precision": "cidade",
+   "lat": -27.5973,
+   "lon": -48.5496
   },
   {
    "name": "Vetor Norte Summit",
