@@ -237,10 +237,10 @@
 "v": 4
 },
 "https://recnplay.pe": {
-"date": "2026-11-25",
+"date": "2026-11-27",
 "description": "REC'n'Play 2026: obrigado por fazer parte do maior festival gratuito de inovação, tecnologia, criatividade e cultura do Brasil. Veja como foi e até a próxima, de 17 a 20 de novembro de 2027!",
 "price": "Gratuito",
-"v": 2
+"v": 4
 },
 "https://rio.websummit.com/": {
 "date": "2026-11-25",
@@ -446,6 +446,12 @@
 "https://www.meetup.com/aws-sbg-at-ifpa-federal-institute-of-para-belem-campus/events/317275373/": {
 "date": "2026-11-25",
 "description": "**Aprenda a ir muito além do \"vibe coding\" e leve suas aplicações direto para a produção!** Já aconteceu de você gerar um aplicativo inteiro usando IA com",
+"price": "Gratuito",
+"v": 4
+},
+"https://www.meetup.com/aws-sbg-at-ifpa-federal-institute-of-para-belem-campus/events/317607395/": {
+"date": "2026-11-27",
+"description": "O **AWS Student Builder Group (SBG) IFPA** marca presença no **Hotel de Ideias — Ideias que Ganham Vida**, encontro institucional do IFPA Campus Belém volt",
 "price": "Gratuito",
 "v": 4
 },
@@ -835,6 +841,12 @@
 "price": "Pago (valor no site)",
 "v": 3
 },
+"https://www.sympla.com.br/evento/alem-do-headcount-a-ia-como-alavanca-de-crescimento/3669012": {
+"date": "2026-11-27",
+"description": "Como ampliar a capacidade produtiva de uma empresa sem aumentar proporcionalmente sua estrutura operacional?A Inteligência Artificial está redefinindo a maneira como as empresas operam, gerenciam recursos e escalam seus negócios. Mais do que automatizar tarefas, a tecnologia permite potencializar equipes, otimizar processos e ampliar a capacidade de entrega das organizações.Neste encontro da HOTMILK PUCPR, Hugo Ito e Clayton de Souza Silva compartilharão uma visão prática e estratégica sobre como aplicar a Inteligência Artificial em diferentes áreas empresariais, explorando oportunidades para aumentar a produtividade, otimizar recursos, reduzir custos operacionais e impulsionar o crescimento sustentável dos negócios.Uma oportunidade para empresários, executivos e lideranças que desejam compreender como a IA pode transformar a eficiência operacional em vantagem competitiva, ampliando a capacidade de geração de valor das equipes.",
+"price": "Gratuito",
+"v": 4
+},
 "https://www.sympla.com.br/evento/amazon-ia-summit-2026/3591322": {
 "date": "2026-11-25",
 "description": "AMAZON IA SUMMIT 2026INTELIGÊNCIA ARTIFICIAL APLICADA PARA VENDER MAIS E MELHORAR A OPERAÇÃO DA SUA EMPRESAÚLTIMO LOTE DISPONÍVEL. Em 2 de dezembro, Manaus recebe um dia inteiro de conteúdo, experiências e conexões sobre como aplicar Inteligência Artificial nos negócios.Criado pelos mesmos idealizadores do DSX, o Amazon IA Summit reúne especialistas que já usam IA em vendas, marketing, atendimento e gestão. Você vai conhecer aplicações práticas para levar à sua empresa (ou o seu negócio) e preparar sua equipe para 2027.Você não precisa entender de tecnologia. O Amazon IA Summit é um evento de negócios para quem quer vender melhor, ganhar eficiência e reduzir custos com o uso da Inteligência Artificial.O QUE VOCÊ VAI LEVAR PARA A SUA EMPRESA:- Vender mais com IA: como automatizar o atendimento no WhatsApp, o follow-up e a prospecção para ampliar as oportunidades de fechar negócios.- Gerar demanda: estratégias de aquisição e marketing com IA para atrair clientes e usar melhor os recursos",
@@ -937,6 +949,12 @@
 "price": "Gratuito",
 "v": 4
 },
+"https://www.sympla.com.br/evento/celebra-tech-pr-2026/3661304": {
+"date": "2026-11-27",
+"description": "Celebra Tech PR 2026 — Celebrando quem faz a tecnologia do ParanáNo dia 07 de dezembro, a partir das 18h, a Assespro-PR encerra o ano com o Celebra Tech PR 2026, no Hard Rock Cafe Curitiba a partir das 18h.Uma noite para agradecer a todo o ecossistema de tecnologia e inovação do estado: empresas associadas, parceiros e pessoas que fazem a tecnologia paranaense.Vamos apresentar: - o que foi realizado na atual gestão;- nova diretoria da gestão 2027/2028;- planejamento da gestão 2027/2028;- oportunidades de negócios e networking;- além de chopp gelado, boa comida e um momento de comemoração para finalizar 2026.",
+"price": "Pago (valor no site)",
+"v": 4
+},
 "https://www.sympla.com.br/evento/cenario-estrategia-e-patrimonio-global-um-encontro-presencial-belfy-ai/3646455": {
 "date": "2026-11-25",
 "description": "O real oscila, o cenário externo muda rápido, e quem tem todo o patrimônio em uma só moeda fica mais exposto. Neste encontro presencial, você vai entender de forma clara e prática como levar parte dos seus investimentos para o dólar.Para trazer a visão sobre o cenário global, receberemos Marcelo Karvelis, CIO do Grupo Avin.O que você vai ver: Por que dolarizar: como diversificar em moeda forte pode reduzir a exposição do seu patrimônio à instabilidade do real. Como fazer na prática: os caminhos mais acessíveis para ter patrimônio em dólar e os cuidados de cada um. IA a seu favor: como a plataforma de inteligência artificial da Belfy AI ajuda a tomar decisões de investimento mais embasadas. Quinta-feira, 10 de dezembro de 2026, das 19h30 às 21h30 Grupo Avin, Av. Brigadeiro Faria Lima, 3.144, Itaim Bibi, São Paulo/SPAs vagas são limitadas. Garanta já a sua inscrição. O conteúdo deste encontro tem caráter informativo e educacional e não constitui recomendação de investimento.",
@@ -1012,6 +1030,12 @@
 "https://www.sympla.com.br/evento/copia-so-nao-faz-igual-ia-e-o-plagio-na-universidade/3660293": {
 "date": "2026-11-27",
 "description": "Você usa Inteligência Artificial nos seus trabalhos acadêmicos? Sabe onde termina a ajuda e onde começa o plágio?Com a popularização do ChatGPT e outras IAs generativas, as regras do jogo na universidade mudaram e a linha entre otimizar o tempo e comprometer a integridade acadêmica ficou cada vez mais tênue. Para debater esse cenário na prática, os estudantes da disciplina de Ética, Direito e Legislação da UFC de Quixadá convidam você para o workshop \"Copia, só não faz igual: IA e o plágio na Universidade\".Em um encontro dinâmico de 90 minutos, vamos fugir dos manuais teóricos chatos e colocar a mão na massa para discutir os dilemas reais da vida universitária atual.O que vamos abordar:A zona cinzenta: O que as normas acadêmicas e as leis realmente consideram plágio no uso de IAs.Na prática: Como utilizar ferramentas de IA de forma ética para estruturar ideias, revisar textos e pesquisar sem perder a autoria.Estudos de caso: Análise de situações reais e os riscos da dependência tecnoló",
+"price": "Gratuito",
+"v": 4
+},
+"https://www.sympla.com.br/evento/cora-tech-meetup-ia-no-desenvolvimento-de-software/3668578": {
+"date": "2026-11-27",
+"description": "A IA já está mudando o desenvolvimento de software. Mas o que existe de concreto para além do hype? Uma conversa técnica, aberta e participativa com quem constrói isso na prática.No primeiro Cora Tech Meetup, vamos reunir profissionais de tecnologia para uma conversa técnica, aberta e participativa sobre os impactos reais da IA na construção de produtos e no trabalho dos times de engenharia.No formato fishbowl, convidados e participantes compartilham experiências, práticas e provocações: o que já mudou no desenvolvimento de software e como diferentes áreas podem ampliar o uso de IA nas organizações._Programação19h00 | Abertura19h10 | Tech na Cora e oportunidades abertas19h25 | O que mudou no processo de desenvolvimento de software com IA20h00 | Como as áreas enablers podem alavancar o uso de IA20h30 | Coffee e networking21h15 | Encerramento_Como funciona o fishbowlCada tema começa com falas curtas dos porta-vozes e depois abre para a roda de conversa. Haverá 4 cadeiras, sendo uma sempr",
 "price": "Gratuito",
 "v": 4
 },
@@ -1545,6 +1569,12 @@
 "price": "Gratuito",
 "v": 4
 },
+"https://www.sympla.com.br/evento/inscricoes-tecnopuc-hangar-deep-tech-develop-energia-e-saude/3566650": {
+"date": "2026-11-27",
+"description": "O Parque Científico e Tecnológico da PUCRS abre inscrições para o Tecnopuc Hangar - Deep Tech Develop, programa gratuito de suporte a cientistas na jornada do laboratório ao mercado. O objetivo é desenvolver projetos de base científica nas áreas de Energia ou Saúde a elevarem prontidão tecnológica e maturidade de negócio.O Tecnopuc Hangar Deep Tech Develop é para quemtem um projeto, pesquisa ou negócio com base científica, tecnológica ou de engenharia de maior complexidade nas áreas de Energia ou Saúde;está com prova de conceito já validada e TRL a partir de 3;quer sair da validação técnica e se aproximar do mercado, com orientação especializada;atua sozinho ou em equipe*.* Você não precisa ter vínculo ativo com nenhuma universidade ou instituto para se inscrever.O que o programa ofereceSuporte estruturado nos dois eixos que mais travam uma deep tech: tecnologia e negócio. Ao longo dos seis meses, as propostas selecionadas* terão:Diagnóstico: avaliação integrada de maturidade tecnológi",
+"price": "Gratuito",
+"v": 4
+},
 "https://www.sympla.com.br/evento/insted-lab-ia-venha-conhecer-a-graduacao-de-ciencia-de-dados-e-ia/3656237": {
 "date": "2026-11-25",
 "description": "O que é o INSTED Lab IAUma noite para aprender fazendo: criar, testar e melhorar soluções com Inteligência Artificial. Quem participa vive, antes de entrar, como serão as aulas do Bacharelado em Ciência de Dados e Inteligência Artificial da Insted.Presencial - Vagas limitadasAssuntos:ProgramaçãoAnálise de dadosTestes e qualidadeCibersegurança",
@@ -1604,6 +1634,12 @@
 "description": "Sobre a formaçãoA Integra Campinas promoverá uma formação prática sobre o uso da Inteligência Artificial no cotidiano das Organizações da Sociedade Civil (OSCs).O encontro será conduzido pela Mais Impacto e terá como foco apresentar possibilidades de utilização da IA em atividades de gestão, elaboração de projetos, comunicação e captação de recursos, considerando os desafios e as necessidades das organizações sociais.A proposta é que os participantes não apenas conheçam ferramentas, mas experimentem suas aplicações e desenvolvam materiais que possam utilizar em suas próprias organizações.Público-alvoProfissionais, gestores e lideranças das organizações associadas à Integra Campinas, especialmente aqueles que atuam nas áreas de gestão, projetos, comunicação e captação de recursos.Não é necessário ter experiência prévia com Inteligência Artificial.",
 "price": "Gratuito",
 "v": 3
+},
+"https://www.sympla.com.br/evento/laboratorio-ia-que-vende-como-usar-a-inteligencia-artificial-para-atrair-clientes-e-vender-mais/3668889": {
+"date": "2026-11-27",
+"description": "Laboratório: IA QUE VENDE! Como Usar A Inteligência Artificial Para Atrair Clientes E Vender Mais!Projeto YES JUVENTUDE PROLONGADAImagine ganhar velocidade para criar conteúdos que atraem o público certo, responder dúvidas de compra com naturalidade e montar propostas difíceis de ignorar, sem perder a identidade do seu negócio.É isso que vamos construir juntos no Laboratório: IA Que Vende!. Um encontro para tirar a inteligência artificial do campo da curiosidade e transformar em rotina comercial: do diagnóstico da sua oferta até o roteiro de conversa.100% GRATUITO e PRESENCIAL Data: 10/12/2026 e 11/12/2026 Horário: 09h às 13 horasProfessor: Rafael Pugliese Local: Avenida do Contorno 8000 – 18º andar, Santo Agostinho, Belo Horizonte/MG.Público prioritário 60+Em caso de dúvidas fale com o IPPE pelos telefones:(31) 3643-7265 - (31) 9 9683-6917 - (31) 9 9913-5709",
+"price": "Gratuito",
+"v": 4
 },
 "https://www.sympla.com.br/evento/lancamento-da-inteligencia-artificial-da-pge/3660040": {
 "date": "2026-11-25",
@@ -1759,6 +1795,12 @@
 "date": "2026-11-25",
 "description": "ATENÇÃO - ESTE CURSO SERÁ REALIZADO ONLINEAprenda a usar ferramentas de IA, criar prompts eficientes, automatizar tarefas e aumentar sua produtividade de forma estratégica e profissional.Informações do cursoInício: 18/11Duração: 2 mesesCertificação: 40hInscrições exclusivas para alunos da Univel.Investimento1º lote — R$ 49,90Até 23/112º lote — R$ 69,90Até 30/11InscriçõesAcesse o QR Code disponível no cartaz para realizar sua inscrição.Vagas limitadas!UNIVEL — Centro Universitário",
 "price": "A partir de R$ 49,90",
+"v": 4
+},
+"https://www.sympla.com.br/evento/pgt-usp-sda-bocconi-joint-research-and-innovation-seminar/3669165": {
+"date": "2026-11-27",
+"description": "The Núcleo de Política e Gestão Tecnológica (PGT/USP) and SDA Bocconi School of Management invite you to a special seminar under the USP-SDA Bocconi Cooperation Agreement, bringing together researchers to explore new perspectives on innovation, strategic alliances, and artificial intelligence.The morning will begin at 08:30 with a welcome and networking coffee, followed at 09:00 by opening remarks from Prof. Moacir de Miranda Oliveira Junior, PGT/USP Scientific Coordinator, and two research presentations.Strategic Alliances for Innovation During Critical Situations: The Experience of the Covid-19 Pandemic in Brazil will be presented by Prof. Marcos Bruno (SDA Fellow, SDA Bocconi School of Management/Bocconi University), exploring how strategic alliances between Fiocruz–AstraZeneca/Oxford and Butantan–Sinovac enabled innovation under the extraordinary challenges of the Covid-19 pandemic.Can AI Industrialize the Theatre? will be presented by Prof. Enzo Baglieri (Researcher and Member of ",
+"price": "Gratuito",
 "v": 4
 },
 "https://www.sympla.com.br/evento/pic-day-formatura-fgv/3652021": {
@@ -2082,6 +2124,12 @@
 "price": "R$ 49,90",
 "v": 4
 },
+"https://www.sympla.com.br/evento/workshop-connect-estrategias-para-elaboracao-de-pitch/3667817": {
+"date": "2026-11-27",
+"description": "Compre ingressos para Workshop ConneCT - Estratégias para elaboração de pitch em Vitória dia 03/12. Confira os melhores eventos da Sympla!",
+"price": "Gratuito",
+"v": 4
+},
 "https://www.sympla.com.br/evento/workshop-de-ia-na-pratica-seu-proximo-colaborador-nao-custa-salario/3667433": {
 "date": "2026-11-26",
 "description": "﻿Workshop de IA na prática: Seu Próximo Colaborador Não Custa SalárioData: 1 e 2 de MarçoHorário: das 19h00 às 21h30 Local: Sala Cinza - ACIMM Mogi MirimFormato: Workshop Presencial de 2 Dias (Dia 1 Conceitual + Dia 2 Prático)30 VAGASCertificado de participação Mais informações: (19) 99615-2742Professor: Jonas Henrique Ferreira Professor e Especialista em Tecnologia, Redes de Computadores, Segurança da Informação e IA Aplicada aos Negócios. UnixEdge – Soluções em Tecnologia e IA Aplicada aos Negócios. Especialista em Segurança da Informação Mais de 20 anos de experiência com tecnologia em projetos nacionais e internacionaisO que você vai aprender? DIA 1 (01/03/2027) – Mente ABERTA: Conceitual, Estratégia e Engenharia de Prompt ● Abertura & Visão Geral: O cenário da IA nos negócios — De ameaça a superpoder operacional. ● O Conceito do \"Funcionário Virtual\": Como enxergar a IA não como uma ferramenta de busca, mas como um estagiário de alta performance. ● Engenharia de Prompt Eficiente: ",
@@ -2092,6 +2140,12 @@
 "date": "2026-11-25",
 "description": "Compre ingressos para Workshop de Inovação e Empreendedorismo do INCA - WINE 2027 (Evento Presencial) em Rio de Janeiro dia 15/04. Confira os melhores eventos da Sympla!",
 "price": "Gratuito",
+"v": 4
+},
+"https://www.sympla.com.br/evento/workshop-de-inteligencia-artificial-para-os-negocios/3668232": {
+"date": "2026-11-27",
+"description": "Workshop interativo e prático para apresentar como a Inteligência Artificial pode transformar negócios, otimizar processos, aumentar a produtividade e apoiar decisões estratégicas.Conteúdo programático1. IA GenerativaChatGPT, Gemini e Claude.Criação de conteúdos, estratégias e soluções.Engenharia de prompts e produtividade empresarial.2. IA Agêntica Agentes inteligentes e automação de processos.Aplicações em vendas, marketing e atendimento.Construção de agentes para atividades empresariais.3. IA Analítica Inteligência de dados e Business Intelligence.Análise de indicadores e identificação de oportunidades.Previsões e decisões estratégicas baseadas em dados.4. EncerramentoIntegração das três dimensões da IA.Oportunidades de inovação e crescimento.Objetivo: proporcionar aos participantes uma visão prática de como utilizar a Inteligência Artificial para inovar, automatizar operações e gerar resultados concretos nos negócios.",
+"price": "Pago (valor no site)",
 "v": 4
 },
 "https://www.sympla.com.br/evento/workshop-de-inteligencia-artificial-sucessao-rural/3656405": {
