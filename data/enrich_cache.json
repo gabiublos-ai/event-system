@@ -290,6 +290,12 @@
 "price": null,
 "v": 4
 },
+"https://tiqueteira.com/eventos/pe": {
+"date": "2026-11-27",
+"description": "Agenda de eventos e ingressos em Pernambuco. Compre online com pagamento via Pix na Tiqueteira.",
+"price": null,
+"v": 4
+},
 "https://vinteum.exe.xyz/bitdevs": {
 "date": "2026-11-25",
 "description": "Vinteum - Open Source Bitcoin Development",
@@ -320,15 +326,41 @@
 "price": null,
 "v": 4
 },
+"https://www.eventbrite.com/e/brazil-tech-summit-tickets-65499469677": {
+"date": "2026-11-27",
+"description": "Brazil Tech Summit is an international program featuring 100 global speakers and partners passionate about the future of Brazil. The centr",
+"price": "Gratuito a R$ 99,99",
+"v": 4
+},
 "https://www.eventbrite.com/e/florianopolis-2027-venture-capital-world-summit-tickets-1999757548660": {
-"date": "2026-11-25",
+"date": "2026-11-27",
 "description": "Florianópolis Santa Catarina Brazil Venture Capital World Summit, World Series Season of Investment Conferences",
-"price": "R$ 159,50 a R$ 54.999"
+"price": "A partir de R$ 159,50",
+"v": 4
+},
+"https://www.eventbrite.com/e/gitex-ai-latam-tickets-1981552715514": {
+"date": "2026-11-27",
+"description": "GITEX AI LATAM 16-17 March 2027 | Anhembi Convention Center | Sao Paulo, Brazil",
+"price": "Gratuito",
+"v": 4
+},
+"https://www.eventbrite.com/e/hackerx-sao-paulo-ai-employer-ticket-325-tickets-2004785197493": {
+"date": "2026-11-27",
+"description": "Meet AI, full-stack and forward deployed engineers in São Paulo.",
+"price": "R$ 595 a R$ 1.295",
+"v": 4
 },
 "https://www.eventbrite.com/e/rio-de-janeiro-2027-venture-capital-world-summit-tickets-1999735711344": {
-"date": "2026-11-25",
+"date": "2026-11-27",
 "description": "Rio de Janeiro Brazil Venture Capital World Summit, World Series Season of Investment Conferences",
-"price": "R$ 159,50 a R$ 54.999"
+"price": "A partir de R$ 159,50",
+"v": 4
+},
+"https://www.eventbrite.com/e/women-in-tech-sao-paulo-outgeekwomen-tickets-1049887390447": {
+"date": "2026-11-27",
+"description": "You won't be the only woman in the room. Guys, you're welcome too, and relax: you won't be the only woman in the room either. #outgeek",
+"price": "Gratuito a R$ 25",
+"v": 4
 },
 "https://www.expocenternorte.com.br/en/events/blockchain-conference-brasil-by-truther": {
 "date": "2026-11-25",
@@ -518,6 +550,12 @@
 "price": "Gratuito",
 "v": 4
 },
+"https://www.meetup.com/microsoft-reactor-sao-paulo/events/317569215/": {
+"date": "2026-11-27",
+"description": "A Inteligência Artificial deixou de apenas ajudar consultando informações, passando a executar tarefas. Vamos ver o que o Microsoft Ignite 2026 trouxe e o",
+"price": "Gratuito",
+"v": 4
+},
 "https://www.meetup.com/mongodb-usergroup-brasilia/events/317278522/": {
 "date": "2026-11-25",
 "description": "# **REGISTER OVER IN LUMA: link to follow soon** # **Follow our new Calendar in Luma: [luma.com/mug-brasilia](https://luma.com/mug-brasilia)** \\*\\*\\*\\*\\*",
@@ -597,10 +635,10 @@
 "v": 4
 },
 "https://www.nvidia.com/pt-br/ai-days/": {
-"date": "2026-11-25",
+"date": "2026-11-27",
 "description": "Join peers and experts for hands-on training sessions focused on real-world applications, frameworks, and tools that accelerate AI innovation.",
 "price": null,
-"v": 3
+"v": 4
 },
 "https://www.saudebusiness.com/eventos-3/healthcare-innovation-show/his-2026-comeca-com-nova-area-de-negocios-e-amplia-agenda-de-inovacao/": {
 "date": "2026-11-25",
@@ -941,6 +979,12 @@
 "price": "Gratuito",
 "v": 4
 },
+"https://www.sympla.com.br/evento/conferencia-do-empreendedorismo/3667021": {
+"date": "2026-11-27",
+"description": "CONFERÊNCIA DO EMPREENDEDORISMOConecte-se, apresente seu negócio e amplie suas oportunidades!Um encontro voltado a empreendedores, empresários, profissionais liberais e pessoas que desejam desenvolver seus negócios, ampliar sua rede de relacionamentos, compartilhar experiências e construir novas oportunidades.A Conferência do Empreendedorismo será um espaço de conhecimento, visibilidade, networking e conexões estratégicas, reunindo pessoas de diferentes segmentos e áreas de atuação.━━━━━━━━━━━━━━━━━━━━PALESTRANTESCordélia CorreaEstratégias de VendasMonique LuzEmpreendedorismo SustentávelPriscila LiquerNetworking e Relacionamento━━━━━━━━━━━━━━━━━━━━MOMENTO CONEXÃO: APRESENTE SEU NEGÓCIO!Cada empreendedor participante terá 1 minuto de fala para apresentar seu negócio, compartilhar sua proposta de valor e divulgar seus produtos ou serviços.Para participar desse momento, cada empreendedor deverá levar um produto ou oferecer um serviço para ser apresentado e disponibilizado como prêmio no s",
+"price": "Gratuito",
+"v": 4
+},
 "https://www.sympla.com.br/evento/confraria-why-bitcoin-dialogo-e-aprendizado-1deg-dez-2026/3659412": {
 "date": "2026-11-25",
 "description": "Diálogo Socrático | Bitcoin: O Primeiro Contato e Assuntos AtuaisNosso último encontro de 2026!Você já ouviu falar de Bitcoin, mas ainda tem dúvidas sobre como ele funciona, por que foi criado ou como começar a utilizá-lo?Ou já conhece o Bitcoin e quer conversar sobre os acontecimentos mais recentes, novas tecnologias e os desafios do ecossistema?No último Diálogo Socrático da UAIBIT em 2026, teremos a participação especial de Narcelio Filho para uma conversa aberta, descontraída e acessível sobre Bitcoin.Vamos começar pelos conceitos fundamentais e explorar os assuntos mais relevantes da atualidade, sempre com espaço para perguntas, troca de experiências e diferentes pontos de vista. Temas da noite Bitcoin: o primeiro contato O que é Bitcoin, por que ele existe, como funciona e qual sua importância no mundo atual. Segurança e autocustódia Como guardar e movimentar seus bitcoins com mais autonomia e segurança. Bitcoin e os assuntos atuais Novidades, acontecimentos, tecnologias e tendên",
@@ -963,6 +1007,12 @@
 "date": "2026-11-25",
 "description": "CONSULTÓRIO INTELIGENTEMais eficiência na gestão. Mais capacidade de atrair pacientes. Mais segurança para proteger sua lucratividade.Sua agenda pode estar cheia, mas será que seu consultório está funcionando com todo o potencial que poderia?Tempo consumido por tarefas administrativas, oportunidades de atendimento que não se concretizam, processos pouco eficientes e decisões que afetam a rentabilidade são desafios presentes na rotina de muitos profissionais da saúde.Com as mudanças tecnológicas e tributárias em curso, administrar um consultório exige cada vez mais organização, inteligência na gestão e capacidade de adaptação.O encontro foi criado para apresentar caminhos práticos para melhorar a gestão, aproveitar as possibilidades da inteligência artificial e compreender como as mudanças da reforma tributária podem impactar os resultados financeiros do seu negócio.Em uma noite presencial, você terá acesso a dois temas complementares e fundamentais para quem atua em consultórios, clíni",
 "price": "Pago (valor no site)",
+"v": 4
+},
+"https://www.sympla.com.br/evento/copia-so-nao-faz-igual-ia-e-o-plagio-na-universidade/3660293": {
+"date": "2026-11-27",
+"description": "Você usa Inteligência Artificial nos seus trabalhos acadêmicos? Sabe onde termina a ajuda e onde começa o plágio?Com a popularização do ChatGPT e outras IAs generativas, as regras do jogo na universidade mudaram e a linha entre otimizar o tempo e comprometer a integridade acadêmica ficou cada vez mais tênue. Para debater esse cenário na prática, os estudantes da disciplina de Ética, Direito e Legislação da UFC de Quixadá convidam você para o workshop \"Copia, só não faz igual: IA e o plágio na Universidade\".Em um encontro dinâmico de 90 minutos, vamos fugir dos manuais teóricos chatos e colocar a mão na massa para discutir os dilemas reais da vida universitária atual.O que vamos abordar:A zona cinzenta: O que as normas acadêmicas e as leis realmente consideram plágio no uso de IAs.Na prática: Como utilizar ferramentas de IA de forma ética para estruturar ideias, revisar textos e pesquisar sem perder a autoria.Estudos de caso: Análise de situações reais e os riscos da dependência tecnoló",
+"price": "Gratuito",
 "v": 4
 },
 "https://www.sympla.com.br/evento/critt-hour-o-futuro-da-inteligencia-artificial-tendencias-globais-e-oportunidades/3653406": {
@@ -1241,6 +1291,12 @@
 "price": "Gratuito",
 "v": 4
 },
+"https://www.sympla.com.br/evento/feira-de-arte-design-e-empreendedorismo-criativo/3664976": {
+"date": "2026-11-27",
+"description": "A Escola de Design, por meio do Centro Integrado de Design Social, promove a Feira de Arte, Design e Empreendedorismo Criativo. O evento tem como objetivo promover a criatividade, o empreendedorismo e a valorização da cultura local, oferecendo um espaço para a exposição e comercialização de produtos e serviços.",
+"price": "Gratuito",
+"v": 4
+},
 "https://www.sympla.com.br/evento/ferramentas-de-ia-para-o-cirurgiao-vascular/3632342": {
 "date": "2026-11-25",
 "description": "Ferramentas de IA para o Cirurgião VascularCurso on-line e ao vivo | Promoção: SBACV – Sociedade Brasileira de Angiologia e de Cirurgia VascularA inteligência artificial já faz parte da rotina médica, e quem sabe usá-la bem ganha tempo, qualidade e segurança. Este curso é prático e direto ao ponto: você vai sair sabendo usar as principais ferramentas de IA no consultório, na pesquisa e na educação, com exemplos voltados à angiologia e à cirurgia vascular. Datas e horários (horário de Brasília)- *04/12/2026 (sexta-feira), das 18h às 22h:* imersão (4 horas)- *14/12/2026 (segunda-feira), das 18h às 20h:* revisão (2 horas)- *14/12/2026 (segunda-feira), das 20h às 22h:* tira-dúvidas (2 horas)Carga horária total: 8 horas O que você vai aprender- Como escolher a ferramenta de IA certa para cada tarefa- Como escrever comandos (prompts) eficientes para obter respostas confiáveis- Como usar a IA na busca e leitura de evidências científicas- Como produzir textos, relatórios, orientações a pacient",
@@ -1448,6 +1504,12 @@
 "price": "Pago (valor no site)",
 "v": 4
 },
+"https://www.sympla.com.br/evento/indaiatuba-palestra-aceleracao-de-vendas-como-vender-mais-mais-facil-e-melhor/3661986": {
+"date": "2026-11-27",
+"description": "Compre ingressos para INDAIATUBA - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR em Indaiatuba dia 27/11. Confira os melhores eventos da Sympla!",
+"price": "Gratuito",
+"v": 4
+},
 "https://www.sympla.com.br/evento/infraestrutura-de-ti-identidade-digital-e-inteligencia-artificial-na-transformacao-dos-negocios/3630346": {
 "date": "2026-11-25",
 "description": "Conectando o Presente ao FuturoAutomação de TI, Identidade Digital e Inteligência Artificial na transformação dos negóciosA tecnologia está transformando a forma como as empresas trabalham, se protegem e otimizam seus processos, proporcionando mais eficiência, produtividade e redução de custos operacionais.Nesta palestra gratuita, Alexandre Fidelis, CIO da Informax; Marcio Oliveira, CEO da JMF Soluções Digitais; e Fabiano Goldoni, da M. AI, apresentarão uma visão prática sobre Automação de TI, Identidade Digital e Inteligência Artificial.Descubra como essas tecnologias podem simplificar processos, aumentar a segurança, reduzir custos e preparar sua empresa para o futuro.Para quem é o evento?Empresários, gestores, profissionais de TI e demais profissionais interessados em tecnologia, inovação e melhoria dos resultados empresariais. 26 de novembro (quinta-feira) 19h Quiero Café da SantanaRua Santana, 1005 – Bairro Farroupilha – Porto Alegre/RS Evento gratuito, mediante inscrição prévia. ",
@@ -1555,6 +1617,12 @@
 "price": "Gratuito",
 "v": 3
 },
+"https://www.sympla.com.br/evento/lapidar-2027-workshop-para-empreendedoras/3640535": {
+"date": "2026-11-27",
+"description": "LAPIDAR 2027 — Workshop para Empresárias 26 de novembro de 2026 · 18h às 22h · Auditório FIBRA, Brasília Inscrição gratuita. Sobre o evento Lapidar é revelar o brilho que já existe. O Lapidar 2027 é um workshop para empresárias de Brasília que querem ser vistas, vender mais e gerir com estratégia. Em uma noite, você vai identificar as falhas de execução que travam o crescimento do seu negócio. Entre elas, a falta de processos comerciais eficientes e de conexões assertivas. Não é uma noite de motivação. É uma noite de direção. Para quem é Empresárias e empreendedoras que querem estruturar as vendas. Mulheres que precisam se posicionar melhor nas redes. Líderes que entendem que resultado sustentável começa pela saúde mental. O que você vai levar para casa Como organizar processos comerciais que geram previsibilidade. Como construir um posicionamento digital que atrai o cliente certo. Como transformar conexões em negócios, inclusive com o apoio da IA. Por que cuidar da mente é o princípio",
+"price": "Gratuito",
+"v": 4
+},
 "https://www.sympla.com.br/evento/lei-do-bem-e-lei-de-informatica-oportunidades-para-empresas-incubadoras-e-parques-tecnologicos/3621473": {
 "date": "2026-11-25",
 "description": "O evento abordará as oportunidades oferecidas pela Lei do Bem e pela Lei de Informática para o incentivo à inovação, à pesquisa e ao desenvolvimento tecnológico no Brasil, com a participação de representantes do Ministério da Ciência, Tecnologia e Inovação (MCTI) e de especialista em consultoria tributária.O painel tem como objetivo apresentar os principais mecanismos de incentivo, esclarecer aspectos da legislação e demonstrar como empresas, startups, incubadoras e parques tecnológicos podem aproveitar esses instrumentos para fomentar projetos inovadores, ampliar investimentos em pesquisa e desenvolvimento e fortalecer a competitividade.O encontro também será uma oportunidade para esclarecer dúvidas, compartilhar orientações práticas e aproximar os atores do ecossistema de inovação das políticas públicas de incentivo à ciência, tecnologia e inovação.Participe conosco!",
@@ -1645,6 +1713,12 @@
 "price": "Gratuito",
 "v": 4
 },
+"https://www.sympla.com.br/evento/palestra-de-abertura-expouna-2026-profissoes-do-futuro-e-o-impacto-da-inteligencia-artificial/3666673": {
+"date": "2026-11-27",
+"description": "No dia 30/11, às 20h, esperamos vocês na Sala 803 da Faculdade UNA Divinópolis para a palestra de abertura da ExpoUna: \"Profissões no Futuro: Impacto da Inteligência Artificial\". Será uma imersão imperdível sobre o futuro das carreiras e o impacto da IA na sua jornada profissional, ministrada por Guilherme Gazzinelli (CTO da Checkbits, Engenheiro Mecatrônico pelo CEFET e pós-graduado em Gestão de Projetos e IA). Não percam!",
+"price": "Gratuito",
+"v": 4
+},
 "https://www.sympla.com.br/evento/palestra-ia-walter-longo/3643139": {
 "date": "2026-11-25",
 "description": "Convidamos você para uma palestra especial comWalter Longo sobre o impacto da inteligência artificialnos negócios e seu potencial para gerar novasoportunidades profissionais.",
@@ -1720,6 +1794,12 @@
 "https://www.sympla.com.br/evento/pitch-wine-em-criciuma/3634351": {
 "date": "2026-11-25",
 "description": "Pitch & WineO Grupo Temático Mulheres ACATE convida você a fazer parte do próximo Pitch & Wine, um encontro exclusivo para empreendedoras, empresárias e lideranças que estão moldando o futuro da tecnologia. Será no dia 26 de novembro, às 19h, no restaurante El Tarquin Parrilla Argentina em Criciúma.A temática do encontro será sobre vendas em uma conversa conduzida por:Andressa Fabris, jornalista, especialista em Marketing e em Gestão de Pessoas e fundadora e diretora da Alfa Comunicação e Conteúdo;Giovana Pedroso, jornalista, palestrante corporativa e treinadora de líderes com 16 anos de carreira.Venha trocar experiências e se conectar com outras mulheres que fazem a diferença no setor. Sua empresa é aderida ao GT Mulheres ACATE ? Solicite seu cupom exclusivo de desconto pelo e-mail juliana.castro@acate.com.brACATE Mulheres O Grupo Temático ACATE Mulheres é um movimento colaborativo e conta com a adesão de mais de 100 mulheres que estão construindo o futuro da tecnologia em Santa Catar",
+"price": "Pago (valor no site)",
+"v": 4
+},
+"https://www.sympla.com.br/evento/pmi-amazonia-summit-2026/3667745": {
+"date": "2026-11-27",
+"description": "O PMI Amazônia retoma sua agenda de eventos para a comunidade amazônica. No dia 9 de dezembro de 2026, o PMI Amazônia Summit reúne, no Intercity Hotel, em Manaus, quem planeja, lidera e entrega projetos na região. Mais do que voltar ao calendário, a retomada é uma oportunidade para profissionais da indústria, do setor público, da academia e do terceiro setor trocarem experiências e discutirem soluções que façam sentido para a Amazônia.Gerenciar projetos na região significa lidar com grandes distâncias, desafios logísticos e realidades locais diversas. O Summit aproxima as práticas globais do PMI dessa experiência regional e propõe uma pergunta: além de cumprir prazo, custo e escopo, como saber se um projeto gerou valor para quem depende dos seus resultados?Destaques da programaçãoPalestra magna com Sergio Mota, Mentor Regional do PMI para o Brasil, sobre o M.O.R.E. e a redefinição do sucesso em projetos.Desafios da Gestão de Megaprojetos de Mineração, com Anderson Gomes, Gerente Execut",
 "price": "Pago (valor no site)",
 "v": 4
 },

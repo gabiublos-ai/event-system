@@ -1,15 +1,15 @@
 {
  "meta": {
-  "updated_at": "2026-11-26T11:56-03:00",
-  "total": 351,
+  "updated_at": "2026-11-26T21:41-03:00",
+  "total": 364,
   "sources_raw": {
    "curadoria": 79,
-   "sympla": 3400,
-   "eventbrite": 0,
-   "meetup": 2728,
+   "sympla": 3371,
+   "eventbrite": 518,
+   "meetup": 2684,
    "even3": 0,
    "doity": 0,
-   "busca_web": 0
+   "busca_web": 1
   },
   "themes": {
    "ia": {
@@ -613,40 +613,6 @@
    "geo_precision": "cidade",
    "lat": -23.5507,
    "lon": -46.6334
-  },
-  {
-   "name": "3º Seminário Amazônia Tech: tecnologias sociais, inteligência ancestral e o bem viver na Amazônia",
-   "url": "https://www.sympla.com.br/evento/3o-seminario-amazonia-tech-tecnologias-sociais-inteligencia-ancestral-e-o-bem-viver-na-amazonia/3620009",
-   "source": "sympla",
-   "start_date": "2026-11-24",
-   "end_date": "2026-11-27",
-   "description": "Como os conhecimentos ancestrais podem dialogar com a ciência, a inovação e as novas tecnologias para construir futuros mais sustentáveis na Amazônia?O Amazônia Tech chega à sua terceira edição com o tema \"Tecnologias Sociais, Inteligência Ancestral e o Bem Viver na Amazônia\". O evento ocorre, de 24 a 27 de novembro, no Parque de Ciência e Tecnologia (PCT) Guamá, em Belém. O evento propõe um espaço de troca e articulação entre diferentes formas de conhecimento, valorizando os saberes tradicionais e reconhecendo o protagonismo das comunidades amazônicas na construção de soluções para os desafio",
-   "city": "Belém",
-   "state": "PA",
-   "venue": "Parque de Ciência e Tecnologia Guamá",
-   "format": "presencial",
-   "type": "forum",
-   "organizer": "Fundação Guamá",
-   "image": "https://images.sympla.com.br/6afafa31e7a5d.png",
-   "price": "Gratuito",
-   "themes": [
-    "startups"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 11,
-   "date_confirmed": true,
-   "id": "6e5d8d905a72",
-   "region": "Norte",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
-   "sources": [
-    "sympla"
-   ],
-   "is_new": true,
-   "summary": "Como os conhecimentos ancestrais podem dialogar com a ciência, a inovação e as novas tecnologias para construir futuros mais sustentáveis na Amazônia?O Amazônia Tech chega à sua terceira edição com o tema \"Tecnologias Sociais, Inteligência…",
-   "geo_precision": "cidade",
-   "lat": -1.4506,
-   "lon": -48.4682
   },
   {
    "name": "Capacitação em Excel com IA",
@@ -1619,7 +1585,8 @@
    "image": "https://images.sympla.com.br/6b05c283b61e5.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia"
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -1687,6 +1654,7 @@
    "image": "https://images.sympla.com.br/6af222e19488c.png",
    "price": "Pago (valor no site)",
    "themes": [
+    "aceleradoras",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -2030,7 +1998,9 @@
    "image": "https://images.sympla.com.br/6afaf5ad6d4da.png",
    "price": "Gratuito",
    "themes": [
-    "ia"
+    "aceleradoras",
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -2337,7 +2307,8 @@
    "image": "https://images.sympla.com.br/6aff02dbca82d.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia"
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -2490,6 +2461,40 @@
    "geo_precision": "cidade",
    "lat": -1.4506,
    "lon": -48.4682
+  },
+  {
+   "name": "Lapidar 2027 - Workshop para Empreendedoras",
+   "url": "https://www.sympla.com.br/evento/lapidar-2027-workshop-para-empreendedoras/3640535",
+   "source": "sympla",
+   "start_date": "2026-11-26",
+   "end_date": "2026-11-27",
+   "description": "LAPIDAR 2027 — Workshop para Empresárias 26 de novembro de 2026 · 18h às 22h · Auditório FIBRA, Brasília Inscrição gratuita. Sobre o evento Lapidar é revelar o brilho que já existe. O Lapidar 2027 é um workshop para empresárias de Brasília que querem ser vistas, vender mais e gerir com estratégia. Em uma noite, você vai identificar as falhas de execução que travam o crescimento do seu negócio. Entre elas, a falta de processos comerciais eficientes e de conexões assertivas. Não é uma noite de motivação. É uma noite de direção. Para quem é Empresárias e empreendedoras que querem estruturar as ve",
+   "city": "Brasília",
+   "state": "DF",
+   "venue": "FIBRA - Federação das Indústrias do Distrito Federal.",
+   "format": "presencial",
+   "type": "workshop",
+   "organizer": "CM CONSULTORIA EMPRESARIAL",
+   "image": "https://images.sympla.com.br/6ae8dae02187b.jpg",
+   "price": "Gratuito",
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 11,
+   "date_confirmed": true,
+   "id": "fe02f2e33366",
+   "region": "Centro-Oeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "LAPIDAR 2027 — Workshop para Empresárias 26 de novembro de 2026 · 18h às 22h · Auditório FIBRA, Brasília Inscrição gratuita. Sobre o evento Lapidar é revelar o brilho que já existe.",
+   "geo_precision": "cidade",
+   "lat": -15.794,
+   "lon": -47.8828
   },
   {
    "name": "Microsoft AI Challenge - Desafio AI Operations - Online e Gratuito",
@@ -2814,7 +2819,10 @@
    "image": "https://images.sympla.com.br/6b0598810e0de.jpg",
    "price": "Gratuito",
    "themes": [
-    "demo_day"
+    "aceleradoras",
+    "demo_day",
+    "escolas_negocio",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -2969,6 +2977,40 @@
    "lon": -51.7293
   },
   {
+   "name": "3º Seminário Amazônia Tech: tecnologias sociais, inteligência ancestral e o bem viver na Amazônia",
+   "url": "https://www.sympla.com.br/evento/3o-seminario-amazonia-tech-tecnologias-sociais-inteligencia-ancestral-e-o-bem-viver-na-amazonia/3620009",
+   "source": "sympla",
+   "start_date": "2026-11-27",
+   "end_date": "2026-11-27",
+   "description": "Como os conhecimentos ancestrais podem dialogar com a ciência, a inovação e as novas tecnologias para construir futuros mais sustentáveis na Amazônia?O Amazônia Tech chega à sua terceira edição com o tema \"Tecnologias Sociais, Inteligência Ancestral e o Bem Viver na Amazônia\". O evento ocorre, de 24 a 27 de novembro, no Parque de Ciência e Tecnologia (PCT) Guamá, em Belém. O evento propõe um espaço de troca e articulação entre diferentes formas de conhecimento, valorizando os saberes tradicionais e reconhecendo o protagonismo das comunidades amazônicas na construção de soluções para os desafio",
+   "city": "Belém",
+   "state": "PA",
+   "venue": "Parque de Ciência e Tecnologia Guamá",
+   "format": "presencial",
+   "type": "forum",
+   "organizer": "Fundação Guamá",
+   "image": "https://images.sympla.com.br/6afafa31e7a5d.png",
+   "price": "Gratuito",
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 11,
+   "date_confirmed": true,
+   "id": "6e5d8d905a72",
+   "region": "Norte",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "Como os conhecimentos ancestrais podem dialogar com a ciência, a inovação e as novas tecnologias para construir futuros mais sustentáveis na Amazônia?O Amazônia Tech chega à sua terceira edição com o tema \"Tecnologias Sociais, Inteligência…",
+   "geo_precision": "cidade",
+   "lat": -1.4506,
+   "lon": -48.4682
+  },
+  {
    "name": "3º Workshop de Empreendedorismo",
    "url": "https://www.sympla.com.br/evento/3o-workshop-de-empreendedorismo/3647988",
    "source": "sympla",
@@ -3106,38 +3148,72 @@
    "lon": -48.459
   },
   {
-   "name": "Ideathon - TerritórIA",
-   "url": "https://www.sympla.com.br/evento/ideathon-territoria/3645594",
+   "name": "Eventos em Pernambuco (PE)",
+   "url": "https://tiqueteira.com/eventos/pe",
+   "source": "busca_web",
+   "start_date": "2026-11-27",
+   "end_date": "2026-11-27",
+   "description": "Agenda de eventos e ingressos em Pernambuco. Compre online com pagamento via Pix na Tiqueteira.",
+   "city": null,
+   "state": "PE",
+   "venue": null,
+   "format": "presencial",
+   "type": "evento",
+   "organizer": null,
+   "image": null,
+   "price": null,
+   "themes": [
+    "fintech"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 11,
+   "date_confirmed": false,
+   "id": "b1895f706bc4",
+   "region": "Nordeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "busca_web"
+   ],
+   "is_new": true,
+   "summary": "Agenda de eventos e ingressos em Pernambuco. Compre online com pagamento via Pix na Tiqueteira.",
+   "geo_precision": "estado",
+   "lat": -8.054,
+   "lon": -34.881
+  },
+  {
+   "name": "INDAIATUBA - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR",
+   "url": "https://www.sympla.com.br/evento/indaiatuba-palestra-aceleracao-de-vendas-como-vender-mais-mais-facil-e-melhor/3661986",
    "source": "sympla",
    "start_date": "2026-11-27",
-   "end_date": "2026-12-04",
-   "description": "O Porto Digital, em parceria com a Secretaria de Estado de Ciência, Tecnologia e Inovação de Goiás (SECTI/GO) e com o apoio estratégico do Hub Goiás, torna público o edital do Ideathon TerritórIA, uma maratona de cocriação para desenvolver soluções urbanas e tecnológicas para a Fase 1 de implantação do Distrito de Inovação e Inteligência Artificial de Goiás, no Setor Leste Universitário, em Goiânia.O que é o Ideathon? Uma jornada de cocriação em que equipes multidisciplinares unem arquitetura, urbanismo, tecnologia, dados e design para propor intervenções de baixo custo que tornem o Distrito m",
-   "city": "Goiânia",
-   "state": "GO",
-   "venue": "HUB Goiás - Centro de Excelência em Empreendedorismo Inovador",
+   "end_date": "2026-11-27",
+   "description": "Compre ingressos para INDAIATUBA - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR em Indaiatuba dia 27/11. Confira os melhores eventos da Sympla!",
+   "city": "Indaiatuba",
+   "state": "SP",
+   "venue": "In Toto - Workspace & Coworking",
    "format": "presencial",
-   "type": "hackathon",
-   "organizer": "HUB GOIÁS",
-   "image": "https://images.sympla.com.br/6af377e5d2a77.png",
+   "type": "imersao",
+   "organizer": "Equipe Conselheiro Comercial",
+   "image": "https://images.sympla.com.br/6afbc7b2c2f7f.jpg",
    "price": "Gratuito",
    "themes": [
-    "startups"
+    "aceleradoras"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
    "date_confirmed": true,
-   "id": "a465e1be62e6",
-   "region": "Centro-Oeste",
-   "first_seen": "2026-11-25",
+   "id": "154f4e7d5366",
+   "region": "Sudeste",
+   "first_seen": "2026-11-26",
    "last_seen": "2026-11-26",
    "sources": [
     "sympla"
    ],
    "is_new": true,
-   "summary": "O Porto Digital, em parceria com a Secretaria de Estado de Ciência, Tecnologia e Inovação de Goiás (SECTI/GO) e com o apoio estratégico do Hub Goiás, torna público o edital do Ideathon TerritórIA, uma maratona de cocriação para desenvolver…",
+   "summary": "Compre ingressos para INDAIATUBA - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR em Indaiatuba dia 27/11. Confira os melhores eventos da Sympla!",
    "geo_precision": "cidade",
-   "lat": -16.6809,
-   "lon": -49.2533
+   "lat": -23.0908,
+   "lon": -47.2181
   },
   {
    "name": "Startup Experience Health - Itabira",
@@ -3410,6 +3486,40 @@
    "geo_precision": "cidade",
    "lat": -8.0585,
    "lon": -34.8848
+  },
+  {
+   "name": "Ideathon - TerritórIA",
+   "url": "https://www.sympla.com.br/evento/ideathon-territoria/3645594",
+   "source": "sympla",
+   "start_date": "2026-11-28",
+   "end_date": "2026-12-04",
+   "description": "O Porto Digital, em parceria com a Secretaria de Estado de Ciência, Tecnologia e Inovação de Goiás (SECTI/GO) e com o apoio estratégico do Hub Goiás, torna público o edital do Ideathon TerritórIA, uma maratona de cocriação para desenvolver soluções urbanas e tecnológicas para a Fase 1 de implantação do Distrito de Inovação e Inteligência Artificial de Goiás, no Setor Leste Universitário, em Goiânia.O que é o Ideathon? Uma jornada de cocriação em que equipes multidisciplinares unem arquitetura, urbanismo, tecnologia, dados e design para propor intervenções de baixo custo que tornem o Distrito m",
+   "city": "Goiânia",
+   "state": "GO",
+   "venue": "HUB Goiás - Centro de Excelência em Empreendedorismo Inovador",
+   "format": "presencial",
+   "type": "hackathon",
+   "organizer": "HUB GOIÁS",
+   "image": "https://images.sympla.com.br/6af377e5d2a77.png",
+   "price": "Gratuito",
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 11,
+   "date_confirmed": true,
+   "id": "a465e1be62e6",
+   "region": "Centro-Oeste",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "O Porto Digital, em parceria com a Secretaria de Estado de Ciência, Tecnologia e Inovação de Goiás (SECTI/GO) e com o apoio estratégico do Hub Goiás, torna público o edital do Ideathon TerritórIA, uma maratona de cocriação para desenvolver…",
+   "geo_precision": "cidade",
+   "lat": -16.6809,
+   "lon": -49.2533
   },
   {
    "name": "Imersão Fluência em IA",
@@ -4160,6 +4270,40 @@
    "lon": -49.2713
   },
   {
+   "name": "Palestra de abertura ExpoUNA 2026: Profissões do futuro e o Impacto da Inteligência Artificial",
+   "url": "https://www.sympla.com.br/evento/palestra-de-abertura-expouna-2026-profissoes-do-futuro-e-o-impacto-da-inteligencia-artificial/3666673",
+   "source": "sympla",
+   "start_date": "2026-11-30",
+   "end_date": "2026-12-01",
+   "description": "No dia 30/11, às 20h, esperamos vocês na Sala 803 da Faculdade UNA Divinópolis para a palestra de abertura da ExpoUna: \"Profissões no Futuro: Impacto da Inteligência Artificial\". Será uma imersão imperdível sobre o futuro das carreiras e o impacto da IA na sua jornada profissional, ministrada por Guilherme Gazzinelli (CTO da Checkbits, Engenheiro Mecatrônico pelo CEFET e pós-graduado em Gestão de Projetos e IA). Não percam!",
+   "city": "Divinópolis",
+   "state": "MG",
+   "venue": "Una Divinópolis",
+   "format": "presencial",
+   "type": "palestra",
+   "organizer": "Faculdade UNA Divinópolis",
+   "image": "https://images.sympla.com.br/6b071f2a56500.png",
+   "price": "Gratuito",
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 11,
+   "date_confirmed": true,
+   "id": "e28765bd90f7",
+   "region": "Sudeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "No dia 30/11, às 20h, esperamos vocês na Sala 803 da Faculdade UNA Divinópolis para a palestra de abertura da ExpoUna: \"Profissões no Futuro: Impacto da Inteligência Artificial\".",
+   "geo_precision": "cidade",
+   "lat": -20.1598,
+   "lon": -44.8739
+  },
+  {
    "name": "Seminário: Inteligência Artificial Generativa Aplicada ao Controle e à Administração Pública",
    "url": "https://www.sympla.com.br/evento/seminario-inteligencia-artificial-generativa-aplicada-ao-controle-e-a-administracao-publica/3505730",
    "source": "sympla",
@@ -4873,6 +5017,40 @@
    "geo_precision": "cidade",
    "lat": -8.0585,
    "lon": -34.8848
+  },
+  {
+   "name": "Copia, só não faz igual: IA e o plágio na Universidade",
+   "url": "https://www.sympla.com.br/evento/copia-so-nao-faz-igual-ia-e-o-plagio-na-universidade/3660293",
+   "source": "sympla",
+   "start_date": "2026-12-02",
+   "end_date": "2026-12-02",
+   "description": "Você usa Inteligência Artificial nos seus trabalhos acadêmicos? Sabe onde termina a ajuda e onde começa o plágio?Com a popularização do ChatGPT e outras IAs generativas, as regras do jogo na universidade mudaram e a linha entre otimizar o tempo e comprometer a integridade acadêmica ficou cada vez mais tênue. Para debater esse cenário na prática, os estudantes da disciplina de Ética, Direito e Legislação da UFC de Quixadá convidam você para o workshop \"Copia, só não faz igual: IA e o plágio na Universidade\".Em um encontro dinâmico de 90 minutos, vamos fugir dos manuais teóricos chatos e colocar",
+   "city": "Quixadá",
+   "state": "CE",
+   "venue": "UFC - Universidade Federal do Ceará - Campus Quixadá",
+   "format": "presencial",
+   "type": "evento",
+   "organizer": "Alunos do Curso de Sistemas de Informação",
+   "image": "https://images.sympla.com.br/6b086b5aa507d.jpg",
+   "price": "Gratuito",
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "59bd92700d2d",
+   "region": "Nordeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "Você usa Inteligência Artificial nos seus trabalhos acadêmicos? Sabe onde termina a ajuda e onde começa o plágio?Com a popularização do ChatGPT e outras IAs generativas, as regras do jogo na universidade mudaram e a linha entre otimizar o…",
+   "geo_precision": "cidade",
+   "lat": -4.9161,
+   "lon": -39.0294
   },
   {
    "name": "Curso de site com IA - Ed.03",
@@ -6189,7 +6367,8 @@
    "image": "https://images.sympla.com.br/6b082d5a87161.png",
    "price": "Gratuito",
    "themes": [
-    "demo_day"
+    "demo_day",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -7438,6 +7617,40 @@
    "lon": -46.6334
   },
   {
+   "name": "PMI Amazônia Summit 2026",
+   "url": "https://www.sympla.com.br/evento/pmi-amazonia-summit-2026/3667745",
+   "source": "sympla",
+   "start_date": "2026-12-09",
+   "end_date": "2026-12-09",
+   "description": "O PMI Amazônia retoma sua agenda de eventos para a comunidade amazônica. No dia 9 de dezembro de 2026, o PMI Amazônia Summit reúne, no Intercity Hotel, em Manaus, quem planeja, lidera e entrega projetos na região. Mais do que voltar ao calendário, a retomada é uma oportunidade para profissionais da indústria, do setor público, da academia e do terceiro setor trocarem experiências e discutirem soluções que façam sentido para a Amazônia.Gerenciar projetos na região significa lidar com grandes distâncias, desafios logísticos e realidades locais diversas. O Summit aproxima as práticas globais do P",
+   "city": "Manaus",
+   "state": "AM",
+   "venue": "Hotel Intercity Manaus",
+   "format": "presencial",
+   "type": "summit",
+   "organizer": "PMI Amazônia Chapter",
+   "image": "https://images.sympla.com.br/6b08949e35d1b.png",
+   "price": "Pago (valor no site)",
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "d3a8b90c4bdc",
+   "region": "Norte",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "O PMI Amazônia retoma sua agenda de eventos para a comunidade amazônica. No dia 9 de dezembro de 2026, o PMI Amazônia Summit reúne, no Intercity Hotel, em Manaus, quem planeja, lidera e entrega projetos na região.",
+   "geo_precision": "cidade",
+   "lat": -3.1316,
+   "lon": -59.9825
+  },
+  {
    "name": "Potência PCD - Empreendedorismo e Geração de Renda",
    "url": "https://www.sympla.com.br/evento/potencia-pcd-empreendedorismo-e-geracao-de-renda/3654366",
    "source": "sympla",
@@ -8258,6 +8471,40 @@
    "lon": -46.8845
   },
   {
+   "name": "Conferência do Empreendedorismo",
+   "url": "https://www.sympla.com.br/evento/conferencia-do-empreendedorismo/3667021",
+   "source": "sympla",
+   "start_date": "2026-12-12",
+   "end_date": "2026-12-12",
+   "description": "CONFERÊNCIA DO EMPREENDEDORISMOConecte-se, apresente seu negócio e amplie suas oportunidades!Um encontro voltado a empreendedores, empresários, profissionais liberais e pessoas que desejam desenvolver seus negócios, ampliar sua rede de relacionamentos, compartilhar experiências e construir novas oportunidades.A Conferência do Empreendedorismo será um espaço de conhecimento, visibilidade, networking e conexões estratégicas, reunindo pessoas de diferentes segmentos e áreas de atuação.━━━━━━━━━━━━━━━━━━━━PALESTRANTESCordélia CorreaEstratégias de VendasMonique LuzEmpreendedorismo SustentávelPrisci",
+   "city": "Belo Horizonte",
+   "state": "MG",
+   "venue": "Instituto Uma Mullher Por Outra",
+   "format": "presencial",
+   "type": "conferencia",
+   "organizer": "INSTITUTO - UMA MULHER POR OUTRA",
+   "image": "https://images.sympla.com.br/6b08a5bd13687.png",
+   "price": "Gratuito",
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "e47864d5a81f",
+   "region": "Sudeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "CONFERÊNCIA DO EMPREENDEDORISMOConecte-se, apresente seu negócio e amplie suas oportunidades!Um encontro voltado a empreendedores, empresários, profissionais liberais e pessoas que desejam desenvolver seus negócios, ampliar sua rede de…",
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
+  },
+  {
    "name": "DevFest Nova Lima 2026: Da ideia à aplicação com IA",
    "url": "https://www.sympla.com.br/evento/devfest-nova-lima-2026-da-ideia-a-aplicacao-com-ia/3647814",
    "source": "sympla",
@@ -8292,6 +8539,40 @@
    "lon": -43.8471
   },
   {
+   "name": "Feira de Arte Design e Empreendedorismo criativo",
+   "url": "https://www.sympla.com.br/evento/feira-de-arte-design-e-empreendedorismo-criativo/3664976",
+   "source": "sympla",
+   "start_date": "2026-12-12",
+   "end_date": "2026-12-12",
+   "description": "A Escola de Design, por meio do Centro Integrado de Design Social, promove a Feira de Arte, Design e Empreendedorismo Criativo. O evento tem como objetivo promover a criatividade, o empreendedorismo e a valorização da cultura local, oferecendo um espaço para a exposição e comercialização de produtos e serviços.",
+   "city": "Belo Horizonte",
+   "state": "MG",
+   "venue": "Escola de Design",
+   "format": "presencial",
+   "type": "feira",
+   "organizer": "Feira de Arte, Design e Empreendedorismo criativo",
+   "image": "https://images.sympla.com.br/6b059a3f915db.png",
+   "price": "Gratuito",
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "852706703409",
+   "region": "Sudeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "A Escola de Design, por meio do Centro Integrado de Design Social, promove a Feira de Arte, Design e Empreendedorismo Criativo.",
+   "geo_precision": "cidade",
+   "lat": -19.9227,
+   "lon": -43.9451
+  },
+  {
    "name": "Gamelab - Agentes de IA e Produtividade",
    "url": "https://www.sympla.com.br/evento/gamelab-agentes-de-ia-e-produtividade/3621668",
    "source": "sympla",
@@ -8304,7 +8585,7 @@
    "format": "presencial",
    "type": "workshop",
    "organizer": "Sebrae - UR 01",
-   "image": "https://images.sympla.com.br/6ad280008a7ab.png",
+   "image": "https://images.sympla.com.br/6b08c5f5a30e3.png",
    "price": "Gratuito",
    "themes": [
     "ia"
@@ -8632,6 +8913,40 @@
    "lon": -43.35
   },
   {
+   "name": "Novidades do Microsoft Ignite 2026: A Era dos Agentes de IA",
+   "url": "https://www.meetup.com/microsoft-reactor-sao-paulo/events/317569215/",
+   "source": "meetup",
+   "start_date": "2026-12-16",
+   "end_date": "2026-12-16",
+   "description": "A Inteligência Artificial deixou de apenas ajudar consultando informações, passando a executar tarefas. Vamos ver o que o Microsoft Ignite 2026 trouxe e o que isso significa para os clientes e profissionais negócios na adoção da IA.",
+   "city": "Sao Paulo",
+   "state": "SP",
+   "venue": "Online event",
+   "format": "online",
+   "type": "meetup",
+   "organizer": "Microsoft Reactor São Paulo",
+   "image": "/images/fallbacks/redesign/group-cover-2-square.webp",
+   "price": "Gratuito",
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 12,
+   "date_confirmed": true,
+   "id": "eb70462a2d1e",
+   "region": "Sudeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "meetup"
+   ],
+   "is_new": true,
+   "summary": "A Inteligência Artificial deixou de apenas ajudar consultando informações, passando a executar tarefas. Vamos ver o que o Microsoft Ignite 2026 trouxe e o que isso significa para os clientes e profissionais negócios na adoção da IA.",
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
+  },
+  {
    "name": "The Mid-Call Switch: Synthetic Voice Detection and Routing for Voice AI",
    "url": "https://www.meetup.com/sao-paulo-data-science-odsc/events/317565533/",
    "source": "meetup",
@@ -8672,8 +8987,8 @@
    "start_date": "2026-12-17",
    "end_date": "2026-12-17",
    "description": "[The agent brings the intelligence. Oracle Integration brings the enterprise.](https://go.oracle.com/LP=155574?elqCampaignId=687101) Agentic AI requires more than powerful models. It requires a trusted execution framework that helps securely connect systems, automate processes, and support governance of agent actions across the enterprise. In this session, learn how Oracle Integration enables enterprise-scale agentic AI by allowing AI agents to securely access authorized business applications, participate in workflows, automate tasks, collaborate with employees, and operate with enterprise vis",
-   "city": "Curitiba",
-   "state": "PR",
+   "city": "Sao Paulo",
+   "state": "SP",
    "venue": "Online event",
    "format": "online",
    "type": "meetup",
@@ -8687,7 +9002,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "ff90ab98bffa",
-   "region": "Sul",
+   "region": "Sudeste",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-26",
    "sources": [
@@ -8696,8 +9011,8 @@
    "is_new": true,
    "summary": "[The agent brings the intelligence. Oracle Integration brings the enterprise.](https://go.oracle.com/LP=155574?elqCampaignId=687101) Agentic AI requires more than powerful models.",
    "geo_precision": "cidade",
-   "lat": -25.4296,
-   "lon": -49.2713
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "PRÊMIO EMPREENDEDOR E INOVADOR DA EDUCAÇÃO FÍSICA",
@@ -9312,6 +9627,40 @@
    "lon": -34.882
   },
   {
+   "name": "GITEX AI LATAM",
+   "url": "https://www.eventbrite.com/e/gitex-ai-latam-tickets-1981552715514",
+   "source": "eventbrite",
+   "start_date": "2027-03-16",
+   "end_date": "2027-03-16",
+   "description": "GITEX AI LATAM 16-17 March 2027 | Anhembi Convention Center | Sao Paulo, Brazil",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "Anhembi Convention Center | Sao Paulo, Brazil",
+   "format": "presencial",
+   "type": "evento",
+   "organizer": null,
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1175810163%2F2989980000417%2F1%2Foriginal.20260126-040516?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C30%2C1200%2C600&s=0cbeed5651abd712208a992100059044",
+   "price": "Gratuito",
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 3,
+   "date_confirmed": true,
+   "id": "56105c2a7f0f",
+   "region": "Sudeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "eventbrite"
+   ],
+   "is_new": true,
+   "summary": "GITEX AI LATAM 16-17 March 2027 | Anhembi Convention Center | Sao Paulo, Brazil",
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
+  },
+  {
    "name": "Smart City Expo Curitiba 2027",
    "url": "https://smartcityexpocuritiba.com",
    "source": "curadoria",
@@ -9376,6 +9725,40 @@
    ],
    "is_new": true,
    "summary": "O Food & Innovation Dive é um programa de imersão prática em inovação no foodservice, criado pela Tanjerin para profissionais que precisam tomar decisões mais estratégicas em um mercado cada vez mais competitivo.Curadoria com referência…",
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
+  },
+  {
+   "name": "HackerX - São Paulo (AI) - Employer Ticket - 3/25",
+   "url": "https://www.eventbrite.com/e/hackerx-sao-paulo-ai-employer-ticket-325-tickets-2004785197493",
+   "source": "eventbrite",
+   "start_date": "2027-03-25",
+   "end_date": "2027-03-25",
+   "description": "Meet AI, full-stack and forward deployed engineers in São Paulo.",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "São Paulo",
+   "format": "presencial",
+   "type": "evento",
+   "organizer": null,
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197696306%2F84283668488%2F1%2Foriginal.20261110-170126?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=df9522fc086cce34ba2713ebfd3e9ac0",
+   "price": "R$ 595 a R$ 1.295",
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 3,
+   "date_confirmed": true,
+   "id": "17da065e9b43",
+   "region": "Sudeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "eventbrite"
+   ],
+   "is_new": true,
+   "summary": "Meet AI, full-stack and forward deployed engineers in São Paulo.",
    "geo_precision": "cidade",
    "lat": -23.5507,
    "lon": -46.6334
@@ -9670,7 +10053,7 @@
    "format": "presencial",
    "type": "summit",
    "organizer": null,
-   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192664329%2F626217048%2F1%2Foriginal.20260904-093218?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.661&fp-y=0.405&s=b72f10ed4eb8db31b46cbbeda26f79ca",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192664329%2F626217048%2F1%2Foriginal.20260904-093218?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.661&fp-y=0.405&s=e072bfda95dda798bd4e61c5e6f0b063",
    "price": "A partir de R$ 159,50",
    "themes": [
     "startups"
@@ -9681,7 +10064,7 @@
    "id": "be7a362b330c",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "eventbrite"
    ],
@@ -9738,7 +10121,7 @@
    "format": "presencial",
    "type": "summit",
    "organizer": null,
-   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192640796%2F626217048%2F1%2Foriginal.20260904-003228?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.475&fp-y=0.42&s=38da212619cdbdac8dea8442388711ea",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192640796%2F626217048%2F1%2Foriginal.20260904-003228?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.475&fp-y=0.42&s=228e1ee6c294e171ecade2641254a99c",
    "price": "A partir de R$ 159,50",
    "themes": [
     "startups"
@@ -9749,7 +10132,7 @@
    "id": "8f9a47750bd0",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "sources": [
     "eventbrite"
    ],
@@ -9999,6 +10382,74 @@
    ],
    "is_new": true,
    "summary": "Para mais informações, acesse sbb.org.br",
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
+  },
+  {
+   "name": "Brazil Tech Summit",
+   "url": "https://www.eventbrite.com/e/brazil-tech-summit-tickets-65499469677",
+   "source": "eventbrite",
+   "start_date": "2027-10-12",
+   "end_date": "2027-10-12",
+   "description": "Brazil Tech Summit is an international program featuring 100 global speakers and partners passionate about the future of Brazil. The centr",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "São Paulo",
+   "format": "presencial",
+   "type": "summit",
+   "organizer": null,
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F852207219%2F272798929277%2F1%2Foriginal.20240917-121411?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=506414551a0209922d2cf1b858fedd12",
+   "price": "Gratuito a R$ 99,99",
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 10,
+   "date_confirmed": true,
+   "id": "d8c623cccdbb",
+   "region": "Sudeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "eventbrite"
+   ],
+   "is_new": true,
+   "summary": "Brazil Tech Summit is an international program featuring 100 global speakers and partners passionate about the future of Brazil. The centr",
+   "geo_precision": "cidade",
+   "lat": -23.5507,
+   "lon": -46.6334
+  },
+  {
+   "name": "Women in Tech São Paulo - OutGeekWomen",
+   "url": "https://www.eventbrite.com/e/women-in-tech-sao-paulo-outgeekwomen-tickets-1049887390447",
+   "source": "eventbrite",
+   "start_date": "2027-10-21",
+   "end_date": "2027-10-21",
+   "description": "You won't be the only woman in the room. Guys, you're welcome too, and relax: you won't be the only woman in the room either. #outgeek",
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "São Paulo - Host This Event in Your HQ!",
+   "format": "presencial",
+   "type": "evento",
+   "organizer": null,
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F877347559%2F529664982707%2F1%2Foriginal.20241017-190941?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.000492424242424&fp-y=0.00537313432836&s=a64e7f3c6050da217276bcf823ee257d",
+   "price": "Gratuito a R$ 25",
+   "themes": [
+    "startups"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 10,
+   "date_confirmed": true,
+   "id": "6e66f2272ac1",
+   "region": "Sudeste",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "sources": [
+    "eventbrite"
+   ],
+   "is_new": true,
+   "summary": "You won't be the only woman in the room. Guys, you're welcome too, and relax: you won't be the only woman in the room either. #outgeek",
    "geo_precision": "cidade",
    "lat": -23.5507,
    "lon": -46.6334

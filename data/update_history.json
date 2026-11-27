@@ -40,5 +40,23 @@
    "busca_web": 0
   },
   "run_url": "https://github.com/gabiublos-ai/event-system/actions/runs/45842482188"
+ },
+ {
+  "at": "2026-11-26T21:41-03:00",
+  "trigger": "automatica",
+  "mode": "coleta",
+  "total": 364,
+  "added": 13,
+  "removed": 0,
+  "sources": {
+   "curadoria": 79,
+   "sympla": 3371,
+   "eventbrite": 518,
+   "meetup": 2684,
+   "even3": 0,
+   "doity": 0,
+   "busca_web": 1
+  },
+  "run_url": "https://github.com/gabiublos-ai/event-system/actions/runs/45917612564"
  }
 ]
