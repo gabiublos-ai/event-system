@@ -117,6 +117,11 @@ window.Team = (() => {
     return st.admin ? [st.me.email] : [];
   }
 
+  // reenvia o e-mail com o link de acesso (o próprio Firebase envia)
+  async function resend(email) {
+    await A.sendSignInLinkToEmail(auth, lower(email), { url: siteUrl(), handleCodeInApp: true });
+  }
+
   async function revoke(email) { await F.deleteDoc(F.doc(db, "invites", lower(email))); }
 
   async function listInvites() {
@@ -126,5 +131,5 @@ window.Team = (() => {
 
   async function signOut() { await A.signOut(auth); }
 
-  return { enabled, init, completeLink, requestLink, setFav, invite, revoke, listInvites, listAdmins, signOut, siteUrl, state: () => ({ ...st }) };
+  return { enabled, init, completeLink, requestLink, setFav, invite, revoke, listInvites, listAdmins, resend, signOut, siteUrl, state: () => ({ ...st }) };
 })();

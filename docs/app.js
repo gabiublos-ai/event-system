@@ -190,7 +190,7 @@ async function openInvite() {
           <span class="avatar">${esc(initials(i.name))}</span>
           <span class="inv-who"><b>${esc(i.name)}</b><small>${esc(i.email)}</small></span>
           <span class="inv-status ${joined.has(i.email) ? "ok" : ""}">${joined.has(i.email) ? "Ativo" : "Convite enviado"}</span>
-          <a class="btn ghost sm" href="${mailtoInvite(i)}" title="Abrir uma mensagem no seu e-mail">Lembrar</a>
+          <button class="btn ghost sm" data-resend="${esc(i.email)}" type="button" title="Envia de novo o e-mail com o link de acesso">Reenviar convite</button>
           <button class="btn ghost sm" data-revoke="${esc(i.email)}" type="button">Remover</button></div>`).join("")
         : `<p class="hint">Ninguém convidado ainda.</p>`;
     } catch { $("#invList").innerHTML = `<p class="hint">Não foi possível carregar a lista.</p>`; }
@@ -202,20 +202,31 @@ async function openInvite() {
     $("#invMsg").textContent = "Enviando convite…";
     try {
       await Team.invite(name, email);
-      $("#invMsg").innerHTML = `Convite enviado para <b>${esc(email)}</b>. Quer mandar uma mensagem pessoal também? <a href="${mailtoInvite({ name, email })}">Abrir no meu e-mail</a>`;
+      $("#invMsg").innerHTML = `Convite enviado para <b>${esc(email)}</b>. Peça para a pessoa conferir também a caixa de spam.`;
       ev.target.reset(); load();
     } catch (e) { $("#invMsg").textContent = "Não foi possível enviar o convite: " + (e.message || e); }
   });
   $("#invList").addEventListener("click", async (ev) => {
+    const r = ev.target.closest("[data-resend]");
+    if (r) { resendInvite(r); return; }
     const b = ev.target.closest("[data-revoke]"); if (!b) return;
     if (b.dataset.confirm !== "1") { b.dataset.confirm = "1"; b.textContent = "Confirmar remoção"; return; }
     await Team.revoke(b.dataset.revoke).catch(() => {}); load();
   });
 }
-function mailtoInvite(i) {
-  const first = String(i.name || "").split(" ")[0];
-  const body = `Oi ${first}!\n\nTe convidei para o Radar de Eventos BR, com os eventos de IA, startups, fintech, health tech, cripto e mais em todo o Brasil.\n\nVocê vai receber um e-mail com o link de acesso. Se não chegar, entre em ${Team.siteUrl()} e digite este e-mail (${i.email}) para receber o link.\n\nLá você pode marcar seus eventos favoritos e ver os da equipe.`;
-  return `mailto:${encodeURIComponent(i.email)}?subject=${encodeURIComponent("Convite: Radar de Eventos BR")}&body=${encodeURIComponent(body)}`;
+async function resendInvite(btn) {
+  if (btn.disabled) return;
+  const email = btn.dataset.resend, label = btn.textContent;
+  btn.disabled = true; btn.textContent = "Enviando…";
+  try {
+    await Team.resend(email);
+    btn.textContent = "Reenviado ✓";
+    alertToast(`Convite reenviado para ${email}. Peça para conferir também o spam.`);
+  } catch (e) {
+    btn.textContent = label; btn.disabled = false;
+    const quota = /quota|too-many|TOO_MANY/i.test(String(e.code || e.message));
+    alertToast(quota ? "Limite de envios do Firebase atingido por hoje. Tente novamente mais tarde." : "Não foi possível reenviar o convite. Tente de novo.");
+  }
 }
 
 function openUserMenu() {
@@ -813,7 +824,7 @@ async function renderAdmin(v) {
             <td title="${p.lastSeen ? esc(fmtDT(p.lastSeen)) : ""}">${ago(p.lastSeen)}</td>
             <td class="num">${p.visits || 0}</td>
             <td class="num">${p.favs ? `<button class="link-btn" data-admin-favs="${esc(p.uid)}" type="button">${p.favs.length}</button>` : 0}</td>
-            <td class="row-actions">${p.invited && !self ? `<a class="btn ghost sm" href="${mailtoInvite(p)}">Lembrar</a><button class="btn ghost sm" data-admin-revoke="${esc(p.email)}" type="button">Remover</button>` : ""}</td>
+            <td class="row-actions">${p.invited && !self ? `<button class="btn ghost sm" data-resend="${esc(p.email)}" type="button" title="Envia de novo o e-mail com o link de acesso">Reenviar convite</button><button class="btn ghost sm" data-admin-revoke="${esc(p.email)}" type="button">Remover</button>` : ""}</td>
           </tr>`;
         }).join("") || `<tr><td colspan="7" class="hint">Ninguém convidado ainda.</td></tr>`}</tbody>
       </table></div>
@@ -864,6 +875,8 @@ function onAdminClick(ev) {
   if (t.closest("[data-admin-invite]")) { openInvite(); ADMIN.changelog = null; return true; }
   const favs = t.closest("[data-admin-favs]");
   if (favs) { state.favOf = favs.dataset.adminFavs === state.team.me.uid ? "me" : favs.dataset.adminFavs; $("#fFavOf").value = state.favOf; setView("cards"); return true; }
+  const rs = t.closest("[data-resend]");
+  if (rs) { resendInvite(rs); return true; }
   const rv = t.closest("[data-admin-revoke]");
   if (rv) {
     if (rv.dataset.confirm !== "1") { rv.dataset.confirm = "1"; rv.textContent = "Confirmar remoção"; return true; }
