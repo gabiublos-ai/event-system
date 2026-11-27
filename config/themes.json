@@ -96,7 +96,6 @@
       ],
       "keywords": [
         "aceleradora",
-        "aceleracao",
         "acelerar startups",
         "incubadora",
         "incubacao",
@@ -111,7 +110,10 @@
         "liga ventures",
         "baita",
         "endeavor",
-        "distrito startups"
+        "distrito startups",
+        "aceleracao de startups",
+        "programa de aceleracao",
+        "aceleracao de negocios inovadores"
       ]
     },
     "escolas_negocio": {
@@ -187,7 +189,6 @@
         "open banking",
         "payments",
         "banco digital",
-        "pix",
         "drex",
         "credito digital",
         "insurtech",
@@ -290,8 +291,6 @@
       "keywords": [
         "foodtech",
         "food tech",
-        "food service",
-        "foodservice",
         "inovacao em alimentos",
         "industria de alimentos",
         "alimentos e bebidas",
@@ -303,7 +302,10 @@
         "plant based",
         "fispal",
         "future food",
-        "gastronomia e tecnologia"
+        "gastronomia e tecnologia",
+        "inovacao em food service",
+        "food service tech",
+        "tecnologia para food service"
       ]
     }
   },

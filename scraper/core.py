@@ -89,7 +89,8 @@ def _match(kw: str, normalized_text: str, original: str = "") -> bool:
     if not core:
         return False
     # espaço explícito no início/fim da palavra-chave = exige palavra inteira
-    k = (" " if kw.startswith(" ") else "") + core + (" " if kw.endswith(" ") else "")
+    whole = len(core) <= 4  # palavras curtas (pix, nft, fgv...) só casam como palavra inteira
+    k = (" " if kw.startswith(" ") or whole else "") + core + (" " if kw.endswith(" ") or whole else "")
     return k in normalized_text
 
 
@@ -119,8 +120,8 @@ def relevant_themes(name: str, description: str = "", themes: dict | None = None
     """
     in_name = keyword_hits(name, themes)
     in_desc = keyword_hits(description, themes)
-    if in_name:
-        return sorted(set(in_name) | set(in_desc))
+    if in_name:  # a descrição só acrescenta temas citados com pelo menos 2 palavras-chave diferentes
+        return sorted(set(in_name) | {t for t, kws in in_desc.items() if len(kws) >= 2})
     distinct = set().union(*in_desc.values()) if in_desc else set()
     return sorted(in_desc) if len(distinct) >= 2 else []
 
@@ -232,6 +233,8 @@ class Event:
             self.type = classify_type(self.name, self.description, self.source)
         if self.format == "presencial" and any(w in norm(f"{self.name} {self.venue or ''}") for w in ONLINE_WORDS):
             self.format = "online"
+        if self.format == "online":  # evento online não pertence a um estado (não aparece no filtro de UF nem no mapa)
+            self.city = self.state = self.region = self.venue = None
         if not self.typical_month and self.start_date:
             self.typical_month = int(self.start_date[5:7])
         if self.source not in self.sources:

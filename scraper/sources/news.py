@@ -282,3 +282,16 @@ def collect(themes_cfg: dict, cfg: dict) -> list[Event]:
     CACHE_FILE.write_text(json.dumps(cache, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
     log.info("imprensa: %d matérias abertas, %d eventos extraídos", len(todo), len(events))
     return events
+
+
+def cached_events() -> list[Event]:
+    """Eventos já extraídos das matérias (usado quando o robô roda sem acessar a internet)."""
+    try:
+        cache = json.loads(CACHE_FILE.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+    out = []
+    for c in cache.values():
+        if isinstance(c, dict):
+            out += [Event(**{k: v for k, v in d.items() if k in Event.__dataclass_fields__}) for d in c.get("events", [])]
+    return out

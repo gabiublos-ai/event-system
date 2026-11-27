@@ -279,6 +279,18 @@ function buildControlsLight() {
   $(".daterange").classList.toggle("disabled", off);
 }
 
+/* Filtros que não aparecem na barra (ex.: cidade escolhida no mapa) ficam visíveis aqui */
+function renderActiveFilters() {
+  const box = $("#activeFilters");
+  const chips = [];
+  if (state.city) {
+    const g = state.all.find((e) => `${strip(e.city || "")}|${e.state}` === state.city);
+    chips.push(`<button type="button" class="af-chip" data-clear="city">Cidade: ${esc(g ? `${g.city} – ${g.state}` : state.city.split("|")[0])} <span aria-hidden="true">✕</span></button>`);
+  }
+  box.hidden = !chips.length || state.view === "admin";
+  box.innerHTML = chips.length ? `<span class="af-label">Filtro ativo:</span>${chips.join("")}` : "";
+}
+
 /* Categoria: menu com contagem (respeita os outros filtros) */
 function renderTypeSelect() {
   const tc = {};
@@ -332,6 +344,9 @@ function bind() {
     render();
   });
   $("#fFavOf").addEventListener("change", (e) => { state.favOf = e.target.value; render(); });
+  $("#activeFilters").addEventListener("click", (e) => {
+    if (e.target.closest('[data-clear="city"]')) { state.city = ""; state.mapView = null; render(); }
+  });
   $("#inviteBtn").addEventListener("click", openInvite);
   $("#adminBtn").addEventListener("click", () => {
     setView(state.view === "admin" ? "cards" : "admin");
@@ -473,6 +488,7 @@ function render(updateHash = true) {
   const list = filtered();
   renderThemeCards();
   renderTypeSelect();
+  renderActiveFilters();
   renderStats();
   $("#count").textContent = `${list.length} evento${list.length === 1 ? "" : "s"}${state.city ? ` na cidade selecionada no mapa` : ""}`;
   const v = $("#view");

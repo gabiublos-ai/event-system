@@ -133,6 +133,8 @@ def build(raw: list[Event], themes: dict, keep_past_days: int) -> list[dict]:
                 if old["end_date"] < cutoff:
                     continue
         old["name"] = html.unescape(old["name"])
+        if old.get("format") == "online":
+            old["city"] = old["state"] = old["region"] = old["venue"] = None
         if old.get("type") not in load_types():
             old["type"] = classify_type(old["name"], old.get("description") or "", old.get("source", ""))
         if old.get("end_date") and old["end_date"] < cutoff:
@@ -161,6 +163,10 @@ def main():
         collected, s = collect(themes, sources)
         raw += collected
         stats.update(s)
+    else:  # sem internet: reaproveita os eventos já extraídos dos portais de notícias
+        cached = news.cached_events()
+        raw += cached
+        stats["imprensa"] = len(cached)
     events = build(raw, themes, sources.get("keep_past_days", 30))
     # valor e descrição: abre páginas novas (offline = só reaproveita o cache)
     ecfg = sources.get("enrich", {})

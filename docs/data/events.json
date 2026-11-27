@@ -1,16 +1,10 @@
 {
  "meta": {
-  "updated_at": "2026-11-27T19:26-03:00",
-  "total": 374,
+  "updated_at": "2026-11-27T19:34-03:00",
+  "total": 364,
   "sources_raw": {
    "curadoria": 79,
-   "sympla": 3337,
-   "eventbrite": 0,
-   "meetup": 2644,
-   "even3": 0,
-   "doity": 0,
-   "imprensa": 5,
-   "busca_web": 0
+   "imprensa": 5
   },
   "themes": {
    "ia": {
@@ -350,9 +344,9 @@
    "start_date": "2026-11-18",
    "end_date": "2026-11-25",
    "description": "Este curso é para quemCompreende que a Inteligência Artificial está moldando o amanhãQuer entender os fundamentos da IAQuer Impulsionar resultados reais com tecnologias emergentesO que você vai aprenderConceitos e tipos de IA com aplicação práticas em salaComo a IA transforma os negóciosÉtica, segurança e governança (com exercício em sala)Como identificar oportunidades de uso de IA (com exercício em sala)Como preparar a equipe (soft skill) para esta nova realidadeAo final do curso, você estará apto aProvocar e orientar o time a extrair o máximo da IAIdentificar oportunidades reais para aplicaç",
-   "city": "São Paulo",
-   "state": "SP",
-   "venue": "Av. da Liberdade, 1000",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "evento",
    "organizer": "AI Rocks",
@@ -365,7 +359,7 @@
    "typical_month": 11,
    "date_confirmed": true,
    "id": "0b35ef787ed0",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
    "sources": [
@@ -374,8 +368,8 @@
    "is_new": true,
    "summary": "Este curso é para quemCompreende que a Inteligência Artificial está moldando o amanhãQuer entender os fundamentos da IAQuer Impulsionar resultados reais com tecnologias emergentesO que você vai aprenderConceitos e tipos de IA com aplicação…",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Encontro de Presidentes e Dirigentes PAN & PAEX - FDC",
@@ -563,7 +557,6 @@
    "image": "https://images.sympla.com.br/6afc410c60c10.jpg",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -787,40 +780,6 @@
    "lon": -46.6334
   },
   {
-   "name": "22º SCGP 2027 - PRÉ VENDA - Seminário Capixaba de Gestão de Projetos",
-   "url": "https://www.sympla.com.br/evento/22o-scgp-2027-pre-venda-seminario-capixaba-de-gestao-de-projetos/3647159",
-   "source": "sympla",
-   "start_date": "2026-11-25",
-   "end_date": "2026-11-25",
-   "description": "22º SCGP – Seminário Capixaba de Gestão de Projetos | PRÉ-VENDAO maior encontro de Gestão de Projetos do Espírito Santo está chegando à sua próxima edição!O PMI Espírito Santo (PMI-ES) abre a pré-venda de ingressos para o 22º Seminário Capixaba de Gestão de Projetos (SCGP), uma oportunidade para garantir antecipadamente sua participação em mais uma edição de um dos principais eventos de gerenciamento de projetos do nosso estado.Prepare-se para um encontro de muito conhecimento, conexões, troca de experiências, inovação e desenvolvimento profissional, reunindo profissionais, estudantes, líderes",
-   "city": "Vitória",
-   "state": "ES",
-   "venue": "PMI ES",
-   "format": "presencial",
-   "type": "forum",
-   "organizer": "PMI- ES",
-   "image": "https://images.sympla.com.br/6aef0639ea2ef.jpg",
-   "price": "Pago (valor no site)",
-   "themes": [
-    "fintech"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 11,
-   "date_confirmed": true,
-   "id": "bc9aa22b4f62",
-   "region": "Sudeste",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
-   "sources": [
-    "sympla"
-   ],
-   "is_new": true,
-   "summary": "22º SCGP – Seminário Capixaba de Gestão de Projetos | PRÉ-VENDAO maior encontro de Gestão de Projetos do Espírito Santo está chegando à sua próxima edição!O PMI Espírito Santo (PMI-ES) abre a pré-venda de ingressos para o 22º Seminário…",
-   "geo_precision": "cidade",
-   "lat": -20.2796,
-   "lon": -40.315
-  },
-  {
    "name": "31º BitDevs BH",
    "url": "https://www.meetup.com/belo-horizonte-bitdevs/events/317255330/",
    "source": "meetup",
@@ -853,40 +812,6 @@
    "geo_precision": "cidade",
    "lat": -19.9227,
    "lon": -43.9451
-  },
-  {
-   "name": "4° Fórum Food Service",
-   "url": "https://www.sympla.com.br/evento/4deg-forum-food-service/3584693",
-   "source": "sympla",
-   "start_date": "2026-11-25",
-   "end_date": "2026-11-25",
-   "description": "4º Fórum Food Service: O Futuro da Gastronomia e da GestãoO mercado de alimentação fora do lar está se transformando em ritmo acelerado. Para liderar essa mudança, inovação, eficiência e inteligência de mercado não são mais diferenciais — são requisitos de sobrevivência.Chega à sua 4ª edição o Fórum Food Service, o ponto de encontro definitivo para empresários, gestores, chefs e profissionais do setor que buscam respostas práticas para os desafios atuais e estratégias para impulsionar seus negócios.Uma imersão prática com grandes especialistas do setor dividida em quatro pilares fundamentais:I",
-   "city": "São Paulo",
-   "state": "SP",
-   "venue": "Dinastia Aceleradora ",
-   "format": "presencial",
-   "type": "forum",
-   "organizer": "Geluk Academy",
-   "image": "https://images.sympla.com.br/6ae9f0007875c.jpg",
-   "price": "Pago (valor no site)",
-   "themes": [
-    "foodtech"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 11,
-   "date_confirmed": true,
-   "id": "d638c5d79c77",
-   "region": "Sudeste",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
-   "sources": [
-    "sympla"
-   ],
-   "is_new": true,
-   "summary": "4º Fórum Food Service: O Futuro da Gastronomia e da GestãoO mercado de alimentação fora do lar está se transformando em ritmo acelerado.",
-   "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
   },
   {
    "name": "Acelera Startup",
@@ -1271,9 +1196,9 @@
    "start_date": "2026-11-25",
    "end_date": "2026-11-25",
    "description": "💰 Microsoft AI Challenge · Desafio 01: AI Finance 📅 Quarta, 25/11 · online e gratuito Seja desafiado. Construa com IA. Conquiste seu badge. Um desafio prático, ao vivo e em equipe, com IA aplicada a finanças: leitura de documentos, conciliação, detecção de fraudes e insights para decisão. 🏆 Todas as equipes vencedoras ganham vouchers de certificação Microsoft, e todos os participantes recebem certificado e badge. A inscrição é feita no site: 👉 [aiintensive.com.br](http://aiintensive.com.br) Como participar: 1\\. Monte sua equipe 2\\. Cada integrante se inscreve no site\\, com o mesmo nome de equi",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "webinar",
    "organizer": "Azure Brasil - Comunidade Técnica",
@@ -1286,7 +1211,7 @@
    "typical_month": 11,
    "date_confirmed": true,
    "id": "73124e866662",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
    "sources": [
@@ -1295,8 +1220,8 @@
    "is_new": true,
    "summary": "💰 Microsoft AI Challenge · Desafio 01: AI Finance 📅 Quarta, 25/11 · online e gratuito Seja desafiado. Construa com IA. Conquiste seu badge.",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "PALESTRA INTELIGÊNCIA ARTIFICIAL PARA EDUCAÇÃO EM MONTALVÂNIA",
@@ -1656,7 +1581,6 @@
    "image": "https://images.sympla.com.br/6af222e19488c.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "aceleradoras",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -1682,9 +1606,9 @@
    "start_date": "2026-11-26",
    "end_date": "2026-11-26",
    "description": "Are you working in artificial intelligence, data science, or machine learning? Whether you're a developer, researcher, startup founder, or aspiring tech enthusiast — **AIDataTech Connect** is your go-to **AI networking event online** designed to foster career growth, real-time collaboration, and innovation exchange in a dynamic, community-driven environment. This event brings together a global **virtual AI community meetup** hosted on a flexible Slack-style platform that supports group discussions and **1-1 video or text chats**, making it perfect for professionals looking to connect, collabor",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "networking",
    "organizer": "Analytics.Club Sao Paulo",
@@ -1698,7 +1622,7 @@
    "typical_month": 11,
    "date_confirmed": true,
    "id": "dfb25d3b088b",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
    "sources": [
@@ -1707,42 +1631,8 @@
    "is_new": true,
    "summary": "Are you working in artificial intelligence, data science, or machine learning? Whether you're a developer, researcher, startup founder, or aspiring tech enthusiast — **AIDataTech Connect** is your go-to **AI networking event online**…",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
-  },
-  {
-   "name": "ARARAQUARA - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR",
-   "url": "https://www.sympla.com.br/evento/araraquara-palestra-aceleracao-de-vendas-como-vender-mais-mais-facil-e-melhor/3661978",
-   "source": "sympla",
-   "start_date": "2026-11-26",
-   "end_date": "2026-11-26",
-   "description": "Compre ingressos para ARARAQUARA - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR em Araraquara dia 26/11. Confira os melhores eventos da Sympla!",
-   "city": "Araraquara",
-   "state": "SP",
-   "venue": "Transamerica | Hotel em Araraquara - SP",
-   "format": "presencial",
-   "type": "imersao",
-   "organizer": "Equipe Conselheiro Comercial",
-   "image": "https://images.sympla.com.br/6afbc7b2c2f7f.jpg",
-   "price": "Gratuito",
-   "themes": [
-    "aceleradoras"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 11,
-   "date_confirmed": true,
-   "id": "fd2ba6c3c9d5",
-   "region": "Sudeste",
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "sources": [
-    "sympla"
-   ],
-   "is_new": true,
-   "summary": "Compre ingressos para ARARAQUARA - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR em Araraquara dia 26/11. Confira os melhores eventos da Sympla!",
-   "geo_precision": "cidade",
-   "lat": -21.7887,
-   "lon": -48.1773
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Ativação CASE Santa Inês | Conferência Anual de Startups e Empreendedorismo",
@@ -1932,7 +1822,6 @@
    "image": "https://images.sympla.com.br/6a29899e23e8c.png",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -2001,7 +1890,6 @@
    "image": "https://images.sympla.com.br/6afaf5ad6d4da.png",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "ia",
     "startups"
    ],
@@ -2310,8 +2198,7 @@
    "image": "https://images.sympla.com.br/6aff02dbca82d.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -2506,9 +2393,9 @@
    "start_date": "2026-11-26",
    "end_date": "2026-11-26",
    "description": "⚙️ Microsoft AI Challenge · Desafio 02: AI Operations 📅 Quinta, 26/11 · online e gratuito Seja desafiado. Construa com IA. Conquiste seu badge. Um desafio prático, ao vivo e em equipe, com IA aplicada à operação: automação de processos com agentes, atendimento inteligente e cadeia de suprimentos. 🏆 Todas as equipes vencedoras ganham vouchers de certificação Microsoft, e todos os participantes recebem certificado e badge. A inscrição é feita no site: 👉 aiintensive.com.br Como participar: 1\\. Monte sua equipe 2\\. Cada integrante se inscreve no site\\, com o mesmo nome de equipe 3\\. Aguarde a sele",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "webinar",
    "organizer": "Azure Brasil - Comunidade Técnica",
@@ -2521,7 +2408,7 @@
    "typical_month": 11,
    "date_confirmed": true,
    "id": "e134d48b3d7b",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-26",
    "sources": [
@@ -2530,8 +2417,8 @@
    "is_new": true,
    "summary": "⚙️ Microsoft AI Challenge · Desafio 02: AI Operations 📅 Quinta, 26/11 · online e gratuito Seja desafiado. Construa com IA. Conquiste seu badge.",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Palestra IA - Walter Longo",
@@ -2670,40 +2557,6 @@
    "lon": -46.6334
   },
   {
-   "name": "SÃO CARLOS - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR",
-   "url": "https://www.sympla.com.br/evento/sao-carlos-palestra-aceleracao-de-vendas-como-vender-mais-mais-facil-e-melhor/3661981",
-   "source": "sympla",
-   "start_date": "2026-11-26",
-   "end_date": "2026-11-26",
-   "description": "Compre ingressos para SÃO CARLOS - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR em São Carlos dia 26/11. Confira os melhores eventos da Sympla!",
-   "city": "São Carlos",
-   "state": "SP",
-   "venue": "Wikilab Coworking",
-   "format": "presencial",
-   "type": "imersao",
-   "organizer": "Equipe Conselheiro Comercial",
-   "image": "https://images.sympla.com.br/6afbc7b2c2f7f.jpg",
-   "price": "Gratuito",
-   "themes": [
-    "aceleradoras"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 11,
-   "date_confirmed": true,
-   "id": "6c21837854ce",
-   "region": "Sudeste",
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "sources": [
-    "sympla"
-   ],
-   "is_new": true,
-   "summary": "Compre ingressos para SÃO CARLOS - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR em São Carlos dia 26/11. Confira os melhores eventos da Sympla!",
-   "geo_precision": "cidade",
-   "lat": -22.017,
-   "lon": -47.891
-  },
-  {
    "name": "TXP Tech Meetup - Fortaleza",
    "url": "https://www.sympla.com.br/evento/txp-tech-meetup-fortaleza/3617623",
    "source": "sympla",
@@ -2822,9 +2675,7 @@
    "image": "https://images.sympla.com.br/6b0598810e0de.jpg",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "demo_day",
-    "escolas_negocio",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -2876,40 +2727,6 @@
    "geo_precision": "cidade",
    "lat": -15.794,
    "lon": -47.8828
-  },
-  {
-   "name": "10° Encontro de Tendências na Panificações e Food Service.",
-   "url": "https://www.sympla.com.br/evento/10deg-encontro-de-tendencias-na-panificacoes-e-food-service/3629692",
-   "source": "sympla",
-   "start_date": "2026-11-27",
-   "end_date": "2026-11-27",
-   "description": "O 10º Encontro de Tendências na Panificação e Food Service, promovido pelo SIPANVAP, chega para reunir empresários, profissionais e fornecedores do setor em um momento especial de conexão e aprendizado!O evento será uma oportunidade para conhecer tendências do mercado, trocar experiências, ampliar o networking e fortalecer parcerias, tudo em um ambiente de integração e descontração.Data: 27 de novembro de 2026Local: Palácio Sunset, São José dos Campos – SPGaranta sua participação e venha fazer parte desse encontro!",
-   "city": "São José dos Campos",
-   "state": "SP",
-   "venue": "R. Dr. Pedro Luiz de Oliveira Costa, 1152",
-   "format": "presencial",
-   "type": "conferencia",
-   "organizer": "João Pedro Teixeira",
-   "image": "https://images.sympla.com.br/6adb61ac97178.jpg",
-   "price": "Gratuito",
-   "themes": [
-    "foodtech"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 11,
-   "date_confirmed": true,
-   "id": "4fffc1152472",
-   "region": "Sudeste",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
-   "sources": [
-    "sympla"
-   ],
-   "is_new": true,
-   "summary": "O 10º Encontro de Tendências na Panificação e Food Service, promovido pelo SIPANVAP, chega para reunir empresários, profissionais e fornecedores do setor em um momento especial de conexão e aprendizado!O evento será uma oportunidade para…",
-   "geo_precision": "cidade",
-   "lat": -23.179,
-   "lon": -45.887
   },
   {
    "name": "1º Workshop Research HPC & IA UFV",
@@ -3098,7 +2915,6 @@
    "price": "Gratuito",
    "themes": [
     "demo_day",
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -3150,40 +2966,6 @@
    "geo_precision": "cidade",
    "lat": -1.4363,
    "lon": -48.459
-  },
-  {
-   "name": "INDAIATUBA - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR",
-   "url": "https://www.sympla.com.br/evento/indaiatuba-palestra-aceleracao-de-vendas-como-vender-mais-mais-facil-e-melhor/3661986",
-   "source": "sympla",
-   "start_date": "2026-11-27",
-   "end_date": "2026-11-27",
-   "description": "Compre ingressos para INDAIATUBA - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR em Indaiatuba dia 27/11. Confira os melhores eventos da Sympla!",
-   "city": "Indaiatuba",
-   "state": "SP",
-   "venue": "In Toto - Workspace & Coworking",
-   "format": "presencial",
-   "type": "imersao",
-   "organizer": "Equipe Conselheiro Comercial",
-   "image": "https://images.sympla.com.br/6afbc7b2c2f7f.jpg",
-   "price": "Gratuito",
-   "themes": [
-    "aceleradoras"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 11,
-   "date_confirmed": true,
-   "id": "154f4e7d5366",
-   "region": "Sudeste",
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "sources": [
-    "sympla"
-   ],
-   "is_new": true,
-   "summary": "Compre ingressos para INDAIATUBA - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR em Indaiatuba dia 27/11. Confira os melhores eventos da Sympla!",
-   "geo_precision": "cidade",
-   "lat": -23.0908,
-   "lon": -47.2181
   },
   {
    "name": "Startup Experience Health - Itabira",
@@ -3838,9 +3620,9 @@
    "start_date": "2026-11-28",
    "end_date": "2026-11-28",
    "description": "Agenda of Webinar: Free Session: SCRUM MASTER INTERVIEW TIPS & Scrum Master Resume 👉🏼 How can i become an exceptional SM ❓ 👉🏼 How can i crack Scrum master interview ❓ 👉🏼 What is the career path of a scrum master ❓ 👉🏼 How much I can earn as a scrum master ❓ 👉🏼 Is scrum master a remote role ❓ 👉🏼 Is scrum master role replaceable by AI/chatGpt❓ 👉🏼 Roles and Responsibilities of SM ❓ Excel in your career as a Scrum Master or Agile Project Manager with the help of Agile forum. Join the WhatsApp group:- https://wa.me/+13322662360?text=Hi_Scrum_group_meetup Chat with us on whatsApp : +1 (332) 266-2360 ",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "webinar",
    "organizer": "Agile & Product Meetup São Paulo",
@@ -3853,7 +3635,7 @@
    "typical_month": 11,
    "date_confirmed": true,
    "id": "986d6c440390",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-26",
    "sources": [
@@ -3862,8 +3644,8 @@
    "is_new": true,
    "summary": "Agenda of Webinar: Free Session: SCRUM MASTER INTERVIEW TIPS & Scrum Master Resume 👉🏼 How can i become an exceptional SM ❓ 👉🏼 How can i crack Scrum master interview ❓ 👉🏼 What is the career path of a scrum master ❓ 👉🏼 How much I can earn as…",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Workshop - Inteligência Artificial Descomplicada",
@@ -4485,9 +4267,9 @@
    "start_date": "2026-12-01",
    "end_date": "2026-12-01",
    "description": "Join us for the fourth episode of Bob TV, the monthly digital event series hosted by Max Jesch, IBM Bob’s outbound product manager. Each month, Max sits down with a technical guest to explore real examples of your trusted AI assistant in action—showing how Bob accelerates enterprise software development across the entire lifecycle. Featuring Special Guest: Ethan Mendel, Development Lead, IBM Z premium package for Bob Ethan will discuss why mainframe modernization is hard — and why AI alone is not enough. * The real scope of the challenge: 10-year modernization timelines, skill shortages, and t",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "Iniciativa Z",
@@ -4500,7 +4282,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "e756e3e1cf5f",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -4509,8 +4291,8 @@
    "is_new": true,
    "summary": "Join us for the fourth episode of Bob TV, the monthly digital event series hosted by Max Jesch, IBM Bob’s outbound product manager.",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "CONFRARIA WHY BITCOIN? - DIÁLOGO E APRENDIZADO - 1° DEZ 2026",
@@ -4553,9 +4335,9 @@
    "start_date": "2026-12-01",
    "end_date": "2026-12-01",
    "description": "A IA só é útil quando os dados por trás dela também são. Nesta sessão, vamos usar Spark no Fabric para pegar dados brutos, limpar e transformar esses dados e criar uma base que uma solução de IA ou analytics possa realmente usar. Para mais informações sobre o Data Days e tudo o que ele tem a oferecer, acesse https://aka.ms/DataDays",
-   "city": "Campinas",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "Microsoft Reactor São Paulo",
@@ -4568,7 +4350,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "2a2ccd052642",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -4577,8 +4359,8 @@
    "is_new": true,
    "summary": "A IA só é útil quando os dados por trás dela também são. Nesta sessão, vamos usar Spark no Fabric para pegar dados brutos, limpar e transformar esses dados e criar uma base que uma solução de IA ou analytics possa realmente usar.",
    "geo_precision": "cidade",
-   "lat": -22.906,
-   "lon": -47.061
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Estratégias Digitas com IA para aumentar Resultados II",
@@ -4621,9 +4403,9 @@
    "start_date": "2026-12-01",
    "end_date": "2026-12-01",
    "description": "Se a IA consegue gerar código, onde está o valor do engenheiro de software? Neste meetup, vamos responder essa pergunta com exemplos práticos e troca de experiências entre professores e profissionais, explorando o caminho entre gerar código e entregar sistemas seguros, confiáveis e capazes de evoluir. Isso envolve compreender problemas, tomar decisões de arquitetura, integrar soluções, validar resultados e operar em produção. O foco será mostrar como combinar fundamentos de engenharia, uso criterioso da IA e visão de negócio para construir uma trajetória profissional consistente. A conversa se",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "FIAP Paulista - 6º andar",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "FIAP",
@@ -4636,7 +4418,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "1121db447b32",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -4645,8 +4427,8 @@
    "is_new": true,
    "summary": "Se a IA consegue gerar código, onde está o valor do engenheiro de software? Neste meetup, vamos responder essa pergunta com exemplos práticos e troca de experiências entre professores e profissionais, explorando o caminho entre gerar…",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "From First Idea to First Funding: Global Alumni Stories",
@@ -4655,9 +4437,9 @@
    "start_date": "2026-12-01",
    "end_date": "2026-12-01",
    "description": "**Founder Institute alumni have raised $2B+ and built some of the world's fastest-growing tech companies.** Join our **live Q&A** to get real insights on launching and scaling a startup, hear what the FI accelerator is really like, and learn how a proven program can help turn your idea into a business. **[Sign up to connect with FI alumni and get started.](https://fi.co/e/408499)** **❯ Featured Speakers:** * **Mariana Velásquez - CEO & Founder, Branddu AI:** Mariana is a serial entrepreneur with over 15 years in the promotional products industry, as both a corporate buyer and a supplier. She i",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "São Paulo Startup Founder 101",
@@ -4671,7 +4453,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "4c4ebbd90073",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -4680,8 +4462,8 @@
    "is_new": true,
    "summary": "**Founder Institute alumni have raised $2B+ and built some of the world's fastest-growing tech companies.** Join our **live Q&A** to get real insights on launching and scaling a startup, hear what the FI accelerator is really like, and…",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "IMERSÃO EM INTELIGÊNCIA ARTIFICIAL COM JUNITHI UEDA",
@@ -4767,7 +4549,9 @@
    "image": "https://images.sympla.com.br/6a982881dd5be.png",
    "price": "R$ 10",
    "themes": [
-    "demo_day"
+    "demo_day",
+    "escolas_negocio",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4781,40 +4565,6 @@
    ],
    "is_new": true,
    "summary": "Onde o futuro das startups ganha palco O Demo Day Link é o principal evento do semestre da Link School of Business.",
-   "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
-  },
-  {
-   "name": "Live Code | Engenharia de Agentes Conversacionais: como criar esses agentes",
-   "url": "https://www.meetup.com/totvsdevelopers/events/317562785/",
-   "source": "meetup",
-   "start_date": "2026-12-01",
-   "end_date": "2026-12-01",
-   "description": "**Live Code \\| Engenharia de Agentes Conversacionais: como criar esses agentes** Como transformar modelos de inteligência artificial em agentes capazes de compreender contextos, tomar decisões e interagir com usuários e sistemas? Neste Live Code do TOTVS Developers, vamos explorar, na prática, os fundamentos da engenharia de agentes conversacionais, abordando desde sua arquitetura até a implementação de soluções inteligentes. Entre os tópicos que poderão ser explorados estão: * Arquitetura de agentes conversacionais; * Integração com modelos de linguagem (LLMs); * Engenharia de prompts e geren",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
-   "format": "online",
-   "type": "webinar",
-   "organizer": "TOTVS Developers",
-   "image": "/images/fallbacks/redesign/group-cover-2-square.webp",
-   "price": "Gratuito",
-   "themes": [
-    "ia"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 12,
-   "date_confirmed": true,
-   "id": "30b9cd2b437d",
-   "region": "Sudeste",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "meetup"
-   ],
-   "is_new": true,
-   "summary": "**Live Code \\| Engenharia de Agentes Conversacionais: como criar esses agentes** Como transformar modelos de inteligência artificial em agentes capazes de compreender contextos, tomar decisões e interagir com usuários e sistemas?",
    "geo_precision": "cidade",
    "lat": -23.5507,
    "lon": -46.6334
@@ -5311,7 +5061,8 @@
    "image": "https://images.sympla.com.br/6af62c9e221c0.png",
    "price": "Gratuito",
    "themes": [
-    "escolas_negocio"
+    "escolas_negocio",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5404,9 +5155,9 @@
    "start_date": "2026-12-02",
    "end_date": "2026-12-02",
    "description": "Calling all developers, AI engineers, software architects, data scientists, DevOps professionals, and tech enthusiasts — **TechConnect** is your ultimate destination for career growth, project showcasing, and global peer networking in the tech ecosystem. Hosted in a self-led, Slack-style virtual space, this **virtual tech networking event** invites you to connect, collaborate, and innovate with a diverse community of tech minds and hiring professionals from around the world. Whether you're looking for your next job, exploring startups, showcasing tools, or building a **peer coding accountabili",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "networking",
    "organizer": "Analytics.Club Sao Paulo",
@@ -5420,7 +5171,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "dff280a49570",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -5429,8 +5180,8 @@
    "is_new": true,
    "summary": "Calling all developers, AI engineers, software architects, data scientists, DevOps professionals, and tech enthusiasts — **TechConnect** is your ultimate destination for career growth, project showcasing, and global peer networking in the…",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Tokenization was the Beginning. Agentic Capital Markets is the endgame",
@@ -5439,9 +5190,9 @@
    "start_date": "2026-12-02",
    "end_date": "2026-12-02",
    "description": "Join us for a webinar with Brickken, an LFDT general member, on building Agentic Capital Markets. Tokenization has made financial assets programmable. What comes next when AI agents can help discover opportunities and coordinate activity within defined mandates? Edwin Mata, Brickken's CEO & Co-Founder, will discuss the permissions, legal enforceability and operational controls needed to make Agentic Capital Markets work for institutions. The webinar will take place on Wednesday, **December 2** at **7AM PST/10AM EST/16:00 CET/08:30 PM IST** Please register here: https://zoom.us/webinar/register",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "LFDT São Paulo",
@@ -5455,7 +5206,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "ab4037d8e76a",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -5464,8 +5215,8 @@
    "is_new": true,
    "summary": "Join us for a webinar with Brickken, an LFDT general member, on building Agentic Capital Markets. Tokenization has made financial assets programmable.",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "WORKSHOP GENTE & GESTÃO COM TECNOLOGIA E IA",
@@ -5680,9 +5431,9 @@
    "start_date": "2026-12-03",
    "end_date": "2026-12-03",
    "description": "Você faz bem o que faz. Tem cliente, tem produto. Mas quando alguém pergunta, você ainda diz que é um projeto. O Felipe dizia também. Ele vinha da fotografia de moda, um mundo que não tem nada a ver com startup, e em 2019 fundou a MERUS. Em 2022 entrou no Founder Institute. O que mudou, nas palavras dele, foi passar a enxergar a MERUS não apenas como uma marca criativa, mas também como um negócio. Hoje a marca tem ponto na Cidade Matarazzo, dentro da curadoria da MATA LAB. Em uma hora ele conta como foi essa virada, inclusive o que doeu. Quem puxa a conversa é o Marco De Biasi, diretor do FI B",
-   "city": "Curitiba",
-   "state": "PR",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "Florianópolis Startup Founder 101",
@@ -5695,7 +5446,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "1ed4b7462774",
-   "region": "Sul",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -5704,8 +5455,8 @@
    "is_new": true,
    "summary": "Você faz bem o que faz. Tem cliente, tem produto. Mas quando alguém pergunta, você ainda diz que é um projeto. O Felipe dizia também. Ele vinha da fotografia de moda, um mundo que não tem nada a ver com startup, e em 2019 fundou a MERUS.",
    "geo_precision": "cidade",
-   "lat": -25.4296,
-   "lon": -49.2713
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Demo Day | PUCTEC Startups 2026",
@@ -5723,6 +5474,7 @@
    "image": "https://images.sympla.com.br/6afd046032760.jpg",
    "price": "Gratuito",
    "themes": [
+    "aceleradoras",
     "demo_day",
     "startups"
    ],
@@ -5852,9 +5604,9 @@
    "start_date": "2026-12-03",
    "end_date": "2026-12-03",
    "description": "A inteligência artificial já mudou a dinâmica da cibersegurança. Enquanto atacantes usam IA generativa para escalar phishing, malware e novas formas de exploração, os times de defesa precisam automatizar detecção, threat hunting e resposta a incidentes na mesma velocidade. Neste meetup, especialistas discutem como aplicar LLMs, Machine Learning e agentes autônomos à Engenharia de Segurança e também como proteger os próprios sistemas de IA contra ameaças como Prompt Injection, Data Poisoning e ataques adversariais. Uma conversa sobre o que já está acontecendo no mercado e os novos desafios para",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "FIAP Paulista - 6º andar",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "FIAP",
@@ -5867,7 +5619,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "d24e49a4cfcf",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -5876,8 +5628,8 @@
    "is_new": true,
    "summary": "A inteligência artificial já mudou a dinâmica da cibersegurança. Enquanto atacantes usam IA generativa para escalar phishing, malware e novas formas de exploração, os times de defesa precisam automatizar detecção, threat hunting e resposta…",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Fórum de Startups",
@@ -5929,7 +5681,8 @@
    "image": "https://images.sympla.com.br/6ae37fb4d36dd.png",
    "price": "Gratuito",
    "themes": [
-    "demo_day"
+    "demo_day",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -6356,40 +6109,6 @@
    "lon": -45.887
   },
   {
-   "name": "Você recebe mais de R$ 20 mil por mês em PIX? Conheça o PIX Anônimo",
-   "url": "https://www.sympla.com.br/evento/voce-recebe-mais-de-r-20-mil-por-mes-em-pix-conheca-o-pix-anonimo/3651655",
-   "source": "sympla",
-   "start_date": "2026-12-03",
-   "end_date": "2026-12-03",
-   "description": "Aprenda a receber PIX de seus clientes de maneira anônima e legal. Descubra novas formas de receber, movimentar e utilizar seu dinheiro com tecnologias Web3. Você domina sua profissão. Mas será que conhece todas as possibilidades de utilizar o dinheiro que recebe dos seus clientes? Médicos, advogados, engenheiros, profissionais liberais e empresários recebem pagamentos diariamente pelo sistema financeiro tradicional. Enquanto isso, novas tecnologias estão ampliando as possibilidades de recebimento, movimentação e utilização de recursos digitais. Nesta palestra presencial em Londrina, você conh",
-   "city": "Londrina",
-   "state": "PR",
-   "venue": "Local a definir",
-   "format": "presencial",
-   "type": "evento",
-   "organizer": "Alê Pacheco",
-   "image": "https://images.sympla.com.br/6af470e1a818f.png",
-   "price": "Gratuito",
-   "themes": [
-    "fintech"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 12,
-   "date_confirmed": true,
-   "id": "4989caaf9d90",
-   "region": "Sul",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "sympla"
-   ],
-   "is_new": true,
-   "summary": "Aprenda a receber PIX de seus clientes de maneira anônima e legal. Descubra novas formas de receber, movimentar e utilizar seu dinheiro com tecnologias Web3. Você domina sua profissão.",
-   "geo_precision": "cidade",
-   "lat": -23.31,
-   "lon": -51.163
-  },
-  {
    "name": "Workshop ConneCT - Estratégias para elaboração de pitch",
    "url": "https://www.sympla.com.br/evento/workshop-connect-estrategias-para-elaboracao-de-pitch/3667817",
    "source": "sympla",
@@ -6601,9 +6320,9 @@
    "start_date": "2026-12-04",
    "end_date": "2026-12-04",
    "description": "**Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026120409) to receive the joining link. (rsvp on meetup will NOT receive anything). This is virtual event for our AI global community, please double-check your local time. Can't make it live? Register anyway to receive the webinar recording. The AI Deep Dive Series is a hands-on virtual initiative designed to empower developers to architect the next generation of Agentic AI. Moving beyond basic prompting, this series guides you through the complete engineering lifecycle using Google’s advanced stack. You ",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "São Paulo AI Developer Group",
@@ -6616,7 +6335,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "fda9e8808385",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -6625,8 +6344,8 @@
    "is_new": true,
    "summary": "**Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026120409) to receive the joining link. (rsvp on meetup will NOT receive anything).",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "PALESTRA - A IA RASCUNHA, VOCÊ ASSINA",
@@ -6902,40 +6621,6 @@
    "geo_precision": "cidade",
    "lat": -25.4296,
    "lon": -49.2713
-  },
-  {
-   "name": "ENGEFEST 2026 - Seminário Norte Capixaba de Engenharia, Integração, Inovação e Desenvolvimento",
-   "url": "https://www.sympla.com.br/evento/engefest-2026-seminario-norte-capixaba-de-engenharia-integracao-inovacao-e-desenvolvimento/3637704",
-   "source": "sympla",
-   "start_date": "2026-12-05",
-   "end_date": "2026-12-05",
-   "description": "ENGEFEST 2026 – Integração, Engenharia e Celebração!A AENES – Associação dos Engenheiros do Norte do Espírito Santo convida você para o ENGEFEST 2026!No dia 05 de dezembro de 2026, a partir das 11h, o Clube Mata do Lago, em Linhares/ES, será palco de um encontro especial que reunirá profissionais da engenharia, estudantes, empresários, associados, familiares e convidados para um dia de integração, conhecimento, entretenimento e celebração.Promovido pela AENES, o ENGEFEST 2026 – Seminário Norte Capixaba de Engenharia, Integração, Inovação e Desenvolvimento foi idealizado para fortalecer os vínc",
-   "city": "Linhares",
-   "state": "ES",
-   "venue": "Clube Mata do Lago",
-   "format": "presencial",
-   "type": "festival",
-   "organizer": "AENES - Associação dos Engenheiros do Norte do ES",
-   "image": "https://images.sympla.com.br/6ae6534cc6956.png",
-   "price": "A partir de R$ 100",
-   "themes": [
-    "fintech"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 12,
-   "date_confirmed": true,
-   "id": "0d766b4c8685",
-   "region": "Sudeste",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "sympla"
-   ],
-   "is_new": true,
-   "summary": "ENGEFEST 2026 – Integração, Engenharia e Celebração!A AENES – Associação dos Engenheiros do Norte do Espírito Santo convida você para o ENGEFEST 2026!No dia 05 de dezembro de 2026, a partir das 11h, o Clube Mata do Lago, em Linhares/ES…",
-   "geo_precision": "cidade",
-   "lat": -19.3411,
-   "lon": -39.9483
   },
   {
    "name": "Encontro Summit Internacional | Florianópolis 5 e 6 Dez | Saúde Mental e Empreendedorismo",
@@ -7386,9 +7071,9 @@
    "start_date": "2026-12-08",
    "end_date": "2026-12-08",
    "description": "AI coding has made an AI SRE something any team can build in a hackathon, while making incidents harder to understand. The hard part comes later, when the agent has to run in production, give repeatable answers and justify what it costs. Join us to learn when to build your own agent, connect it to a vendor's agent or buy a managed one, and what your platform needs in place whichever you choose. We'll explore: **Build, connect or buy:** How the three ways of working with an AI SRE trade off speed, quality and cost, and why most enterprises will run more than one, chosen per problem. **The hidde",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "Platform Engineers São Paulo",
@@ -7401,7 +7086,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "7bda9f780c41",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -7410,8 +7095,8 @@
    "is_new": true,
    "summary": "AI coding has made an AI SRE something any team can build in a hackathon, while making incidents harder to understand. The hard part comes later, when the agent has to run in production, give repeatable answers and justify what it costs.",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "FÁBRICA DE PROGRAMADORES 2026 - APRENDENDO À PROGRAMAR COM GAMES E IA",
@@ -7454,9 +7139,9 @@
    "start_date": "2026-12-08",
    "end_date": "2026-12-08",
    "description": "Raising money for an AI startup looks different in 2026. When anyone can build a product in weeks, investors want to know what makes yours worth backing. In this live AMA, Mercedes Bankston answers your questions directly: what investors look for in AI founders, what gets you a first meeting, what traction they expect before a first check, and what quietly kills a deal. No pitch decks, no filters. **[Bring your questions and hear it from someone who writes the checks](https://fi.co/e/408945/meetup)**. **❯ Featured Speaker:** * **[Mercedes Bankston](https://www.linkedin.com/in/unicornmb/) -** V",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "São Paulo Startup Founder 101",
@@ -7470,7 +7155,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "e625c2a46c8a",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -7479,8 +7164,8 @@
    "is_new": true,
    "summary": "Raising money for an AI startup looks different in 2026. When anyone can build a product in weeks, investors want to know what makes yours worth backing.",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "IA na Economia Real: Verdade ou Mito",
@@ -7551,40 +7236,6 @@
    "lon": -47.2998
   },
   {
-   "name": "O Natal do Food Service de Macaé",
-   "url": "https://www.sympla.com.br/evento/o-natal-do-food-service-de-macae/3666081",
-   "source": "sympla",
-   "start_date": "2026-12-08",
-   "end_date": "2026-12-08",
-   "description": "O Natal do Food Service de Macaé, na Universidade Fast Food Milionário: um encontro para donos e gestores de restaurantes, lanchonetes, pizzarias e deliveries.Data: 08 de dezembro de 2026, das 10h às 16hLocal: Universidade Fastfood Milionário, Rua Tom Jobim, 254, Parque Atlântico, Macaé/RJCoffee break incluso40 vagasPalestras:- Alexandre: Cozinha rápida- Raul Nascimento: O mais conhecido vence o melhor- Douglas Morett: Otimize seu negócio com tecnologia- Matheus Bryan: Gestão além da Operação",
-   "city": "Macaé",
-   "state": "RJ",
-   "venue": "Universidade Fastfood Milionário",
-   "format": "presencial",
-   "type": "evento",
-   "organizer": "Douglas Morett",
-   "image": "https://images.sympla.com.br/6b0657cb39ca2.jpg",
-   "price": "Pago (valor no site)",
-   "themes": [
-    "foodtech"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 12,
-   "date_confirmed": true,
-   "id": "71f919ac629c",
-   "region": "Sudeste",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-27",
-   "sources": [
-    "sympla"
-   ],
-   "is_new": true,
-   "summary": "O Natal do Food Service de Macaé, na Universidade Fast Food Milionário: um encontro para donos e gestores de restaurantes, lanchonetes, pizzarias e deliveries.Data: 08 de dezembro de 2026, das 10h às 16hLocal: Universidade Fastfood…",
-   "geo_precision": "cidade",
-   "lat": -22.2828,
-   "lon": -41.9649
-  },
-  {
    "name": "AI FESTIVAL Uberlândia - Inteligência Artificial Para Todos",
    "url": "https://www.sympla.com.br/evento/ai-festival-uberlandia-inteligencia-artificial-para-todos/3636353",
    "source": "sympla",
@@ -7625,23 +7276,22 @@
    "start_date": "2026-12-09",
    "end_date": "2026-12-09",
    "description": "**Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026120910) to receive the joining link. (rsvp on meetup will NOT receive anything). This is virtual event for our AI global community, please double-check your local time. Can't make it live? Register anyway to receive the webinar recording. Welcome to the AI Deep Dive Series (Virtual) with Diagrid and AWS. Join us for deep dive tech talks on AI, GenAI, LLMs, Agentic AI, hands-on experiences on code labs, workshops, and networking with speakers & fellow developers from all over the world. This is virtual ",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "webinar",
    "organizer": "São Paulo AI Developer Group",
    "image": "/images/fallbacks/redesign/group-cover-3-square.webp",
    "price": "Gratuito",
    "themes": [
-    "ia",
-    "startups"
+    "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
    "date_confirmed": true,
    "id": "2524133af11c",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -7650,8 +7300,8 @@
    "is_new": true,
    "summary": "**Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026120910) to receive the joining link. (rsvp on meetup will NOT receive anything).",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Cora Tech Meetup: IA no Desenvolvimento de Software",
@@ -7729,9 +7379,9 @@
    "start_date": "2026-12-09",
    "end_date": "2026-12-09",
    "description": "La IA llegado no solo para cambiar como programamos nuestras APIS, si no también como las exponemos en nuestro Gateway. En esta sesion veremos como transformar nuestros catálogos para soportar acceso por MCP, publicar modelos LLM , o aplicar patrones de cache complejos para reducir costes de uso en Tokens. Todo esto buceando en los servicios que nos proporciona Azure API Management, API Center y Azure Foundry.",
-   "city": "Campinas",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "Microsoft Reactor São Paulo",
@@ -7744,7 +7394,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "cea49624de88",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -7753,8 +7403,8 @@
    "is_new": true,
    "summary": "La IA llegado no solo para cambiar como programamos nuestras APIS, si no también como las exponemos en nuestro Gateway.",
    "geo_precision": "cidade",
-   "lat": -22.906,
-   "lon": -47.061
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Fórum de Empreendedorismo Energia #Delas",
@@ -7865,23 +7515,22 @@
    "start_date": "2026-12-09",
    "end_date": "2026-12-09",
    "description": "Microsoft AI Agents Hack: 3 novas datas em dezembro! aihack.com.br Em cada Hack, sua equipe constrói agentes de IA no Azure de ponta a ponta, do dado bruto à solução funcionando, em um único dia. 09/12 · AI Hack Score Financeiro, Risco & Antifraude FinTech · Risk · Compliance 10/12 · AI Hack IA de Relacionamento & CRM Inteligente CRM · Customer Experience · Sales 11/12 · AI Hack Automação Multi-Agentes Empresariais BPA · Operations · Enterprise AI 💻 Online e gratuito · início às 9h 🧪 AI Lab guiado com Microsoft Foundry 🏅 Winner Badge e certificado 🎓 Vouchers de certificação Microsoft para as e",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "webinar",
    "organizer": "Azure Brasil - Comunidade Técnica",
    "image": "/images/fallbacks/redesign/group-cover-2-square.webp",
    "price": "Gratuito",
    "themes": [
-    "fintech",
     "ia"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
    "date_confirmed": true,
    "id": "70a37dc96fcb",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -7890,8 +7539,8 @@
    "is_new": true,
    "summary": "Microsoft AI Agents Hack: 3 novas datas em dezembro! aihack.com.br Em cada Hack, sua equipe constrói agentes de IA no Azure de ponta a ponta, do dado bruto à solução funcionando, em um único dia.",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "PMI Amazônia Summit 2026",
@@ -8242,9 +7891,9 @@
    "start_date": "2026-12-10",
    "end_date": "2026-12-10",
    "description": "Toda transação no Ethereum depende de uma assinatura digital que um computador quântico criptograficamente relevante poderá falsificar, e os dados registrados hoje continuarão na blockchain quando ele chegar. A pergunta deixou de ser \"se\" e passou a ser \"como\" se preparar. Neste workshop online, vamos mostrar uma resposta concreta: a criptografia pós-quântica (PQC). Começamos com um pouco de teoria: por que a computação quântica ameaça as assinaturas atuais, o que torna um algoritmo resistente a ela e como funcionam o ML-DSA e o Falcon, algoritmos de assinatura pós-quântica selecionados pelo N",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "LFDT São Paulo",
@@ -8257,7 +7906,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "b6df3f320496",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-26",
    "last_seen": "2026-11-27",
    "sources": [
@@ -8266,8 +7915,8 @@
    "is_new": true,
    "summary": "Toda transação no Ethereum depende de uma assinatura digital que um computador quântico criptograficamente relevante poderá falsificar, e os dados registrados hoje continuarão na blockchain quando ele chegar.",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "How to Build an eBay Reselling Side Hustle with AI in One Weekend",
@@ -8276,9 +7925,9 @@
    "start_date": "2026-12-10",
    "end_date": "2026-12-10",
    "description": "This event is being promoted by many groups. Our meetup group is participating by promoting this event. This event is organized by Albert's List. Our meetup group is collaborating by promoting this event. This is an online event. Attendees can be located anywhere in the world! This event is FREE to attend! In order to attend, please register here: [https://www.eventbrite.com/e/how-to-build-an-ebay-reselling-side-hustle-with-ai-in-one-weekend-tickets-2003248766988?aff=oddtdtcreator&keep_tld=true](https://www.eventbrite.com/e/how-to-build-an-ebay-reselling-side-hustle-with-ai-in-one-weekend-tick",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "conferencia",
    "organizer": "São Paulo Startup: Idea to IPO",
@@ -8291,7 +7940,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "e110f31b002f",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -8300,8 +7949,8 @@
    "is_new": true,
    "summary": "This event is being promoted by many groups. Our meetup group is participating by promoting this event. This event is organized by Albert's List. Our meetup group is collaborating by promoting this event. This is an online event.",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Introducing ThunderID: Open Source Identity for Humans, AI Agents, and Machines",
@@ -8310,9 +7959,9 @@
    "start_date": "2026-12-10",
    "end_date": "2026-12-10",
    "description": "ThunderID ([https://github.com/thunder-id](https://github.com/thunder-id)) is an open source identity and access management project, hosted by LF Decentralized Trust as an incubation project. It is built from scratch in Go and treats humans, AI agents, and machines as first-class identities. In this meetup, we will introduce the motivation behind ThunderID, including why it was built from scratch rather than extending existing IAM stacks. We will look at the challenges IAM now has to solve and how much the operational and environmental complexity of identity has changed. The session will intro",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "LFDT São Paulo",
@@ -8325,7 +7974,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "179c96579c93",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -8334,8 +7983,8 @@
    "is_new": true,
    "summary": "ThunderID ([https://github.com/thunder-id](https://github.com/thunder-id)) is an open source identity and access management project, hosted by LF Decentralized Trust as an incubation project.",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "LABORATÓRIO DE ADVOCACIA COM IA",
@@ -8480,23 +8129,22 @@
    "start_date": "2026-12-10",
    "end_date": "2026-12-10",
    "description": "If your leads live in spreadsheets, your deals live in your inbox and every sale depends on you, your startup has a bottleneck: the founder. **In this practical session, Gokhan Erdogdu, Founder & CEO of CloudOffix, shows how to turn those informal processes into a connected, repeatable revenue engine.** Learn how founders use AI and modern startup tools to scale efficiently, from first sale to customer onboarding. Bring your questions for the live Q&A. **❯ RSVP now at [https://fi.co/e/407418/meetup](https://fi.co/e/407418/meetup) to get your link and join us live!** **About CloudOffix:** [Clou",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "São Paulo Startup Founder 101",
    "image": "/images/fallbacks/redesign/group-cover-4-square.webp",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
    "date_confirmed": true,
    "id": "dc0df39087a6",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -8505,8 +8153,8 @@
    "is_new": true,
    "summary": "If your leads live in spreadsheets, your deals live in your inbox and every sale depends on you, your startup has a bottleneck: the founder.",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Venture Trailblazers featuring Harry Stebbings",
@@ -8515,9 +8163,9 @@
    "start_date": "2026-12-10",
    "end_date": "2026-12-10",
    "description": "Venture Trailblazers is an exclusive event series that connects leading investors, founders, and ecosystem leaders from across the globe to discuss the latest trends in startups and venture capital. For this edition, we are honored to welcome Harry Stebbings, Founder of 20VC and host of The Twenty Minute VC, who built the world’s largest media brand at the intersection of venture capital and media. The goal of Venture Trailblazers is to educate and connect founders, leaders, mentors, and investors across the global Founder Institute, VC Lab, and FI Venture Networks. . **Harry Stebbings joins A",
-   "city": "Curitiba",
-   "state": "PR",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "Florianópolis Startup Founder 101",
@@ -8530,7 +8178,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "869e7d1ac8e0",
-   "region": "Sul",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -8539,8 +8187,8 @@
    "is_new": true,
    "summary": "Venture Trailblazers is an exclusive event series that connects leading investors, founders, and ecosystem leaders from across the globe to discuss the latest trends in startups and venture capital.",
    "geo_precision": "cidade",
-   "lat": -25.4296,
-   "lon": -49.2713
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Workshop Gestão Inteligente: IA na prática para Gestores - João Pessoa",
@@ -9069,6 +8717,7 @@
    "image": "https://images.sympla.com.br/6aff96f55632a.jpg",
    "price": "Gratuito",
    "themes": [
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -9196,9 +8845,9 @@
    "start_date": "2026-12-15",
    "end_date": "2026-12-15",
    "description": "Nosso palestrante de hoje é David Arty. Ele é Product Designer, formado em Design Gráfico e pós-graduado em UX Design. David atua há mais de 15 anos no mercado e é fundador do Chief of Design, um ecossistema de educação e conteúdo sobre Design. Nesta palestra, ele vai abordar como a IA está transformando a profissão e quais competências ganham relevância em um cenário onde criar ficou mais fácil, mas pensar continua sendo essencial.",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "TOTVS Developers",
@@ -9211,7 +8860,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "0602a7dd539e",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -9220,8 +8869,8 @@
    "is_new": true,
    "summary": "Nosso palestrante de hoje é David Arty. Ele é Product Designer, formado em Design Gráfico e pós-graduado em UX Design.",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Workshop: Preparando sua Startup para Crescer com Segurança: Societário, LGPD e Contratos",
@@ -9264,9 +8913,9 @@
    "start_date": "2026-12-16",
    "end_date": "2026-12-16",
    "description": "A Inteligência Artificial deixou de apenas ajudar consultando informações, passando a executar tarefas. Vamos ver o que o Microsoft Ignite 2026 trouxe e o que isso significa para os clientes e profissionais negócios na adoção da IA.",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "Microsoft Reactor São Paulo",
@@ -9279,7 +8928,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "eb70462a2d1e",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-26",
    "last_seen": "2026-11-27",
    "sources": [
@@ -9288,8 +8937,8 @@
    "is_new": true,
    "summary": "A Inteligência Artificial deixou de apenas ajudar consultando informações, passando a executar tarefas. Vamos ver o que o Microsoft Ignite 2026 trouxe e o que isso significa para os clientes e profissionais negócios na adoção da IA.",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "The Mid-Call Switch: Synthetic Voice Detection and Routing for Voice AI",
@@ -9298,9 +8947,9 @@
    "start_date": "2026-12-16",
    "end_date": "2026-12-16",
    "description": "​**JOINING LINK: [https://streamyard.com/watch/PStkgu9KY5h9](https://streamyard.com/watch/PStkgu9KY5h9?utm_source=luma)** **What happens when a caller starts with a real voice, and switches to a synthetic one halfway through the conversation?** ​Synthetic voices are already part of production audio, from fraudsters using cloned voices to legitimate AI agents calling on someone’s behalf. Blocking them all isn’t practical. Your voice pipeline needs to detect synthetic speech and decide what should happen next, while the call is still happening. ​Join **Tanner St Pierre, Sales Engineer**, and **P",
-   "city": "Campinas",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "ODSC AI Sao Paulo",
@@ -9313,7 +8962,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "bc4e62859967",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -9322,8 +8971,8 @@
    "is_new": true,
    "summary": "​**JOINING LINK: [https://streamyard.com/watch/PStkgu9KY5h9](https://streamyard.com/watch/PStkgu9KY5h9?utm_source=luma)** **What happens when a caller starts with a real voice, and switches to a synthetic one halfway through the…",
    "geo_precision": "cidade",
-   "lat": -22.906,
-   "lon": -47.061
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Oracle Integration Product Update Webcast: Building Trusted Agentic AI",
@@ -9332,9 +8981,9 @@
    "start_date": "2026-12-17",
    "end_date": "2026-12-17",
    "description": "[The agent brings the intelligence. Oracle Integration brings the enterprise.](https://go.oracle.com/LP=155574?elqCampaignId=687101) Agentic AI requires more than powerful models. It requires a trusted execution framework that helps securely connect systems, automate processes, and support governance of agent actions across the enterprise. In this session, learn how Oracle Integration enables enterprise-scale agentic AI by allowing AI agents to securely access authorized business applications, participate in workflows, automate tasks, collaborate with employees, and operate with enterprise vis",
-   "city": "Sao Paulo",
-   "state": "SP",
-   "venue": "Online event",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "Oracle Developer Meetup São Paulo",
@@ -9347,7 +8996,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "ff90ab98bffa",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -9356,8 +9005,8 @@
    "is_new": true,
    "summary": "[The agent brings the intelligence. Oracle Integration brings the enterprise.](https://go.oracle.com/LP=155574?elqCampaignId=687101) Agentic AI requires more than powerful models.",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "PRÊMIO EMPREENDEDOR E INOVADOR DA EDUCAÇÃO FÍSICA",
@@ -9468,9 +9117,9 @@
    "start_date": "2027-01-11",
    "end_date": "2027-01-15",
    "description": "Treinamento com sessões de 04 horas on-line/ao vivo com nossos consultores certificados internacionalmente com Black Belt pela EXIN/LSS Academy.A metodologia Modelo Híbrido – Lean Six Sigma + Agile + Design Thinking + AI é uma abordagem integrada que une o melhor de quatro mundos para impulsionar inovação, eficiência e agilidade nas organizações.O Modelo Híbrido (MoHi) combina estruturas analíticas e criativas para resolver problemas complexos e acelerar resultados. Ele parte da premissa de que nenhuma metodologia isolada é suficiente para lidar com os desafios atuais — por isso, integra:Como ",
-   "city": "São Paulo",
-   "state": "SP",
-   "venue": "Local a definir",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "curso",
    "organizer": "Six Sigma Brasil",
@@ -9483,7 +9132,7 @@
    "typical_month": 1,
    "date_confirmed": true,
    "id": "991c63500384",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -9492,8 +9141,8 @@
    "is_new": true,
    "summary": "Treinamento com sessões de 04 horas on-line/ao vivo com nossos consultores certificados internacionalmente com Black Belt pela EXIN/LSS Academy.A metodologia Modelo Híbrido – Lean Six Sigma + Agile + Design Thinking + AI é uma abordagem…",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Gestão Estratégica de Objetivos e Resultados com OKR + Liderança + IA",

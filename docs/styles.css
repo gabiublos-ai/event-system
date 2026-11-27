@@ -155,6 +155,11 @@ svg { stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round
 .toggle input:checked + span { border-color: var(--star); background: color-mix(in srgb, var(--star) 14%, var(--surface)); }
 .toggle input:focus-visible + span { outline: 2px solid var(--accent); }
 
+.active-filters { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 12px; font-size: 13px; }
+.af-label { color: var(--muted); font-weight: 600; }
+.af-chip { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--accent); background: var(--accent-soft); color: var(--accent); border-radius: 999px; padding: 5px 12px; font-weight: 600; font-size: 13px; cursor: pointer; }
+.af-chip span { font-size: 11px; }
+
 /* ---------- Toolbar ---------- */
 .toolbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: 22px 0 14px; flex-wrap: wrap; }
 .tabs { display: inline-flex; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 4px; gap: 2px; }
