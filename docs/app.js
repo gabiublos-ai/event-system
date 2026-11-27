@@ -771,7 +771,7 @@ function openModal(e) {
 /* ---------- Aba Admin: acessos e histórico de atualizações ---------- */
 const ADMIN = { sub: "acessos", hist: "todas", changelog: null, invites: null };
 const TRIGGER_LABEL = { automatica: "Atualização automática (9h)", manual: "Atualização manual", publicacao: "Publicação do site", registro: "Atualização dos eventos" };
-const SOURCE_LABEL = { curadoria: "Curadoria", sympla: "Sympla", eventbrite: "Eventbrite", meetup: "Meetup", even3: "Even3", doity: "Doity", busca_web: "Busca na web", ia_web: "Busca com IA", agenda: "Agendas" };
+const SOURCE_LABEL = { curadoria: "Curadoria", sympla: "Sympla", eventbrite: "Eventbrite", meetup: "Meetup", even3: "Even3", doity: "Doity", busca_web: "Busca na web", imprensa: "Portais de notícias", ia_web: "Busca com IA", agenda: "Agendas" };
 const fmtDT = (iso) => iso ? new Date(iso).toLocaleString("pt-BR", { day: "2-digit", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" }) : "—";
 function ago(iso) {
   if (!iso) return "nunca";

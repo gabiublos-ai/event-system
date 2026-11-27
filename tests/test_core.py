@@ -158,3 +158,35 @@ def test_geocode_offline(tmp_path, monkeypatch):
     assert evs[0]["lat"] == -22.906 and evs[0]["geo_precision"] == "cidade"
     assert (evs[1]["lat"], evs[1]["lon"]) == g.CAPITALS["PE"] and evs[1]["geo_precision"] == "estado"
     assert evs[2]["lat"] is None
+
+
+def test_news_listicle_and_article():
+    from datetime import date
+    from scraper.core import load_themes
+    from scraper.sources.news import event_name_from_title, links_from_feed, parse_article
+    ref = date(2026, 11, 27)
+    html = """<html><body><article><div class="entry-content">
+      <p>Confira os principais eventos de inovação do ano. """ + "Texto. " * 60 + """</p>
+      <h2>1. VTEX Day 2027</h2>
+      <p>Quando: 10 e 11 de março de 2027. Onde: São Paulo (SP).</p>
+      <p>Maior evento de comércio digital e inteligência artificial da América Latina. <a href="https://vtexday.com">Site</a></p>
+      <h2>2. Gramado Summit</h2>
+      <p>De 5 a 7 de maio de 2027, em Gramado (RS). Evento de inovação e startups com mais de 500 palestras.</p>
+      <h2>3. Evento sem data</h2><p>Em Recife, sem data definida.</p>
+      <h2>Leia também</h2><p>Outra matéria em 10 de março de 2027 em SP.</p>
+    </div></article></body></html>"""
+    evs = parse_article(html, "https://startups.com.br/eventos/agenda-2027/", "Agenda 2027: 30 eventos de inovação",
+                        load_themes(), ["startups"], ref)
+    names = {e.name: e for e in evs}
+    assert set(names) == {"VTEX Day 2027", "Gramado Summit"}
+    assert names["VTEX Day 2027"].url == "https://vtexday.com" and names["VTEX Day 2027"].state == "SP"
+    assert names["Gramado Summit"].start_date == "2027-05-05" and names["Gramado Summit"].state == "RS"
+    assert event_name_from_title("ACE Summit aposta em conexões para destravar negócios em 2027") == "ACE Summit"
+    assert event_name_from_title("Congresso Brasileiro de Fintechs abre inscrições") == "Congresso Brasileiro de Fintechs"
+    art = """<html><head><meta property="og:description" content="Evento reúne startups e investidores."></head>
+      <body><article>""" + "Contexto. " * 40 + """O ACE Summit acontece em 18 de março de 2027, em São Paulo (SP).</article></body></html>"""
+    one = parse_article(art, "https://startups.com.br/x", "ACE Summit aposta em conexões para destravar negócios em 2027",
+                        load_themes(), ["startups"], ref)
+    assert len(one) == 1 and one[0].name == "ACE Summit" and one[0].start_date == "2027-03-18"
+    rss = "<rss><channel><item><title>Web Summit Rio 2027 confirma datas</title><link>https://x.com/a</link></item></channel></rss>"
+    assert links_from_feed(rss) == [("https://x.com/a", "Web Summit Rio 2027 confirma datas")]

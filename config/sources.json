@@ -46,15 +46,176 @@
     "max_pages_per_day": 80,
     "revisit_days": 14
   },
+  "enrich": {
+    "enabled": true,
+    "_comment": "Abre a página de cada evento novo para buscar valor e descrição (fica em cache).",
+    "max_pages_per_day": 400
+  },
+  "news": {
+    "enabled": true,
+    "_comment": "Portais de notícias. 'feeds' (RSS), 'pages' (páginas com links de matérias) e 'articles' (matérias fixas, ex.: agenda anual). 'default_themes' é usado quando a matéria não deixa o tema claro.",
+    "max_articles_per_day": 150,
+    "revisit_days": 20,
+    "portals": [
+      {
+        "name": "Startups.com.br",
+        "default_themes": [
+          "startups"
+        ],
+        "feeds": [
+          "https://startups.com.br/feed/",
+          "https://startups.com.br/eventos/feed/"
+        ],
+        "pages": [
+          "https://startups.com.br/agenda",
+          "https://startups.com.br/tag/eventos",
+          "https://startups.com.br/eventos/"
+        ],
+        "articles": [
+          "https://startups.com.br/eventos/agenda-2026-35-eventos-de-tecnologia-e-inovacao-para-ficar-de-olho/",
+          "https://startups.com.br/eventos/ace-summit-aposta-em-conexoes-para-destravar-negocios-e-investimentos-em-2027/"
+        ]
+      },
+      {
+        "name": "Forbes Brasil",
+        "default_themes": [],
+        "feeds": [
+          "https://forbes.com.br/feed/"
+        ],
+        "pages": [
+          "https://forbes.com.br/eventos/",
+          "https://forbes.com.br/noticias-sobre/eventos1/"
+        ]
+      },
+      {
+        "name": "Exame",
+        "default_themes": [],
+        "feeds": [
+          "https://exame.com/feed/"
+        ],
+        "pages": [
+          "https://exame.com/eventos/"
+        ]
+      },
+      {
+        "name": "StartSe",
+        "default_themes": [
+          "startups"
+        ],
+        "feeds": [
+          "https://www.startse.com/feed/"
+        ],
+        "pages": [
+          "https://www.startse.com/eventos/"
+        ]
+      },
+      {
+        "name": "Startupi",
+        "default_themes": [
+          "startups"
+        ],
+        "feeds": [
+          "https://startupi.com.br/feed/"
+        ],
+        "pages": [
+          "https://startupi.com.br/tag/eventos/"
+        ]
+      },
+      {
+        "name": "NeoFeed",
+        "default_themes": [],
+        "feeds": [
+          "https://neofeed.com.br/feed/"
+        ]
+      },
+      {
+        "name": "IT Forum",
+        "default_themes": [],
+        "feeds": [
+          "https://itforum.com.br/feed/"
+        ]
+      },
+      {
+        "name": "Mobile Time",
+        "default_themes": [],
+        "feeds": [
+          "https://www.mobiletime.com.br/feed/"
+        ]
+      },
+      {
+        "name": "TecMundo",
+        "default_themes": [],
+        "pages": [
+          "https://www.tecmundo.com.br/eventos"
+        ]
+      },
+      {
+        "name": "Agência Sebrae",
+        "default_themes": [
+          "startups"
+        ],
+        "feeds": [
+          "https://agenciasebrae.com.br/feed/"
+        ]
+      },
+      {
+        "name": "Times Brasil (CNBC)",
+        "default_themes": [],
+        "feeds": [
+          "https://timesbrasil.com.br/feed/"
+        ]
+      },
+      {
+        "name": "Portal do Bitcoin",
+        "default_themes": [
+          "cripto"
+        ],
+        "feeds": [
+          "https://portaldobitcoin.uol.com.br/feed/"
+        ]
+      },
+      {
+        "name": "Livecoins",
+        "default_themes": [
+          "cripto"
+        ],
+        "feeds": [
+          "https://livecoins.com.br/feed/"
+        ]
+      },
+      {
+        "name": "Cointelegraph Brasil",
+        "default_themes": [
+          "cripto"
+        ],
+        "feeds": [
+          "https://br.cointelegraph.com/rss"
+        ]
+      },
+      {
+        "name": "Medicina S/A",
+        "default_themes": [
+          "healthtech"
+        ],
+        "feeds": [
+          "https://medicinasa.com.br/feed/"
+        ]
+      },
+      {
+        "name": "Listas de agenda",
+        "default_themes": [],
+        "articles": [
+          "https://querobolsa.com.br/revista/eventos-de-tecnologia-brasil-2027",
+          "https://www.nuvemshop.com.br/blog/eventos-de-inovacao/",
+          "https://www.jornaldocomercio.com/ge2/noticias/2026/01/1232855-lista-30-eventos-de-empreendedorismo-e-inovacao-para-colocar-na-agenda-em-2026.html"
+        ]
+      }
+    ]
+  },
   "extra_pages": [],
   "ai_discovery": {
     "enabled": false,
     "_comment": "OPCIONAL e PAGO: busca com Claude. Para ligar, mude enabled para true e crie o secret ANTHROPIC_API_KEY."
   },
-  "keep_past_days": 30,
-  "enrich": {
-    "enabled": true,
-    "_comment": "Abre a página de cada evento novo para buscar valor e descrição (fica em cache).",
-    "max_pages_per_day": 400
-  }
+  "keep_past_days": 30
 }
