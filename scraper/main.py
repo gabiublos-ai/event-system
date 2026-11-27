@@ -115,8 +115,9 @@ def build(raw: list[Event], themes: dict, keep_past_days: int) -> list[dict]:
             continue
         if dedupe_key(old["name"]) in blocklist:
             continue
-        if set(old.get("sources") or [old.get("source")]) == {"curadoria"}:
-            continue  # a curadoria é relida a cada execução; se saiu do arquivo, sai do site
+        if set(old.get("sources") or [old.get("source")]) <= {"curadoria", "imprensa"}:
+            # curadoria é relida a cada execução; imprensa é reemitida do cache das matérias
+            continue
         if "curadoria" not in (old.get("sources") or []):
             # reaplica as regras atuais (temas, exclusões, tipo) aos eventos antigos
             if is_excluded(old["name"]):

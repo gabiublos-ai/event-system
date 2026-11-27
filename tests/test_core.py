@@ -190,3 +190,22 @@ def test_news_listicle_and_article():
     assert len(one) == 1 and one[0].name == "ACE Summit" and one[0].start_date == "2027-03-18"
     rss = "<rss><channel><item><title>Web Summit Rio 2027 confirma datas</title><link>https://x.com/a</link></item></channel></rss>"
     assert links_from_feed(rss) == [("https://x.com/a", "Web Summit Rio 2027 confirma datas")]
+
+
+def test_news_quality_rules():
+    from datetime import date
+    from scraper.core import load_themes
+    from scraper.sources.news import event_name_from_title, parse_article
+    assert event_name_from_title("Web Summit Fundador da empresa fala sobre IA") == "Web Summit"
+    assert event_name_from_title("Startup Summit 2025: Além do óbvio") == "Startup Summit 2025"
+    html = """<article><div class="entry-content">""" + "<p>" + "Intro. " * 80 + """</p>
+      <h2>Março</h2><p>Dia 10 de março, em São Paulo (SP), acontece o evento X de startups.</p>
+      <h2>Startup Day 2026 (SP)</h2><p>Dia 22 de março, em São Paulo (SP). Evento de startups do Sebrae.</p>
+      <h3>VTEX Day</h3><p>Dia 10 de março de 2027, em São Paulo (SP). Inteligência artificial e varejo.</p>
+      <h3>Outro</h3><p>Dia 5 de abril, em São Paulo (SP). Encontro de startups <a href="https://www.google.com/preferences?x">x</a></p>
+    </div></article>"""
+    evs = parse_article(html, "https://startups.com.br/agenda-2026/", "Agenda 2026: eventos de inovação", load_themes(), ["startups"])
+    names = [e.name for e in evs]
+    assert "Março" not in names and not any("Startup Day" in n for n in names)  # mês e edição passada saem
+    assert "VTEX Day" in names
+    assert all("google." not in e.url for e in evs)

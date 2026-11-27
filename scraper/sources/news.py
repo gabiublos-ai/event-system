@@ -34,8 +34,13 @@ EVENT_HINT = re.compile(
 LIST_HINT = re.compile(r"\b(agenda|calend[aá]rio|eventos (de|para)|\d+ eventos|principais eventos)\b", re.I)
 EVENT_WORD = (r"Summit|Week|Conference|Confer[eê]ncia|Day|Festival|Fest|Expo|F[oó]rum|Forum|Congresso|Congress|"
               r"Feira|Meetup|Hackathon|Experience|Connect|Show|Talks|Awards|Arena|Hub|Weekend|Lab|Tour")
+TRAIL = r"(?:\s+(?:Rio|Brasil|Brazil|Latam|LATAM|Latin America|Am[eé]rica Latina|Bras[ií]lia|Nordeste|Sul|SP|RJ|MG|RS|SC|PR|BH|POA|20\d\d))*"
 NAME_AFTER = re.compile(
-    rf"((?:[A-Z0-9ÁÉÍÓÚÂÊÔÃÕÇ][\w&.'’+-]*\s){{0,5}}(?:{EVENT_WORD})(?:\s+[A-Z0-9][\w&.'’-]*){{0,2}}(?:\s+20\d\d)?)")
+    rf"((?:[A-Z0-9ÁÉÍÓÚÂÊÔÃÕÇ][\w&.'’+-]*\s){{0,5}}(?:{EVENT_WORD}){TRAIL})")
+MONTH_HEAD = re.compile(r"^(janeiro|fevereiro|mar[cç]o|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)"
+                        r"(\s+(de\s+)?20\d\d)?$", re.I)
+BAD_LINK_HOSTS = ("google.", "facebook.", "instagram.", "linkedin.", "twitter.", "x.com", "youtube.", "wa.me", "t.me",
+                  "tinyurl.", "bit.ly", "intranet", "whatsapp", "apple.com", "spotify.")
 NAME_BEFORE = re.compile(
     r"((?:Congresso|Feira|F[oó]rum|Festival|Semana|Encontro|Confer[eê]ncia|Simp[oó]sio|Jornada)"
     r"(?:\s+(?:de|do|da|dos|das|e|&|[A-Z0-9ÁÉÍÓÚÂÊÔÃÕÇ][\w&.'’+-]*)){1,7})")
@@ -91,6 +96,7 @@ def _content(soup: BeautifulSoup):
 
 def _clean_name(text: str) -> str:
     text = re.sub(r"^\s*(\d{1,3}\s*[.)º°\-–—:]\s*|#\d+\s*)", "", text).strip(" -–—:|")
+    text = re.sub(r"\s*\((?:[A-Z]{2}|online|on-line|h[ií]brido)\)\s*$", "", text, flags=re.I)
     text = re.split(r"\s+[|–—]\s+|:\s+(?=[a-záéíóú])", text)[0]
     return re.sub(r"\s+", " ", text).strip()
 
@@ -99,8 +105,7 @@ def _official_link(block_links: list[str], page_url: str) -> str | None:
     host = urlparse(page_url).netloc.replace("www.", "")
     for href in block_links:
         h = urlparse(href).netloc.replace("www.", "")
-        if href.startswith("http") and h and host not in h and not any(
-                s in h for s in ("facebook.", "instagram.", "linkedin.", "twitter.", "x.com", "youtube.", "wa.me", "t.me")):
+        if href.startswith("http") and h and "." in h and host not in h and not any(s in href for s in BAD_LINK_HOSTS):
             return href
     return None
 
@@ -116,7 +121,7 @@ def parse_listicle(html: str, url: str, themes_cfg: dict, default_themes: list[s
     events = []
     for h in heads:
         name = _clean_name(h.get_text(" ", strip=True))
-        if not (3 <= len(name) <= 90) or STOP_HEAD.match(name):
+        if not (3 <= len(name) <= 90) or STOP_HEAD.match(name) or MONTH_HEAD.match(name):
             continue
         texts, links = [], []
         for sib in h.find_next_siblings():
@@ -129,7 +134,7 @@ def parse_listicle(html: str, url: str, themes_cfg: dict, default_themes: list[s
         block = " ".join(texts)
         if not block:
             continue
-        dates = find_dates(block, ref)
+        dates = _dates_for(name, block, ref)
         if not dates:
             continue
         uf = guess_uf(block[:600]) or guess_uf(name)
@@ -149,6 +154,22 @@ def parse_listicle(html: str, url: str, themes_cfg: dict, default_themes: list[s
     return events
 
 
+def _dates_for(name: str, text: str, ref: date | None) -> list[tuple[str, str]]:
+    """Datas futuras do texto; datas sem ano usam o ano de referência (ano da matéria).
+    Se o nome traz um ano (ex.: 'Web Summit Rio 2027'), a data precisa ser desse ano."""
+    today = date.today()
+    ds = [d for d in find_dates(text, ref) if d[0] >= today.isoformat()]
+    m = re.search(r"\b(20\d\d)\b", name)
+    if m:
+        ds = [d for d in ds if d[0].startswith(m.group(1))]
+    return ds
+
+
+def _ref_from(title: str, url: str) -> date | None:
+    years = re.findall(r"\b(20\d\d)\b", f"{title} {url}")
+    return date(int(max(years)), 1, 1) if years else None
+
+
 def event_name_from_title(title: str) -> str | None:
     for rx in (NAME_BEFORE, NAME_AFTER):
         m = rx.search(title or "")
@@ -165,17 +186,24 @@ def parse_article(html: str, url: str, title: str, themes_cfg: dict, default_the
     evs = extract_jsonld_events(html, "imprensa", url)
     if evs:
         return evs
+    ref = ref or _ref_from(title, url)
     if LIST_HINT.search(title or ""):
         return parse_listicle(html, url, themes_cfg, default_themes, ref)
     name = event_name_from_title(title)
     if not name:
         return []
     soup = BeautifulSoup(html, "html.parser")
-    text = _content(soup).get_text(" ", strip=True)[:6000]
-    dates = find_dates(text, ref)
+    text = _content(soup).get_text(" ", strip=True)[:8000]
+    # a data tem que estar perto de onde o texto cita o evento
+    core = re.sub(r"\s+20\d\d$", "", name)
+    idx = text.lower().find(core.lower())
+    if idx < 0:
+        return []
+    window = text[max(0, idx - 150): idx + 700]
+    dates = _dates_for(name, window, ref)
     if not dates:
         return []
-    uf = guess_uf(text[:3000])
+    uf = guess_uf(window) or guess_uf(text[:3000])
     if not uf:
         return []
     th = relevant_themes(name, text[:2000], themes_cfg) or list(default_themes)
@@ -216,8 +244,15 @@ def collect(themes_cfg: dict, cfg: dict) -> list[Event]:
         candidates += kept
 
     todo, seen = [], set()
+    events: list[Event] = []
     for u, t, th in candidates:
-        if u in seen or cache.get(u, "") > revisit:
+        c = cache.get(u)
+        if isinstance(c, dict) and c.get("date", "") > revisit:  # já lida: reaproveita os eventos extraídos
+            if u not in seen:
+                events += [Event(**{k: v for k, v in d.items() if k in Event.__dataclass_fields__}) for d in c.get("events", [])]
+            seen.add(u)
+            continue
+        if u in seen:
             continue
         seen.add(u)
         todo.append((u, t, th))
@@ -236,12 +271,14 @@ def collect(themes_cfg: dict, cfg: dict) -> list[Event]:
             log.debug("imprensa: falha em %s: %s", u, e)
             return []
 
-    events: list[Event] = []
     with ThreadPoolExecutor(max_workers=6) as pool:
         for (u, _, _), evs in zip(todo, pool.map(work, todo)):
-            cache[u] = date.today().isoformat()
+            cache[u] = {"date": date.today().isoformat(), "events": [
+                {k: getattr(e, k) for k in ("name", "url", "source", "start_date", "end_date", "description",
+                                            "state", "city", "format", "themes", "date_confirmed")} for e in evs]}
             events += evs
     old = (date.today() - timedelta(days=120)).isoformat()
-    CACHE_FILE.write_text(json.dumps({u: d for u, d in cache.items() if d > old}, indent=0, sort_keys=True), encoding="utf-8")
+    cache = {u: c for u, c in cache.items() if isinstance(c, dict) and c.get("date", "") > old}
+    CACHE_FILE.write_text(json.dumps(cache, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
     log.info("imprensa: %d matérias abertas, %d eventos extraídos", len(todo), len(events))
     return events
