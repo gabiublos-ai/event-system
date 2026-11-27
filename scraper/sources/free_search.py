@@ -50,6 +50,12 @@ _M = "|".join(sorted(MONTHS, key=len, reverse=True))
 # "10 a 12 de maio de 2027", "10 e 11 de maio", "10 de maio de 2027", "10-12 maio 2027"
 RX_TEXT = re.compile(
     rf"\b(\d{{1,2}})(?:\s*(?:a|e|-|–|ate)\s*(\d{{1,2}}))?\s*(?:de\s+)?({_M})\.?(?:\s*(?:de\s+)?(20\d\d))?\b")
+# datas em inglês: "June 14-17, 2027", "March 3, 2027"
+EN_MONTHS = {"january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6, "july": 7, "august": 8,
+             "september": 9, "october": 10, "november": 11, "december": 12, "jan": 1, "feb": 2, "mar": 3, "apr": 4,
+             "jun": 6, "jul": 7, "aug": 8, "sep": 9, "sept": 9, "oct": 10, "nov": 11, "dec": 12}
+_EM = "|".join(sorted(EN_MONTHS, key=len, reverse=True))
+RX_EN = re.compile(rf"\b({_EM})\.?\s+(\d{{1,2}})(?:st|nd|rd|th)?(?:\s*(?:-|–|to|through)\s*(\d{{1,2}}))?,?\s+(20\d\d)\b")
 # "10/05/2027" ou "10 a 12/05/2027"
 RX_NUM = re.compile(r"\b(\d{1,2})(?:\s*(?:a|e|-|–)\s*(\d{1,2}))?/(\d{1,2})/(20\d\d)\b")
 
@@ -64,6 +70,9 @@ def find_dates(text: str, ref: date | None = None) -> list[tuple[str, str]]:
         d1, d2, mon, yr = m.group(1), m.group(2), MONTHS[m.group(3)], m.group(4)
         year = int(yr) if yr else (ref.year if mon >= ref.month else ref.year + 1)
         out += _mk(m.start(), year, mon, int(d1), int(d2) if d2 else None)
+    for m in RX_EN.finditer(t):
+        out += _mk(m.start(), int(m.group(4)), EN_MONTHS[m.group(1)], int(m.group(2)),
+                   int(m.group(3)) if m.group(3) else None)
     for m in RX_NUM.finditer(t):
         out += _mk(m.start(), int(m.group(4)), int(m.group(3)), int(m.group(1)),
                    int(m.group(2)) if m.group(2) else None)

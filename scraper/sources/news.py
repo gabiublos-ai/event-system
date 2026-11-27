@@ -30,7 +30,8 @@ CACHE_FILE = DATA_DIR / "news_cache.json"
 
 EVENT_HINT = re.compile(
     r"\b(evento|eventos|agenda|summit|congresso|feira|confer[eê]ncia|festival|f[oó]rum|semana|week|"
-    r"demo ?day|hackathon|meetup|expo|edi[cç][aã]o|inscri[cç][oõ]es|ingressos)\b", re.I)
+    r"demo ?day|hackathon|meetup|expo|edi[cç][aã]o|inscri[cç][oõ]es|ingressos|"
+    r"event|events|conference|pitch competition|tickets|registration)\b", re.I)
 LIST_HINT = re.compile(r"\b(agenda|calend[aá]rio|eventos (de|para)|\d+ eventos|principais eventos)\b", re.I)
 EVENT_WORD = (r"Summit|Week|Conference|Confer[eê]ncia|Day|Festival|Fest|Expo|F[oó]rum|Forum|Congresso|Congress|"
               r"Feira|Meetup|Hackathon|Experience|Connect|Show|Talks|Awards|Arena|Hub|Weekend|Lab|Tour")

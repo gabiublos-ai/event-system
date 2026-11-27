@@ -69,6 +69,8 @@ def test_free_search_dates():
     assert find_dates("Inscrições até 15/04/2027", ref)[0] == ("2027-04-15", "2027-04-15")
     assert find_dates("Edição passada: 5 de maio de 2025", ref) == []
     assert find_dates("1 de marketing digital", ref) == []
+    assert find_dates("Web Summit Rio returns June 14-17, 2027 in Rio de Janeiro", ref)[0] == ("2027-06-14", "2027-06-17")
+    assert find_dates("on March 3rd, 2027", ref)[0] == ("2027-03-03", "2027-03-03")
 
 
 def test_free_search_parsers_and_heuristic():

@@ -28,6 +28,7 @@ Atualiza sozinho **todos os dias por volta das 9h (horário de Brasília)**, com
 | Even3, Doity | Páginas de busca (JSON-LD) |
 | **Busca na web grátis** (DuckDuckGo + Bing) | Pesquisa ~60 combinações por dia de tema × tipo de evento × cidade/região × ano, abre as páginas encontradas e extrai o evento (JSON-LD ou, se não houver, título + datas em português + cidade/UF). Gira as combinações a cada dia e não reabre páginas já vistas por 14 dias. **Sem chave e sem custo** |
 | Busca com IA (Claude) — *opcional, paga* | Desligada por padrão. Pode ser ligada em `config/sources.json` |
+| Portais de notícias | 38 fontes nacionais e internacionais (Startups.com.br, InfoMoney, Startupi, Finsiders, Bloomberg Línea, Pipeline/Valor, NeoFeed, Brazil Journal, Exame, StartSe, Forbes, TechCrunch, StrictlyVC, Crunchbase News, PitchBook, Axios Pro Rata, Fortune Term Sheet, The Information, Business Insider, VentureBeat, Product Hunt, Hacker News, Sifted, LatamList, Distrito, Sling Hub e outros). Entram no radar as matérias que anunciam eventos no Brasil. Lista editável em `config/sources.json` → `news` |
 | Curadoria | `data/seed_events.json` — grandes eventos recorrentes, editável à mão |
 
 Eventos achados pela busca grátis sem data estruturada aparecem com o selo **Data estimada**.

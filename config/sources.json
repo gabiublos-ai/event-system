@@ -54,7 +54,7 @@
   "news": {
     "enabled": true,
     "_comment": "Portais de notícias. 'feeds' (RSS), 'pages' (páginas com links de matérias) e 'articles' (matérias fixas, ex.: agenda anual). 'default_themes' é usado quando a matéria não deixa o tema claro.",
-    "max_articles_per_day": 150,
+    "max_articles_per_day": 250,
     "revisit_days": 20,
     "portals": [
       {
@@ -63,8 +63,9 @@
           "startups"
         ],
         "feeds": [
-          "https://startups.com.br/feed/",
-          "https://startups.com.br/eventos/feed/"
+          "https://startups.com.br/agenda/feed/",
+          "https://startups.com.br/eventos/feed/",
+          "https://startups.com.br/feed/"
         ],
         "pages": [
           "https://startups.com.br/agenda",
@@ -208,6 +209,241 @@
           "https://querobolsa.com.br/revista/eventos-de-tecnologia-brasil-2027",
           "https://www.nuvemshop.com.br/blog/eventos-de-inovacao/",
           "https://www.jornaldocomercio.com/ge2/noticias/2026/01/1232855-lista-30-eventos-de-empreendedorismo-e-inovacao-para-colocar-na-agenda-em-2026.html"
+        ]
+      },
+      {
+        "name": "TechCrunch",
+        "default_themes": [
+          "startups"
+        ],
+        "feeds": [
+          "https://techcrunch.com/feed/",
+          "https://techcrunch.com/category/startups/feed/",
+          "https://techcrunch.com/category/venture/feed/"
+        ],
+        "pages": [
+          "https://techcrunch.com/events/"
+        ]
+      },
+      {
+        "name": "StrictlyVC",
+        "default_themes": [
+          "startups"
+        ],
+        "feeds": [
+          "https://techcrunch.com/tag/strictlyvc/feed/",
+          "https://strictlyvc.com/feed/"
+        ],
+        "pages": [
+          "https://www.strictlyvc.com/"
+        ]
+      },
+      {
+        "name": "Startups Weekly (TechCrunch)",
+        "default_themes": [
+          "startups"
+        ],
+        "feeds": [
+          "https://techcrunch.com/tag/startups-weekly/feed/"
+        ]
+      },
+      {
+        "name": "Crunchbase News",
+        "default_themes": [
+          "startups"
+        ],
+        "feeds": [
+          "https://news.crunchbase.com/feed/"
+        ],
+        "pages": [
+          "https://news.crunchbase.com/sections/venture/"
+        ]
+      },
+      {
+        "name": "PitchBook News",
+        "default_themes": [
+          "startups"
+        ],
+        "feeds": [
+          "https://pitchbook.com/news/rss"
+        ],
+        "pages": [
+          "https://pitchbook.com/news"
+        ]
+      },
+      {
+        "name": "Axios Pro Rata",
+        "default_themes": [
+          "startups"
+        ],
+        "feeds": [
+          "https://api.axios.com/feed/"
+        ],
+        "pages": [
+          "https://www.axios.com/newsletters/axios-pro-rata"
+        ]
+      },
+      {
+        "name": "Fortune Term Sheet",
+        "default_themes": [
+          "startups"
+        ],
+        "feeds": [
+          "https://fortune.com/feed/"
+        ],
+        "pages": [
+          "https://fortune.com/section/term-sheet/"
+        ]
+      },
+      {
+        "name": "The Information",
+        "default_themes": [],
+        "feeds": [
+          "https://www.theinformation.com/feed"
+        ]
+      },
+      {
+        "name": "Business Insider (startups)",
+        "default_themes": [
+          "startups"
+        ],
+        "feeds": [
+          "https://feeds.businessinsider.com/custom/all"
+        ],
+        "pages": [
+          "https://www.businessinsider.com/startups"
+        ]
+      },
+      {
+        "name": "VentureBeat",
+        "default_themes": [
+          "ia"
+        ],
+        "feeds": [
+          "https://venturebeat.com/feed/",
+          "https://venturebeat.com/category/ai/feed/"
+        ]
+      },
+      {
+        "name": "Product Hunt",
+        "default_themes": [],
+        "feeds": [
+          "https://www.producthunt.com/feed"
+        ]
+      },
+      {
+        "name": "Hacker News",
+        "default_themes": [],
+        "feeds": [
+          "https://hnrss.org/newest?q=Brazil",
+          "https://hnrss.org/newest?q=Brasil"
+        ]
+      },
+      {
+        "name": "Sifted",
+        "default_themes": [
+          "startups"
+        ],
+        "feeds": [
+          "https://sifted.eu/feed/"
+        ],
+        "pages": [
+          "https://sifted.eu/events"
+        ]
+      },
+      {
+        "name": "InfoMoney (startups)",
+        "default_themes": [
+          "startups"
+        ],
+        "feeds": [
+          "https://www.infomoney.com.br/feed/"
+        ],
+        "pages": [
+          "https://www.infomoney.com.br/startups/"
+        ]
+      },
+      {
+        "name": "Finsiders Brasil",
+        "default_themes": [
+          "fintech"
+        ],
+        "feeds": [
+          "https://finsidersbrasil.com.br/feed/"
+        ],
+        "pages": [
+          "https://finsidersbrasil.com.br/agenda/",
+          "https://finsidersbrasil.com.br/eventos/"
+        ]
+      },
+      {
+        "name": "Bloomberg Línea",
+        "default_themes": [
+          "startups"
+        ],
+        "feeds": [
+          "https://www.bloomberglinea.com.br/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "pages": [
+          "https://www.bloomberglinea.com.br/tags/rodadas-da-semana/"
+        ]
+      },
+      {
+        "name": "Pipeline (Valor)",
+        "default_themes": [
+          "startups"
+        ],
+        "pages": [
+          "https://pipelinevalor.globo.com/"
+        ]
+      },
+      {
+        "name": "Brazil Journal",
+        "default_themes": [],
+        "feeds": [
+          "https://braziljournal.com/feed/"
+        ]
+      },
+      {
+        "name": "Exame (startups)",
+        "default_themes": [
+          "startups"
+        ],
+        "pages": [
+          "https://exame.com/negocios/startups/"
+        ]
+      },
+      {
+        "name": "LatamList",
+        "default_themes": [
+          "startups"
+        ],
+        "feeds": [
+          "https://latamlist.com/feed/"
+        ],
+        "pages": [
+          "https://latamlist.com/category/events/"
+        ]
+      },
+      {
+        "name": "Distrito",
+        "default_themes": [
+          "startups"
+        ],
+        "feeds": [
+          "https://distrito.me/blog/feed/"
+        ],
+        "pages": [
+          "https://distrito.me/eventos/"
+        ]
+      },
+      {
+        "name": "Sling Hub",
+        "default_themes": [
+          "startups"
+        ],
+        "pages": [
+          "https://www.slinghub.io/blog"
         ]
       }
     ]
