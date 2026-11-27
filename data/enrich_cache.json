@@ -1,6 +1,16 @@
 {
+"http://admin.fivenews.intranet.jc/tinyurl.com/mve622dn": {
+"date": "2026-11-27",
+"v": 4
+},
 "https://2026.internationalfoodtech.com.br": {
 "date": "2026-11-25",
+"description": "",
+"price": null,
+"v": 4
+},
+"https://acesummit.com.br/": {
+"date": "2026-11-27",
 "description": "",
 "price": null,
 "v": 4
@@ -77,9 +87,19 @@
 "price": null,
 "v": 4
 },
+"https://brazilatsiliconvalley.com/": {
+"date": "2026-11-27",
+"v": 4
+},
 "https://case.abstartups.com.br/": {
 "date": "2026-11-25",
 "description": "CASE26 é o epicentro das startups do Brasil: plataforma multi-eventos reunindo o ecossistema de inovação, empreendedorismo e investimento em 26 e 27 de novembro de 2026.",
+"price": null,
+"v": 4
+},
+"https://con.contaazul.com/": {
+"date": "2026-11-27",
+"description": "A maior conferência de empreendedorismo, contabilidade e tecnologia da América Latina.",
 "price": null,
 "v": 4
 },
@@ -236,6 +256,12 @@
 "price": null,
 "v": 4
 },
+"https://querobolsa.com.br/revista/eventos-de-tecnologia-brasil-2027": {
+"date": "2026-11-27",
+"description": "",
+"price": null,
+"v": 4
+},
 "https://recnplay.pe": {
 "date": "2026-11-27",
 "description": "REC'n'Play 2026: obrigado por fazer parte do maior festival gratuito de inovação, tecnologia, criatividade e cultura do Brasil. Veja como foi e até a próxima, de 17 a 20 de novembro de 2027!",
@@ -260,6 +286,12 @@
 "price": null,
 "v": 4
 },
+"https://sebrae.com.br/subsites/startup-day": {
+"date": "2026-11-27",
+"description": "O Startup Day é um movimento nacional de conexão entre startups, empreendedores e agentes do ecossistema de inovação.",
+"price": null,
+"v": 4
+},
 "https://sites.google.com/websummit.com/spotlightparaibaeng/faq": {
 "date": "2026-11-25",
 "description": "What is Web Summit Spotlight",
@@ -281,6 +313,12 @@
 "https://startupi.com.br/?p=259769": {
 "date": "2026-11-25",
 "description": "O Rio Innovation Week 2026 reuniu cerca de 200 mil pessoas entre 4 e 7 de agosto, no Píer Mauá, no Rio de Janeiro. Em sua sexta edição, o evento contou com 3.200 palestrantes de 22 países, 30 delegações internacionais, cerca de 40 palcos, 16 trilhas de conteúdo, 400 expositores e 2 mil startups. A […]",
+"price": null,
+"v": 4
+},
+"https://startups.com.br/agenda/confira-os-eventos-mais-aguardados-de-novembro/": {
+"date": "2026-11-27",
+"description": "É hora de organizar o calendário e se preparar para as feiras, conferências e os programas de inovação das próximas semanas",
 "price": null,
 "v": 4
 },
@@ -398,8 +436,26 @@
 "price": null,
 "v": 4
 },
+"https://www.futurecom.com.br/pt/home.htmlpt/home.html": {
+"date": "2026-11-27",
+"description": "Conectamos tecnologia e inovação, apresentando soluções de ponta para infraestrutura digital, IA e soberania tecnológica. De 05 a 07 de outubro de 2027, no São Paulo Expo.",
+"price": null,
+"v": 4
+},
 "https://www.gartner.com/pt-br/conferences/la/data-analytics-brazil": {
 "date": "2026-11-25"
+},
+"https://www.google.com/preferences/source?q=startups.com.br": {
+"date": "2026-11-27",
+"description": "",
+"price": null,
+"v": 4
+},
+"https://www.gramadosummit.com/": {
+"date": "2026-11-27",
+"description": "O maior evento de inovação do Brasil está confirmado para 2027. Garanta já seu ingresso. Compre seu passaporte antecipadamente e pague menos. Serra Park, Gramado RS. Maior Evento de Startups. Maior Brainstorming.",
+"price": null,
+"v": 4
 },
 "https://www.himss.org/events-overview/himss-executive-summit-brazil/": {
 "date": "2026-11-25"
@@ -661,6 +717,18 @@
 "https://www.southsummit.io/e/brazil-2027/content/ticket-details": {
 "date": "2026-11-25"
 },
+"https://www.southsummit.io/pt": {
+"date": "2026-11-27",
+"description": "Conecte-se com as melhores startups, investidores visionários e empresas líderes. O South Summit é o catalisador global para a inovação e o crescimento dos negócios.",
+"price": null,
+"v": 4
+},
+"https://www.sxswlondon.com/": {
+"date": "2026-11-27",
+"description": "Experience SXSW London in Shoreditch where global music, film, tech, and culture meet for six days of discovery, networking, and inspiration.",
+"price": null,
+"v": 4
+},
 "https://www.sympla.com.br/ai-summit-money__3565725": {
 "date": "2026-11-25",
 "description": "Se o dinheiro move o mundo, a Inteligência Artificial passa a decidir como ele é analisado, protegido, distribuído, investido e multiplicado.Ela redefine como o dinheiro circula, como o risco é calculado, como o crédito é concedido, como investimentos são decididos e como patrimônios são protegidos.O AI Summit Money nasce para discutir a revolução que já começou: a convergência entre IA, finanças, seguros, capital, proteção e geração de valor.É o encontro entre os líderes que estão moldando a nova economia orientada por inteligência artificial.Um fórum para bancos, fintechs, seguradoras, insurtechs, gestoras, family offices, empresas de crédito, previdência, tecnologia, dados e regulação.A Inteligência Artificial é o novo código da economia. Ela redefine como o dinheiro circula, como o risco é calculado e como o valor é criado, protegido e multiplicado.AI Summit Money: o encontro que reúne os maiores nomes da IA no ecossistema financeiro. <! Alberto Campos Banco BV <. Alessandro Bonori",
@@ -844,6 +912,12 @@
 "https://www.sympla.com.br/evento/alem-do-headcount-a-ia-como-alavanca-de-crescimento/3669012": {
 "date": "2026-11-27",
 "description": "Como ampliar a capacidade produtiva de uma empresa sem aumentar proporcionalmente sua estrutura operacional?A Inteligência Artificial está redefinindo a maneira como as empresas operam, gerenciam recursos e escalam seus negócios. Mais do que automatizar tarefas, a tecnologia permite potencializar equipes, otimizar processos e ampliar a capacidade de entrega das organizações.Neste encontro da HOTMILK PUCPR, Hugo Ito e Clayton de Souza Silva compartilharão uma visão prática e estratégica sobre como aplicar a Inteligência Artificial em diferentes áreas empresariais, explorando oportunidades para aumentar a produtividade, otimizar recursos, reduzir custos operacionais e impulsionar o crescimento sustentável dos negócios.Uma oportunidade para empresários, executivos e lideranças que desejam compreender como a IA pode transformar a eficiência operacional em vantagem competitiva, ampliando a capacidade de geração de valor das equipes.",
+"price": "Gratuito",
+"v": 4
+},
+"https://www.sympla.com.br/evento/alem-do-investimento-como-fortalecer-a-saude-financeira-e-transformar-a-gestao-com-ia/3669237": {
+"date": "2026-11-27",
+"description": "Um encontro para empresários de Vitória trocarem experiências e conhecerem caminhos para fortalecer seus negócios. A programação terá duas conversas rápidas: Murilo falará sobre liquidez, reestruturação de dívidas e como ganhar fôlego financeiro; e a Teakeat compartilhará seu case de transformação da gestão com IA após receber investimentos.",
 "price": "Gratuito",
 "v": 4
 },
