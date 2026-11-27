@@ -58,5 +58,17 @@
    "busca_web": 1
   },
   "run_url": "https://github.com/gabiublos-ai/event-system/actions/runs/45917612564"
+ },
+ {
+  "at": "2026-11-27T09:44-03:00",
+  "trigger": "publicacao",
+  "mode": "reprocessamento",
+  "total": 363,
+  "added": 0,
+  "removed": 1,
+  "sources": {
+   "curadoria": 79
+  },
+  "run_url": "https://github.com/gabiublos-ai/event-system/actions/runs/46001065982"
  }
 ]

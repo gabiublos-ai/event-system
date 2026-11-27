@@ -1,15 +1,9 @@
 {
  "meta": {
-  "updated_at": "2026-11-26T21:41-03:00",
-  "total": 364,
+  "updated_at": "2026-11-27T09:44-03:00",
+  "total": 363,
   "sources_raw": {
-   "curadoria": 79,
-   "sympla": 3371,
-   "eventbrite": 518,
-   "meetup": 2684,
-   "even3": 0,
-   "doity": 0,
-   "busca_web": 1
+   "curadoria": 79
   },
   "themes": {
    "ia": {
@@ -222,7 +216,8 @@
    "image": "https://images.sympla.com.br/69389d3975541.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia"
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -562,6 +557,7 @@
    "image": "https://images.sympla.com.br/6afc410c60c10.jpg",
    "price": "Gratuito",
    "themes": [
+    "aceleradoras",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -1904,7 +1900,7 @@
    "id": "39dc54ff3e42",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -1930,6 +1926,7 @@
    "image": "https://images.sympla.com.br/6a29899e23e8c.png",
    "price": "Gratuito",
    "themes": [
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -3095,6 +3092,7 @@
    "price": "Gratuito",
    "themes": [
     "demo_day",
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -3146,40 +3144,6 @@
    "geo_precision": "cidade",
    "lat": -1.4363,
    "lon": -48.459
-  },
-  {
-   "name": "Eventos em Pernambuco (PE)",
-   "url": "https://tiqueteira.com/eventos/pe",
-   "source": "busca_web",
-   "start_date": "2026-11-27",
-   "end_date": "2026-11-27",
-   "description": "Agenda de eventos e ingressos em Pernambuco. Compre online com pagamento via Pix na Tiqueteira.",
-   "city": null,
-   "state": "PE",
-   "venue": null,
-   "format": "presencial",
-   "type": "evento",
-   "organizer": null,
-   "image": null,
-   "price": null,
-   "themes": [
-    "fintech"
-   ],
-   "recurrence": "ocasional",
-   "typical_month": 11,
-   "date_confirmed": false,
-   "id": "b1895f706bc4",
-   "region": "Nordeste",
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "sources": [
-    "busca_web"
-   ],
-   "is_new": true,
-   "summary": "Agenda de eventos e ingressos em Pernambuco. Compre online com pagamento via Pix na Tiqueteira.",
-   "geo_precision": "estado",
-   "lat": -8.054,
-   "lon": -34.881
   },
   {
    "name": "INDAIATUBA - Palestra ACELERACÃO DE VENDAS - COMO VENDER MAIS, MAIS FÁCIL E MELHOR",
@@ -3401,7 +3365,8 @@
    "image": "https://images.sympla.com.br/6aecc9feb86aa.jpg",
    "price": "Gratuito",
    "themes": [
-    "ia"
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 11,
@@ -3503,6 +3468,7 @@
    "image": "https://images.sympla.com.br/6af377e5d2a77.png",
    "price": "Gratuito",
    "themes": [
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -4089,7 +4055,7 @@
    "id": "aa778b63d01c",
    "region": "Norte",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -4319,6 +4285,7 @@
    "image": "https://images.sympla.com.br/6a99679527ef4.jpg",
    "price": "Gratuito",
    "themes": [
+    "escolas_negocio",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -4557,7 +4524,8 @@
    "image": "https://images.sympla.com.br/6af518a1df36f.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia"
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4694,7 +4662,8 @@
    "image": "https://images.sympla.com.br/6ae4f200ee60f.png",
    "price": "R$ 79,99",
    "themes": [
-    "ia"
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -4728,7 +4697,9 @@
    "image": "https://images.sympla.com.br/6a982881dd5be.png",
    "price": "R$ 10",
    "themes": [
-    "demo_day"
+    "demo_day",
+    "escolas_negocio",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5102,6 +5073,7 @@
    "image": "https://images.sympla.com.br/5f282a0c6a2d9.png",
    "price": "Gratuito",
    "themes": [
+    "aceleradoras",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -5238,7 +5210,8 @@
    "image": "https://images.sympla.com.br/6af62c9e221c0.png",
    "price": "Gratuito",
    "themes": [
-    "escolas_negocio"
+    "escolas_negocio",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5478,7 +5451,8 @@
    "image": "https://images.sympla.com.br/6b045fe0b6341.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia"
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5522,7 +5496,7 @@
    "id": "d2764d245a28",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -5650,6 +5624,7 @@
    "image": "https://images.sympla.com.br/6afd046032760.jpg",
    "price": "Gratuito",
    "themes": [
+    "aceleradoras",
     "demo_day",
     "startups"
    ],
@@ -5856,7 +5831,8 @@
    "image": "https://images.sympla.com.br/6ae37fb4d36dd.png",
    "price": "Gratuito",
    "themes": [
-    "demo_day"
+    "demo_day",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5958,6 +5934,7 @@
    "image": "https://images.sympla.com.br/6af5dad3c40e8.png",
    "price": "Pago (valor no site)",
    "themes": [
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -6026,7 +6003,8 @@
    "image": "https://images.sympla.com.br/6afc908b621a5.png",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras"
+    "aceleradoras",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -6264,6 +6242,7 @@
    "image": "https://images.sympla.com.br/6af470e1a818f.png",
    "price": "Gratuito",
    "themes": [
+    "cripto",
     "fintech"
    ],
    "recurrence": "ocasional",
@@ -6684,7 +6663,7 @@
    "id": "a27adee1aeaf",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -6710,6 +6689,7 @@
    "image": "https://images.sympla.com.br/6ac4f7083aaae.png",
    "price": "Gratuito",
    "themes": [
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -7119,6 +7099,7 @@
    "image": "https://images.sympla.com.br/6b070fdd5b075.jpg",
    "price": "Gratuito",
    "themes": [
+    "aceleradoras",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -7427,6 +7408,7 @@
    "image": "https://images.sympla.com.br/6adb7a13c0d61.png",
    "price": "Pago (valor no site)",
    "themes": [
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -8281,7 +8263,8 @@
    "image": "https://images.sympla.com.br/6afb433b55adb.png",
    "price": "Gratuito",
    "themes": [
-    "demo_day"
+    "demo_day",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -8383,6 +8366,7 @@
    "image": "https://images.sympla.com.br/6af38079a8c6c.png",
    "price": "Gratuito",
    "themes": [
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -8588,7 +8572,8 @@
    "image": "https://images.sympla.com.br/6b08c5f5a30e3.png",
    "price": "Gratuito",
    "themes": [
-    "ia"
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -8724,6 +8709,7 @@
    "image": "https://images.sympla.com.br/6aff96f55632a.jpg",
    "price": "Gratuito",
    "themes": [
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -9336,6 +9322,7 @@
    "image": "https://images.sympla.com.br/6a47cb9c5fcf1.jpg",
    "price": "Pago (valor no site)",
    "themes": [
+    "aceleradoras",
     "ia"
    ],
    "recurrence": "ocasional",
@@ -9472,7 +9459,9 @@
    "image": "https://images.sympla.com.br/69c512c306840.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "healthtech"
+    "healthtech",
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 2,
@@ -9685,7 +9674,7 @@
    "id": "3e39274d8a6d",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -9711,6 +9700,7 @@
    "image": "https://images.sympla.com.br/6ad94611bd830.jpg",
    "price": "Pago (valor no site)",
    "themes": [
+    "foodtech",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -9823,7 +9813,7 @@
    "id": "e8bdcb702973",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -9892,7 +9882,7 @@
    "id": "b91168ceb321",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -9927,7 +9917,7 @@
    "id": "d3c4e1ad101b",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -9961,7 +9951,7 @@
    "id": "f79c3f3d0c84",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -9995,7 +9985,7 @@
    "id": "9f5d14384679",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10030,7 +10020,7 @@
    "id": "43f0cc0debb2",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10090,7 +10080,8 @@
    "image": "https://images.sympla.com.br/6a4e550ec3e71.jpg",
    "price": "Pago (valor no site)",
    "themes": [
-    "foodtech"
+    "foodtech",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 6,
@@ -10167,7 +10158,7 @@
    "id": "d3e25fbeb4e0",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10201,7 +10192,7 @@
    "id": "f421eee799fb",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10227,7 +10218,8 @@
    "image": "https://images.sympla.com.br/6a42abe031423.png",
    "price": "Pago (valor no site)",
    "themes": [
-    "ia"
+    "ia",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 6,
@@ -10271,7 +10263,7 @@
    "id": "359181f67060",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10307,7 +10299,7 @@
    "id": "80b15a7b756a",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10342,7 +10334,7 @@
    "id": "20b4ac508718",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10478,7 +10470,7 @@
    "id": "127bcd9e6aa8",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10513,7 +10505,7 @@
    "id": "6259601533c8",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10548,7 +10540,7 @@
    "id": "81e4b1e9db51",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10582,7 +10574,7 @@
    "id": "918de5c1c57c",
    "region": "Norte",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10616,7 +10608,7 @@
    "id": "f15f45b0f1a4",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10650,7 +10642,7 @@
    "id": "cdea682c6c78",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10684,7 +10676,7 @@
    "id": "8a6614891a88",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10718,7 +10710,7 @@
    "id": "4e41c7fdc2b4",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10752,7 +10744,7 @@
    "id": "997e3a77d2c9",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10786,7 +10778,7 @@
    "id": "9e01641154a5",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10822,7 +10814,7 @@
    "id": "ad3d7151ebfc",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10858,7 +10850,7 @@
    "id": "93b822395560",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10892,7 +10884,7 @@
    "id": "96c319db0e3f",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10927,7 +10919,7 @@
    "id": "bea20472466c",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10962,7 +10954,7 @@
    "id": "c900b32d424b",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -10996,7 +10988,7 @@
    "id": "1b44c79cf36d",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11031,7 +11023,7 @@
    "id": "c86b22e3a5d3",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11066,7 +11058,7 @@
    "id": "a65e06a97758",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11100,7 +11092,7 @@
    "id": "bfd65412d2fc",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11136,7 +11128,7 @@
    "id": "1b538bcbc787",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11170,7 +11162,7 @@
    "id": "6c9d49086968",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11204,7 +11196,7 @@
    "id": "4996224b767b",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11238,7 +11230,7 @@
    "id": "4124384d8e9b",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11272,7 +11264,7 @@
    "id": "e39d7f2cc771",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11308,7 +11300,7 @@
    "id": "c749c28539f6",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11342,7 +11334,7 @@
    "id": "85d1536f25df",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11376,7 +11368,7 @@
    "id": "0b9dddef0abd",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11412,7 +11404,7 @@
    "id": "7985dfdd5f52",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11446,7 +11438,7 @@
    "id": "3119fdc0fd01",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11480,7 +11472,7 @@
    "id": "6df5c60c7a51",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11516,7 +11508,7 @@
    "id": "f90fec156584",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11550,7 +11542,7 @@
    "id": "6c70289acdda",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11587,7 +11579,7 @@
    "id": "fefb711f0959",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11622,7 +11614,7 @@
    "id": "30e99c087058",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11657,7 +11649,7 @@
    "id": "d25230420016",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11691,7 +11683,7 @@
    "id": "c29219edf5c2",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11727,7 +11719,7 @@
    "id": "7214de4c4aa9",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11761,7 +11753,7 @@
    "id": "e2c8ac6c0ac2",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11796,7 +11788,7 @@
    "id": "445cfcb9456a",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11831,7 +11823,7 @@
    "id": "3943cf9e54c9",
    "region": "Norte",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11867,7 +11859,7 @@
    "id": "4d7040da79c6",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11903,7 +11895,7 @@
    "id": "ed9bc740f0d3",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11938,7 +11930,7 @@
    "id": "79f0ed0a0f1c",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -11973,7 +11965,7 @@
    "id": "0ad5e4c6f260",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12007,7 +11999,7 @@
    "id": "f817c69774bf",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12042,7 +12034,7 @@
    "id": "ecde2d1d8ebf",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12077,7 +12069,7 @@
    "id": "50b18ff6cfd4",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12112,7 +12104,7 @@
    "id": "e1c2398f4903",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12147,7 +12139,7 @@
    "id": "a7f9e3444301",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12182,7 +12174,7 @@
    "id": "388c91043f6a",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12217,7 +12209,7 @@
    "id": "c97c086aea55",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12251,7 +12243,7 @@
    "id": "a04ac460ac35",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12286,7 +12278,7 @@
    "id": "a01117a671d6",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12321,7 +12313,7 @@
    "id": "0dae93b6a890",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12356,7 +12348,7 @@
    "id": "bc157509ced0",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12390,7 +12382,7 @@
    "id": "515ca25dee60",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12424,7 +12416,7 @@
    "id": "fb3db41e1e16",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12460,7 +12452,7 @@
    "id": "dbe495f5e0d5",
    "region": "Sul",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12494,7 +12486,7 @@
    "id": "11d4eef38a0f",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12529,7 +12521,7 @@
    "id": "d3e146e73ffd",
    "region": "Norte",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12564,7 +12556,7 @@
    "id": "9cbe847e46ef",
    "region": "Nordeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12598,7 +12590,7 @@
    "id": "5b6e4dcf15af",
    "region": "Sudeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
@@ -12633,7 +12625,7 @@
    "id": "517474ae93e8",
    "region": "Centro-Oeste",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "sources": [
     "curadoria"
    ],
