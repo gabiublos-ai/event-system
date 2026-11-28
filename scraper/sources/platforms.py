@@ -118,13 +118,19 @@ def sympla(terms: list[str], pages: int = 3) -> list[Event]:
 # ------------------------------------------------------------------ Eventbrite
 def eventbrite(terms: list[str], pages: int = 2) -> list[Event]:
     events: list[Event] = []
+    blocked = 0
     for term in terms:
+        if blocked >= 2:  # o site está bloqueando o robô: desiste hoje em vez de insistir em todas as buscas
+            log.warning("eventbrite: bloqueado, pulando as demais buscas")
+            break
         tslug = re.sub(r"\s+", "-", term.strip().lower())
         for page in range(1, pages + 1):
             url = f"https://www.eventbrite.com.br/d/brazil/{quote(tslug)}/?page={page}"
-            r = fetch(url)
+            r = fetch(url, retries=1)
             if not r:
+                blocked += page == 1
                 break
+            blocked = 0
             found = extract_jsonld_events(r.text, "eventbrite", url)
             m = re.search(r"window\.__SERVER_DATA__\s*=\s*(\{.*?\});\s*</script>", r.text, re.S)
             if m:

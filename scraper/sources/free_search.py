@@ -92,7 +92,7 @@ def _mk(pos, y, mon, d1, d2):
 
 # ------------------------------------------------------------------ buscadores
 def search_duckduckgo(query: str) -> list[tuple[str, str]]:
-    r = fetch("https://html.duckduckgo.com/html/", method="POST", data={"q": query, "kl": "br-pt"}, retries=2)
+    r = fetch("https://html.duckduckgo.com/html/", method="POST", data={"q": query, "kl": "br-pt"}, retries=1)
     return parse_duckduckgo(r.text) if r else []
 
 
@@ -113,7 +113,7 @@ def parse_duckduckgo(html: str) -> list[tuple[str, str]]:
 
 def search_bing(query: str) -> list[tuple[str, str]]:
     r = fetch("https://www.bing.com/search", params={"q": query, "format": "rss", "cc": "BR", "setlang": "pt-BR",
-                                                     "count": "30"}, retries=2)
+                                                     "count": "30"}, retries=1)
     return parse_bing_rss(r.text) if r else []
 
 
@@ -216,12 +216,18 @@ def discover(themes_cfg: dict, cfg: dict) -> list[Event]:
     limit = (date.today() - timedelta(days=revisit)).isoformat()
 
     candidates: list[tuple[str, str]] = []
+    fails = {e: 0 for e in engines}
     for q in _queries(themes_cfg, n_queries):
         for engine in engines:
+            if fails[engine] >= 2:  # buscador bloqueando o robô: para de insistir hoje
+                continue
             try:
-                candidates += engine(q)
+                got = engine(q)
             except Exception as e:  # noqa: BLE001
                 log.warning("busca '%s' falhou: %s", q, e)
+                got = []
+            fails[engine] = 0 if got else fails[engine] + 1
+            candidates += got
             time.sleep(1.5)  # educado com os buscadores
     seen, todo = set(), []
     relevant = 0

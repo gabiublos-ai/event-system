@@ -264,12 +264,9 @@
         "default_themes": [
           "startups"
         ],
-        "feeds": [
-          "https://pitchbook.com/news/rss"
-        ],
-        "pages": [
-          "https://pitchbook.com/news"
-        ]
+        "feeds": [],
+        "pages": [],
+        "_obs": "Bloqueia acesso automático (403); mantido sem endereços até haver alternativa."
       },
       {
         "name": "Axios Pro Rata",
@@ -279,9 +276,7 @@
         "feeds": [
           "https://api.axios.com/feed/"
         ],
-        "pages": [
-          "https://www.axios.com/newsletters/axios-pro-rata"
-        ]
+        "pages": []
       },
       {
         "name": "Fortune Term Sheet",
@@ -291,9 +286,7 @@
         "feeds": [
           "https://fortune.com/feed/"
         ],
-        "pages": [
-          "https://fortune.com/section/term-sheet/"
-        ]
+        "pages": []
       },
       {
         "name": "The Information",
@@ -347,9 +340,7 @@
         "feeds": [
           "https://sifted.eu/feed/"
         ],
-        "pages": [
-          "https://sifted.eu/events"
-        ]
+        "pages": []
       },
       {
         "name": "InfoMoney (startups)",
@@ -372,7 +363,6 @@
           "https://finsidersbrasil.com.br/feed/"
         ],
         "pages": [
-          "https://finsidersbrasil.com.br/agenda/",
           "https://finsidersbrasil.com.br/eventos/"
         ]
       },
@@ -384,9 +374,7 @@
         "feeds": [
           "https://www.bloomberglinea.com.br/arc/outboundfeeds/rss/?outputType=xml"
         ],
-        "pages": [
-          "https://www.bloomberglinea.com.br/tags/rodadas-da-semana/"
-        ]
+        "pages": []
       },
       {
         "name": "Pipeline (Valor)",
@@ -410,7 +398,7 @@
           "startups"
         ],
         "pages": [
-          "https://exame.com/negocios/startups/"
+          "https://exame.com/negocios/"
         ]
       },
       {
@@ -421,18 +409,14 @@
         "feeds": [
           "https://latamlist.com/feed/"
         ],
-        "pages": [
-          "https://latamlist.com/category/events/"
-        ]
+        "pages": []
       },
       {
         "name": "Distrito",
         "default_themes": [
           "startups"
         ],
-        "feeds": [
-          "https://distrito.me/blog/feed/"
-        ],
+        "feeds": [],
         "pages": [
           "https://distrito.me/eventos/"
         ]
