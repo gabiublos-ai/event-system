@@ -1,16 +1,10 @@
 {
  "meta": {
-  "updated_at": "2026-11-27T21:03-03:00",
+  "updated_at": "2026-11-27T21:05-03:00",
   "total": 366,
   "sources_raw": {
    "curadoria": 79,
-   "sympla": 3337,
-   "eventbrite": 0,
-   "meetup": 2644,
-   "even3": 0,
-   "doity": 0,
-   "imprensa": 13,
-   "busca_web": 0
+   "imprensa": 13
   },
   "themes": {
    "ia": {
@@ -4407,9 +4401,9 @@
    "start_date": "2026-12-01",
    "end_date": "2026-12-01",
    "description": "Se a IA consegue gerar código, onde está o valor do engenheiro de software? Neste meetup, vamos responder essa pergunta com exemplos práticos e troca de experiências entre professores e profissionais, explorando o caminho entre gerar código e entregar sistemas seguros, confiáveis e capazes de evoluir. Isso envolve compreender problemas, tomar decisões de arquitetura, integrar soluções, validar resultados e operar em produção. O foco será mostrar como combinar fundamentos de engenharia, uso criterioso da IA e visão de negócio para construir uma trajetória profissional consistente. A conversa se",
-   "city": "São Paulo",
-   "state": "SP",
-   "venue": "FIAP Paulista - 6º andar",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "FIAP",
@@ -4422,7 +4416,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "1121db447b32",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -4431,8 +4425,8 @@
    "is_new": true,
    "summary": "Se a IA consegue gerar código, onde está o valor do engenheiro de software? Neste meetup, vamos responder essa pergunta com exemplos práticos e troca de experiências entre professores e profissionais, explorando o caminho entre gerar…",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "From First Idea to First Funding: Global Alumni Stories",
@@ -4552,7 +4546,9 @@
    "image": "https://images.sympla.com.br/6a982881dd5be.png",
    "price": "R$ 10",
    "themes": [
-    "demo_day"
+    "demo_day",
+    "escolas_negocio",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5062,7 +5058,8 @@
    "image": "https://images.sympla.com.br/6af62c9e221c0.png",
    "price": "Gratuito",
    "themes": [
-    "escolas_negocio"
+    "escolas_negocio",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5471,6 +5468,7 @@
    "image": "https://images.sympla.com.br/6afd046032760.jpg",
    "price": "Gratuito",
    "themes": [
+    "aceleradoras",
     "demo_day",
     "startups"
    ],
@@ -5600,9 +5598,9 @@
    "start_date": "2026-12-03",
    "end_date": "2026-12-03",
    "description": "A inteligência artificial já mudou a dinâmica da cibersegurança. Enquanto atacantes usam IA generativa para escalar phishing, malware e novas formas de exploração, os times de defesa precisam automatizar detecção, threat hunting e resposta a incidentes na mesma velocidade. Neste meetup, especialistas discutem como aplicar LLMs, Machine Learning e agentes autônomos à Engenharia de Segurança e também como proteger os próprios sistemas de IA contra ameaças como Prompt Injection, Data Poisoning e ataques adversariais. Uma conversa sobre o que já está acontecendo no mercado e os novos desafios para",
-   "city": "São Paulo",
-   "state": "SP",
-   "venue": "FIAP Paulista - 6º andar",
+   "city": null,
+   "state": null,
+   "venue": null,
    "format": "online",
    "type": "meetup",
    "organizer": "FIAP",
@@ -5615,7 +5613,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "d24e49a4cfcf",
-   "region": "Sudeste",
+   "region": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -5624,8 +5622,8 @@
    "is_new": true,
    "summary": "A inteligência artificial já mudou a dinâmica da cibersegurança. Enquanto atacantes usam IA generativa para escalar phishing, malware e novas formas de exploração, os times de defesa precisam automatizar detecção, threat hunting e resposta…",
    "geo_precision": "cidade",
-   "lat": -23.5507,
-   "lon": -46.6334
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Fórum de Startups",
@@ -5677,7 +5675,8 @@
    "image": "https://images.sympla.com.br/6ae37fb4d36dd.png",
    "price": "Gratuito",
    "themes": [
-    "demo_day"
+    "demo_day",
+    "startups"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -8701,6 +8700,7 @@
    "image": "https://images.sympla.com.br/6aff96f55632a.jpg",
    "price": "Gratuito",
    "themes": [
+    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -10509,7 +10509,7 @@
    "venue": null,
    "format": "online",
    "type": "conferencia",
-   "organizer": "Distrito",
+   "organizer": null,
    "image": null,
    "price": null,
    "themes": [
