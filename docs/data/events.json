@@ -1,10 +1,16 @@
 {
  "meta": {
-  "updated_at": "2026-11-27T20:53-03:00",
-  "total": 364,
+  "updated_at": "2026-11-27T21:03-03:00",
+  "total": 366,
   "sources_raw": {
    "curadoria": 79,
-   "imprensa": 5
+   "sympla": 3337,
+   "eventbrite": 0,
+   "meetup": 2644,
+   "even3": 0,
+   "doity": 0,
+   "imprensa": 13,
+   "busca_web": 0
   },
   "themes": {
    "ia": {
@@ -3182,7 +3188,7 @@
    "state": "BA",
    "venue": "Agência Costa Azul / Térreo - Civil Tower, Torre Cirrus - Rua Arthur de Azevêdo Machado",
    "format": "presencial",
-   "type": "workshop",
+   "type": "evento",
    "organizer": "Sebrae - UR 01",
    "image": "https://images.sympla.com.br/6aecc9feb86aa.jpg",
    "price": "Gratuito",
@@ -3760,7 +3766,7 @@
    "state": "SP",
    "venue": "FIAP Avenida Paulista",
    "format": "presencial",
-   "type": "conferencia",
+   "type": "meetup",
    "organizer": "Grafana & Friends São Paulo",
    "image": "/images/fallbacks/redesign/group-cover-1-square.webp",
    "price": "Gratuito",
@@ -4290,7 +4296,6 @@
    ],
    "is_new": true,
    "summary": "Join us for the fourth episode of Bob TV, the monthly digital event series hosted by Max Jesch, IBM Bob’s outbound product manager.",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -4358,7 +4363,6 @@
    ],
    "is_new": true,
    "summary": "A IA só é útil quando os dados por trás dela também são. Nesta sessão, vamos usar Spark no Fabric para pegar dados brutos, limpar e transformar esses dados e criar uma base que uma solução de IA ou analytics possa realmente usar.",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -4403,9 +4407,9 @@
    "start_date": "2026-12-01",
    "end_date": "2026-12-01",
    "description": "Se a IA consegue gerar código, onde está o valor do engenheiro de software? Neste meetup, vamos responder essa pergunta com exemplos práticos e troca de experiências entre professores e profissionais, explorando o caminho entre gerar código e entregar sistemas seguros, confiáveis e capazes de evoluir. Isso envolve compreender problemas, tomar decisões de arquitetura, integrar soluções, validar resultados e operar em produção. O foco será mostrar como combinar fundamentos de engenharia, uso criterioso da IA e visão de negócio para construir uma trajetória profissional consistente. A conversa se",
-   "city": null,
-   "state": null,
-   "venue": null,
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "FIAP Paulista - 6º andar",
    "format": "online",
    "type": "meetup",
    "organizer": "FIAP",
@@ -4418,7 +4422,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "1121db447b32",
-   "region": null,
+   "region": "Sudeste",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -4427,8 +4431,8 @@
    "is_new": true,
    "summary": "Se a IA consegue gerar código, onde está o valor do engenheiro de software? Neste meetup, vamos responder essa pergunta com exemplos práticos e troca de experiências entre professores e profissionais, explorando o caminho entre gerar…",
    "geo_precision": "cidade",
-   "lat": null,
-   "lon": null
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "From First Idea to First Funding: Global Alumni Stories",
@@ -4461,7 +4465,6 @@
    ],
    "is_new": true,
    "summary": "**Founder Institute alumni have raised $2B+ and built some of the world's fastest-growing tech companies.** Join our **live Q&A** to get real insights on launching and scaling a startup, hear what the FI accelerator is really like, and…",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -4549,9 +4552,7 @@
    "image": "https://images.sympla.com.br/6a982881dd5be.png",
    "price": "R$ 10",
    "themes": [
-    "demo_day",
-    "escolas_negocio",
-    "startups"
+    "demo_day"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5061,8 +5062,7 @@
    "image": "https://images.sympla.com.br/6af62c9e221c0.png",
    "price": "Gratuito",
    "themes": [
-    "escolas_negocio",
-    "startups"
+    "escolas_negocio"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -5179,7 +5179,6 @@
    ],
    "is_new": true,
    "summary": "Calling all developers, AI engineers, software architects, data scientists, DevOps professionals, and tech enthusiasts — **TechConnect** is your ultimate destination for career growth, project showcasing, and global peer networking in the…",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -5214,7 +5213,6 @@
    ],
    "is_new": true,
    "summary": "Join us for a webinar with Brickken, an LFDT general member, on building Agentic Capital Markets. Tokenization has made financial assets programmable.",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -5454,7 +5452,6 @@
    ],
    "is_new": true,
    "summary": "Você faz bem o que faz. Tem cliente, tem produto. Mas quando alguém pergunta, você ainda diz que é um projeto. O Felipe dizia também. Ele vinha da fotografia de moda, um mundo que não tem nada a ver com startup, e em 2019 fundou a MERUS.",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -5474,7 +5471,6 @@
    "image": "https://images.sympla.com.br/6afd046032760.jpg",
    "price": "Gratuito",
    "themes": [
-    "aceleradoras",
     "demo_day",
     "startups"
    ],
@@ -5604,9 +5600,9 @@
    "start_date": "2026-12-03",
    "end_date": "2026-12-03",
    "description": "A inteligência artificial já mudou a dinâmica da cibersegurança. Enquanto atacantes usam IA generativa para escalar phishing, malware e novas formas de exploração, os times de defesa precisam automatizar detecção, threat hunting e resposta a incidentes na mesma velocidade. Neste meetup, especialistas discutem como aplicar LLMs, Machine Learning e agentes autônomos à Engenharia de Segurança e também como proteger os próprios sistemas de IA contra ameaças como Prompt Injection, Data Poisoning e ataques adversariais. Uma conversa sobre o que já está acontecendo no mercado e os novos desafios para",
-   "city": null,
-   "state": null,
-   "venue": null,
+   "city": "São Paulo",
+   "state": "SP",
+   "venue": "FIAP Paulista - 6º andar",
    "format": "online",
    "type": "meetup",
    "organizer": "FIAP",
@@ -5619,7 +5615,7 @@
    "typical_month": 12,
    "date_confirmed": true,
    "id": "d24e49a4cfcf",
-   "region": null,
+   "region": "Sudeste",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-27",
    "sources": [
@@ -5628,8 +5624,8 @@
    "is_new": true,
    "summary": "A inteligência artificial já mudou a dinâmica da cibersegurança. Enquanto atacantes usam IA generativa para escalar phishing, malware e novas formas de exploração, os times de defesa precisam automatizar detecção, threat hunting e resposta…",
    "geo_precision": "cidade",
-   "lat": null,
-   "lon": null
+   "lat": -23.5507,
+   "lon": -46.6334
   },
   {
    "name": "Fórum de Startups",
@@ -5681,8 +5677,7 @@
    "image": "https://images.sympla.com.br/6ae37fb4d36dd.png",
    "price": "Gratuito",
    "themes": [
-    "demo_day",
-    "startups"
+    "demo_day"
    ],
    "recurrence": "ocasional",
    "typical_month": 12,
@@ -6343,7 +6338,6 @@
    ],
    "is_new": true,
    "summary": "**Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026120409) to receive the joining link. (rsvp on meetup will NOT receive anything).",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -7094,7 +7088,6 @@
    ],
    "is_new": true,
    "summary": "AI coding has made an AI SRE something any team can build in a hackathon, while making incidents harder to understand. The hard part comes later, when the agent has to run in production, give repeatable answers and justify what it costs.",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -7163,7 +7156,6 @@
    ],
    "is_new": true,
    "summary": "Raising money for an AI startup looks different in 2026. When anyone can build a product in weeks, investors want to know what makes yours worth backing.",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -7299,7 +7291,6 @@
    ],
    "is_new": true,
    "summary": "**Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026120910) to receive the joining link. (rsvp on meetup will NOT receive anything).",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -7402,7 +7393,6 @@
    ],
    "is_new": true,
    "summary": "La IA llegado no solo para cambiar como programamos nuestras APIS, si no también como las exponemos en nuestro Gateway.",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -7538,7 +7528,6 @@
    ],
    "is_new": true,
    "summary": "Microsoft AI Agents Hack: 3 novas datas em dezembro! aihack.com.br Em cada Hack, sua equipe constrói agentes de IA no Azure de ponta a ponta, do dado bruto à solução funcionando, em um único dia.",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -7914,7 +7903,6 @@
    ],
    "is_new": true,
    "summary": "Toda transação no Ethereum depende de uma assinatura digital que um computador quântico criptograficamente relevante poderá falsificar, e os dados registrados hoje continuarão na blockchain quando ele chegar.",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -7929,7 +7917,7 @@
    "state": null,
    "venue": null,
    "format": "online",
-   "type": "conferencia",
+   "type": "meetup",
    "organizer": "São Paulo Startup: Idea to IPO",
    "image": "/images/fallbacks/redesign/group-cover-3-square.webp",
    "price": "Gratuito",
@@ -7948,7 +7936,6 @@
    ],
    "is_new": true,
    "summary": "This event is being promoted by many groups. Our meetup group is participating by promoting this event. This event is organized by Albert's List. Our meetup group is collaborating by promoting this event. This is an online event.",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -7982,7 +7969,6 @@
    ],
    "is_new": true,
    "summary": "ThunderID ([https://github.com/thunder-id](https://github.com/thunder-id)) is an open source identity and access management project, hosted by LF Decentralized Trust as an incubation project.",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -8152,7 +8138,6 @@
    ],
    "is_new": true,
    "summary": "If your leads live in spreadsheets, your deals live in your inbox and every sale depends on you, your startup has a bottleneck: the founder.",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -8186,7 +8171,6 @@
    ],
    "is_new": true,
    "summary": "Venture Trailblazers is an exclusive event series that connects leading investors, founders, and ecosystem leaders from across the globe to discuss the latest trends in startups and venture capital.",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -8508,7 +8492,7 @@
    "state": "MG",
    "venue": "InovaTech",
    "format": "presencial",
-   "type": "festival",
+   "type": "evento",
    "organizer": "GDG Nova Lima",
    "image": "https://images.sympla.com.br/6af0e4f70d1a5.png",
    "price": "Pago (valor no site)",
@@ -8576,7 +8560,7 @@
    "state": "BA",
    "venue": "Agência Costa Azul / Térreo - Civil Tower, Torre Cirrus - Rua Arthur de Azevêdo Machado",
    "format": "presencial",
-   "type": "workshop",
+   "type": "evento",
    "organizer": "Sebrae - UR 01",
    "image": "https://images.sympla.com.br/6b08c5f5a30e3.png",
    "price": "Gratuito",
@@ -8717,7 +8701,6 @@
    "image": "https://images.sympla.com.br/6aff96f55632a.jpg",
    "price": "Gratuito",
    "themes": [
-    "ia",
     "startups"
    ],
    "recurrence": "ocasional",
@@ -8868,7 +8851,6 @@
    ],
    "is_new": true,
    "summary": "Nosso palestrante de hoje é David Arty. Ele é Product Designer, formado em Design Gráfico e pós-graduado em UX Design.",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -8936,7 +8918,6 @@
    ],
    "is_new": true,
    "summary": "A Inteligência Artificial deixou de apenas ajudar consultando informações, passando a executar tarefas. Vamos ver o que o Microsoft Ignite 2026 trouxe e o que isso significa para os clientes e profissionais negócios na adoção da IA.",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -8970,7 +8951,6 @@
    ],
    "is_new": true,
    "summary": "​**JOINING LINK: [https://streamyard.com/watch/PStkgu9KY5h9](https://streamyard.com/watch/PStkgu9KY5h9?utm_source=luma)** **What happens when a caller starts with a real voice, and switches to a synthetic one halfway through the…",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -9004,7 +8984,6 @@
    ],
    "is_new": true,
    "summary": "[The agent brings the intelligence. Oracle Integration brings the enterprise.](https://go.oracle.com/LP=155574?elqCampaignId=687101) Agentic AI requires more than powerful models.",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -9140,7 +9119,6 @@
    ],
    "is_new": true,
    "summary": "Treinamento com sessões de 04 horas on-line/ao vivo com nossos consultores certificados internacionalmente com Black Belt pela EXIN/LSS Academy.A metodologia Modelo Híbrido – Lean Six Sigma + Agile + Design Thinking + AI é uma abordagem…",
-   "geo_precision": "cidade",
    "lat": null,
    "lon": null
   },
@@ -9325,7 +9303,7 @@
    "state": "SP",
    "venue": "Cubo Itaú",
    "format": "presencial",
-   "type": "conferencia",
+   "type": "evento",
    "organizer": "DPOnet",
    "image": "https://images.sympla.com.br/6a47cb9c5fcf1.jpg",
    "price": "Pago (valor no site)",
@@ -9449,6 +9427,39 @@
    "geo_precision": "cidade",
    "lat": -24.9555,
    "lon": -53.4561
+  },
+  {
+   "name": "AI for Leaders da AI Rocks - Turma 01/2027 - Presencial + Online",
+   "url": "https://www.sympla.com.br/evento/ai-for-leaders-da-ai-rocks-turma-01-2027-presencial-online/3665399",
+   "source": "sympla",
+   "start_date": "2027-02-17",
+   "end_date": "2027-02-24",
+   "description": "Antes de comprar IA, prepare quem decide. IA com ROI.Do uso à liderança com IA, nas ferramentas que a sua empresa já tem · turma reduzida, até 25 líderesO AI for Leaders da AI Rocks é o treinamento de 16 horas para líderes e diretoria que precisam decidir onde e como usar IA no negócio. Em dois dias, você percorre as seis camadas da IA, da conversa até o sistema construído com IA. Os exercícios práticos são feitos nas quatro ferramentas do mercado: Copilot, Gemini, ChatGPT e Claude. A Turma 01/2027 é multiempresas e híbrida: presencial em São Paulo e online ao vivo, ao mesmo tempo.Este curso é",
+   "city": null,
+   "state": null,
+   "venue": null,
+   "format": "online",
+   "type": "curso",
+   "organizer": "AI Rocks",
+   "image": "https://images.sympla.com.br/6ab7279212b72.jpg",
+   "price": "Pago (valor no site)",
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": 2,
+   "date_confirmed": true,
+   "id": "042554c7f046",
+   "region": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "sources": [
+    "sympla"
+   ],
+   "is_new": true,
+   "summary": "Antes de comprar IA, prepare quem decide. IA com ROI.Do uso à liderança com IA, nas ferramentas que a sua empresa já tem · turma reduzida, até 25 líderesO AI for Leaders da AI Rocks é o treinamento de 16 horas para líderes e diretoria que…",
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Health Summit Latin America 2027",
@@ -10485,6 +10496,39 @@
    "geo_precision": "cidade",
    "lat": -23.5507,
    "lon": -46.6334
+  },
+  {
+   "name": "AI Insurance Day 2026",
+   "url": "https://ai-insurance-day.distrito.me/",
+   "source": "imprensa",
+   "start_date": null,
+   "end_date": null,
+   "description": "Encontro executivo online sobre IA, transformação cognitiva e o futuro do mercado segurador brasileiro.",
+   "city": null,
+   "state": null,
+   "venue": null,
+   "format": "online",
+   "type": "conferencia",
+   "organizer": "Distrito",
+   "image": null,
+   "price": null,
+   "themes": [
+    "ia"
+   ],
+   "recurrence": "ocasional",
+   "typical_month": null,
+   "date_confirmed": true,
+   "id": "cbbc7784f498",
+   "region": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "sources": [
+    "imprensa"
+   ],
+   "is_new": true,
+   "summary": "Encontro executivo online sobre IA, transformação cognitiva e o futuro do mercado segurador brasileiro.",
+   "lat": null,
+   "lon": null
   },
   {
    "name": "AI Summit Money",
